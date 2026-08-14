@@ -2,6 +2,8 @@ ID   AE014135; SV 4; linear; genomic DNA; STD; INV; 1348131 BP.
 AC   AE014135;
 FH   Key             Location/Qualifiers
 FH
+FT   CDS             join(930..1079,1144..1410,1768..3851,4353..4527,4592..4824,
+FT                   4875..4995)
 FT                   /primary_name="JYalpha"
 FT                   /synonym="CG17923"
 FT                   /synonym="CG40625"
@@ -13,6 +15,8 @@ FT                   /synonym="Jyalpha"
 FT                   /systematic_id="Dmel_CG45760"
 FT                   /product="JYalpha"
 FT                   /protein_id="EDP27932.2"
+FT   CDS             complement(join(33018..33125,33191..33373,35874..36457,
+FT                   36516..41285,42914..43424))
 FT                   /primary_name="PlexB"
 FT                   /synonym="plex"
 FT                   /synonym="Dmel\CG17245"
@@ -24,6 +28,8 @@ FT                   /synonym="Plex B"
 FT                   /systematic_id="Dmel_CG17245"
 FT                   /product="plexin B, isoform A"
 FT                   /protein_id="AAF59374.2"
+FT   CDS             complement(join(33018..33125,33191..33373,35874..36457,
+FT                   36516..41285,42914..43424))
 FT                   /primary_name="PlexB"
 FT                   /synonym="CG17245"
 FT                   /synonym="Dmel\CG17245"
@@ -35,6 +41,8 @@ FT                   /synonym="Plex B"
 FT                   /systematic_id="Dmel_CG17245"
 FT                   /product="plexin B, isoform B"
 FT                   /protein_id="AFH06760.1"
+FT   CDS             complement(join(47994..50462,50516..50680,50745..51257,
+FT                   51314..51954,52017..52384,55831..55868))
 FT                   /primary_name="ci"
 FT                   /synonym="CI"
 FT                   /synonym="CID"
@@ -62,6 +70,8 @@ FT                   /synonym="ciR"
 FT                   /systematic_id="Dmel_CG2125"
 FT                   /product="cubitus interruptus, isoform A"
 FT                   /protein_id="AAF59373.2"
+FT   CDS             complement(join(47994..50462,50516..50680,50745..51257,
+FT                   51314..51954,52017..52068))
 FT                   /primary_name="ci"
 FT                   /synonym="Ce"
 FT                   /synonym="CG2125"
@@ -89,6 +99,8 @@ FT                   /synonym="ciR"
 FT                   /systematic_id="Dmel_CG2125"
 FT                   /product="cubitus interruptus, isoform B"
 FT                   /protein_id="AFH06762.1"
+FT   CDS             complement(join(50402..50462,50516..50613,50745..51257,
+FT                   51314..51954,52017..52384,55831..55868))
 FT                   /primary_name="ci"
 FT                   /synonym="Ce"
 FT                   /synonym="CG2125"
@@ -116,6 +128,7 @@ FT                   /synonym="ciR"
 FT                   /systematic_id="Dmel_CG2125"
 FT                   /product="cubitus interruptus, isoform C"
 FT                   /protein_id="AFH06761.1"
+FT   CDS             complement(join(66273..66738,66840..67180))
 FT                   /primary_name="RpS3A"
 FT                   /synonym="anon-EST:Liang-2.29"
 FT                   /synonym="C3"
@@ -140,6 +153,7 @@ FT                   /synonym="S1e"
 FT                   /systematic_id="Dmel_CG2168"
 FT                   /product="ribosomal protein S3A, isoform F"
 FT                   /protein_id="AFH06764.1"
+FT   CDS             complement(join(66273..66738,66840..67180))
 FT                   /primary_name="RpS3A"
 FT                   /synonym="C3"
 FT                   /synonym="M(4)101"
@@ -164,6 +178,7 @@ FT                   /synonym="S1e"
 FT                   /systematic_id="Dmel_CG2168"
 FT                   /product="ribosomal protein S3A, isoform A"
 FT                   /protein_id="AAF59372.1"
+FT   CDS             complement(join(66273..66738,66840..66991,67048..67086))
 FT                   /primary_name="RpS3A"
 FT                   /synonym="C3"
 FT                   /synonym="M(4)101"
@@ -188,6 +203,9 @@ FT                   /synonym="S1e"
 FT                   /systematic_id="Dmel_CG2168"
 FT                   /product="ribosomal protein S3A, isoform B"
 FT                   /protein_id="AAN06541.1"
+FT   CDS             join(72430..72594,72817..72862,75068..75165,82638..82746,
+FT                   85712..85799,85853..85933,87017..87166,94423..94615,
+FT                   94837..95002,99406..99475,107403..108492)
 FT                   /primary_name="pan"
 FT                   /synonym="CG17964"
 FT                   /synonym="CG32005"
@@ -226,6 +244,9 @@ FT                   /synonym="Tcf/Lef"
 FT                   /systematic_id="Dmel_CG34403"
 FT                   /product="pangolin, isoform A"
 FT                   /protein_id="AAF59371.2"
+FT   CDS             join(72430..72594,72817..72862,75068..75165,82638..82746,
+FT                   85712..85799,85853..85933,87017..87166,94423..94615,
+FT                   94837..95002,99406..99475,107403..108492)
 FT                   /primary_name="pan"
 FT                   /synonym="CG17964"
 FT                   /synonym="CG32005"
@@ -264,6 +285,9 @@ FT                   /synonym="Tcf/Lef"
 FT                   /systematic_id="Dmel_CG34403"
 FT                   /product="pangolin, isoform D"
 FT                   /protein_id="AAN06545.1"
+FT   CDS             join(72430..72594,72817..72862,75068..75165,82638..82746,
+FT                   85712..85799,85853..85933,87017..87166,94423..94615,
+FT                   94837..95002,99406..99475,107403..108492)
 FT                   /primary_name="pan"
 FT                   /synonym="CG17964"
 FT                   /synonym="CG32005"
@@ -302,6 +326,9 @@ FT                   /synonym="Tcf/Lef"
 FT                   /systematic_id="Dmel_CG34403"
 FT                   /product="pangolin, isoform B"
 FT                   /protein_id="AAN06544.2"
+FT   CDS             join(72430..72594,72817..72862,75068..75165,82638..82746,
+FT                   85712..85799,85853..85933,87017..87166,94423..94615,
+FT                   94837..95002,99406..99475,107403..108492)
 FT                   /primary_name="pan"
 FT                   /synonym="CG17964"
 FT                   /synonym="CG32005"
@@ -340,6 +367,9 @@ FT                   /synonym="Tcf/Lef"
 FT                   /systematic_id="Dmel_CG34403"
 FT                   /product="pangolin, isoform R"
 FT                   /protein_id="AFH06766.1"
+FT   CDS             join(72430..72594,72817..72862,75068..75165,82638..82746,
+FT                   85712..85799,85853..85933,87017..87166,94423..94615,
+FT                   94837..95002,99406..99475,107403..108372,108427..108492)
 FT                   /primary_name="pan"
 FT                   /synonym="CG17964"
 FT                   /synonym="CG32005"
@@ -378,6 +408,9 @@ FT                   /synonym="Tcf/Lef"
 FT                   /systematic_id="Dmel_CG34403"
 FT                   /product="pangolin, isoform S"
 FT                   /protein_id="AAN06548.2"
+FT   CDS             join(72430..72594,72817..72862,75068..75165,82638..82746,
+FT                   85712..85799,85853..85933,87017..87166,94423..94615,
+FT                   97822..97975,99406..99475,107403..108492)
 FT                   /primary_name="pan"
 FT                   /synonym="CG17964"
 FT                   /synonym="CG32005"
@@ -416,6 +449,9 @@ FT                   /synonym="Tcf/Lef"
 FT                   /systematic_id="Dmel_CG34403"
 FT                   /product="pangolin, isoform H"
 FT                   /protein_id="AAX52517.1"
+FT   CDS             join(72430..72594,72817..72862,75068..75165,82638..82746,
+FT                   85712..85799,85853..85933,87017..87166,94423..94615,
+FT                   97822..97975,99406..99475,104083..104413)
 FT                   /primary_name="pan"
 FT                   /synonym="CG17964"
 FT                   /synonym="CG32005"
@@ -454,6 +490,9 @@ FT                   /synonym="Tcf/Lef"
 FT                   /systematic_id="Dmel_CG34403"
 FT                   /product="pangolin, isoform Q"
 FT                   /protein_id="AFH06765.1"
+FT   CDS             join(72430..72594,72817..72862,75068..75165,82638..82746,
+FT                   85712..85799,85853..85933,87017..87166,94423..94615,
+FT                   97822..97975,99406..99554)
 FT                   /primary_name="pan"
 FT                   /synonym="CG17964"
 FT                   /synonym="CG32005"
@@ -492,6 +531,8 @@ FT                   /synonym="Tcf/Lef"
 FT                   /systematic_id="Dmel_CG34403"
 FT                   /product="pangolin, isoform I"
 FT                   /protein_id="ABC65830.1"
+FT   CDS             join(91214..93273,94423..94615,94837..95002,99406..99475,
+FT                   107403..108492)
 FT                   /primary_name="pan"
 FT                   /synonym="CG17964"
 FT                   /synonym="CG32005"
@@ -530,6 +571,10 @@ FT                   /synonym="Tcf/Lef"
 FT                   /systematic_id="Dmel_CG34403"
 FT                   /product="pangolin, isoform J"
 FT                   /protein_id="AAN06549.2"
+FT   CDS             complement(join(116869..118501,118555..118779,
+FT                   118838..118931,119888..120212,120858..121799,
+FT                   121853..121956,122309..123422,123785..123892,
+FT                   129322..129426))
 FT                   /primary_name="Ank"
 FT                   /synonym="ANK"
 FT                   /synonym="CG32008"
@@ -542,6 +587,10 @@ FT                   /synonym="DAnk1"
 FT                   /systematic_id="Dmel_CG1651"
 FT                   /product="ankyrin, isoform B"
 FT                   /protein_id="AAF59369.2"
+FT   CDS             complement(join(116869..118501,118555..118779,
+FT                   118838..118931,119888..120212,120858..121799,
+FT                   121853..121956,122309..123422,123785..123892,
+FT                   129322..129426))
 FT                   /primary_name="Ank"
 FT                   /synonym="ANK"
 FT                   /synonym="CG32008"
@@ -554,6 +603,10 @@ FT                   /synonym="DAnk1"
 FT                   /systematic_id="Dmel_CG1651"
 FT                   /product="ankyrin, isoform C"
 FT                   /protein_id="AAG22123.1"
+FT   CDS             complement(join(116869..118501,118555..118779,
+FT                   118838..118931,119888..120212,120858..121799,
+FT                   121853..121956,122309..123422,123785..123892,
+FT                   129322..129426))
 FT                   /primary_name="Ank"
 FT                   /synonym="ANK"
 FT                   /synonym="CG32008"
@@ -566,6 +619,10 @@ FT                   /synonym="DAnk1"
 FT                   /systematic_id="Dmel_CG1651"
 FT                   /product="ankyrin, isoform D"
 FT                   /protein_id="AAN06551.1"
+FT   CDS             complement(join(116869..118501,118555..118779,
+FT                   118838..118931,119888..120212,120858..121799,
+FT                   121853..121956,122309..123422,123785..123892,
+FT                   129322..129426))
 FT                   /primary_name="Ank"
 FT                   /synonym="ank"
 FT                   /synonym="ANK"
@@ -578,6 +635,9 @@ FT                   /synonym="DAnk1"
 FT                   /systematic_id="Dmel_CG1651"
 FT                   /product="ankyrin, isoform E"
 FT                   /protein_id="ACZ95088.1"
+FT   CDS             join(134529..134964,136879..137167,137223..137332,
+FT                   137391..137752,137807..138310,138374..138574,
+FT                   140270..142127,142200..142795)
 FT                   /primary_name="anne"
 FT                   /synonym="BcDNA:LD05303"
 FT                   /synonym="BcDNA:LD19039"
@@ -590,6 +650,9 @@ FT                   /synonym="Dm V-1"
 FT                   /systematic_id="Dmel_CG32000"
 FT                   /product="anne boleyn, isoform H"
 FT                   /protein_id="ABV53590.1"
+FT   CDS             join(134529..134964,136879..137167,137223..137332,
+FT                   137391..137752,137807..138310,138374..138574,
+FT                   139822..139896)
 FT                   /primary_name="anne"
 FT                   /synonym="BcDNA:LD05303"
 FT                   /synonym="BcDNA:LD19039"
@@ -602,6 +665,9 @@ FT                   /synonym="Dm V-1"
 FT                   /systematic_id="Dmel_CG32000"
 FT                   /product="anne boleyn, isoform D"
 FT                   /protein_id="AAN06552.1"
+FT   CDS             join(134718..134964,136879..137167,137223..137332,
+FT                   137391..137752,137807..138310,138374..138574,
+FT                   140270..142127,142200..142795)
 FT                   /primary_name="anne"
 FT                   /synonym="BcDNA:LD05303"
 FT                   /synonym="BcDNA:LD19039"
@@ -614,6 +680,9 @@ FT                   /synonym="Dm V-1"
 FT                   /systematic_id="Dmel_CG32000"
 FT                   /product="anne boleyn, isoform G"
 FT                   /protein_id="AAS64610.1"
+FT   CDS             join(134718..134964,136879..137167,137223..137332,
+FT                   137391..137752,137807..138310,138374..138574,
+FT                   139822..139896)
 FT                   /primary_name="anne"
 FT                   /synonym="BcDNA:LD05303"
 FT                   /synonym="BcDNA:LD19039"
@@ -626,6 +695,9 @@ FT                   /synonym="Dm V-1"
 FT                   /systematic_id="Dmel_CG32000"
 FT                   /product="anne boleyn, isoform E"
 FT                   /protein_id="AAN06553.1"
+FT   CDS             join(136753..136777,136879..137167,137223..137332,
+FT                   137391..137752,137807..138310,138374..138574,
+FT                   140270..142127,142200..142795)
 FT                   /primary_name="anne"
 FT                   /synonym="BcDNA:LD05303"
 FT                   /synonym="BcDNA:LD19039"
@@ -638,6 +710,9 @@ FT                   /synonym="Dm V-1"
 FT                   /systematic_id="Dmel_CG32000"
 FT                   /product="anne boleyn, isoform A"
 FT                   /protein_id="AAN06554.2"
+FT   CDS             join(136753..136777,136879..137167,137223..137332,
+FT                   137391..137752,137807..138310,138374..138574,
+FT                   140270..142127,142200..142795)
 FT                   /primary_name="anne"
 FT                   /synonym="BcDNA:LD05303"
 FT                   /synonym="BcDNA:LD19039"
@@ -650,6 +725,9 @@ FT                   /synonym="Dm V-1"
 FT                   /systematic_id="Dmel_CG32000"
 FT                   /product="anne boleyn, isoform B"
 FT                   /protein_id="AAN06556.2"
+FT   CDS             join(136753..136777,136879..137167,137223..137332,
+FT                   137391..137752,137807..138310,138374..138574,
+FT                   139822..139896)
 FT                   /primary_name="anne"
 FT                   /synonym="BcDNA:LD05303"
 FT                   /synonym="BcDNA:LD19039"
@@ -662,6 +740,9 @@ FT                   /synonym="Dm V-1"
 FT                   /systematic_id="Dmel_CG32000"
 FT                   /product="anne boleyn, isoform F"
 FT                   /protein_id="AAN06555.1"
+FT   CDS             join(136926..137167,137223..137332,137391..137752,
+FT                   137807..138310,138374..138574,140270..142127,
+FT                   142200..142795)
 FT                   /primary_name="anne"
 FT                   /synonym="BcDNA:LD05303"
 FT                   /synonym="BcDNA:LD19039"
@@ -674,6 +755,8 @@ FT                   /synonym="Dm V-1"
 FT                   /systematic_id="Dmel_CG32000"
 FT                   /product="anne boleyn, isoform I"
 FT                   /protein_id="AGB96533.1"
+FT   CDS             join(136926..137167,137223..137332,137391..137752,
+FT                   137807..138310,138374..138574,139822..139896)
 FT                   /primary_name="anne"
 FT                   /synonym="BcDNA:LD05303"
 FT                   /synonym="BcDNA:LD19039"
@@ -686,6 +769,8 @@ FT                   /synonym="Dm V-1"
 FT                   /systematic_id="Dmel_CG32000"
 FT                   /product="anne boleyn, isoform C"
 FT                   /protein_id="AAN06557.1"
+FT   CDS             join(151751..152130,152195..152378,152439..152921,
+FT                   152984..153268)
 FT                   /primary_name="CG32006"
 FT                   /synonym="BcDNA:RE51913"
 FT                   /synonym="DmCg32006"
@@ -694,6 +779,8 @@ FT                   /synonym="FoxJ1"
 FT                   /systematic_id="Dmel_CG32006"
 FT                   /product="uncharacterized protein"
 FT                   /protein_id="AAN06558.1"
+FT   CDS             complement(join(154779..154965,155027..155147,
+FT                   155765..155903))
 FT                   /primary_name="CG31997"
 FT                   /synonym="BEST:GH25016"
 FT                   /synonym="BcDNA:RE42475"
@@ -701,6 +788,8 @@ FT                   /synonym="Dmel\CG31997"
 FT                   /systematic_id="Dmel_CG31997"
 FT                   /product="uncharacterized protein, isoform A"
 FT                   /protein_id="AAN06514.1"
+FT   CDS             complement(join(154779..154965,155027..155147,
+FT                   155765..155903))
 FT                   /primary_name="CG31997"
 FT                   /synonym="BcDNA:RE42475"
 FT                   /synonym="BEST:GH25016"
@@ -708,36 +797,55 @@ FT                   /synonym="Dmel\CG31997"
 FT                   /systematic_id="Dmel_CG31997"
 FT                   /product="uncharacterized protein, isoform B"
 FT                   /protein_id="AHN58210.1"
+FT   CDS             complement(join(158419..158442,158500..158577,
+FT                   158644..158662,159222..159712,159767..160275,
+FT                   160332..160461,160525..160763,160822..164395,
+FT                   164462..164656,164715..165064,174111..174164,
+FT                   174785..174959))
 FT                   /primary_name="CG33978"
 FT                   /synonym="Dmel\CG33978"
 FT                   /synonym="FBgn0053978"
 FT                   /systematic_id="Dmel_CG33978"
 FT                   /product="uncharacterized protein, isoform G"
 FT                   /protein_id="AGB96536.1"
+FT   CDS             complement(join(158458..158577,158644..158662,
+FT                   159222..159712,159767..160275,160332..160461,
+FT                   160525..160763,160822..164395,164462..164656,
+FT                   164715..165064,174111..174164,174785..174959))
 FT                   /primary_name="CG33978"
 FT                   /synonym="Dmel\CG33978"
 FT                   /synonym="FBgn0053978"
 FT                   /systematic_id="Dmel_CG33978"
 FT                   /product="uncharacterized protein, isoform F"
 FT                   /protein_id="AGB96535.1"
+FT   CDS             complement(join(158458..158577,158644..158704,
+FT                   159222..159712,159767..160275,160332..160461,
+FT                   160525..160763,160822..164395,164462..164656,
+FT                   164715..165064,174111..174164,174785..174959))
 FT                   /primary_name="CG33978"
 FT                   /synonym="Dmel\CG33978"
 FT                   /synonym="FBgn0053978"
 FT                   /systematic_id="Dmel_CG33978"
 FT                   /product="uncharacterized protein, isoform D"
 FT                   /protein_id="AGB96534.1"
+FT   CDS             complement(join(167096..173736,174111..174164,
+FT                   174785..174959))
 FT                   /primary_name="CG33978"
 FT                   /synonym="Dmel\CG33978"
 FT                   /synonym="FBgn0053978"
 FT                   /systematic_id="Dmel_CG33978"
 FT                   /product="uncharacterized protein, isoform C"
 FT                   /protein_id="AFH06767.1"
+FT   CDS             complement(join(167096..173736,174111..174164,
+FT                   174785..174959))
 FT                   /primary_name="CG33978"
 FT                   /synonym="Dmel\CG33978"
 FT                   /synonym="FBgn0053978"
 FT                   /systematic_id="Dmel_CG33978"
 FT                   /product="uncharacterized protein, isoform E"
 FT                   /protein_id="ABC65827.3"
+FT   CDS             complement(join(177441..177992,178778..178880,
+FT                   178937..179034,179092..179211,179264..179329))
 FT                   /primary_name="Arl4"
 FT                   /synonym="BcDNA:AT26185"
 FT                   /synonym="Dmel\CG2219"
@@ -749,6 +857,8 @@ FT                   /synonym="arl4"
 FT                   /systematic_id="Dmel_CG2219"
 FT                   /product="ADP ribosylation factor-like 4, isoform A"
 FT                   /protein_id="AAF59368.2"
+FT   CDS             complement(join(177441..177992,178778..178880,
+FT                   178937..179034,179092..179211,179261..179329))
 FT                   /primary_name="Arl4"
 FT                   /synonym="ARL4B"
 FT                   /synonym="BcDNA:AT26185"
@@ -760,6 +870,8 @@ FT                   /synonym="arl4"
 FT                   /systematic_id="Dmel_CG2219"
 FT                   /product="ADP ribosylation factor-like 4, isoform B"
 FT                   /protein_id="AFH06768.1"
+FT   CDS             complement(join(178818..178836,178937..179034,
+FT                   179092..179211,179264..179329))
 FT                   /primary_name="Arl4"
 FT                   /synonym="ARL4B"
 FT                   /synonym="BcDNA:AT26185"
@@ -771,6 +883,9 @@ FT                   /synonym="arl4"
 FT                   /systematic_id="Dmel_CG2219"
 FT                   /product="ADP ribosylation factor-like 4, isoform C"
 FT                   /protein_id="AGB96537.1"
+FT   CDS             complement(join(184515..184614,184670..184795,
+FT                   185827..185916,185978..186840,187997..188169,
+FT                   188230..188369,188425..188523,188578..189179))
 FT                   /primary_name="Abcd1"
 FT                   /synonym="Dmel\CG2316"
 FT                   /synonym="CG2316"
@@ -780,7 +895,11 @@ FT                   /synonym="ABCD1/2"
 FT                   /synonym="DmCG2316"
 FT                   /systematic_id="Dmel_CG2316"
 FT                   /product="ATP binding cassette subfamily D member 1,
+FT                   isoform C"
 FT                   /protein_id="AAF59367.2"
+FT   CDS             complement(join(184515..184614,184670..184795,
+FT                   185827..185916,185978..186840,187997..188169,
+FT                   188230..188369,188425..188523,188578..189179))
 FT                   /primary_name="Abcd1"
 FT                   /synonym="Dmel\CG2316"
 FT                   /synonym="CG2316"
@@ -790,7 +909,11 @@ FT                   /synonym="ABCD1/2"
 FT                   /synonym="DmCG2316"
 FT                   /systematic_id="Dmel_CG2316"
 FT                   /product="ATP binding cassette subfamily D member 1,
+FT                   isoform D"
 FT                   /protein_id="AAN06515.1"
+FT   CDS             complement(join(184515..184614,184670..184795,
+FT                   185827..185916,185978..186840,187997..188169,
+FT                   188230..188369,188425..188523,188578..189179))
 FT                   /primary_name="Abcd1"
 FT                   /synonym="Dmel\CG2316"
 FT                   /synonym="CG2316"
@@ -800,7 +923,11 @@ FT                   /synonym="ABCD1/2"
 FT                   /synonym="DmCG2316"
 FT                   /systematic_id="Dmel_CG2316"
 FT                   /product="ATP binding cassette subfamily D member 1,
+FT                   isoform G"
 FT                   /protein_id="AAN06517.1"
+FT   CDS             complement(join(184515..184614,184670..184795,
+FT                   185827..185916,185978..186840,187997..188169,
+FT                   188230..188369,188425..188523,188578..189179))
 FT                   /primary_name="Abcd1"
 FT                   /synonym="Dmel\CG2316"
 FT                   /synonym="CG2316"
@@ -810,7 +937,11 @@ FT                   /synonym="ABCD1/2"
 FT                   /synonym="DmCG2316"
 FT                   /systematic_id="Dmel_CG2316"
 FT                   /product="ATP binding cassette subfamily D member 1,
+FT                   isoform H"
 FT                   /protein_id="AFH06769.1"
+FT   CDS             complement(join(184515..184614,184670..184795,
+FT                   185827..185916,185978..186840,187997..188169,
+FT                   188230..188369,188425..188523,188578..189179))
 FT                   /primary_name="Abcd1"
 FT                   /synonym="Dmel\CG2316"
 FT                   /synonym="CG2316"
@@ -820,7 +951,11 @@ FT                   /synonym="ABCD1/2"
 FT                   /synonym="DmCG2316"
 FT                   /systematic_id="Dmel_CG2316"
 FT                   /product="ATP binding cassette subfamily D member 1,
+FT                   isoform B"
 FT                   /protein_id="AAF59365.1"
+FT   CDS             complement(join(184515..184614,184670..184795,
+FT                   185827..185916,185978..186840,187997..188169,
+FT                   188230..188369,188425..188523,188578..189179))
 FT                   /primary_name="Abcd1"
 FT                   /synonym="Dmel\CG2316"
 FT                   /synonym="CG2316"
@@ -830,7 +965,10 @@ FT                   /synonym="ABCD1/2"
 FT                   /synonym="DmCG2316"
 FT                   /systematic_id="Dmel_CG2316"
 FT                   /product="ATP binding cassette subfamily D member 1,
+FT                   isoform A"
 FT                   /protein_id="AAF59366.1"
+FT   CDS             complement(join(197878..201383,201441..201658,
+FT                   203980..204574,204640..204700))
 FT                   /primary_name="CG31998"
 FT                   /synonym="CG11572"
 FT                   /synonym="CG11578"
@@ -838,6 +976,8 @@ FT                   /synonym="Dmel\CG31998"
 FT                   /systematic_id="Dmel_CG31998"
 FT                   /product="uncharacterized protein, isoform A"
 FT                   /protein_id="AAF59363.2"
+FT   CDS             complement(join(197878..201383,201441..201658,
+FT                   203980..204347))
 FT                   /primary_name="CG31998"
 FT                   /synonym="CG11572"
 FT                   /synonym="CG11578"
@@ -845,6 +985,8 @@ FT                   /synonym="Dmel\CG31998"
 FT                   /systematic_id="Dmel_CG31998"
 FT                   /product="uncharacterized protein, isoform B"
 FT                   /protein_id="AFH06770.1"
+FT   CDS             join(210455..210486,210558..210680,211590..211794,
+FT                   211854..211982,212628..212729,212791..213015)
 FT                   /primary_name="Crk"
 FT                   /synonym="CRK"
 FT                   /synonym="D-CRK"
@@ -860,6 +1002,8 @@ FT                   /synonym="CED-2"
 FT                   /systematic_id="Dmel_CG1587"
 FT                   /product="Crk oncogene, isoform C"
 FT                   /protein_id="AAN06519.1"
+FT   CDS             join(210455..210486,210558..210680,211590..211794,
+FT                   211854..211982,212628..212729,212791..213015)
 FT                   /primary_name="Crk"
 FT                   /synonym="CRK"
 FT                   /synonym="D-CRK"
@@ -875,6 +1019,8 @@ FT                   /synonym="CED-2"
 FT                   /systematic_id="Dmel_CG1587"
 FT                   /product="Crk oncogene, isoform A"
 FT                   /protein_id="AAF59362.1"
+FT   CDS             join(210455..210486,210558..210675,211639..211794,
+FT                   211854..211982,212628..212729,212791..213015)
 FT                   /primary_name="Crk"
 FT                   /synonym="CRK"
 FT                   /synonym="D-CRK"
@@ -890,6 +1036,8 @@ FT                   /synonym="CED-2"
 FT                   /systematic_id="Dmel_CG1587"
 FT                   /product="Crk oncogene, isoform B"
 FT                   /protein_id="AAN06520.1"
+FT   CDS             join(210455..210486,210582..210680,211590..211794,
+FT                   211854..211982,212628..212729,212791..213015)
 FT                   /primary_name="Crk"
 FT                   /synonym="CG1587"
 FT                   /synonym="crk"
@@ -905,6 +1053,7 @@ FT                   /synonym="CED-2"
 FT                   /systematic_id="Dmel_CG1587"
 FT                   /product="Crk oncogene, isoform E"
 FT                   /protein_id="AFH06771.1"
+FT   CDS             join(210455..210486,210558..210680,212628..212727)
 FT                   /primary_name="Crk"
 FT                   /synonym="CG1587"
 FT                   /synonym="crk"
@@ -920,6 +1069,8 @@ FT                   /synonym="CED-2"
 FT                   /systematic_id="Dmel_CG1587"
 FT                   /product="Crk oncogene, isoform G"
 FT                   /protein_id="AHN58211.1"
+FT   CDS             join(210455..210486,210558..210680,211590..211794,
+FT                   211854..211982,212115..212180)
 FT                   /primary_name="Crk"
 FT                   /synonym="CG1587"
 FT                   /synonym="crk"
@@ -935,6 +1086,7 @@ FT                   /synonym="CED-2"
 FT                   /systematic_id="Dmel_CG1587"
 FT                   /product="Crk oncogene, isoform D"
 FT                   /protein_id="AFH06772.1"
+FT   CDS             join(210455..210486,210558..210680,211854..211893)
 FT                   /primary_name="Crk"
 FT                   /synonym="CG1587"
 FT                   /synonym="crk"
@@ -950,6 +1102,11 @@ FT                   /synonym="CED-2"
 FT                   /systematic_id="Dmel_CG1587"
 FT                   /product="Crk oncogene, isoform H"
 FT                   /protein_id="AHN58212.1"
+FT   CDS             complement(join(215105..215267,215330..215560,
+FT                   217406..217494,218248..218380,218446..218890,
+FT                   219891..220028,220144..220437,222541..222598,
+FT                   222654..222736,222791..223012,223557..223886,
+FT                   223945..224439,225762..225834))
 FT                   /primary_name="CG31999"
 FT                   /synonym="CG10323"
 FT                   /synonym="CG11288"
@@ -959,6 +1116,11 @@ FT                   /synonym="Dmel\CG31999"
 FT                   /systematic_id="Dmel_CG31999"
 FT                   /product="uncharacterized protein, isoform A"
 FT                   /protein_id="AAF59360.3"
+FT   CDS             complement(join(215105..215267,215330..215560,
+FT                   217406..217494,218248..218380,218446..218890,
+FT                   219891..220028,220144..220437,222541..222598,
+FT                   222654..222736,222791..223012,223557..223886,
+FT                   223945..224439,225762..225834))
 FT                   /primary_name="CG31999"
 FT                   /synonym="CG10323"
 FT                   /synonym="CG11288"
@@ -968,6 +1130,7 @@ FT                   /synonym="Dmel\CG31999"
 FT                   /systematic_id="Dmel_CG31999"
 FT                   /product="uncharacterized protein, isoform C"
 FT                   /protein_id="AHN58213.1"
+FT   CDS             join(228005..228240,228905..229571,229911..230399)
 FT                   /primary_name="yellow-h"
 FT                   /synonym="Dmel\CG1629"
 FT                   /synonym="CG1629"
@@ -976,56 +1139,97 @@ FT                   /synonym="DPT"
 FT                   /systematic_id="Dmel_CG1629"
 FT                   /product="yellow-h"
 FT                   /protein_id="AAF59358.2"
+FT   CDS             join(231954..231977,232279..232848,234265..234345,
+FT                   234864..234944,236395..236475,237269..237559,
+FT                   240314..240398,243266..243585,243634..243748,
+FT                   245180..245763)
 FT                   /primary_name="CG1674"
 FT                   /synonym="Dmel\CG1674"
 FT                   /systematic_id="Dmel_CG1674"
 FT                   /product="uncharacterized protein, isoform B"
 FT                   /protein_id="AAN06521.1"
+FT   CDS             join(231954..231977,232279..232848,234265..234345,
+FT                   236395..236475,237269..237559,240314..240398,
+FT                   240645..240833,242461..242679,243170..243585,
+FT                   243634..243748,245180..245763)
 FT                   /primary_name="CG1674"
 FT                   /synonym="Dmel\CG1674"
 FT                   /systematic_id="Dmel_CG1674"
 FT                   /product="uncharacterized protein, isoform E"
 FT                   /protein_id="AAF59357.2"
+FT   CDS             join(231954..231977,232279..232848,234265..234345,
+FT                   236395..236475,237269..237559,240314..240398,
+FT                   240645..240833,242461..242679,243170..243585,
+FT                   243634..243748,245180..245763)
 FT                   /primary_name="CG1674"
 FT                   /synonym="Dmel\CG1674"
 FT                   /systematic_id="Dmel_CG1674"
 FT                   /product="uncharacterized protein, isoform F"
 FT                   /protein_id="ACZ95090.1"
+FT   CDS             join(231954..231977,232279..232848,234265..234345,
+FT                   236395..236475,237269..237559,240314..240398,
+FT                   240645..240833,242461..242679,243170..243585,
+FT                   243634..243748,245180..245763)
 FT                   /primary_name="CG1674"
 FT                   /synonym="Dmel\CG1674"
 FT                   /systematic_id="Dmel_CG1674"
 FT                   /product="uncharacterized protein, isoform H"
 FT                   /protein_id="ACZ95091.1"
+FT   CDS             join(231954..231977,232279..232848,234265..234345,
+FT                   236395..236475,237269..237559,240314..240398,
+FT                   240645..240833,242488..242679,243266..243585,
+FT                   243634..243748,245180..245763)
 FT                   /primary_name="CG1674"
 FT                   /synonym="Dmel\CG1674"
 FT                   /systematic_id="Dmel_CG1674"
 FT                   /product="uncharacterized protein, isoform M"
 FT                   /protein_id="AGB96539.1"
+FT   CDS             join(231954..231977,234265..234345,234864..234944,
+FT                   236395..236475,237269..237559,239938..240072,
+FT                   240314..240398,240645..240833,242461..242679,
+FT                   243170..243585,243634..243748,244418..244834,
+FT                   245180..245763)
 FT                   /primary_name="CG1674"
 FT                   /synonym="Dmel\CG1674"
 FT                   /systematic_id="Dmel_CG1674"
 FT                   /product="uncharacterized protein, isoform L"
 FT                   /protein_id="AFH06774.1"
+FT   CDS             join(231954..231977,234265..234345,234864..234944,
+FT                   236395..236475,237269..237559,240314..240398,
+FT                   240645..240833,242461..242679,243170..243585,
+FT                   243634..243748,244418..244834,245180..245763)
 FT                   /primary_name="CG1674"
 FT                   /synonym="Dmel\CG1674"
 FT                   /systematic_id="Dmel_CG1674"
 FT                   /product="uncharacterized protein, isoform K"
 FT                   /protein_id="AFH06773.1"
+FT   CDS             join(231954..231977,234265..234345,236395..236475,
+FT                   237269..237559,240314..240398,240645..240833,
+FT                   242461..242679,243170..243585,243634..243748,
+FT                   245180..245763)
 FT                   /primary_name="CG1674"
 FT                   /synonym="Dmel\CG1674"
 FT                   /systematic_id="Dmel_CG1674"
 FT                   /product="uncharacterized protein, isoform J"
 FT                   /protein_id="ACZ95092.1"
+FT   CDS             join(231954..231977,234265..234345,236395..236475,
+FT                   237269..237559,240314..240398,240645..240833,
+FT                   243266..243585,243634..243748,245180..245763)
 FT                   /primary_name="CG1674"
 FT                   /synonym="Dmel\CG1674"
 FT                   /systematic_id="Dmel_CG1674"
 FT                   /product="uncharacterized protein, isoform I"
 FT                   /protein_id="AAN06522.2"
+FT   CDS             join(231954..231977,234265..234345,236395..236475,
+FT                   237269..237559,240314..240398,240645..240877)
 FT                   /primary_name="CG1674"
 FT                   /synonym="Dmel\CG1674"
 FT                   /systematic_id="Dmel_CG1674"
 FT                   /product="uncharacterized protein, isoform D"
 FT                   /protein_id="AAS64602.1"
+FT   CDS             complement(join(249599..249735,249790..249977,
+FT                   250034..250136,250190..250243,251315..251525,
+FT                   252055..252170,252824..252953))
 FT                   /primary_name="dpr7"
 FT                   /synonym="Dpr-7"
 FT                   /synonym="Dmel\CG33481"
@@ -1033,7 +1237,11 @@ FT                   /synonym="CG33481"
 FT                   /synonym="Dpr7"
 FT                   /systematic_id="Dmel_CG33481"
 FT                   /product="defective proboscis extension response 7, isoform
+FT                   F"
 FT                   /protein_id="ABV53591.2"
+FT   CDS             complement(join(249599..249735,249790..249977,
+FT                   250034..250136,250190..250243,251315..251525,
+FT                   252055..252170,252659..252710))
 FT                   /primary_name="dpr7"
 FT                   /synonym="Dpr-7"
 FT                   /synonym="Dmel\CG33481"
@@ -1041,7 +1249,12 @@ FT                   /synonym="CG33481"
 FT                   /synonym="Dpr7"
 FT                   /systematic_id="Dmel_CG33481"
 FT                   /product="defective proboscis extension response 7, isoform
+FT                   G"
 FT                   /protein_id="ABV53592.2"
+FT   CDS             join(255517..257404,258312..258466,258528..258672,
+FT                   259278..259370,259447..259604,261230..261511,
+FT                   261574..261724,261777..262062,263206..263340,
+FT                   264352..264429,264486..264670,264744..264958)
 FT                   /primary_name="RhoGAP102A"
 FT                   /synonym="BP1050"
 FT                   /synonym="CG1748"
@@ -1054,6 +1267,10 @@ FT                   /synonym="rhoGAP102A"
 FT                   /systematic_id="Dmel_CG42316"
 FT                   /product="Rho GTPase activating protein at 102A, isoform D"
 FT                   /protein_id="AFH06776.1"
+FT   CDS             join(255517..257404,258312..258466,258528..258672,
+FT                   259278..259370,259447..259604,261230..261511,
+FT                   261574..261724,261777..262062,263206..263340,
+FT                   264352..264429,264528..264670,264744..264958)
 FT                   /primary_name="RhoGAP102A"
 FT                   /synonym="BP1050"
 FT                   /synonym="CG1748"
@@ -1066,6 +1283,9 @@ FT                   /synonym="rhoGAP102A"
 FT                   /systematic_id="Dmel_CG42316"
 FT                   /product="Rho GTPase activating protein at 102A, isoform F"
 FT                   /protein_id="AGB96540.1"
+FT   CDS             join(255517..257404,258312..258466,258528..258672,
+FT                   259278..259370,259447..259604,261230..261511,
+FT                   261574..261724,261777..262062,262383..262638)
 FT                   /primary_name="RhoGAP102A"
 FT                   /synonym="BP1050"
 FT                   /synonym="CG1748"
@@ -1078,6 +1298,9 @@ FT                   /synonym="rhoGAP102A"
 FT                   /systematic_id="Dmel_CG42316"
 FT                   /product="Rho GTPase activating protein at 102A, isoform E"
 FT                   /protein_id="AAF59356.3"
+FT   CDS             join(255517..257404,258312..258466,258528..258672,
+FT                   259278..259370,259447..259604,261230..261511,
+FT                   261574..261724,261777..262129)
 FT                   /primary_name="RhoGAP102A"
 FT                   /synonym="BP1050"
 FT                   /synonym="CG1748"
@@ -1090,6 +1313,9 @@ FT                   /synonym="rhoGAP102A"
 FT                   /systematic_id="Dmel_CG42316"
 FT                   /product="Rho GTPase activating protein at 102A, isoform C"
 FT                   /protein_id="ABC65828.2"
+FT   CDS             complement(join(270450..270499,270560..270755,
+FT                   271069..271847,271915..272160,272226..272408,
+FT                   273115..273712,273761..273916,275580..275660))
 FT                   /primary_name="NfI"
 FT                   /synonym="CG2380"
 FT                   /synonym="Dmel\CG2380"
@@ -1097,6 +1323,9 @@ FT                   /synonym="NFI"
 FT                   /systematic_id="Dmel_CG2380"
 FT                   /product="nuclear factor I, isoform C"
 FT                   /protein_id="AGB96541.1"
+FT   CDS             complement(join(270450..270499,270560..270755,
+FT                   271069..271847,271915..272172,272226..272408,
+FT                   273115..273712,273761..273916,275580..275660))
 FT                   /primary_name="NfI"
 FT                   /synonym="NFI"
 FT                   /synonym="Dmel\CG2380"
@@ -1104,6 +1333,9 @@ FT                   /synonym="CG2380"
 FT                   /systematic_id="Dmel_CG2380"
 FT                   /product="nuclear factor I, isoform B"
 FT                   /protein_id="AAS64605.2"
+FT   CDS             complement(join(280139..280239,281724..281892,
+FT                   281948..282028,282436..282738,302242..302323,
+FT                   302386..302526,305016..305176))
 FT                   /primary_name="Syt7"
 FT                   /synonym="CG10322"
 FT                   /synonym="CG2381"
@@ -1117,6 +1349,9 @@ FT                   /synonym="syt-7"
 FT                   /systematic_id="Dmel_CG2381"
 FT                   /product="synaptotagmin 7, isoform I"
 FT                   /protein_id="AFH06777.1"
+FT   CDS             complement(join(280139..280239,280325..280537,
+FT                   281724..281892,281948..282028,282436..282738,
+FT                   302242..302323,302386..302526,305016..305176))
 FT                   /primary_name="Syt7"
 FT                   /synonym="CG10322"
 FT                   /synonym="SYT7"
@@ -1130,6 +1365,9 @@ FT                   /synonym="syt-7"
 FT                   /systematic_id="Dmel_CG2381"
 FT                   /product="synaptotagmin 7, isoform M"
 FT                   /protein_id="AAN06525.5"
+FT   CDS             complement(join(280139..280239,280325..280537,
+FT                   281724..281892,281948..282028,282436..282738,
+FT                   302242..302323,302386..302526,305016..305176))
 FT                   /primary_name="Syt7"
 FT                   /synonym="CG10322"
 FT                   /synonym="SYT7"
@@ -1143,6 +1381,8 @@ FT                   /synonym="syt-7"
 FT                   /systematic_id="Dmel_CG2381"
 FT                   /product="synaptotagmin 7, isoform A"
 FT                   /protein_id="AAF59354.4"
+FT   CDS             complement(join(280139..280239,280325..280537,
+FT                   281724..281892,281948..282028,282436..282723))
 FT                   /primary_name="Syt7"
 FT                   /synonym="CG10322"
 FT                   /synonym="SYT7"
@@ -1156,6 +1396,9 @@ FT                   /synonym="syt-7"
 FT                   /systematic_id="Dmel_CG2381"
 FT                   /product="synaptotagmin 7, isoform F"
 FT                   /protein_id="AAS64606.2"
+FT   CDS             complement(join(280426..280431,280497..280537,
+FT                   281724..281892,281948..282028,282436..282738,
+FT                   302242..302323,302386..302526,305016..305176))
 FT                   /primary_name="Syt7"
 FT                   /synonym="CG10322"
 FT                   /synonym="SYT7"
@@ -1169,6 +1412,8 @@ FT                   /synonym="syt-7"
 FT                   /systematic_id="Dmel_CG2381"
 FT                   /product="synaptotagmin 7, isoform B"
 FT                   /protein_id="AAN06523.2"
+FT   CDS             join(308224..308289,308431..309079,309539..309633,
+FT                   309694..310017,310079..310189)
 FT                   /primary_name="Rad23"
 FT                   /synonym="CG1836"
 FT                   /synonym="DHR23"
@@ -1178,6 +1423,8 @@ FT                   /synonym="RAD23"
 FT                   /systematic_id="Dmel_CG1836"
 FT                   /product="Rad23, isoform C"
 FT                   /protein_id="AGB96542.1"
+FT   CDS             join(308224..308289,308431..309079,309539..309633,
+FT                   309694..310017,310079..310189)
 FT                   /primary_name="Rad23"
 FT                   /synonym="DHR23"
 FT                   /synonym="rad23"
@@ -1187,6 +1434,8 @@ FT                   /synonym="RAD23"
 FT                   /systematic_id="Dmel_CG1836"
 FT                   /product="Rad23, isoform A"
 FT                   /protein_id="AAF59352.1"
+FT   CDS             join(308578..309079,309539..309633,309694..310017,
+FT                   310079..310189)
 FT                   /primary_name="Rad23"
 FT                   /synonym="DHR23"
 FT                   /synonym="rad23"
@@ -1196,6 +1445,8 @@ FT                   /synonym="RAD23"
 FT                   /systematic_id="Dmel_CG1836"
 FT                   /product="Rad23, isoform B"
 FT                   /protein_id="AAN06526.1"
+FT   CDS             complement(join(312790..313298,313357..313642,
+FT                   313748..313846))
 FT                   /primary_name="Zip102B"
 FT                   /synonym="Dmel\CG2177"
 FT                   /synonym="cg2177"
@@ -1204,7 +1455,10 @@ FT                   /synonym="dZip102B"
 FT                   /synonym="ZIP102B"
 FT                   /systematic_id="Dmel_CG2177"
 FT                   /product="Zinc/iron regulated transporter-related protein
+FT                   102B, isoform E"
 FT                   /protein_id="AAF59351.3"
+FT   CDS             complement(join(312790..313298,313357..313642,
+FT                   313748..313846))
 FT                   /primary_name="Zip102B"
 FT                   /synonym="cg2177"
 FT                   /synonym="CG2177"
@@ -1213,7 +1467,9 @@ FT                   /synonym="dZip102B"
 FT                   /synonym="ZIP102B"
 FT                   /systematic_id="Dmel_CG2177"
 FT                   /product="Zinc/iron regulated transporter-related protein
+FT                   102B, isoform F"
 FT                   /protein_id="AHN58214.1"
+FT   CDS             complement(join(312790..313298,313357..313453))
 FT                   /primary_name="Zip102B"
 FT                   /synonym="Dmel\CG2177"
 FT                   /synonym="cg2177"
@@ -1222,7 +1478,9 @@ FT                   /synonym="dZip102B"
 FT                   /synonym="ZIP102B"
 FT                   /systematic_id="Dmel_CG2177"
 FT                   /product="Zinc/iron regulated transporter-related protein
+FT                   102B, isoform D"
 FT                   /protein_id="ACL82866.2"
+FT   CDS             complement(join(312790..313298,313357..313453))
 FT                   /primary_name="Zip102B"
 FT                   /synonym="Dmel\CG2177"
 FT                   /synonym="cg2177"
@@ -1231,7 +1489,9 @@ FT                   /synonym="dZip102B"
 FT                   /synonym="ZIP102B"
 FT                   /systematic_id="Dmel_CG2177"
 FT                   /product="Zinc/iron regulated transporter-related protein
+FT                   102B, isoform B"
 FT                   /protein_id="AAS64607.1"
+FT   CDS             join(316417..316509,319449..319799)
 FT                   /primary_name="Rnf11"
 FT                   /synonym="BEST:GH26713"
 FT                   /synonym="BcDNA:RE41137"
@@ -1243,6 +1503,7 @@ FT                   /synonym="RNF11"
 FT                   /systematic_id="Dmel_CG32850"
 FT                   /product="ring finger protein 11, isoform A"
 FT                   /protein_id="AAN06527.1"
+FT   CDS             join(316417..316509,319452..319799)
 FT                   /primary_name="Rnf11"
 FT                   /synonym="BcDNA:RE41137"
 FT                   /synonym="BEST:GH26713"
@@ -1254,6 +1515,12 @@ FT                   /synonym="RNF11"
 FT                   /systematic_id="Dmel_CG32850"
 FT                   /product="ring finger protein 11, isoform B"
 FT                   /protein_id="AGB96543.1"
+FT   CDS             complement(join(329207..329428,330271..330339,
+FT                   342922..343060,348995..349146,349213..349424,
+FT                   349481..349679,349730..350043,350603..350690,
+FT                   350765..351209,351586..351827,351884..352126,
+FT                   352181..352590,354351..354561,354680..354966,
+FT                   355031..355225,355310..355466))
 FT                   /primary_name="PMCA"
 FT                   /synonym="BEST:CK01140"
 FT                   /synonym="BEST:CK02288"
@@ -1267,6 +1534,12 @@ FT                   /synonym="BEST:CK"
 FT                   /systematic_id="Dmel_CG42314"
 FT                   /product="plasma membrane calcium ATPase, isoform P"
 FT                   /protein_id="ADV37599.1"
+FT   CDS             complement(join(329207..329428,342922..343060,
+FT                   348995..349146,349213..349424,349481..349679,
+FT                   349730..350043,350603..350690,350765..351209,
+FT                   351586..351827,351884..352126,352181..352590,
+FT                   353943..353978,354351..354561,354680..354966,
+FT                   355031..355225,355310..355466))
 FT                   /primary_name="PMCA"
 FT                   /synonym="BEST:CK01140"
 FT                   /synonym="BEST:CK02288"
@@ -1280,6 +1553,12 @@ FT                   /synonym="BEST:CK"
 FT                   /systematic_id="Dmel_CG42314"
 FT                   /product="plasma membrane calcium ATPase, isoform K"
 FT                   /protein_id="AAX52514.3"
+FT   CDS             complement(join(329207..329428,330271..330339,
+FT                   342922..343060,348995..349146,349213..349424,
+FT                   349481..349679,349730..350043,350603..350690,
+FT                   350765..351209,351586..351827,351884..352126,
+FT                   352181..352590,353943..353978,354351..354561,
+FT                   354680..354966,355031..355225,355310..355466))
 FT                   /primary_name="PMCA"
 FT                   /synonym="BEST:CK01140"
 FT                   /synonym="BEST:CK02288"
@@ -1293,6 +1572,12 @@ FT                   /synonym="BEST:CK"
 FT                   /systematic_id="Dmel_CG42314"
 FT                   /product="plasma membrane calcium ATPase, isoform I"
 FT                   /protein_id="AAF59350.5"
+FT   CDS             complement(join(329207..329428,330271..330339,
+FT                   342922..343060,348995..349146,349213..349424,
+FT                   349481..349679,349730..350043,350603..350690,
+FT                   350765..351209,351586..351827,351884..352126,
+FT                   352181..352590,353943..353978,354351..354561,
+FT                   354680..354966,355031..355225,355310..355466))
 FT                   /primary_name="PMCA"
 FT                   /synonym="BEST:CK01140"
 FT                   /synonym="BEST:CK02288"
@@ -1306,6 +1591,12 @@ FT                   /synonym="BEST:CK"
 FT                   /systematic_id="Dmel_CG42314"
 FT                   /product="plasma membrane calcium ATPase, isoform L"
 FT                   /protein_id="AAN06528.5"
+FT   CDS             complement(join(329207..329428,330271..330339,
+FT                   342922..343060,348995..349146,349213..349424,
+FT                   349481..349679,349730..350043,350603..350690,
+FT                   350765..351209,351586..351827,351884..352126,
+FT                   352181..352590,353943..353978,354351..354561,
+FT                   354680..354966,355031..355225,355310..355466))
 FT                   /primary_name="PMCA"
 FT                   /synonym="BEST:CK01140"
 FT                   /synonym="BEST:CK02288"
@@ -1319,6 +1610,12 @@ FT                   /synonym="BEST:CK"
 FT                   /systematic_id="Dmel_CG42314"
 FT                   /product="plasma membrane calcium ATPase, isoform O"
 FT                   /protein_id="ADV37598.1"
+FT   CDS             complement(join(329207..329428,337536..337547,
+FT                   342922..343060,348995..349146,349213..349424,
+FT                   349481..349679,349730..350043,350603..350690,
+FT                   350765..351209,351586..351827,351884..352126,
+FT                   352181..352590,353943..353978,354351..354561,
+FT                   354680..354966,355031..355225,355310..355466))
 FT                   /primary_name="PMCA"
 FT                   /synonym="BEST:CK01140"
 FT                   /synonym="BEST:CK02288"
@@ -1332,6 +1629,13 @@ FT                   /synonym="BEST:CK"
 FT                   /systematic_id="Dmel_CG42314"
 FT                   /product="plasma membrane calcium ATPase, isoform Q"
 FT                   /protein_id="ADV37600.1"
+FT   CDS             complement(join(329207..329428,330271..330339,
+FT                   337536..337547,342922..343060,348995..349146,
+FT                   349213..349424,349481..349679,349730..350043,
+FT                   350603..350690,350765..351209,351586..351827,
+FT                   351884..352126,352181..352590,353943..353978,
+FT                   354351..354561,354680..354966,355031..355225,
+FT                   355310..355466))
 FT                   /primary_name="PMCA"
 FT                   /synonym="BEST:CK01140"
 FT                   /synonym="BEST:CK02288"
@@ -1345,6 +1649,12 @@ FT                   /synonym="BEST:CK"
 FT                   /systematic_id="Dmel_CG42314"
 FT                   /product="plasma membrane calcium ATPase, isoform R"
 FT                   /protein_id="ADV37601.1"
+FT   CDS             complement(join(331565..332002,342922..343060,
+FT                   348995..349146,349213..349424,349481..349679,
+FT                   349730..350043,350603..350690,350765..351209,
+FT                   351586..351827,351884..352126,352181..352590,
+FT                   353943..353978,354351..354561,354680..354966,
+FT                   355031..355225,355310..355466))
 FT                   /primary_name="PMCA"
 FT                   /synonym="BEST:CK01140"
 FT                   /synonym="BEST:CK02288"
@@ -1358,6 +1668,12 @@ FT                   /synonym="BEST:CK"
 FT                   /systematic_id="Dmel_CG42314"
 FT                   /product="plasma membrane calcium ATPase, isoform J"
 FT                   /protein_id="ABC65829.3"
+FT   CDS             complement(join(331565..332002,342922..343060,
+FT                   348995..349146,349213..349424,349481..349679,
+FT                   349730..350043,350603..350690,350765..351209,
+FT                   351586..351827,351884..352126,352181..352590,
+FT                   353943..353978,354351..354561,354680..354966,
+FT                   355031..355225,355310..355466))
 FT                   /primary_name="PMCA"
 FT                   /synonym="BEST:CK01140"
 FT                   /synonym="BEST:CK02288"
@@ -1371,6 +1687,12 @@ FT                   /synonym="BEST:CK"
 FT                   /systematic_id="Dmel_CG42314"
 FT                   /product="plasma membrane calcium ATPase, isoform M"
 FT                   /protein_id="AAX52515.3"
+FT   CDS             complement(join(331565..332002,342922..343060,
+FT                   348995..349146,349213..349424,349481..349679,
+FT                   349730..350043,350603..350690,350765..351209,
+FT                   351586..351827,351884..352126,352181..352590,
+FT                   353943..353978,354351..354561,354680..354966,
+FT                   355031..355225,355310..355466))
 FT                   /primary_name="PMCA"
 FT                   /synonym="BEST:CK01140"
 FT                   /synonym="BEST:CK02288"
@@ -1384,6 +1706,12 @@ FT                   /synonym="BEST:CK"
 FT                   /systematic_id="Dmel_CG42314"
 FT                   /product="plasma membrane calcium ATPase, isoform S"
 FT                   /protein_id="ADV37602.1"
+FT   CDS             complement(join(335041..335073,342922..343060,
+FT                   348995..349146,349213..349424,349481..349679,
+FT                   349730..350043,350603..350690,350765..351209,
+FT                   351586..351827,351884..352126,352181..352590,
+FT                   353943..353978,354351..354561,354680..354966,
+FT                   355031..355225,355310..355466))
 FT                   /primary_name="PMCA"
 FT                   /synonym="BEST:CK01140"
 FT                   /synonym="BEST:CK02288"
@@ -1397,6 +1725,11 @@ FT                   /synonym="BEST:CK"
 FT                   /systematic_id="Dmel_CG42314"
 FT                   /product="plasma membrane calcium ATPase, isoform N"
 FT                   /protein_id="AAX52516.3"
+FT   CDS             join(360691..361006,362304..362613,362671..362882,
+FT                   362946..363134,363494..363645,363868..364941,
+FT                   365674..365805,365860..366762,369507..369744,
+FT                   369810..369964,371091..371357,371813..372176,
+FT                   372250..372392)
 FT                   /primary_name="Hcf"
 FT                   /synonym="anon-WO0172774.48"
 FT                   /synonym="CG1710"
@@ -1411,6 +1744,10 @@ FT                   /synonym="HCF1"
 FT                   /systematic_id="Dmel_CG1710"
 FT                   /product="host cell factor, isoform E"
 FT                   /protein_id="AFH06780.1"
+FT   CDS             join(360691..361006,362304..362613,362671..362882,
+FT                   362946..363134,363494..363639,363868..364941,
+FT                   365674..366762,369507..369744,369810..369964,
+FT                   371091..371357,371813..372176,372250..372392)
 FT                   /primary_name="Hcf"
 FT                   /synonym="HCF"
 FT                   /synonym="anon-WO0172774.48"
@@ -1425,6 +1762,10 @@ FT                   /synonym="HCF1"
 FT                   /systematic_id="Dmel_CG1710"
 FT                   /product="host cell factor, isoform A"
 FT                   /protein_id="AAF59349.2"
+FT   CDS             join(360691..361006,362304..362613,362671..362882,
+FT                   362946..363134,363494..363639,363868..364941,
+FT                   365674..366762,369507..369744,369810..369964,
+FT                   371091..371357,371813..372176,372250..372392)
 FT                   /primary_name="Hcf"
 FT                   /synonym="HCF"
 FT                   /synonym="anon-WO0172774.48"
@@ -1439,6 +1780,10 @@ FT                   /synonym="HCF1"
 FT                   /systematic_id="Dmel_CG1710"
 FT                   /product="host cell factor, isoform B"
 FT                   /protein_id="AAN06529.1"
+FT   CDS             join(360691..361006,362304..362613,362671..362882,
+FT                   362946..363134,363494..363639,363868..364941,
+FT                   365674..366762,369507..369744,369810..369964,
+FT                   371091..371357,371813..372176,372250..372392)
 FT                   /primary_name="Hcf"
 FT                   /synonym="anon-WO0172774.48"
 FT                   /synonym="CG1710"
@@ -1453,6 +1798,10 @@ FT                   /synonym="HCF1"
 FT                   /systematic_id="Dmel_CG1710"
 FT                   /product="host cell factor, isoform G"
 FT                   /protein_id="AAS64608.1"
+FT   CDS             join(360691..361006,362304..362613,362671..362882,
+FT                   362946..363134,363494..363639,364024..364941,
+FT                   365674..366762,369507..369744,369810..369964,
+FT                   371091..371357,371813..372176,372250..372392)
 FT                   /primary_name="Hcf"
 FT                   /synonym="HCF"
 FT                   /synonym="anon-WO0172774.48"
@@ -1467,6 +1816,10 @@ FT                   /synonym="HCF1"
 FT                   /systematic_id="Dmel_CG1710"
 FT                   /product="host cell factor, isoform F"
 FT                   /protein_id="AAN06530.2"
+FT   CDS             complement(join(375963..376631,377094..377669,
+FT                   377758..377825,377885..378202,378396..378531,
+FT                   378716..378900,382123..382408,386907..386984,
+FT                   390425..391531))
 FT                   /primary_name="dati"
 FT                   /synonym="CG10204"
 FT                   /synonym="Dmel\CG2052"
@@ -1476,6 +1829,10 @@ FT                   /synonym="Lin29"
 FT                   /systematic_id="Dmel_CG2052"
 FT                   /product="datilografo, isoform B"
 FT                   /protein_id="AAF59348.3"
+FT   CDS             complement(join(375963..376631,377094..377669,
+FT                   377758..377825,377885..378202,378396..378561,
+FT                   378716..378900,382123..382408,386907..386984,
+FT                   390425..391531))
 FT                   /primary_name="dati"
 FT                   /synonym="CG10204"
 FT                   /synonym="CG2052"
@@ -1485,6 +1842,10 @@ FT                   /synonym="Lin29"
 FT                   /systematic_id="Dmel_CG2052"
 FT                   /product="datilografo, isoform C"
 FT                   /protein_id="AFH06781.1"
+FT   CDS             complement(join(375963..376631,377094..377669,
+FT                   377758..377825,377885..378202,378396..378561,
+FT                   378716..378900,382123..382408,386907..386984,
+FT                   390425..391531))
 FT                   /primary_name="dati"
 FT                   /synonym="CG10204"
 FT                   /synonym="Dmel\CG2052"
@@ -1494,6 +1855,10 @@ FT                   /synonym="Lin29"
 FT                   /systematic_id="Dmel_CG2052"
 FT                   /product="datilografo, isoform A"
 FT                   /protein_id="AAS64609.1"
+FT   CDS             complement(join(375963..376631,377094..377669,
+FT                   377758..377825,377885..378202,378396..378561,
+FT                   378716..378900,382123..382408,386907..386984,
+FT                   387829..387858))
 FT                   /primary_name="dati"
 FT                   /synonym="CG10204"
 FT                   /synonym="CG2052"
@@ -1503,6 +1868,9 @@ FT                   /synonym="Lin29"
 FT                   /systematic_id="Dmel_CG2052"
 FT                   /product="datilografo, isoform D"
 FT                   /protein_id="AFH06782.1"
+FT   CDS             complement(join(437386..438918,438975..439165,
+FT                   439448..441451,442180..442389,442864..443154,
+FT                   443213..443393))
 FT                   /primary_name="lgs"
 FT                   /synonym="BCL9"
 FT                   /synonym="Lgl"
@@ -1514,6 +1882,9 @@ FT                   /synonym="Bcl9/9l"
 FT                   /systematic_id="Dmel_CG2041"
 FT                   /product="legless"
 FT                   /protein_id="AAF59345.2"
+FT   CDS             join(446920..447035,447101..447235,449924..449968,
+FT                   450242..450316,450371..450509,451190..451454,
+FT                   452618..452744,452803..452890,452972..453199)
 FT                   /primary_name="CaMKI"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="CamKI"
@@ -1527,7 +1898,11 @@ FT                   /synonym="CamK1"
 FT                   /synonym="CAMKI"
 FT                   /systematic_id="Dmel_CG1495"
 FT                   /product="Calcium/calmodulin-dependent protein kinase I,
+FT                   isoform A"
 FT                   /protein_id="AAN06531.1"
+FT   CDS             join(446920..447035,447101..447235,449924..449968,
+FT                   450242..450316,450371..450509,451190..451454,
+FT                   452618..452744,452803..452890,452972..453199)
 FT                   /primary_name="CaMKI"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="CamKI"
@@ -1541,7 +1916,11 @@ FT                   /synonym="CamK1"
 FT                   /synonym="CAMKI"
 FT                   /systematic_id="Dmel_CG1495"
 FT                   /product="Calcium/calmodulin-dependent protein kinase I,
+FT                   isoform B"
 FT                   /protein_id="AAF59344.2"
+FT   CDS             join(446920..447035,447101..447235,449924..449968,
+FT                   450242..450316,450371..450509,451190..451454,
+FT                   452618..452744,452803..452890,452972..453199)
 FT                   /primary_name="CaMKI"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="CamKI"
@@ -1555,7 +1934,11 @@ FT                   /synonym="CamK1"
 FT                   /synonym="CAMKI"
 FT                   /systematic_id="Dmel_CG1495"
 FT                   /product="Calcium/calmodulin-dependent protein kinase I,
+FT                   isoform G"
 FT                   /protein_id="AAF59343.1"
+FT   CDS             join(446920..447035,447101..447235,450242..450316,
+FT                   450371..450509,451190..451454,452618..452744,
+FT                   452803..452890,452972..453199)
 FT                   /primary_name="CaMKI"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="CamKI"
@@ -1569,7 +1952,10 @@ FT                   /synonym="CamK1"
 FT                   /synonym="CAMKI"
 FT                   /systematic_id="Dmel_CG1495"
 FT                   /product="Calcium/calmodulin-dependent protein kinase I,
+FT                   isoform I"
 FT                   /protein_id="AAN06532.2"
+FT   CDS             join(450309..450316,450371..450509,451190..451454,
+FT                   452618..452744,452803..452890,452972..453199)
 FT                   /primary_name="CaMKI"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="CamKI"
@@ -1583,7 +1969,11 @@ FT                   /synonym="CamK1"
 FT                   /synonym="CAMKI"
 FT                   /systematic_id="Dmel_CG1495"
 FT                   /product="Calcium/calmodulin-dependent protein kinase I,
+FT                   isoform H"
 FT                   /protein_id="AAN06535.1"
+FT   CDS             complement(join(460021..460141,460203..460656,
+FT                   460714..461047,461505..462328,462388..462501,
+FT                   463055..464740,464797..465315,466501..466669))
 FT                   /primary_name="Taf3"
 FT                   /synonym="BIP2"
 FT                   /synonym="TAF155"
@@ -1607,6 +1997,7 @@ FT                   /synonym="bip2"
 FT                   /systematic_id="Dmel_CG2009"
 FT                   /product="TBP-associated factor 3"
 FT                   /protein_id="AAF59342.1"
+FT   CDS             join(467851..467994,469157..469330,471014..471151)
 FT                   /primary_name="CG33941"
 FT                   /synonym="BcDNA:GM01028"
 FT                   /synonym="CG13303"
@@ -1618,6 +2009,11 @@ FT                   /synonym="pncr013:4"
 FT                   /systematic_id="Dmel_CG33941"
 FT                   /product="uncharacterized protein"
 FT                   /protein_id="API61828.1"
+FT   CDS             complement(join(472289..472520,472578..472677,
+FT                   473147..473719,474453..474768,474960..475104,
+FT                   476963..477102,477292..478083,478538..478738,
+FT                   478800..478868,480035..480238,480302..480691,
+FT                   480776..481141,481209..481704,485210..485232))
 FT                   /primary_name="Asator"
 FT                   /synonym="CG11533"
 FT                   /synonym="CK I"
@@ -1626,6 +2022,11 @@ FT                   /synonym="Dmel\CG11533"
 FT                   /systematic_id="Dmel_CG11533"
 FT                   /product="asator, isoform I"
 FT                   /protein_id="AGB96546.1"
+FT   CDS             complement(join(472289..472520,472578..472677,
+FT                   473147..473719,474453..474768,474960..475104,
+FT                   476963..477102,477292..478083,478538..478738,
+FT                   478800..478868,480035..480238,480302..480691,
+FT                   480776..481141,481209..481704,481811..481836))
 FT                   /primary_name="Asator"
 FT                   /synonym="CK I"
 FT                   /synonym="CKI-like"
@@ -1634,6 +2035,11 @@ FT                   /synonym="CG11533"
 FT                   /systematic_id="Dmel_CG11533"
 FT                   /product="asator, isoform D"
 FT                   /protein_id="AAF59340.3"
+FT   CDS             complement(join(472289..472520,472578..472677,
+FT                   473147..473719,474453..474768,474960..475104,
+FT                   476963..477102,477292..478083,478538..478738,
+FT                   478800..478868,480035..480238,480302..480691,
+FT                   480776..481141,481209..481262))
 FT                   /primary_name="Asator"
 FT                   /synonym="CG11533"
 FT                   /synonym="CK I"
@@ -1642,6 +2048,11 @@ FT                   /synonym="Dmel\CG11533"
 FT                   /systematic_id="Dmel_CG11533"
 FT                   /product="asator, isoform H"
 FT                   /protein_id="AGB96545.1"
+FT   CDS             complement(join(473076..473719,474453..474768,
+FT                   474960..475104,476963..477102,477292..478083,
+FT                   478538..478738,478800..478868,480035..480238,
+FT                   480302..480691,480776..481141,481209..481704,
+FT                   485210..485232))
 FT                   /primary_name="Asator"
 FT                   /synonym="CG11533"
 FT                   /synonym="CK I"
@@ -1650,6 +2061,10 @@ FT                   /synonym="Dmel\CG11533"
 FT                   /systematic_id="Dmel_CG11533"
 FT                   /product="asator, isoform J"
 FT                   /protein_id="AGB96547.1"
+FT   CDS             complement(join(473076..473719,474453..474768,
+FT                   477292..478083,478538..478738,480035..480238,
+FT                   480302..480691,480776..481141,481209..481704,
+FT                   481811..481836))
 FT                   /primary_name="Asator"
 FT                   /synonym="CG11533"
 FT                   /synonym="CK I"
@@ -1658,6 +2073,11 @@ FT                   /synonym="Dmel\CG11533"
 FT                   /systematic_id="Dmel_CG11533"
 FT                   /product="asator, isoform G"
 FT                   /protein_id="AGB96544.1"
+FT   CDS             complement(join(473076..473719,474453..474768,
+FT                   474960..475104,476963..477102,477292..478083,
+FT                   478538..478738,478800..478868,480035..480238,
+FT                   480302..480691,480776..481141,481209..481704,
+FT                   481811..481836))
 FT                   /primary_name="Asator"
 FT                   /synonym="CK I"
 FT                   /synonym="CKI-like"
@@ -1666,6 +2086,10 @@ FT                   /synonym="CG11533"
 FT                   /systematic_id="Dmel_CG11533"
 FT                   /product="asator, isoform E"
 FT                   /protein_id="AAN06495.2"
+FT   CDS             complement(join(473076..473719,474453..474768,
+FT                   474960..475104,476963..477102,477292..478083,
+FT                   478538..478738,478800..478868,480035..480238,
+FT                   480302..480691,480776..481141,481209..481262))
 FT                   /primary_name="Asator"
 FT                   /synonym="CG11533"
 FT                   /synonym="CK I"
@@ -1674,6 +2098,10 @@ FT                   /synonym="Dmel\CG11533"
 FT                   /systematic_id="Dmel_CG11533"
 FT                   /product="asator, isoform K"
 FT                   /protein_id="AGB96548.1"
+FT   CDS             complement(join(473076..473719,474453..474768,
+FT                   474960..475104,476963..477102,477292..478083,
+FT                   478538..478738,478800..478868,480035..480238,
+FT                   480302..480691,480776..481141,481209..481262))
 FT                   /primary_name="Asator"
 FT                   /synonym="CG11533"
 FT                   /synonym="CK I"
@@ -1682,6 +2110,10 @@ FT                   /synonym="Dmel\CG11533"
 FT                   /systematic_id="Dmel_CG11533"
 FT                   /product="asator, isoform L"
 FT                   /protein_id="AHN58215.1"
+FT   CDS             complement(join(474885..475104,476963..477102,
+FT                   477292..478083,478538..478738,478800..478868,
+FT                   480035..480238,480302..480691,480776..481141,
+FT                   481209..481262))
 FT                   /primary_name="Asator"
 FT                   /synonym="CK I"
 FT                   /synonym="CKI-like"
@@ -1690,6 +2122,10 @@ FT                   /synonym="CG11533"
 FT                   /systematic_id="Dmel_CG11533"
 FT                   /product="asator, isoform F"
 FT                   /protein_id="AAN06496.2"
+FT   CDS             join(521504..523104,524331..524512,524904..526520,
+FT                   529693..531093,531156..531379,531436..531783,
+FT                   532783..532926,532983..535880,537175..537760,
+FT                   538538..538554)
 FT                   /primary_name="zfh2"
 FT                   /synonym="ZFH-2"
 FT                   /synonym="Zfh2"
@@ -1701,6 +2137,10 @@ FT                   /synonym="ZFH2"
 FT                   /systematic_id="Dmel_CG1449"
 FT                   /product="Zn finger homeodomain 2, isoform A"
 FT                   /protein_id="AAF59339.2"
+FT   CDS             join(521504..523104,524331..524512,524904..526520,
+FT                   529693..531093,531159..531379,531436..531783,
+FT                   532786..532926,532983..535880,537175..537760,
+FT                   538538..538554)
 FT                   /primary_name="zfh2"
 FT                   /synonym="CG1449"
 FT                   /synonym="Dmel\CG1449"
@@ -1712,6 +2152,9 @@ FT                   /synonym="ZFH2"
 FT                   /systematic_id="Dmel_CG1449"
 FT                   /product="Zn finger homeodomain 2, isoform B"
 FT                   /protein_id="AFH06785.1"
+FT   CDS             join(521504..523104,524331..524512,524904..526520,
+FT                   529693..531093,531156..531379,531436..531783,
+FT                   532783..532926,532983..535880,536966..536968)
 FT                   /primary_name="zfh2"
 FT                   /synonym="CG1449"
 FT                   /synonym="Dmel\CG1449"
@@ -1723,6 +2166,8 @@ FT                   /synonym="ZFH2"
 FT                   /systematic_id="Dmel_CG1449"
 FT                   /product="Zn finger homeodomain 2, isoform C"
 FT                   /protein_id="AGB96549.1"
+FT   CDS             complement(join(545663..548143,549259..549621,
+FT                   549714..549873,550754..551380,551991..553576))
 FT                   /primary_name="Tdg"
 FT                   /synonym="1981"
 FT                   /synonym="CG1981"
@@ -1738,6 +2183,8 @@ FT                   /synonym="THD1"
 FT                   /systematic_id="Dmel_CG1981"
 FT                   /product="thymine DNA glycosylase, isoform B"
 FT                   /protein_id="AGB96550.1"
+FT   CDS             complement(join(545663..548143,549259..549621,
+FT                   549714..549873,550754..551380,551991..553576))
 FT                   /primary_name="Tdg"
 FT                   /synonym="1981"
 FT                   /synonym="CG1981"
@@ -1753,6 +2200,8 @@ FT                   /synonym="THD1"
 FT                   /systematic_id="Dmel_CG1981"
 FT                   /product="thymine DNA glycosylase, isoform C"
 FT                   /protein_id="AHN58216.1"
+FT   CDS             complement(join(545663..548143,549259..549621,
+FT                   549714..549873,550754..551380,551991..553576))
 FT                   /primary_name="Tdg"
 FT                   /synonym="Dmel\CG1981"
 FT                   /synonym="CG1981"
@@ -1768,6 +2217,9 @@ FT                   /synonym="THD1"
 FT                   /systematic_id="Dmel_CG1981"
 FT                   /product="thymine DNA glycosylase, isoform A"
 FT                   /protein_id="AAF59338.1"
+FT   CDS             join(560258..560300,560349..560411,560471..560583,
+FT                   560718..560820,564361..564479,564541..564662,
+FT                   565407..565515,565601..565756)
 FT                   /primary_name="Pur-alpha"
 FT                   /synonym="PURalpha"
 FT                   /synonym="Pur-a"
@@ -1781,6 +2233,9 @@ FT                   /synonym="Puralpha"
 FT                   /systematic_id="Dmel_CG1507"
 FT                   /product="Purine-rich binding protein-alpha, isoform B"
 FT                   /protein_id="AAF59337.2"
+FT   CDS             join(560258..560300,560349..560411,560471..560583,
+FT                   560718..560820,564361..564479,564541..564662,
+FT                   565407..565515,565601..565756)
 FT                   /primary_name="Pur-alpha"
 FT                   /synonym="CG1507"
 FT                   /synonym="Dmel\CG1507"
@@ -1794,6 +2249,9 @@ FT                   /synonym="Puralpha"
 FT                   /systematic_id="Dmel_CG1507"
 FT                   /product="Purine-rich binding protein-alpha, isoform F"
 FT                   /protein_id="AGB96552.1"
+FT   CDS             join(560258..560300,560349..560411,560471..560583,
+FT                   560718..560820,564361..564479,564541..564662,
+FT                   565410..565515,565601..565756)
 FT                   /primary_name="Pur-alpha"
 FT                   /synonym="PURalpha"
 FT                   /synonym="Pur-a"
@@ -1807,6 +2265,9 @@ FT                   /synonym="Puralpha"
 FT                   /systematic_id="Dmel_CG1507"
 FT                   /product="Purine-rich binding protein-alpha, isoform A"
 FT                   /protein_id="AAN06497.1"
+FT   CDS             join(560258..560300,560349..560411,560471..560583,
+FT                   560718..560820,564361..564479,564541..564662,
+FT                   565410..565515,565601..565756)
 FT                   /primary_name="Pur-alpha"
 FT                   /synonym="PURalpha"
 FT                   /synonym="Pur-a"
@@ -1820,6 +2281,9 @@ FT                   /synonym="Puralpha"
 FT                   /systematic_id="Dmel_CG1507"
 FT                   /product="Purine-rich binding protein-alpha, isoform C"
 FT                   /protein_id="AAN06498.1"
+FT   CDS             join(560258..560300,560349..560411,560471..560583,
+FT                   560718..560820,564361..564479,564541..564662,
+FT                   565410..565515,565601..565756)
 FT                   /primary_name="Pur-alpha"
 FT                   /synonym="CG1507"
 FT                   /synonym="Dmel\CG1507"
@@ -1833,6 +2297,9 @@ FT                   /synonym="Puralpha"
 FT                   /systematic_id="Dmel_CG1507"
 FT                   /product="Purine-rich binding protein-alpha, isoform E"
 FT                   /protein_id="AGB96551.1"
+FT   CDS             join(560280..560300,560372..560411,560471..560583,
+FT                   560718..560820,564361..564479,564541..564662,
+FT                   565407..565515,565601..565756)
 FT                   /primary_name="Pur-alpha"
 FT                   /synonym="PURalpha"
 FT                   /synonym="Pur-a"
@@ -1846,6 +2313,9 @@ FT                   /synonym="Puralpha"
 FT                   /systematic_id="Dmel_CG1507"
 FT                   /product="Purine-rich binding protein-alpha, isoform D"
 FT                   /protein_id="AAN06499.1"
+FT   CDS             join(560280..560300,560372..560411,560471..560583,
+FT                   560718..560820,564361..564479,564541..564662,
+FT                   565410..565515,565601..565756)
 FT                   /primary_name="Pur-alpha"
 FT                   /synonym="CG1507"
 FT                   /synonym="Dmel\CG1507"
@@ -1859,6 +2329,9 @@ FT                   /synonym="Puralpha"
 FT                   /systematic_id="Dmel_CG1507"
 FT                   /product="Purine-rich binding protein-alpha, isoform G"
 FT                   /protein_id="AGB96553.1"
+FT   CDS             complement(join(568367..569056,569114..569301,
+FT                   569975..570176,570234..570343,570409..570533,
+FT                   570604..570695))
 FT                   /primary_name="ND-49"
 FT                   /synonym="Dmel\CG1970"
 FT                   /synonym="CG 1970"
@@ -1870,7 +2343,11 @@ FT                   /synonym="dNDUFS2A"
 FT                   /synonym="NDUFS2"
 FT                   /systematic_id="Dmel_CG1970"
 FT                   /product="NADH dehydrogenase (ubiquinone) 49 kDa subunit,
+FT                   isoform A"
 FT                   /protein_id="AAF59336.2"
+FT   CDS             complement(join(568367..569056,569114..569301,
+FT                   569975..570176,570234..570343,570409..570533,
+FT                   570604..570695))
 FT                   /primary_name="ND-49"
 FT                   /synonym="CG 1970"
 FT                   /synonym="Dmel\CG1970"
@@ -1882,7 +2359,10 @@ FT                   /synonym="dNDUFS2A"
 FT                   /synonym="NDUFS2"
 FT                   /systematic_id="Dmel_CG1970"
 FT                   /product="NADH dehydrogenase (ubiquinone) 49 kDa subunit,
+FT                   isoform B"
 FT                   /protein_id="AGB96554.1"
+FT   CDS             join(573749..574428,575335..575645,575702..576325,
+FT                   576979..577322)
 FT                   /primary_name="Ephrin"
 FT                   /synonym="Dmel\CG1862"
 FT                   /synonym="CG1862"
@@ -1891,6 +2371,8 @@ FT                   /synonym="lincRNA.922"
 FT                   /systematic_id="Dmel_CG1862"
 FT                   /product="ephrin, isoform B"
 FT                   /protein_id="AAF59334.2"
+FT   CDS             join(573749..574428,575335..575645,575702..576325,
+FT                   576979..577322)
 FT                   /primary_name="Ephrin"
 FT                   /synonym="Dmel\CG1862"
 FT                   /synonym="CG1862"
@@ -1899,6 +2381,8 @@ FT                   /synonym="lincRNA.922"
 FT                   /systematic_id="Dmel_CG1862"
 FT                   /product="ephrin, isoform A"
 FT                   /protein_id="AAF59335.2"
+FT   CDS             join(573749..574428,575335..575645,575702..576325,
+FT                   576979..577322)
 FT                   /primary_name="Ephrin"
 FT                   /synonym="Dmel\CG1862"
 FT                   /synonym="CG1862"
@@ -1907,16 +2391,24 @@ FT                   /synonym="lincRNA.922"
 FT                   /systematic_id="Dmel_CG1862"
 FT                   /product="ephrin, isoform C"
 FT                   /protein_id="AAN06500.1"
+FT   CDS             join(583826..583863,583936..584018,584762..584931,
+FT                   584990..585174,585298..585772,585840..585938,
+FT                   586902..587093,587843..588042,588572..588950)
 FT                   /primary_name="CG1909"
 FT                   /synonym="Dmel\CG1909"
 FT                   /systematic_id="Dmel_CG1909"
 FT                   /product="uncharacterized protein, isoform A"
 FT                   /protein_id="AAF59333.2"
+FT   CDS             join(583826..583863,583936..584018,584762..584931,
+FT                   584990..585174,585298..585772,585840..585938,
+FT                   586902..587093,587843..588042,588572..588950)
 FT                   /primary_name="CG1909"
 FT                   /synonym="Dmel\CG1909"
 FT                   /systematic_id="Dmel_CG1909"
 FT                   /product="uncharacterized protein, isoform B"
 FT                   /protein_id="AAF59332.2"
+FT   CDS             complement(join(601104..601529,601757..601935,
+FT                   603312..604252,605003..606702))
 FT                   /primary_name="onecut"
 FT                   /synonym="A1"
 FT                   /synonym="Dmel\CG1922"
@@ -1925,6 +2417,8 @@ FT                   /synonym="Onecut"
 FT                   /systematic_id="Dmel_CG1922"
 FT                   /product="onecut, isoform A"
 FT                   /protein_id="AAF59330.2"
+FT   CDS             complement(join(601104..601529,601757..601935,
+FT                   603312..604252,605003..606702))
 FT                   /primary_name="onecut"
 FT                   /synonym="A1"
 FT                   /synonym="CG1922"
@@ -1933,6 +2427,11 @@ FT                   /synonym="Onecut"
 FT                   /systematic_id="Dmel_CG1922"
 FT                   /product="onecut, isoform B"
 FT                   /protein_id="AGB96555.1"
+FT   CDS             join(611403..611655,611727..611806,613615..613795,
+FT                   613937..614422,615036..615923,616005..616181,
+FT                   617304..617351,618348..618476,618536..618631,
+FT                   618693..619063,619637..619783,619848..620177,
+FT                   620254..620358)
 FT                   /primary_name="Eph"
 FT                   /synonym="CT3831"
 FT                   /synonym="DEK"
@@ -1950,6 +2449,10 @@ FT                   /synonym="EPH"
 FT                   /systematic_id="Dmel_CG1511"
 FT                   /product="Eph receptor tyrosine kinase, isoform C"
 FT                   /protein_id="AAF59329.4"
+FT   CDS             join(611403..611655,611727..611806,613615..613795,
+FT                   613937..614422,615036..615923,616005..616181,
+FT                   618348..618476,618536..618631,618693..619063,
+FT                   619637..619783,619848..620177,620254..620358)
 FT                   /primary_name="Eph"
 FT                   /synonym="CT3831"
 FT                   /synonym="DEK"
@@ -1967,6 +2470,10 @@ FT                   /synonym="EPH"
 FT                   /systematic_id="Dmel_CG1511"
 FT                   /product="Eph receptor tyrosine kinase, isoform A"
 FT                   /protein_id="AAG22122.3"
+FT   CDS             join(611403..611655,611727..611806,613615..613795,
+FT                   613937..614422,615036..615923,616005..616181,
+FT                   618348..618476,618536..618631,618693..619063,
+FT                   619637..619783,619848..620177,620254..620358)
 FT                   /primary_name="Eph"
 FT                   /synonym="CT3831"
 FT                   /synonym="DEK"
@@ -1984,6 +2491,10 @@ FT                   /synonym="EPH"
 FT                   /systematic_id="Dmel_CG1511"
 FT                   /product="Eph receptor tyrosine kinase, isoform E"
 FT                   /protein_id="AAN06503.2"
+FT   CDS             join(611403..611655,611727..611806,613615..613795,
+FT                   613937..614422,615036..615923,616005..616181,
+FT                   617304..617351,618348..618476,618536..618631,
+FT                   618693..619063,619637..619783,619848..620234)
 FT                   /primary_name="Eph"
 FT                   /synonym="CT3831"
 FT                   /synonym="DEK"
@@ -2001,6 +2512,11 @@ FT                   /synonym="EPH"
 FT                   /systematic_id="Dmel_CG1511"
 FT                   /product="Eph receptor tyrosine kinase, isoform D"
 FT                   /protein_id="AAN06502.2"
+FT   CDS             join(611428..611438,611513..611655,611727..611806,
+FT                   613615..613795,613937..614422,615036..615923,
+FT                   616005..616181,618348..618476,618536..618631,
+FT                   618693..619063,619637..619783,619848..620177,
+FT                   620254..620358)
 FT                   /primary_name="Eph"
 FT                   /synonym="CT3831"
 FT                   /synonym="DEK"
@@ -2018,6 +2534,11 @@ FT                   /synonym="EPH"
 FT                   /systematic_id="Dmel_CG1511"
 FT                   /product="Eph receptor tyrosine kinase, isoform B"
 FT                   /protein_id="AAN06504.2"
+FT   CDS             join(611428..611438,611513..611655,611727..611806,
+FT                   613615..613795,613937..614422,615036..615923,
+FT                   616005..616181,617304..617351,618348..618476,
+FT                   618536..618631,618693..619063,619637..619783,
+FT                   619848..620107,620254)
 FT                   /primary_name="Eph"
 FT                   /synonym="CG1511"
 FT                   /synonym="CT3831"
@@ -2035,6 +2556,7 @@ FT                   /synonym="EPH"
 FT                   /systematic_id="Dmel_CG1511"
 FT                   /product="Eph receptor tyrosine kinase, isoform F"
 FT                   /protein_id="ACZ95093.1"
+FT   CDS             complement(join(623371..624663,624772..625584))
 FT                   /primary_name="mav"
 FT                   /synonym="MAV"
 FT                   /synonym="TGF-b"
@@ -2045,6 +2567,10 @@ FT                   /synonym="DmMav"
 FT                   /systematic_id="Dmel_CG1901"
 FT                   /product="maverick"
 FT                   /protein_id="AAF59328.1"
+FT   CDS             join(629836..629979,631627..631894,632028..632129,
+FT                   632208..632388,632448..632715,633329..633432,
+FT                   633491..633860,633921..634124,634177..634344,
+FT                   634410..634511)
 FT                   /primary_name="Gat"
 FT                   /synonym="anon-WO0149848.11"
 FT                   /synonym="Dmel\CG1732"
@@ -2057,6 +2583,9 @@ FT                   /synonym="GAT"
 FT                   /systematic_id="Dmel_CG1732"
 FT                   /product="GABA transporter, isoform A"
 FT                   /protein_id="AAF59327.4"
+FT   CDS             join(629836..629979,631627..631894,632028..632129,
+FT                   632208..632388,632448..632715,633329..633432,
+FT                   633491..633860,633961..634050)
 FT                   /primary_name="Gat"
 FT                   /synonym="anon-WO0149848.11"
 FT                   /synonym="Dmel\CG1732"
@@ -2069,6 +2598,11 @@ FT                   /synonym="GAT"
 FT                   /systematic_id="Dmel_CG1732"
 FT                   /product="GABA transporter, isoform B"
 FT                   /protein_id="AAN06506.2"
+FT   CDS             complement(join(636308..636618,639015..639203,
+FT                   639333..639534,639593..640048,640107..640208,
+FT                   640273..640476,640533..640736,642276..642428,
+FT                   642492..642728,643989..644155,645949..646182,
+FT                   646233..646394,646445..646520))
 FT                   /primary_name="Ekar"
 FT                   /synonym="CT36399"
 FT                   /synonym="DmelCG9935"
@@ -2078,6 +2612,11 @@ FT                   /synonym="ekar"
 FT                   /systematic_id="Dmel_CG9935"
 FT                   /product="Eye-enriched kainate receptor, isoform D"
 FT                   /protein_id="ABI29183.2"
+FT   CDS             complement(join(636308..636618,639015..639203,
+FT                   639333..639534,639593..640048,640107..640211,
+FT                   640273..640476,640533..640736,642276..642428,
+FT                   642492..642728,643989..644155,645949..646182,
+FT                   646233..646394,646445..646520))
 FT                   /primary_name="Ekar"
 FT                   /synonym="CT36399"
 FT                   /synonym="Dmel\CG9935"
@@ -2087,6 +2626,10 @@ FT                   /synonym="ekar"
 FT                   /systematic_id="Dmel_CG9935"
 FT                   /product="Eye-enriched kainate receptor, isoform B"
 FT                   /protein_id="ABI29182.1"
+FT   CDS             complement(join(639581..640048,640107..640211,
+FT                   640273..640476,640533..640736,642276..642428,
+FT                   642492..642728,643989..644155,645949..646182,
+FT                   646233..646394,646445..646520))
 FT                   /primary_name="Ekar"
 FT                   /synonym="CT36399"
 FT                   /synonym="Dmel\CG9935"
@@ -2096,6 +2639,10 @@ FT                   /synonym="ekar"
 FT                   /systematic_id="Dmel_CG9935"
 FT                   /product="Eye-enriched kainate receptor, isoform A"
 FT                   /protein_id="AAF59326.3"
+FT   CDS             complement(join(650257..651030,652305..652578,
+FT                   652646..652842,652901..653051,653870..654048,
+FT                   654505..654798,655061..655435,656216..657684,
+FT                   657902..658337))
 FT                   /primary_name="gw"
 FT                   /synonym="CG11484"
 FT                   /synonym="CG9905"
@@ -2112,6 +2659,10 @@ FT                   /synonym="Gw182"
 FT                   /systematic_id="Dmel_CG31992"
 FT                   /product="gawky, isoform J"
 FT                   /protein_id="AAX52511.2"
+FT   CDS             complement(join(650257..651030,652305..652584,
+FT                   652646..652842,652901..653051,653870..654048,
+FT                   654505..654798,655061..655435,656216..657684,
+FT                   657902..658337))
 FT                   /primary_name="gw"
 FT                   /synonym="CG11484"
 FT                   /synonym="CG9905"
@@ -2128,6 +2679,10 @@ FT                   /synonym="Gw182"
 FT                   /systematic_id="Dmel_CG31992"
 FT                   /product="gawky, isoform A"
 FT                   /protein_id="AAF59323.2"
+FT   CDS             complement(join(650257..651030,652305..652584,
+FT                   652646..652842,652901..653051,653870..654048,
+FT                   654505..654798,655061..655435,656216..657684,
+FT                   657902..658337))
 FT                   /primary_name="gw"
 FT                   /synonym="CG11484"
 FT                   /synonym="CG9905"
@@ -2144,6 +2699,10 @@ FT                   /synonym="Gw182"
 FT                   /systematic_id="Dmel_CG31992"
 FT                   /product="gawky, isoform B"
 FT                   /protein_id="AAF59322.2"
+FT   CDS             complement(join(650257..651030,652305..652584,
+FT                   652646..652842,652901..653051,653870..654048,
+FT                   654505..654798,655061..655435,656216..657684,
+FT                   657902..658337))
 FT                   /primary_name="gw"
 FT                   /synonym="CG11484"
 FT                   /synonym="CG9905"
@@ -2160,6 +2719,10 @@ FT                   /synonym="Gw182"
 FT                   /systematic_id="Dmel_CG31992"
 FT                   /product="gawky, isoform E"
 FT                   /protein_id="AAN06508.1"
+FT   CDS             complement(join(650257..651030,652305..652584,
+FT                   652646..652842,652901..653051,653870..654048,
+FT                   654505..654798,655061..655435,656216..657684,
+FT                   657902..658337))
 FT                   /primary_name="gw"
 FT                   /synonym="CG11484"
 FT                   /synonym="CG9905"
@@ -2176,21 +2739,26 @@ FT                   /synonym="Gw182"
 FT                   /systematic_id="Dmel_CG31992"
 FT                   /product="gawky, isoform F"
 FT                   /protein_id="AAN06509.1"
+FT   CDS             complement(661155..661973)
 FT                   /primary_name="CG46466"
 FT                   /synonym="Dmel\CG46466"
 FT                   /systematic_id="Dmel_CG46466"
 FT                   /product="uncharacterized protein, isoform A"
 FT                   /protein_id="QJC18378.1"
+FT   CDS             complement(661155..661973)
 FT                   /primary_name="CG46466"
 FT                   /synonym="Dmel\CG46466"
 FT                   /systematic_id="Dmel_CG46466"
 FT                   /product="uncharacterized protein, isoform B"
 FT                   /protein_id="QJC18379.1"
+FT   CDS             complement(661155..661973)
 FT                   /primary_name="CG46466"
 FT                   /synonym="Dmel\CG46466"
 FT                   /systematic_id="Dmel_CG46466"
 FT                   /product="uncharacterized protein, isoform C"
 FT                   /protein_id="QJC18380.1"
+FT   CDS             join(663701..663742,663855..664340,664988..665305,
+FT                   665951..666932,668420..668574,669130..669450)
 FT                   /primary_name="Slip1"
 FT                   /synonym="dSLIP1"
 FT                   /synonym="Dmel\CG1783"
@@ -2198,6 +2766,8 @@ FT                   /synonym="CG1783"
 FT                   /systematic_id="Dmel_CG1783"
 FT                   /product="SLo interacting protein 1, isoform A"
 FT                   /protein_id="AAF59321.1"
+FT   CDS             join(663701..663742,663855..664340,665951..666932,
+FT                   668420..668574,669130..669450)
 FT                   /primary_name="Slip1"
 FT                   /synonym="CG1783"
 FT                   /synonym="Dmel\CG1783"
@@ -2205,6 +2775,8 @@ FT                   /synonym="dSLIP1"
 FT                   /systematic_id="Dmel_CG1783"
 FT                   /product="SLo interacting protein 1, isoform B"
 FT                   /protein_id="AGB96556.1"
+FT   CDS             join(663701..663742,663855..664340,664988..665305,
+FT                   665951..666932,669130..669185)
 FT                   /primary_name="Slip1"
 FT                   /synonym="CG1783"
 FT                   /synonym="Dmel\CG1783"
@@ -2212,30 +2784,36 @@ FT                   /synonym="dSLIP1"
 FT                   /systematic_id="Dmel_CG1783"
 FT                   /product="SLo interacting protein 1, isoform C"
 FT                   /protein_id="AGB96557.1"
+FT   CDS             join(680709..681135,684581..686040)
 FT                   /primary_name="CG11360"
 FT                   /synonym="cg11360"
 FT                   /synonym="Dmel\CG11360"
 FT                   /systematic_id="Dmel_CG11360"
 FT                   /product="uncharacterized protein, isoform C"
 FT                   /protein_id="AGB96558.1"
+FT   CDS             join(680709..681135,684581..686040)
 FT                   /primary_name="CG11360"
 FT                   /synonym="cg11360"
 FT                   /synonym="Dmel\CG11360"
 FT                   /systematic_id="Dmel_CG11360"
 FT                   /product="uncharacterized protein, isoform D"
 FT                   /protein_id="AGB96559.1"
+FT   CDS             join(680709..681135,684581..686040)
 FT                   /primary_name="CG11360"
 FT                   /synonym="cg11360"
 FT                   /synonym="Dmel\CG11360"
 FT                   /systematic_id="Dmel_CG11360"
 FT                   /product="uncharacterized protein, isoform E"
 FT                   /protein_id="AGB96560.1"
+FT   CDS             join(680709..681135,684581..686040)
 FT                   /primary_name="CG11360"
 FT                   /synonym="cg11360"
 FT                   /synonym="Dmel\CG11360"
 FT                   /systematic_id="Dmel_CG11360"
 FT                   /product="uncharacterized protein, isoform A"
 FT                   /protein_id="AAF59320.2"
+FT   CDS             complement(join(691991..692359,692425..692843,
+FT                   693381..694389))
 FT                   /primary_name="myo"
 FT                   /synonym="BcDNA:LD02307"
 FT                   /synonym="MYO"
@@ -2248,6 +2826,8 @@ FT                   /synonym="DmMyo"
 FT                   /systematic_id="Dmel_CG1838"
 FT                   /product="myoglianin, isoform C"
 FT                   /protein_id="AAN06511.1"
+FT   CDS             complement(join(691991..692359,692425..692843,
+FT                   693381..694389))
 FT                   /primary_name="myo"
 FT                   /synonym="BcDNA:LD02307"
 FT                   /synonym="MYO"
@@ -2260,6 +2840,8 @@ FT                   /synonym="DmMyo"
 FT                   /systematic_id="Dmel_CG1838"
 FT                   /product="myoglianin, isoform D"
 FT                   /protein_id="AAN06512.1"
+FT   CDS             complement(join(691991..692359,692425..692843,
+FT                   693381..694389))
 FT                   /primary_name="myo"
 FT                   /synonym="BcDNA:LD02307"
 FT                   /synonym="MYO"
@@ -2272,6 +2854,9 @@ FT                   /synonym="DmMyo"
 FT                   /systematic_id="Dmel_CG1838"
 FT                   /product="myoglianin, isoform A"
 FT                   /protein_id="AAF59319.1"
+FT   CDS             join(705165..705273,707492..707671,710917..711082,
+FT                   712493..712673,713858..714512,717127..717300,
+FT                   717654..717929,719274..719628,720322..720922)
 FT                   /primary_name="ey"
 FT                   /synonym="DPax-6"
 FT                   /synonym="EY"
@@ -2292,6 +2877,9 @@ FT                   /synonym="Pax6/ey"
 FT                   /systematic_id="Dmel_CG1464"
 FT                   /product="eyeless, isoform D"
 FT                   /protein_id="AAX52512.1"
+FT   CDS             join(705165..705273,710917..711082,712493..712673,
+FT                   713858..714512,717127..717300,717654..717929,
+FT                   719274..719628,720322..720922)
 FT                   /primary_name="ey"
 FT                   /synonym="DPax-6"
 FT                   /synonym="EY"
@@ -2312,6 +2900,9 @@ FT                   /synonym="Pax6/ey"
 FT                   /systematic_id="Dmel_CG1464"
 FT                   /product="eyeless, isoform A"
 FT                   /protein_id="AAF59318.1"
+FT   CDS             join(707506..707671,710917..711082,712493..712673,
+FT                   713858..714512,717127..717300,717654..717929,
+FT                   719274..719628,720322..720922)
 FT                   /primary_name="ey"
 FT                   /synonym="DPax-6"
 FT                   /synonym="EY"
@@ -2332,6 +2923,8 @@ FT                   /synonym="Pax6/ey"
 FT                   /systematic_id="Dmel_CG1464"
 FT                   /product="eyeless, isoform C"
 FT                   /protein_id="AAX52513.1"
+FT   CDS             join(714044..714512,717127..717300,717654..717929,
+FT                   719274..719628,720322..720922)
 FT                   /primary_name="ey"
 FT                   /synonym="DPax-6"
 FT                   /synonym="EY"
@@ -2352,6 +2945,21 @@ FT                   /synonym="Pax6/ey"
 FT                   /systematic_id="Dmel_CG1464"
 FT                   /product="eyeless, isoform B"
 FT                   /protein_id="AAN06513.1"
+FT   CDS             join(725717..726029,726662..726683,727461..727623,
+FT                   728104..728245,728673..728814,729002..729202,
+FT                   729274..729575,730777..731000,731063..731465,
+FT                   731560..732233,733217..733564,733920..733964,
+FT                   734279..734401,734478..734537,734714..734812,
+FT                   735515..735823,735905..736030,736149..736187,
+FT                   736339..736515,736819..737046,737736..737909,
+FT                   738953..738988,739949..739981,742403..742550,
+FT                   742788..743161,745166..745291,745372..746071,
+FT                   746476..746829,747307..749019,750570..751469,
+FT                   752177..752940,753025..753160,753338..754228,
+FT                   754287..756959,757521..757802,757865..758164,
+FT                   758220..767690,767762..768740,768804..769145,
+FT                   770553..771595,772403..772459,774017..774117,
+FT                   774185..774311,774377..774679,774915..775549)
 FT                   /primary_name="bt"
 FT                   /synonym="39c-18"
 FT                   /synonym="CG10285"
@@ -2376,6 +2984,20 @@ FT                   /synonym="projectin"
 FT                   /systematic_id="Dmel_CG32019"
 FT                   /product="bent, isoform F"
 FT                   /protein_id="ACZ95094.1"
+FT   CDS             join(725717..726029,726662..726683,727461..727623,
+FT                   728104..728245,730777..731000,731063..731465,
+FT                   731560..732233,733217..733564,733920..733964,
+FT                   734279..734401,734478..734537,734714..734812,
+FT                   735515..735823,735905..736030,736149..736187,
+FT                   736819..737046,737736..737909,738953..738988,
+FT                   742403..742550,742788..743161,745166..745291,
+FT                   745372..746071,746476..746829,747307..749019,
+FT                   750570..751469,752177..752940,753025..753160,
+FT                   753338..754228,754287..756959,757521..757802,
+FT                   757865..758164,758220..767690,767762..768740,
+FT                   768804..769145,770553..771595,772403..772459,
+FT                   774017..774117,774185..774311,774377..774679,
+FT                   774915..775549)
 FT                   /primary_name="bt"
 FT                   /synonym="39c-18"
 FT                   /synonym="CG10285"
@@ -2400,6 +3022,20 @@ FT                   /synonym="projectin"
 FT                   /systematic_id="Dmel_CG32019"
 FT                   /product="bent, isoform C"
 FT                   /protein_id="AAS64600.1"
+FT   CDS             join(725717..726029,726662..726683,727461..727623,
+FT                   728104..728245,730777..731000,731063..731465,
+FT                   731560..732233,733920..733964,734279..734401,
+FT                   734478..734537,734714..734812,735515..735823,
+FT                   735905..736030,736149..736187,736339..736515,
+FT                   736819..737046,737736..737909,738953..738988,
+FT                   739949..739981,742403..742550,742788..743161,
+FT                   745166..745291,745372..746071,746476..746829,
+FT                   747307..749019,750570..751469,752177..752940,
+FT                   753025..753160,753338..754228,754287..756959,
+FT                   757521..757802,757865..758164,758220..767690,
+FT                   767762..768740,768804..769145,770553..771595,
+FT                   772403..772459,774017..774117,774185..774311,
+FT                   774377..774679,774915..775549)
 FT                   /primary_name="bt"
 FT                   /synonym="39c-18"
 FT                   /synonym="Bt"
@@ -2424,6 +3060,21 @@ FT                   /synonym="titin"
 FT                   /systematic_id="Dmel_CG32019"
 FT                   /product="bent, isoform J"
 FT                   /protein_id="AHN58217.1"
+FT   CDS             join(725717..726029,726932..726962,727461..727623,
+FT                   728104..728245,728673..728814,729002..729202,
+FT                   729274..729575,730777..731000,731063..731465,
+FT                   731560..732233,733217..733564,733920..733964,
+FT                   734279..734401,734478..734537,734714..734812,
+FT                   735515..735823,735905..736030,736149..736187,
+FT                   736819..737046,737736..737909,738953..738988,
+FT                   742403..742550,742788..743161,745166..745291,
+FT                   745372..746071,746476..746829,747307..749019,
+FT                   750570..751469,752177..752940,753025..753160,
+FT                   753338..754228,754287..756959,757521..757802,
+FT                   757865..758164,758220..767690,767762..768740,
+FT                   768804..769145,770553..771595,772403..772459,
+FT                   774017..774117,774185..774311,774377..774679,
+FT                   774915..775549)
 FT                   /primary_name="bt"
 FT                   /synonym="39c-18"
 FT                   /synonym="Bt"
@@ -2448,6 +3099,18 @@ FT                   /synonym="projectin"
 FT                   /systematic_id="Dmel_CG32019"
 FT                   /product="bent, isoform I"
 FT                   /protein_id="AGB96562.1"
+FT   CDS             join(725717..726029,726932..726962,727461..727623,
+FT                   728104..728245,730777..731000,731063..731465,
+FT                   731560..732233,733920..733964,734279..734401,
+FT                   734478..734537,735515..735823,735905..736030,
+FT                   737736..737909,742403..742550,742788..743161,
+FT                   743525..743602,745166..745291,745372..746071,
+FT                   746476..746829,747307..749019,750570..751469,
+FT                   752177..752940,753025..753160,753338..754228,
+FT                   754287..756959,757521..757802,757865..758164,
+FT                   758220..767690,767762..768740,768804..769145,
+FT                   770553..771595,774017..774117,774185..774311,
+FT                   774377..774679,774915..775549)
 FT                   /primary_name="bt"
 FT                   /synonym="39c-18"
 FT                   /synonym="Bt"
@@ -2472,6 +3135,8 @@ FT                   /synonym="projectin"
 FT                   /systematic_id="Dmel_CG32019"
 FT                   /product="bent, isoform H"
 FT                   /protein_id="AGB96561.1"
+FT   CDS             complement(join(778827..781669,783174..783245,
+FT                   783302..783937,786192..787026,787081..787146))
 FT                   /primary_name="MED26"
 FT                   /synonym="Arc70"
 FT                   /synonym="CG1823"
@@ -2484,6 +3149,8 @@ FT                   /synonym="med26"
 FT                   /systematic_id="Dmel_CG1793"
 FT                   /product="mediator complex subunit 26, isoform A"
 FT                   /protein_id="AAF59314.2"
+FT   CDS             complement(join(778827..781669,783174..783245,
+FT                   783302..783937,786192..787026,787081..787146))
 FT                   /primary_name="MED26"
 FT                   /synonym="Arc70"
 FT                   /synonym="CG1823"
@@ -2496,6 +3163,8 @@ FT                   /synonym="med26"
 FT                   /systematic_id="Dmel_CG1793"
 FT                   /product="mediator complex subunit 26, isoform B"
 FT                   /protein_id="AAF59315.2"
+FT   CDS             complement(join(801283..802110,802398..803327,
+FT                   823501..823599))
 FT                   /primary_name="Sox102F"
 FT                   /synonym="SOX102D"
 FT                   /synonym="SOXD"
@@ -2508,6 +3177,7 @@ FT                   /synonym="SOX102F"
 FT                   /systematic_id="Dmel_CG11153"
 FT                   /product="Sox102F, isoform B"
 FT                   /protein_id="AAX52518.1"
+FT   CDS             complement(join(801283..802110,802398..803312))
 FT                   /primary_name="Sox102F"
 FT                   /synonym="CG11153"
 FT                   /synonym="Dmel\CG11153"
@@ -2520,6 +3190,7 @@ FT                   /synonym="SOX102F"
 FT                   /systematic_id="Dmel_CG11153"
 FT                   /product="Sox102F, isoform C"
 FT                   /protein_id="AGB96563.1"
+FT   CDS             complement(join(801283..802110,802398..803312))
 FT                   /primary_name="Sox102F"
 FT                   /synonym="CG11153"
 FT                   /synonym="Dmel\CG11153"
@@ -2532,6 +3203,7 @@ FT                   /synonym="SOX102F"
 FT                   /systematic_id="Dmel_CG11153"
 FT                   /product="Sox102F, isoform D"
 FT                   /protein_id="AGB96564.1"
+FT   CDS             complement(join(801283..802110,802398..803312))
 FT                   /primary_name="Sox102F"
 FT                   /synonym="SOX102D"
 FT                   /synonym="SOXD"
@@ -2544,6 +3216,7 @@ FT                   /synonym="SOX102F"
 FT                   /systematic_id="Dmel_CG11153"
 FT                   /product="Sox102F, isoform A"
 FT                   /protein_id="AAF59408.1"
+FT   CDS             complement(837209..839008)
 FT                   /primary_name="fd102C"
 FT                   /synonym="Dmcg11152"
 FT                   /synonym="Dmel\CG11152"
@@ -2553,6 +3226,9 @@ FT                   /synonym="FoxQ2"
 FT                   /systematic_id="Dmel_CG11152"
 FT                   /product="forkhead domain 102C"
 FT                   /protein_id="AAF59407.1"
+FT   CDS             complement(join(855510..855635,855686..855840,
+FT                   860307..860381,860440..861387,861793..864411,
+FT                   865348..865642,865702..865851,865931..866266))
 FT                   /primary_name="Gyf"
 FT                   /synonym="Dmel\CG11148"
 FT                   /synonym="CG11148"
@@ -2560,6 +3236,9 @@ FT                   /synonym="GIGYF2"
 FT                   /systematic_id="Dmel_CG11148"
 FT                   /product="gigyf, isoform D"
 FT                   /protein_id="AAF59406.3"
+FT   CDS             complement(join(855510..855635,855686..855840,
+FT                   860307..860381,860440..861387,861793..864411,
+FT                   865348..865642,865702..865851,865931..866266))
 FT                   /primary_name="Gyf"
 FT                   /synonym="Dmel\CG11148"
 FT                   /synonym="CG11148"
@@ -2567,6 +3246,9 @@ FT                   /synonym="GIGYF2"
 FT                   /systematic_id="Dmel_CG11148"
 FT                   /product="gigyf, isoform F"
 FT                   /protein_id="AAS64612.2"
+FT   CDS             complement(join(855510..855635,855686..855840,
+FT                   860307..860381,860440..861387,861793..864411,
+FT                   865348..865642,865702..865872,865931..866266))
 FT                   /primary_name="Gyf"
 FT                   /synonym="Dmel\CG11148"
 FT                   /synonym="CG11148"
@@ -2574,6 +3256,9 @@ FT                   /synonym="GIGYF2"
 FT                   /systematic_id="Dmel_CG11148"
 FT                   /product="gigyf, isoform G"
 FT                   /protein_id="ACZ95096.1"
+FT   CDS             complement(join(855510..855635,855686..855840,
+FT                   860307..860381,860440..861387,861793..864411,
+FT                   865348..865642,865702..865872,865931..866266))
 FT                   /primary_name="Gyf"
 FT                   /synonym="Dmel\CG11148"
 FT                   /synonym="CG11148"
@@ -2581,6 +3266,15 @@ FT                   /synonym="GIGYF2"
 FT                   /systematic_id="Dmel_CG11148"
 FT                   /product="gigyf, isoform H"
 FT                   /protein_id="ACZ95097.1"
+FT   CDS             complement(join(871493..871654,871720..871846,
+FT                   871912..872074,872127..872225,873214..873571,
+FT                   873635..873926,873994..874160,874246..874467,
+FT                   875203..875484,875543..875710,876114..876239,
+FT                   876296..876454,876517..876789,876870..877194,
+FT                   882961..883081,883143..883362,883567..883641,
+FT                   884046..884120,885454..885462,885760..885891,
+FT                   898393..902234,902307..902582,902826..903282,
+FT                   903337..903342))
 FT                   /primary_name="unc-13"
 FT                   /synonym="CG2999"
 FT                   /synonym="Dmel\CG2999"
@@ -2607,6 +3301,14 @@ FT                   /synonym="unc13A"
 FT                   /systematic_id="Dmel_CG2999"
 FT                   /product="unc-13, isoform F"
 FT                   /protein_id="AGB96565.1"
+FT   CDS             complement(join(871493..871654,871720..871846,
+FT                   871912..872074,872127..872225,873214..873571,
+FT                   873635..873926,873994..874160,874246..874467,
+FT                   875203..875484,875543..875710,876114..876239,
+FT                   876296..876454,876517..876789,876870..877194,
+FT                   878851..878992,881843..881949,882961..883081,
+FT                   883143..883362,883567..883641,885760..885891,
+FT                   898393..903282,903337..903342))
 FT                   /primary_name="unc-13"
 FT                   /synonym="DUNC-13"
 FT                   /synonym="Dunc13"
@@ -2633,6 +3335,14 @@ FT                   /synonym="unc13A"
 FT                   /systematic_id="Dmel_CG2999"
 FT                   /product="unc-13, isoform A"
 FT                   /protein_id="AAN06592.1"
+FT   CDS             complement(join(871493..871654,871720..871846,
+FT                   871912..872074,872127..872225,873214..873571,
+FT                   873635..873926,873994..874160,874246..874467,
+FT                   875203..875484,875543..875710,876114..876239,
+FT                   876296..876454,876517..876789,876870..877194,
+FT                   878851..878992,881843..881949,882961..883081,
+FT                   883143..883362,883567..883641,885760..885891,
+FT                   898393..903282,903337..903342))
 FT                   /primary_name="unc-13"
 FT                   /synonym="CG2999"
 FT                   /synonym="Dmel\CG2999"
@@ -2659,6 +3369,14 @@ FT                   /synonym="unc13A"
 FT                   /systematic_id="Dmel_CG2999"
 FT                   /product="unc-13, isoform D"
 FT                   /protein_id="AFH06786.1"
+FT   CDS             complement(join(871493..871654,871720..871846,
+FT                   871912..872074,872127..872225,873214..873571,
+FT                   873635..873926,873994..874160,874246..874467,
+FT                   875203..875484,875543..875710,876114..876239,
+FT                   876296..876454,876517..876789,876870..877194,
+FT                   878851..878992,882617..882723,882961..883081,
+FT                   883143..883362,883567..883641,885760..885891,
+FT                   898393..903282,903337..903342))
 FT                   /primary_name="unc-13"
 FT                   /synonym="CG2999"
 FT                   /synonym="Dmel\CG2999"
@@ -2685,6 +3403,14 @@ FT                   /synonym="unc13A"
 FT                   /systematic_id="Dmel_CG2999"
 FT                   /product="unc-13, isoform G"
 FT                   /protein_id="AHN58218.1"
+FT   CDS             complement(join(871493..871654,871720..871846,
+FT                   871912..872074,872127..872225,873214..873571,
+FT                   873635..873926,873994..874160,874246..874467,
+FT                   875203..875484,875543..875710,876114..876239,
+FT                   876296..876454,876517..876789,876870..877194,
+FT                   878851..878992,882617..882723,882961..883081,
+FT                   883143..883362,883567..883641,885454..885462,
+FT                   885760..885891,898393..903282,903337..903342))
 FT                   /primary_name="unc-13"
 FT                   /synonym="DUNC-13"
 FT                   /synonym="Dunc13"
@@ -2711,6 +3437,14 @@ FT                   /synonym="unc13A"
 FT                   /systematic_id="Dmel_CG2999"
 FT                   /product="unc-13, isoform C"
 FT                   /protein_id="AAF59405.4"
+FT   CDS             complement(join(871493..871654,871720..871846,
+FT                   871912..872074,872127..872225,873214..873571,
+FT                   873635..873926,873994..874160,874246..874467,
+FT                   875203..875484,875543..875710,876114..876239,
+FT                   876296..876454,876517..876789,876870..877194,
+FT                   878851..878992,882617..882723,882961..883081,
+FT                   883143..883362,883567..883641,885760..885891,
+FT                   886965..892796))
 FT                   /primary_name="unc-13"
 FT                   /synonym="DUNC-13"
 FT                   /synonym="Dunc13"
@@ -2737,6 +3471,14 @@ FT                   /synonym="unc13A"
 FT                   /systematic_id="Dmel_CG2999"
 FT                   /product="unc-13, isoform B"
 FT                   /protein_id="AAN06593.1"
+FT   CDS             complement(join(871493..871654,871720..871846,
+FT                   871912..872074,872127..872225,873214..873571,
+FT                   873635..873926,873994..874160,874246..874467,
+FT                   875203..875484,875543..875710,876114..876239,
+FT                   876296..876454,876517..876789,876870..877194,
+FT                   878851..878992,882617..882723,882961..883081,
+FT                   883143..883362,883567..883641,885454..885462,
+FT                   885760..885891,886965..892796))
 FT                   /primary_name="unc-13"
 FT                   /synonym="CG2999"
 FT                   /synonym="Dmel\CG2999"
@@ -2763,6 +3505,11 @@ FT                   /synonym="unc13A"
 FT                   /systematic_id="Dmel_CG2999"
 FT                   /product="unc-13, isoform E"
 FT                   /protein_id="AFH06787.1"
+FT   CDS             complement(join(915492..915553,915617..915718,
+FT                   915837..916059,916121..916267,916867..917090,
+FT                   917275..917743,918324..918481,918536..918776,
+FT                   918903..921199,925083..925138,925575..925686,
+FT                   925768..925948,926011..926661,929822..929899))
 FT                   /primary_name="eIF4G1"
 FT                   /synonym="Eif4G"
 FT                   /synonym="deIF4G"
@@ -2777,7 +3524,13 @@ FT                   /synonym="EIF4G1"
 FT                   /synonym="eiF-4G"
 FT                   /systematic_id="Dmel_CG10811"
 FT                   /product="eukaryotic translation initiation factor 4G1,
+FT                   isoform A"
 FT                   /protein_id="AAF59403.3"
+FT   CDS             complement(join(915492..915553,915617..915718,
+FT                   915837..916059,916121..916267,916867..917090,
+FT                   917275..917743,918324..918481,918536..918776,
+FT                   918903..921199,925083..925138,925575..925686,
+FT                   925768..925948,926011..926661,929822..929899))
 FT                   /primary_name="eIF4G1"
 FT                   /synonym="Eif4G"
 FT                   /synonym="deIF4G"
@@ -2792,7 +3545,14 @@ FT                   /synonym="EIF4G1"
 FT                   /synonym="eiF-4G"
 FT                   /systematic_id="Dmel_CG10811"
 FT                   /product="eukaryotic translation initiation factor 4G1,
+FT                   isoform C"
 FT                   /protein_id="ACL82868.1"
+FT   CDS             complement(join(915492..915553,915617..915718,
+FT                   915837..916059,916121..916267,916867..917090,
+FT                   917275..917743,918324..918481,918536..918776,
+FT                   918903..921199,925083..925138,925575..925686,
+FT                   925768..925948,926011..926661,927393..928151,
+FT                   929822..929899))
 FT                   /primary_name="eIF4G1"
 FT                   /synonym="Eif4G"
 FT                   /synonym="deIF4G"
@@ -2807,7 +3567,11 @@ FT                   /synonym="EIF4G1"
 FT                   /synonym="eiF-4G"
 FT                   /systematic_id="Dmel_CG10811"
 FT                   /product="eukaryotic translation initiation factor 4G1,
+FT                   isoform B"
 FT                   /protein_id="ABV53593.1"
+FT   CDS             join(938430..939117,940174..940717,942767..943020,
+FT                   943103..943209,943548..943673,943734..944253,
+FT                   944306..944601,946225..946620)
 FT                   /primary_name="mGluR"
 FT                   /synonym="CAA67993.1_Dr"
 FT                   /synonym="CG11144"
@@ -2830,6 +3594,9 @@ FT                   /synonym="mGlurA"
 FT                   /systematic_id="Dmel_CG11144"
 FT                   /product="metabotropic glutamate receptor, isoform B"
 FT                   /protein_id="AGB96566.1"
+FT   CDS             join(938430..939117,940174..940717,942767..943020,
+FT                   943103..943209,943548..943673,943734..944253,
+FT                   944306..944601,946225..946620)
 FT                   /primary_name="mGluR"
 FT                   /synonym="CAA67993.1_Dr"
 FT                   /synonym="DmGlu-A"
@@ -2852,6 +3619,8 @@ FT                   /synonym="mGlurA"
 FT                   /systematic_id="Dmel_CG11144"
 FT                   /product="metabotropic glutamate receptor, isoform A"
 FT                   /protein_id="AAF59402.1"
+FT   CDS             join(938430..939117,940174..940717,942767..943020,
+FT                   943103..943218)
 FT                   /primary_name="mGluR"
 FT                   /synonym="CAA67993.1_Dr"
 FT                   /synonym="CG11144"
@@ -2874,6 +3643,7 @@ FT                   /synonym="mGlurA"
 FT                   /systematic_id="Dmel_CG11144"
 FT                   /product="metabotropic glutamate receptor, isoform C"
 FT                   /protein_id="AGB96567.1"
+FT   CDS             join(938430..939117,942767..943005)
 FT                   /primary_name="mGluR"
 FT                   /synonym="CAA67993.1_Dr"
 FT                   /synonym="CG11144"
@@ -2896,6 +3666,9 @@ FT                   /synonym="mGlurA"
 FT                   /systematic_id="Dmel_CG11144"
 FT                   /product="metabotropic glutamate receptor, isoform D"
 FT                   /protein_id="AHN58219.1"
+FT   CDS             complement(join(951839..952077,952138..952461,
+FT                   953513..953806,954020..954226,954489..954863,
+FT                   954921..955050,956545..957889,958006..958031))
 FT                   /primary_name="4E-T"
 FT                   /synonym="CG11097"
 FT                   /synonym="CG11232"
@@ -2905,6 +3678,9 @@ FT                   /synonym="Dm4E-T"
 FT                   /systematic_id="Dmel_CG32016"
 FT                   /product="eIF4E-Transporter, isoform H"
 FT                   /protein_id="AGB96568.1"
+FT   CDS             complement(join(951839..952077,952138..952461,
+FT                   953513..953899,954020..954226,954489..954863,
+FT                   954921..955050,956545..957889,958006..958031))
 FT                   /primary_name="4E-T"
 FT                   /synonym="CG11097"
 FT                   /synonym="CG11232"
@@ -2914,6 +3690,9 @@ FT                   /synonym="Dm4E-T"
 FT                   /systematic_id="Dmel_CG32016"
 FT                   /product="eIF4E-Transporter, isoform B"
 FT                   /protein_id="AAF59400.3"
+FT   CDS             complement(join(951839..952077,952138..952461,
+FT                   953513..953899,954020..954226,954489..954863,
+FT                   954921..955050,956545..957889,958006..958031))
 FT                   /primary_name="4E-T"
 FT                   /synonym="CG11097"
 FT                   /synonym="CG11232"
@@ -2923,6 +3702,9 @@ FT                   /synonym="Dm4E-T"
 FT                   /systematic_id="Dmel_CG32016"
 FT                   /product="eIF4E-Transporter, isoform C"
 FT                   /protein_id="AAF59399.3"
+FT   CDS             complement(join(951839..952077,952138..952461,
+FT                   953513..953899,954020..954226,954489..954863,
+FT                   954921..955050,956545..957889,958006..958031))
 FT                   /primary_name="4E-T"
 FT                   /synonym="CG11097"
 FT                   /synonym="CG11232"
@@ -2932,6 +3714,8 @@ FT                   /synonym="Dm4E-T"
 FT                   /systematic_id="Dmel_CG32016"
 FT                   /product="eIF4E-Transporter, isoform G"
 FT                   /protein_id="AAF59398.4"
+FT   CDS             complement(join(962375..962728,963721..964118,
+FT                   964172..965639,972038..972130))
 FT                   /primary_name="fuss"
 FT                   /synonym="Dmel\CG11093"
 FT                   /synonym="CG11093"
@@ -2940,6 +3724,8 @@ FT                   /synonym="dCORL"
 FT                   /systematic_id="Dmel_CG11093"
 FT                   /product="fussel, isoform B"
 FT                   /protein_id="ACZ95098.1"
+FT   CDS             complement(join(962375..962728,963721..964118,
+FT                   964172..965639,972038..972130))
 FT                   /primary_name="fuss"
 FT                   /synonym="CG11093"
 FT                   /synonym="Dmel\CG11093"
@@ -2948,6 +3734,8 @@ FT                   /synonym="dCORL"
 FT                   /systematic_id="Dmel_CG11093"
 FT                   /product="fussel, isoform D"
 FT                   /protein_id="AGB96569.1"
+FT   CDS             complement(join(962375..962728,963721..964118,
+FT                   964172..965639,968927..969001))
 FT                   /primary_name="fuss"
 FT                   /synonym="Dmel\CG11093"
 FT                   /synonym="CG11093"
@@ -2956,6 +3744,9 @@ FT                   /synonym="dCORL"
 FT                   /systematic_id="Dmel_CG11093"
 FT                   /product="fussel, isoform C"
 FT                   /protein_id="ACZ95099.1"
+FT   CDS             join(990252..990502,992066..992246,996512..996749,
+FT                   997707..997883,998623..998705,1004158..1004412,
+FT                   1004470..1004618,1005807..1006009,1006066..1006496)
 FT                   /primary_name="toy"
 FT                   /synonym="CG11186"
 FT                   /synonym="Dmel\CG11186"
@@ -2967,6 +3758,9 @@ FT                   /synonym="TOY"
 FT                   /systematic_id="Dmel_CG11186"
 FT                   /product="twin of eyeless, isoform D"
 FT                   /protein_id="QJC18381.1"
+FT   CDS             join(990252..990502,992066..992246,996512..996749,
+FT                   997707..997883,998623..998705,1004158..1004412,
+FT                   1004470..1004618,1005807..1006009,1006066..1006160)
 FT                   /primary_name="toy"
 FT                   /synonym="Pax-6"
 FT                   /synonym="Toy"
@@ -2978,6 +3772,9 @@ FT                   /synonym="TOY"
 FT                   /systematic_id="Dmel_CG11186"
 FT                   /product="twin of eyeless, isoform A"
 FT                   /protein_id="AAF59395.4"
+FT   CDS             join(990252..990502,992066..992246,996512..996749,
+FT                   997707..997883,998623..998693,1004158..1004373,
+FT                   1004470..1004618,1005807..1006009,1006066..1006160)
 FT                   /primary_name="toy"
 FT                   /synonym="CG11186"
 FT                   /synonym="Dmel\CG11186"
@@ -2989,6 +3786,9 @@ FT                   /synonym="TOY"
 FT                   /systematic_id="Dmel_CG11186"
 FT                   /product="twin of eyeless, isoform C"
 FT                   /protein_id="AGB96570.1"
+FT   CDS             complement(join(1014359..1014526,1014583..1014728,
+FT                   1014778..1014908,1014966..1015301,1015425..1015620,
+FT                   1016376..1018709,1018770..1020015,1022242..1023471))
 FT                   /primary_name="PlexA"
 FT                   /synonym="BcDNA:GM05237"
 FT                   /synonym="CG11081"
@@ -3006,6 +3806,9 @@ FT                   /synonym="Plexa"
 FT                   /systematic_id="Dmel_CG11081"
 FT                   /product="plexin A, isoform F"
 FT                   /protein_id="AFH06788.1"
+FT   CDS             complement(join(1014359..1014526,1014583..1014728,
+FT                   1014778..1014908,1014966..1015352,1015425..1015620,
+FT                   1016376..1018709,1018770..1020015,1022242..1023471))
 FT                   /primary_name="PlexA"
 FT                   /synonym="BcDNA:GM05237"
 FT                   /synonym="D-Plex A"
@@ -3023,6 +3826,9 @@ FT                   /synonym="Plexa"
 FT                   /systematic_id="Dmel_CG11081"
 FT                   /product="plexin A, isoform A"
 FT                   /protein_id="AAF59394.1"
+FT   CDS             complement(join(1014359..1014526,1014583..1014728,
+FT                   1014778..1014908,1014966..1015352,1015425..1015620,
+FT                   1016376..1018709,1018770..1019925))
 FT                   /primary_name="PlexA"
 FT                   /synonym="BcDNA:GM05237"
 FT                   /synonym="D-Plex A"
@@ -3040,6 +3846,9 @@ FT                   /synonym="Plexa"
 FT                   /systematic_id="Dmel_CG11081"
 FT                   /product="plexin A, isoform B"
 FT                   /protein_id="AAN06563.1"
+FT   CDS             complement(join(1014359..1014526,1014583..1014728,
+FT                   1014778..1014908,1014966..1015352,1015425..1015620,
+FT                   1016376..1018709,1018770..1019925))
 FT                   /primary_name="PlexA"
 FT                   /synonym="BcDNA:GM05237"
 FT                   /synonym="D-Plex A"
@@ -3057,6 +3866,7 @@ FT                   /synonym="Plexa"
 FT                   /systematic_id="Dmel_CG11081"
 FT                   /product="plexin A, isoform C"
 FT                   /protein_id="AAN06564.1"
+FT   CDS             complement(1028743..1029249)
 FT                   /primary_name="Mpv17"
 FT                   /synonym="Dmel\CG11077"
 FT                   /synonym="MPV17"
@@ -3066,21 +3876,25 @@ FT                   /synonym="dMpv17"
 FT                   /systematic_id="Dmel_CG11077"
 FT                   /product="mitochondrial inner membrane protein MPV17"
 FT                   /protein_id="AAF59393.1"
+FT   CDS             complement(1029971..1030810)
 FT                   /primary_name="CG11076"
 FT                   /synonym="Dmel\CG11076"
 FT                   /systematic_id="Dmel_CG11076"
 FT                   /product="uncharacterized protein, isoform A"
 FT                   /protein_id="AAF59392.3"
+FT   CDS             complement(1029971..1030753)
 FT                   /primary_name="CG11076"
 FT                   /synonym="Dmel\CG11076"
 FT                   /systematic_id="Dmel_CG11076"
 FT                   /product="uncharacterized protein, isoform D"
 FT                   /protein_id="AAN06566.2"
+FT   CDS             complement(1029971..1030753)
 FT                   /primary_name="CG11076"
 FT                   /synonym="Dmel\CG11076"
 FT                   /systematic_id="Dmel_CG11076"
 FT                   /product="uncharacterized protein, isoform E"
 FT                   /protein_id="AFH06789.2"
+FT   CDS             join(1031890..1031953,1032889..1033218,1033272..1034413)
 FT                   /primary_name="ATPsynbeta"
 FT                   /synonym="ATP"
 FT                   /synonym="ATP-syn-B"
@@ -3108,6 +3922,7 @@ FT                   /synonym="ATP5F1B"
 FT                   /systematic_id="Dmel_CG11154"
 FT                   /product="ATP synthase, beta subunit, isoform C"
 FT                   /protein_id="AGB96571.1"
+FT   CDS             join(1031890..1031953,1032907..1033218,1033272..1034413)
 FT                   /primary_name="ATPsynbeta"
 FT                   /synonym="ATP"
 FT                   /synonym="ATP syn-beta"
@@ -3135,6 +3950,7 @@ FT                   /synonym="ATP5F1B"
 FT                   /systematic_id="Dmel_CG11154"
 FT                   /product="ATP synthase, beta subunit, isoform D"
 FT                   /protein_id="AHN58220.1"
+FT   CDS             join(1031890..1031953,1032907..1033218,1033272..1034413)
 FT                   /primary_name="ATPsynbeta"
 FT                   /synonym="ATP"
 FT                   /synonym="ATPB"
@@ -3162,10 +3978,16 @@ FT                   /synonym="ATP5F1B"
 FT                   /systematic_id="Dmel_CG11154"
 FT                   /product="ATP synthase, beta subunit, isoform A"
 FT                   /protein_id="AAF59391.1"
+FT   CDS             complement(join(1037278..1037422,1037476..1037569,
+FT                   1037646..1037740,1038359..1038434,1045156..1045248,
+FT                   1047264..1047390,1047453..1047575,1047635..1047729,
+FT                   1047823..1048148,1048504..1048558,1049187..1049246,
+FT                   1050298..1050392,1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="Ca2+/calmodulin-dependent protein kinase II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="Cam"
 FT                   /synonym="CaM"
 FT                   /synonym="CaM II"
@@ -3196,11 +4018,18 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform K"
 FT                   /protein_id="AGB96572.1"
+FT   CDS             complement(join(1037278..1037422,1037476..1037590,
+FT                   1037646..1037740,1038359..1038437,1045156..1045248,
+FT                   1047264..1047390,1047453..1047575,1047635..1047729,
+FT                   1047823..1048148,1048504..1048558,1049187..1049246,
+FT                   1050298..1050392,1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="Ca2+/calmodulin-dependent protein kinase II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="Cam"
 FT                   /synonym="CaM"
 FT                   /synonym="CaM II"
@@ -3231,7 +4060,13 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform H"
 FT                   /protein_id="ACZ95100.1"
+FT   CDS             complement(join(1037278..1037422,1037476..1037590,
+FT                   1037646..1037740,1038359..1038437,1045156..1045248,
+FT                   1047264..1047390,1047453..1047575,1047635..1047729,
+FT                   1047823..1048148,1048504..1048558,1049187..1049246,
+FT                   1050298..1050392,1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="CAMKII"
 FT                   /synonym="CAMKIIalpha"
@@ -3246,6 +4081,7 @@ FT                   /synonym="CaMK-II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="DCK"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="dCaMKII"
 FT                   /synonym="Dmel\CG18069"
 FT                   /synonym="CG18069"
@@ -3266,7 +4102,13 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform A"
 FT                   /protein_id="AAF59388.3"
+FT   CDS             complement(join(1037278..1037422,1037476..1037590,
+FT                   1037646..1037740,1038359..1038437,1045156..1045248,
+FT                   1047264..1047390,1047453..1047575,1047635..1047729,
+FT                   1047823..1048148,1048504..1048558,1049187..1049246,
+FT                   1050298..1050392,1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="CAMKII"
 FT                   /synonym="CAMKIIalpha"
@@ -3281,6 +4123,7 @@ FT                   /synonym="CaMK-II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="DCK"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="dCaMKII"
 FT                   /synonym="Dmel\CG18069"
 FT                   /synonym="CG18069"
@@ -3301,11 +4144,18 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform C"
 FT                   /protein_id="AAF59389.3"
+FT   CDS             complement(join(1037278..1037422,1037476..1037569,
+FT                   1037646..1037740,1038359..1038434,1040013..1040078,
+FT                   1045156..1045248,1047264..1047390,1047453..1047575,
+FT                   1047635..1047729,1047823..1048148,1048504..1048558,
+FT                   1049187..1049246,1050298..1050392,1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="Ca2+/calmodulin-dependent protein kinase II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="Cam"
 FT                   /synonym="CaM"
 FT                   /synonym="CaM II"
@@ -3336,11 +4186,19 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform M"
 FT                   /protein_id="AGB96574.1"
+FT   CDS             complement(join(1037278..1037422,1037476..1037569,
+FT                   1037646..1037740,1038359..1038434,1040013..1040078,
+FT                   1043468..1043521,1045156..1045248,1047264..1047390,
+FT                   1047453..1047575,1047635..1047729,1047823..1048148,
+FT                   1048504..1048558,1049187..1049246,1050298..1050392,
+FT                   1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="Ca2+/calmodulin-dependent protein kinase II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="Cam"
 FT                   /synonym="CaM"
 FT                   /synonym="CaM II"
@@ -3371,7 +4229,13 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform L"
 FT                   /protein_id="AGB96573.1"
+FT   CDS             complement(join(1037278..1037422,1037476..1037590,
+FT                   1037646..1037740,1038359..1038437,1043468..1043524,
+FT                   1045156..1045248,1047264..1047390,1047453..1047575,
+FT                   1047635..1047729,1047823..1048148,1048504..1048558,
+FT                   1049187..1049246,1050298..1050392,1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="CAMKII"
 FT                   /synonym="CAMKIIalpha"
@@ -3386,6 +4250,7 @@ FT                   /synonym="CaMK-II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="DCK"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="dCaMKII"
 FT                   /synonym="Dmel\CG18069"
 FT                   /synonym="CG18069"
@@ -3406,7 +4271,13 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform B"
 FT                   /protein_id="AAF59390.2"
+FT   CDS             complement(join(1037278..1037422,1037476..1037590,
+FT                   1037646..1037740,1038359..1038437,1043468..1043524,
+FT                   1045156..1045248,1047264..1047390,1047453..1047575,
+FT                   1047635..1047729,1047823..1048148,1048504..1048558,
+FT                   1049187..1049246,1050298..1050392,1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="CAMKII"
 FT                   /synonym="CAMKIIalpha"
@@ -3421,6 +4292,7 @@ FT                   /synonym="CaMK-II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="DCK"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="dCaMKII"
 FT                   /synonym="Dmel\CG18069"
 FT                   /synonym="CG18069"
@@ -3441,7 +4313,13 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform E"
 FT                   /protein_id="AAN06569.2"
+FT   CDS             complement(join(1037278..1037422,1037476..1037590,
+FT                   1037646..1037740,1038359..1038458,1043468..1043524,
+FT                   1045156..1045248,1047264..1047390,1047453..1047575,
+FT                   1047635..1047729,1047823..1048148,1048504..1048558,
+FT                   1049187..1049246,1050298..1050392,1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="CAMKII"
 FT                   /synonym="CAMKIIalpha"
@@ -3456,6 +4334,7 @@ FT                   /synonym="CaMK-II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="DCK"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="dCaMKII"
 FT                   /synonym="Dmel\CG18069"
 FT                   /synonym="CG18069"
@@ -3476,11 +4355,19 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform G"
 FT                   /protein_id="AAX53595.1"
+FT   CDS             complement(join(1037278..1037422,1037476..1037590,
+FT                   1037646..1037740,1038359..1038434,1040013..1040078,
+FT                   1043468..1043524,1045156..1045248,1047264..1047390,
+FT                   1047453..1047575,1047635..1047729,1047823..1048148,
+FT                   1048504..1048558,1049187..1049246,1050298..1050392,
+FT                   1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="Ca2+/calmodulin-dependent protein kinase II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="Cam"
 FT                   /synonym="CaM"
 FT                   /synonym="CaM II"
@@ -3511,7 +4398,14 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform I"
 FT                   /protein_id="ACZ95101.1"
+FT   CDS             complement(join(1037278..1037422,1037476..1037590,
+FT                   1037646..1037740,1038359..1038434,1040013..1040078,
+FT                   1043468..1043524,1045156..1045248,1047264..1047390,
+FT                   1047453..1047575,1047635..1047729,1047823..1048148,
+FT                   1048504..1048558,1049187..1049246,1050298..1050392,
+FT                   1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="CAMKII"
 FT                   /synonym="CAMKIIalpha"
@@ -3526,6 +4420,7 @@ FT                   /synonym="CaMK-II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="DCK"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="dCaMKII"
 FT                   /synonym="Dmel\CG18069"
 FT                   /synonym="CG18069"
@@ -3546,11 +4441,19 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform D"
 FT                   /protein_id="AAN06568.2"
+FT   CDS             complement(join(1037278..1037422,1037476..1037590,
+FT                   1037646..1037740,1038359..1038437,1040013..1040078,
+FT                   1043468..1043524,1045156..1045248,1047264..1047390,
+FT                   1047453..1047575,1047635..1047729,1047823..1048148,
+FT                   1048504..1048558,1049187..1049246,1050298..1050392,
+FT                   1050455..1050519))
 FT                   /primary_name="CaMKII"
 FT                   /synonym="Ca2+/calmodulin-dependent protein kinase II"
 FT                   /synonym="Calcium/calmodulin-dependent protein kinase"
 FT                   /synonym="calcium/calmodulin-dependent protein kinase
+FT                   II"
 FT                   /synonym="Cam"
 FT                   /synonym="CaM"
 FT                   /synonym="CaM II"
@@ -3581,7 +4484,11 @@ FT                   /synonym="CaMKii"
 FT                   /synonym="camk II"
 FT                   /systematic_id="Dmel_CG18069"
 FT                   /product="Calcium/calmodulin-dependent protein kinase II,
+FT                   isoform J"
 FT                   /protein_id="ACZ95102.1"
+FT   CDS             complement(join(1057441..1057572,1057633..1057753,
+FT                   1057807..1058155,1058210..1058504,1059101..1059351,
+FT                   1059419..1059836,1060773..1060778))
 FT                   /primary_name="Zyx"
 FT                   /synonym="BcDNA:LD06023"
 FT                   /synonym="DLim-1"
@@ -3600,6 +4507,9 @@ FT                   /synonym="ZYX"
 FT                   /systematic_id="Dmel_CG32018"
 FT                   /product="zyxin, isoform G"
 FT                   /protein_id="AAN06571.1"
+FT   CDS             complement(join(1057441..1057572,1057633..1057753,
+FT                   1057807..1058155,1058210..1058504,1059101..1059288,
+FT                   1059419..1059836,1060413..1060604))
 FT                   /primary_name="Zyx"
 FT                   /synonym="BcDNA:LD06023"
 FT                   /synonym="DLim-1"
@@ -3618,6 +4528,9 @@ FT                   /synonym="ZYX"
 FT                   /systematic_id="Dmel_CG32018"
 FT                   /product="zyxin, isoform A"
 FT                   /protein_id="AAN06572.1"
+FT   CDS             complement(join(1057441..1057572,1057633..1057753,
+FT                   1057807..1058155,1058210..1058504,1059101..1059351,
+FT                   1059419..1059836,1060413..1060604))
 FT                   /primary_name="Zyx"
 FT                   /synonym="BcDNA:LD06023"
 FT                   /synonym="DLim-1"
@@ -3636,6 +4549,9 @@ FT                   /synonym="ZYX"
 FT                   /systematic_id="Dmel_CG32018"
 FT                   /product="zyxin, isoform B"
 FT                   /protein_id="AAN06575.1"
+FT   CDS             complement(join(1057441..1057572,1057633..1057753,
+FT                   1057807..1058155,1058210..1058504,1059101..1059351,
+FT                   1059419..1059836,1060413..1060604))
 FT                   /primary_name="Zyx"
 FT                   /synonym="BcDNA:LD06023"
 FT                   /synonym="CG32018"
@@ -3654,6 +4570,9 @@ FT                   /synonym="ZYX"
 FT                   /systematic_id="Dmel_CG32018"
 FT                   /product="zyxin, isoform L"
 FT                   /protein_id="AAN06576.1"
+FT   CDS             complement(join(1057441..1057572,1057633..1057753,
+FT                   1057807..1058155,1058210..1058504,1059101..1059351,
+FT                   1059419..1059761))
 FT                   /primary_name="Zyx"
 FT                   /synonym="BcDNA:LD06023"
 FT                   /synonym="CG32018"
@@ -3672,6 +4591,9 @@ FT                   /synonym="ZYX"
 FT                   /systematic_id="Dmel_CG32018"
 FT                   /product="zyxin, isoform H"
 FT                   /protein_id="AFH06790.1"
+FT   CDS             join(1065108..1065183,1065856..1065885,1065940..1073105,
+FT                   1073161..1073381,1073439..1075557,1075616..1075736,
+FT                   1075792..1076114)
 FT                   /primary_name="apolpp"
 FT                   /synonym="ApoLI"
 FT                   /synonym="ApoLII"
@@ -3703,6 +4625,9 @@ FT                   /synonym="LPP"
 FT                   /systematic_id="Dmel_CG11064"
 FT                   /product="apolipophorin, isoform A"
 FT                   /protein_id="AAF59387.2"
+FT   CDS             join(1065108..1065183,1065856..1065885,1065940..1073105,
+FT                   1073161..1073381,1073439..1075557,1075616..1075736,
+FT                   1075792..1076114)
 FT                   /primary_name="apolpp"
 FT                   /synonym="ApoL1"
 FT                   /synonym="ApoL2"
@@ -3734,6 +4659,9 @@ FT                   /synonym="LPP"
 FT                   /systematic_id="Dmel_CG11064"
 FT                   /product="apolipophorin, isoform B"
 FT                   /protein_id="AGB96575.1"
+FT   CDS             join(1065108..1065183,1065856..1065885,1065940..1073105,
+FT                   1073161..1073381,1073439..1075557,1075616..1075736,
+FT                   1075792..1076114)
 FT                   /primary_name="apolpp"
 FT                   /synonym="ApoL1"
 FT                   /synonym="ApoL2"
@@ -3765,6 +4693,9 @@ FT                   /synonym="LPP"
 FT                   /systematic_id="Dmel_CG11064"
 FT                   /product="apolipophorin, isoform C"
 FT                   /protein_id="AHN58221.1"
+FT   CDS             join(1065108..1065183,1065856..1065885,1065940..1073105,
+FT                   1073161..1073381,1073439..1075557,1075616..1075736,
+FT                   1075792..1076114)
 FT                   /primary_name="apolpp"
 FT                   /synonym="ApoL1"
 FT                   /synonym="ApoL2"
@@ -3796,6 +4727,8 @@ FT                   /synonym="LPP"
 FT                   /systematic_id="Dmel_CG11064"
 FT                   /product="apolipophorin, isoform D"
 FT                   /protein_id="AHN58222.1"
+FT   CDS             complement(join(1077887..1078519,1078573..1078829,
+FT                   1080257..1081207,1082127..1083126))
 FT                   /primary_name="Actbeta"
 FT                   /synonym="Act"
 FT                   /synonym="Activin"
@@ -3817,6 +4750,10 @@ FT                   /synonym="ACTB"
 FT                   /systematic_id="Dmel_CG11062"
 FT                   /product="Activin-beta"
 FT                   /protein_id="AAF59386.3"
+FT   CDS             join(1092286..1092628,1095576..1095716,1095794..1095832,
+FT                   1101934..1102099,1103535..1103732,1106152..1106597,
+FT                   1107699..1107790,1108098..1108344,1108474..1108572,
+FT                   1109109..1109600,1110781..1110888,1111288..1111451)
 FT                   /primary_name="sv"
 FT                   /synonym="Cat"
 FT                   /synonym="D-Pax2"
@@ -3846,6 +4783,10 @@ FT                   /synonym="DPax2"
 FT                   /systematic_id="Dmel_CG11049"
 FT                   /product="shaven, isoform A"
 FT                   /protein_id="AAF59385.3"
+FT   CDS             join(1092286..1092628,1095576..1095716,1095794..1095832,
+FT                   1101934..1102099,1103535..1103732,1106152..1106597,
+FT                   1107699..1107790,1108098..1108344,1108474..1108572,
+FT                   1110781..1110888,1111288..1111451)
 FT                   /primary_name="sv"
 FT                   /synonym="Cat"
 FT                   /synonym="D-Pax2"
@@ -3875,6 +4816,10 @@ FT                   /synonym="DPax2"
 FT                   /systematic_id="Dmel_CG11049"
 FT                   /product="shaven, isoform D"
 FT                   /protein_id="AAX53596.1"
+FT   CDS             join(1092286..1092628,1095576..1095716,1095794..1095832,
+FT                   1101934..1102099,1103535..1103732,1106152..1106597,
+FT                   1107699..1107790,1108098..1108344,1108480..1108572,
+FT                   1109109..1109600,1110781..1110888,1111288..1111451)
 FT                   /primary_name="sv"
 FT                   /synonym="Cat"
 FT                   /synonym="D-Pax2"
@@ -3904,6 +4849,10 @@ FT                   /synonym="DPax2"
 FT                   /systematic_id="Dmel_CG11049"
 FT                   /product="shaven, isoform H"
 FT                   /protein_id="AAX53597.1"
+FT   CDS             join(1092286..1092628,1095576..1095716,1095794..1095832,
+FT                   1101934..1102099,1103535..1103732,1106152..1106597,
+FT                   1107699..1107790,1108098..1108344,1110781..1110888,
+FT                   1111288..1111451)
 FT                   /primary_name="sv"
 FT                   /synonym="Cat"
 FT                   /synonym="D-Pax2"
@@ -3933,6 +4882,10 @@ FT                   /synonym="DPax2"
 FT                   /systematic_id="Dmel_CG11049"
 FT                   /product="shaven, isoform C"
 FT                   /protein_id="AAN06579.3"
+FT   CDS             join(1092286..1092628,1095576..1095716,1095794..1095832,
+FT                   1101934..1102099,1103535..1103732,1106152..1106597,
+FT                   1107699..1107790,1108098..1108344,1108474..1108572,
+FT                   1109109..1109600,1110781..1110896)
 FT                   /primary_name="sv"
 FT                   /synonym="Cat"
 FT                   /synonym="D-Pax2"
@@ -3962,6 +4915,10 @@ FT                   /synonym="DPax2"
 FT                   /systematic_id="Dmel_CG11049"
 FT                   /product="shaven, isoform F"
 FT                   /protein_id="AAX53598.1"
+FT   CDS             join(1092286..1092628,1095576..1095716,1095794..1095832,
+FT                   1101934..1102099,1103535..1103732,1106152..1106597,
+FT                   1107699..1107790,1108098..1108344,1108474..1108572,
+FT                   1110781..1110896)
 FT                   /primary_name="sv"
 FT                   /synonym="Cat"
 FT                   /synonym="D-Pax2"
@@ -3991,6 +4948,9 @@ FT                   /synonym="DPax2"
 FT                   /systematic_id="Dmel_CG11049"
 FT                   /product="shaven, isoform G"
 FT                   /protein_id="AAX53599.1"
+FT   CDS             join(1098904..1098958,1101934..1102099,1103535..1103732,
+FT                   1106152..1106597,1107699..1107790,1108098..1108344,
+FT                   1110781..1110888,1111288..1111451)
 FT                   /primary_name="sv"
 FT                   /synonym="Cat"
 FT                   /synonym="CG11049"
@@ -4020,6 +4980,10 @@ FT                   /synonym="DPax2"
 FT                   /systematic_id="Dmel_CG11049"
 FT                   /product="shaven, isoform I"
 FT                   /protein_id="ACZ95103.1"
+FT   CDS             complement(join(1115827..1115894,1115956..1116079,
+FT                   1116326..1116456,1116515..1116598,1116660..1117214,
+FT                   1117851..1117905,1117968..1119017,1119937..1120047,
+FT                   1120106..1120606,1120659..1120801,1121459..1121573))
 FT                   /primary_name="Cals"
 FT                   /synonym="CALS"
 FT                   /synonym="CT30877"
@@ -4033,6 +4997,10 @@ FT                   /synonym="dAlc"
 FT                   /systematic_id="Dmel_CG11059"
 FT                   /product="calsyntenin, isoform A"
 FT                   /protein_id="AAF59384.2"
+FT   CDS             complement(join(1115827..1115894,1115956..1116079,
+FT                   1116326..1116456,1116515..1116598,1116660..1117214,
+FT                   1117851..1117905,1117968..1119017,1119937..1120047,
+FT                   1120106..1120606,1120659..1120801,1121459..1121573))
 FT                   /primary_name="Cals"
 FT                   /synonym="CALS"
 FT                   /synonym="CT30877"
@@ -4046,6 +5014,10 @@ FT                   /synonym="dAlc"
 FT                   /systematic_id="Dmel_CG11059"
 FT                   /product="calsyntenin, isoform B"
 FT                   /protein_id="AAN06580.1"
+FT   CDS             complement(join(1115827..1115894,1115956..1116079,
+FT                   1116326..1116456,1116515..1116598,1116660..1117214,
+FT                   1117851..1117905,1117968..1119017,1119937..1120047,
+FT                   1120106..1120606,1120659..1120801,1121459..1121573))
 FT                   /primary_name="Cals"
 FT                   /synonym="Cad102F"
 FT                   /synonym="cals"
@@ -4059,6 +5031,10 @@ FT                   /synonym="dAlc"
 FT                   /systematic_id="Dmel_CG11059"
 FT                   /product="calsyntenin, isoform D"
 FT                   /protein_id="AHN58223.1"
+FT   CDS             complement(join(1115827..1115897,1115956..1116079,
+FT                   1116326..1116456,1116515..1116598,1116660..1117214,
+FT                   1117851..1117905,1117968..1119017,1119937..1120047,
+FT                   1120106..1120606,1120659..1120801,1121459..1121573))
 FT                   /primary_name="Cals"
 FT                   /synonym="Cad102F"
 FT                   /synonym="cals"
@@ -4072,6 +5048,8 @@ FT                   /synonym="dAlc"
 FT                   /systematic_id="Dmel_CG11059"
 FT                   /product="calsyntenin, isoform C"
 FT                   /protein_id="AGB96576.1"
+FT   CDS             join(1124265..1124331,1124436..1124698,1124768..1124893,
+FT                   1124950..1125036)
 FT                   /primary_name="Arf4"
 FT                   /synonym="Arf102E"
 FT                   /synonym="ARF2"
@@ -4089,6 +5067,8 @@ FT                   /synonym="CG1102"
 FT                   /systematic_id="Dmel_CG11027"
 FT                   /product="ADP ribosylation factor 4, isoform B"
 FT                   /protein_id="AGB96577.1"
+FT   CDS             join(1124265..1124331,1124436..1124698,1124768..1124893,
+FT                   1124950..1125036)
 FT                   /primary_name="Arf4"
 FT                   /synonym="ARF2"
 FT                   /synonym="ARFII"
@@ -4106,6 +5086,11 @@ FT                   /synonym="CG1102"
 FT                   /systematic_id="Dmel_CG11027"
 FT                   /product="ADP ribosylation factor 4, isoform A"
 FT                   /protein_id="AAF59383.1"
+FT   CDS             join(1126750..1126752,1126809..1126941,1127002..1127415,
+FT                   1128489..1128655,1129435..1129488,1129566..1129730,
+FT                   1130025..1130183,1130383..1130586,1131193..1131396,
+FT                   1131489..1131593,1131701..1131958,1133875..1134072,
+FT                   1135094..1135484,1135539..1135816)
 FT                   /primary_name="CG11155"
 FT                   /synonym="CT30863"
 FT                   /synonym="Dmel\CG11155"
@@ -4113,6 +5098,11 @@ FT                   /synonym="DmelCG11155"
 FT                   /systematic_id="Dmel_CG11155"
 FT                   /product="uncharacterized protein, isoform D"
 FT                   /protein_id="AAN06582.3"
+FT   CDS             join(1126750..1126752,1126809..1126941,1127002..1127415,
+FT                   1128489..1128655,1129435..1129488,1129566..1129730,
+FT                   1130025..1130183,1130383..1130586,1131193..1131396,
+FT                   1131489..1131593,1131701..1131958,1133875..1134072,
+FT                   1135094..1135484,1135539..1135816)
 FT                   /primary_name="CG11155"
 FT                   /synonym="CT30863"
 FT                   /synonym="Dmel\CG11155"
@@ -4120,6 +5110,11 @@ FT                   /synonym="DmelCG11155"
 FT                   /systematic_id="Dmel_CG11155"
 FT                   /product="uncharacterized protein, isoform A"
 FT                   /protein_id="AAF59382.3"
+FT   CDS             join(1126750..1126752,1126809..1126941,1127002..1127415,
+FT                   1128489..1128655,1129435..1129488,1129566..1129730,
+FT                   1130025..1130183,1130383..1130586,1131193..1131396,
+FT                   1131489..1131593,1131701..1131958,1132085..1132573,
+FT                   1133875..1134072,1134152..1134166)
 FT                   /primary_name="CG11155"
 FT                   /synonym="CT30863"
 FT                   /synonym="Dmel\CG11155"
@@ -4127,24 +5122,35 @@ FT                   /synonym="DmelCG11155"
 FT                   /systematic_id="Dmel_CG11155"
 FT                   /product="uncharacterized protein, isoform B"
 FT                   /protein_id="AAN06581.2"
+FT   CDS             complement(join(1139755..1140000,1140487..1140901,
+FT                   1140960..1141367,1143449..1143565,1143627..1143868,
+FT                   1143985..1144005))
 FT                   /primary_name="CG32017"
 FT                   /synonym="Dmel\CG32017"
 FT                   /synonym="cg32017"
 FT                   /systematic_id="Dmel_CG32017"
 FT                   /product="uncharacterized protein, isoform B"
 FT                   /protein_id="AAN06583.2"
+FT   CDS             complement(join(1139755..1140000,1140487..1140901,
+FT                   1140960..1141367,1143449..1143565,1143627..1143868,
+FT                   1143985..1144005))
 FT                   /primary_name="CG32017"
 FT                   /synonym="Dmel\CG32017"
 FT                   /synonym="cg32017"
 FT                   /systematic_id="Dmel_CG32017"
 FT                   /product="uncharacterized protein, isoform C"
 FT                   /protein_id="ACZ95104.1"
+FT   CDS             complement(join(1139755..1140000,1140487..1140901,
+FT                   1140960..1141367,1143449..1143565,1143627..1143868,
+FT                   1143985..1144005))
 FT                   /primary_name="CG32017"
 FT                   /synonym="Dmel\CG32017"
 FT                   /synonym="cg32017"
 FT                   /systematic_id="Dmel_CG32017"
 FT                   /product="uncharacterized protein, isoform D"
 FT                   /protein_id="AHN58224.1"
+FT   CDS             join(1147547..1147618,1148989..1149213,1164882..1165487,
+FT                   1165550..1166367,1166666..1166894)
 FT                   /primary_name="Kif3C"
 FT                   /synonym="CG17459"
 FT                   /synonym="CP38609"
@@ -4161,6 +5167,9 @@ FT                   /synonym="KIF17"
 FT                   /systematic_id="Dmel_CG17461"
 FT                   /product="kinesin family member 3C"
 FT                   /protein_id="AAF59381.4"
+FT   CDS             complement(join(1172883..1173030,1173084..1173203,
+FT                   1173806..1174097,1174159..1174928,1174982..1175123,
+FT                   1181048..1181138))
 FT                   /primary_name="pho"
 FT                   /synonym="PHO"
 FT                   /synonym="YY1"
@@ -4178,6 +5187,9 @@ FT                   /synonym="Ph"
 FT                   /systematic_id="Dmel_CG17743"
 FT                   /product="pleiohomeotic, isoform A"
 FT                   /protein_id="AAF59378.2"
+FT   CDS             complement(join(1172883..1173030,1173084..1173203,
+FT                   1173806..1174097,1174159..1174928,1174982..1175123,
+FT                   1181048..1181138))
 FT                   /primary_name="pho"
 FT                   /synonym="PHO"
 FT                   /synonym="YY1"
@@ -4195,6 +5207,10 @@ FT                   /synonym="Ph"
 FT                   /systematic_id="Dmel_CG17743"
 FT                   /product="pleiohomeotic, isoform B"
 FT                   /protein_id="AAN06584.1"
+FT   CDS             join(1186518..1186634,1187522..1187614,1187735..1187880,
+FT                   1188189..1188349,1189054..1189689,1189881..1190008,
+FT                   1190067..1190549,1192020..1192162,1192225..1192306,
+FT                   1192357..1192359)
 FT                   /primary_name="CG33521"
 FT                   /synonym="2D9"
 FT                   /synonym="BcDNA:RE73965"
@@ -4208,6 +5224,10 @@ FT                   /synonym="Dmel\CG33521"
 FT                   /systematic_id="Dmel_CG33521"
 FT                   /product="uncharacterized protein, isoform A"
 FT                   /protein_id="AAX53601.1"
+FT   CDS             join(1186518..1186634,1187522..1187614,1187735..1187880,
+FT                   1188189..1188349,1189054..1189689,1189881..1190008,
+FT                   1190298..1190549,1192020..1192162,1192225..1192306,
+FT                   1192357..1192359)
 FT                   /primary_name="CG33521"
 FT                   /synonym="2D9"
 FT                   /synonym="anon-EST:fe2A9"
@@ -4221,6 +5241,10 @@ FT                   /synonym="Dmel\CG33521"
 FT                   /systematic_id="Dmel_CG33521"
 FT                   /product="uncharacterized protein, isoform G"
 FT                   /protein_id="AFH06795.2"
+FT   CDS             join(1186518..1186634,1187522..1187572,1187735..1187880,
+FT                   1188189..1188349,1189054..1189689,1189881..1190008,
+FT                   1190067..1190549,1192020..1192162,1192225..1192306,
+FT                   1192357..1192359)
 FT                   /primary_name="CG33521"
 FT                   /synonym="2D9"
 FT                   /synonym="BcDNA:RE73965"
@@ -4234,6 +5258,10 @@ FT                   /synonym="Dmel\CG33521"
 FT                   /systematic_id="Dmel_CG33521"
 FT                   /product="uncharacterized protein, isoform C"
 FT                   /protein_id="AAX53603.1"
+FT   CDS             join(1186518..1186634,1187522..1187572,1187735..1187880,
+FT                   1188189..1188349,1189054..1189689,1189881..1190008,
+FT                   1190067..1190549,1192020..1192162,1192225..1192306,
+FT                   1192357..1192359)
 FT                   /primary_name="CG33521"
 FT                   /synonym="2D9"
 FT                   /synonym="BcDNA:RE73965"
@@ -4247,6 +5275,10 @@ FT                   /synonym="Dmel\CG33521"
 FT                   /systematic_id="Dmel_CG33521"
 FT                   /product="uncharacterized protein, isoform D"
 FT                   /protein_id="AAX53604.1"
+FT   CDS             complement(join(1192536..1192652,1192706..1192770,
+FT                   1193560..1193654,1193708..1193859,1195428..1195596,
+FT                   1195660..1195790,1195842..1196091,1196165..1196262,
+FT                   1196320..1196457))
 FT                   /primary_name="PIP4K"
 FT                   /synonym="PIP5K 102E"
 FT                   /synonym="Dmel\CG17471"
@@ -4255,7 +5287,12 @@ FT                   /synonym="dPIP4K"
 FT                   /synonym="DPIP4K"
 FT                   /systematic_id="Dmel_CG17471"
 FT                   /product="phosphatidylinositol 5-phosphate 4-kinase,
+FT                   isoform A"
 FT                   /protein_id="ABC65832.1"
+FT   CDS             complement(join(1192536..1192652,1192706..1192770,
+FT                   1193560..1193654,1193708..1193859,1195428..1195596,
+FT                   1195660..1195790,1195842..1196091,1196165..1196262,
+FT                   1196320..1196457))
 FT                   /primary_name="PIP4K"
 FT                   /synonym="PIP5K 102E"
 FT                   /synonym="Dmel\CG17471"
@@ -4264,7 +5301,11 @@ FT                   /synonym="dPIP4K"
 FT                   /synonym="DPIP4K"
 FT                   /systematic_id="Dmel_CG17471"
 FT                   /product="phosphatidylinositol 5-phosphate 4-kinase,
+FT                   isoform B"
 FT                   /protein_id="ABC65833.1"
+FT   CDS             join(1199015..1199175,1219694..1220024,1220076..1220195,
+FT                   1220260..1220688,1221262..1221282,1221491..1221650,
+FT                   1221708..1221949,1222006..1222164,1222222..1222791)
 FT                   /primary_name="Mitf"
 FT                   /synonym="CG40476"
 FT                   /synonym="MITF"
@@ -4279,6 +5320,9 @@ FT                   /synonym="mitf"
 FT                   /systematic_id="Dmel_CG43369"
 FT                   /product="mitf, isoform A"
 FT                   /protein_id="ABC65834.1"
+FT   CDS             join(1199015..1199175,1219694..1220024,1220076..1220195,
+FT                   1220260..1220688,1221262..1221282,1221491..1221650,
+FT                   1221708..1221949,1222006..1222164,1222222..1222791)
 FT                   /primary_name="Mitf"
 FT                   /synonym="CG40476"
 FT                   /synonym="MITF"
@@ -4293,6 +5337,9 @@ FT                   /synonym="mitf"
 FT                   /systematic_id="Dmel_CG43369"
 FT                   /product="mitf, isoform B"
 FT                   /protein_id="ABC65835.1"
+FT   CDS             join(1199015..1199175,1219694..1220024,1220076..1220195,
+FT                   1220317..1220688,1221491..1221650,1221708..1221949,
+FT                   1222006..1222164,1222222..1222791)
 FT                   /primary_name="Mitf"
 FT                   /synonym="CG17469"
 FT                   /synonym="CG40476"
@@ -4307,6 +5354,9 @@ FT                   /synonym="mitf"
 FT                   /systematic_id="Dmel_CG43369"
 FT                   /product="mitf, isoform D"
 FT                   /protein_id="AFH06797.1"
+FT   CDS             join(1219093..1219595,1219694..1220024,1220076..1220195,
+FT                   1220260..1220688,1221491..1221650,1221708..1221949,
+FT                   1222006..1222164,1222222..1222791)
 FT                   /primary_name="Mitf"
 FT                   /synonym="CG17469"
 FT                   /synonym="CG40476"
@@ -4321,6 +5371,8 @@ FT                   /synonym="mitf"
 FT                   /systematic_id="Dmel_CG43369"
 FT                   /product="mitf, isoform C"
 FT                   /protein_id="AFH06796.1"
+FT   CDS             complement(join(1226158..1226444,1226505..1226846,
+FT                   1226899..1227499,1228653..1229515,1229580..1229973))
 FT                   /primary_name="Dyrk3"
 FT                   /synonym="BcDNA:RE60792"
 FT                   /synonym="DDYRK3"
@@ -4332,7 +5384,10 @@ FT                   /synonym="DmDyrk3"
 FT                   /synonym="FBtr0100406"
 FT                   /systematic_id="Dmel_CG40478"
 FT                   /product="Dual-specificity tyrosine
+FT                   phosphorylation-regulated kinase 3, isoform A"
 FT                   /protein_id="ABC65837.1"
+FT   CDS             complement(join(1226158..1226444,1226505..1226846,
+FT                   1226899..1227499,1228653..1229515,1229580..1229973))
 FT                   /primary_name="Dyrk3"
 FT                   /synonym="BcDNA:RE60792"
 FT                   /synonym="DDYRK3"
@@ -4344,7 +5399,10 @@ FT                   /synonym="DmDyrk3"
 FT                   /synonym="FBtr0100406"
 FT                   /systematic_id="Dmel_CG40478"
 FT                   /product="Dual-specificity tyrosine
+FT                   phosphorylation-regulated kinase 3, isoform C"
 FT                   /protein_id="ABC65839.1"
+FT   CDS             complement(join(1226158..1226444,1226505..1226846,
+FT                   1226899..1227499,1228653..1229515,1229580..1229973))
 FT                   /primary_name="Dyrk3"
 FT                   /synonym="BcDNA:RE60792"
 FT                   /synonym="DDYRK3"
@@ -4356,7 +5414,16 @@ FT                   /synonym="DmDyrk3"
 FT                   /synonym="FBtr0100406"
 FT                   /systematic_id="Dmel_CG40478"
 FT                   /product="Dual-specificity tyrosine
+FT                   phosphorylation-regulated kinase 3, isoform E"
 FT                   /protein_id="ABC65841.1"
+FT   CDS             join(1233170..1233510,1234679..1234799,1241730..1241897,
+FT                   1243477..1243652,1243719..1243950,1244014..1244264,
+FT                   1244337..1244351,1245101..1245331,1245379..1245523,
+FT                   1245577..1245683,1245752..1245927,1245990..1246196,
+FT                   1247102..1247238,1248303..1248490,1248547..1248836,
+FT                   1250771..1250883,1254006..1254212,1255842..1255998,
+FT                   1261952..1262093,1262412..1262579,1264656..1264965,
+FT                   1265029..1265409,1270732..1270868,1270925..1271129)
 FT                   /primary_name="Cadps"
 FT                   /synonym="BcDNA:GH07283"
 FT                   /synonym="CAPS"
@@ -4375,6 +5442,14 @@ FT                   /synonym="caps"
 FT                   /systematic_id="Dmel_CG33653"
 FT                   /product="Calcium-dependent secretion activator, isoform D"
 FT                   /protein_id="AFH06799.1"
+FT   CDS             join(1233170..1233510,1234679..1234799,1241730..1241897,
+FT                   1243477..1243652,1243719..1243950,1244014..1244264,
+FT                   1244337..1244351,1245101..1245331,1245379..1245523,
+FT                   1245577..1245683,1245752..1245927,1245990..1246196,
+FT                   1247102..1247238,1248303..1248490,1248547..1248836,
+FT                   1250771..1250883,1255842..1255998,1261952..1262093,
+FT                   1264656..1264965,1265029..1265409,1270732..1270868,
+FT                   1270925..1271129)
 FT                   /primary_name="Cadps"
 FT                   /synonym="BcDNA:GH07283"
 FT                   /synonym="CAPS"
@@ -4393,6 +5468,14 @@ FT                   /synonym="caps"
 FT                   /systematic_id="Dmel_CG33653"
 FT                   /product="Calcium-dependent secretion activator, isoform F"
 FT                   /protein_id="AAZ52485.2"
+FT   CDS             join(1233170..1233510,1234679..1234799,1241730..1241897,
+FT                   1243477..1243652,1243719..1243950,1244014..1244264,
+FT                   1244337..1244351,1245101..1245331,1245379..1245523,
+FT                   1245577..1245683,1245752..1245927,1245990..1246193,
+FT                   1247102..1247238,1248303..1248490,1248547..1248836,
+FT                   1250771..1250883,1254006..1254212,1255842..1255998,
+FT                   1261952..1262093,1264656..1264965,1265029..1265409,
+FT                   1270732..1270868,1270925..1271129)
 FT                   /primary_name="Cadps"
 FT                   /synonym="BcDNA:GH07283"
 FT                   /synonym="CAPS"
@@ -4411,6 +5494,14 @@ FT                   /synonym="caps"
 FT                   /systematic_id="Dmel_CG33653"
 FT                   /product="Calcium-dependent secretion activator, isoform E"
 FT                   /protein_id="AFH06800.1"
+FT   CDS             join(1233170..1233510,1234679..1234799,1241730..1241897,
+FT                   1243477..1243652,1243719..1243950,1244014..1244264,
+FT                   1244337..1244351,1245101..1245224,1245285..1245331,
+FT                   1245379..1245523,1245577..1245683,1245752..1245927,
+FT                   1245990..1246196,1247102..1247238,1248303..1248490,
+FT                   1248547..1248836,1250771..1250883,1255842..1255998,
+FT                   1261952..1262093,1262412..1262579,1264656..1264965,
+FT                   1265029..1265409,1270732..1270868,1270925..1271129)
 FT                   /primary_name="Cadps"
 FT                   /synonym="BcDNA:GH07283"
 FT                   /synonym="CAPS"
@@ -4429,6 +5520,14 @@ FT                   /synonym="caps"
 FT                   /systematic_id="Dmel_CG33653"
 FT                   /product="Calcium-dependent secretion activator, isoform B"
 FT                   /protein_id="AAN06590.4"
+FT   CDS             join(1233170..1233510,1234679..1234799,1241730..1241897,
+FT                   1243477..1243652,1243719..1243950,1244014..1244264,
+FT                   1245101..1245331,1245379..1245523,1245577..1245683,
+FT                   1245752..1245927,1245990..1246196,1247102..1247238,
+FT                   1248303..1248490,1248547..1248836,1250771..1250883,
+FT                   1254006..1254212,1255842..1255998,1261952..1262093,
+FT                   1262412..1262579,1264656..1264965,1265029..1265409,
+FT                   1270732..1270868,1270925..1271129)
 FT                   /primary_name="Cadps"
 FT                   /synonym="BcDNA:GH07283"
 FT                   /synonym="CAPS"
