@@ -241,46 +241,6 @@ extension_restrictions:
       - part_of
       - coincident_with
       - not_exists_during
-  'PSI-MOD':
-    allowed:
-      - absent_during
-      - added_by
-      - added_during
-      - affected_by
-      - coincident_with
-      - decreased_during
-      - has_direct_input
-      - in_presence_of
-      - increased_during
-      - level_fluctuates_during
-      - occupancy
-      - present_during
-      - removed_by
-      - removed_during
-      - required_for
-  gene_ex:
-    allowed:
-      - during
-      - in_absence_of
-      - in_presence_of
-      - occurs_in
-  PomGeneExRNA:
-    allowed:
-      - during
-      - in_absence_of
-      - in_presence_of
-      - occurs_in
-  PomGeneExProt:
-    allowed:
-      - during
-      - in_absence_of
-      - in_presence_of
-      - occurs_in
-  PomGeneExRD:
-    allowed:
-      - during
-      - in_absence_of
-      - in_presence_of
   name_description:
     allowed: []
   subunit_composition:
@@ -308,7 +268,6 @@ extension_relation_cv_names:
   - relationship
   - go/extensions/gorel
   - fypo_extension_relations
-  - PSI-MOD_extension_relations
   - external
   - fission_yeast_phenotype
 
@@ -336,7 +295,6 @@ cv_definitions:
   species_dist: Broad classifiers of taxon distribution (domain/kingdom level)
   subunit_composition: Stoichiometry of homogeneous complexes
   warning: Alerts, gross changes and anomalies
-  PSI-MOD: Protein modification terms
 
 dbs:
   - RFAM
