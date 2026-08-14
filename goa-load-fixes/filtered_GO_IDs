@@ -1,0 +1,297 @@
+GO:0042594
+GO:0046939
+GO:0009966
+GO:0051721
+GO:0035303
+GO:0008157
+GO:0035257
+GO:0035229
+GO:0001102
+GO:0051096
+GO:0052547
+GO:0007265
+GO:0007264
+GO:2000582
+GO:0051973
+GO:1905117
+GO:0051443
+GO:1905117
+GO:0045859
+GO:0001934
+GO:0000733
+GO:0006268
+GO:1902971
+GO:1905775
+GO:0000717
+GO:0032508
+GO:0010950
+GO:0043949
+GO:0019933
+GO:0034613
+GO:0071563
+GO:0018230
+GO:0035690
+GO:0071230
+GO:0071474
+GO:0000011
+GO:0043552
+GO:0033674
+GO:0000186
+GO:0070192
+GO:0010212
+GO:0071480
+GO:0071479
+GO:0071481
+GO:0018105
+GO:0018106
+GO:0000001
+GO:0034605
+GO:0008274
+GO:0010738
+GO:0009411
+GO:0052746 
+GO:0001933
+GO:0046777 
+GO:0018215
+GO:0071902
+GO:0090630
+GO:0018070
+GO:0035308
+GO:0007231
+GO:0042542
+GO:0140442
+GO:0006309
+GO:0008637
+GO:0006915
+GO:0008630
+GO:0070059
+GO:0006473
+GO:0015631
+GO:0045159
+GO:0017024
+GO:0003374
+GO:0045505 
+GO:0051959
+GO:0005522 
+GO:0050815
+GO:1904162
+GO:0006342
+GO:0006348
+GO:0031936
+GO:0031939
+GO:0031935
+GO:0031938
+GO:0046627
+GO:0000187
+GO:0000738
+GO:0051103
+GO:0031144
+GO:0008092
+GO:0030507
+GO:0008092
+GO:0009423
+GO:0106310
+GO:0106311
+GO:0106307
+GO:0106306
+GO:0018105
+GO:0018107
+GO:0035970
+GO:0070262
+GO:0032515
+GO:0000187
+GO:0043015
+GO:0042025
+GO:0010369
+GO:0001726
+GO:0032587
+GO:0042643
+GO:0046854
+GO:0006855
+GO:0006342
+GO:0071264
+GO:0072370
+GO:1903508
+GO:0006469
+GO:0019918	to remove GOC F-P peptidyl-arginine methylation, to symmetrical-dimethyl arginine
+GO:0010466	negative regulation of peptidase activity
+GO:1904667	negative regulation of ubiquitin protein ligase activity
+GO:0042256	obsolete
+GO:0019904
+GO:0006171	cAMP biosynthetic process GO:0006171    to remove GOC F-P 
+GO:0015803	to remove GOC F-P
+GO:0015804	to remove GOC F-P
+GO:1901679	to remove GOC F-P
+GO:0015755	to remove GOC F-P
+GO:0090502	to remove GOC F-P
+GO:0090503	to remove GOC F-P 
+GO:0040007	growth
+GO:0016049	cell growth
+GO:0045737	positive regulation of cyclin-dependent protein serine/threonine kinase activity
+GO:0032012 	regulation of ARF protein signal transduction (for ARF guanyl-nucleotide exchange factor activity)
+GO:0006725
+GO:0004040	
+GO:0018022	peptidyl-lysine methylation
+GO:0031048
+GO:0006508	proteolysis
+GO:0031683	G-protein beta/gamma-subunit complex binding
+GO:0032774	RNA biosynthetic process (too broad- coming from GOC)
+GO:0046835	carbohydrate phosphorylation (F)
+GO:0045727	positive regulation of translatio (too broad- coming from GOC)n
+GO:0007010	cytoskeleton organization (too broad- coming from GOC)
+GO:0000413	protein peptidyl-prolyl isomerization
+GO:0010951	negative regulation of endopeptidase activity
+GO:0072755	response to benomyl
+GO:0010998	regulation of translational initiation by eIF2 alpha phosphorylation
+GO:0004816	asparagine-tRNA ligase activity (to prevent redundant annotation)
+GO:0006421	asparaginyl-tRNA aminoacylation (to prevent redundant annotation)
+GO:0018188	peptidyl-proline di-hydroxylation
+GO:0043547	positive regulation of GTPase activity
+GO:0043987	histone H3-S10 phosphorylation
+GO:0032791	lead ion binding
+GO:1904668	positive regulation of ubiquitin protein ligase activity
+GO:0006165	nucleoside diphosphate phosphorylation
+GO:0046854	phosphatidylinositol phosphorylation
+GO:0046835	carbohydrate phosphorylation
+GO:0072355	histone H3-T3 phosphorylation
+GO:0005694	chromosome
+GO:0016571	histone methylation
+GO:0000922	spindle pole
+GO:0018108
+GO:0043087
+GO:0032781
+GO:0070301
+GO:0032147
+GO:0051984
+GO:0006995
+GO:1990451
+GO:0001558
+GO:0006470
+GO:0006163
+GO:0000079
+GO:0004663	Rab geranylgeranyltransferase activity
+GO:0018344	protein geranylgeranylation
+GO:0004662	CAAX-protein geranylgeranyltransferase activity
+GO:0090501	RNA phosphodiester bond hydrolysis
+GO:1990264	peptidyl-tyrosine dephosphorylation involved in inactivation of protein kinase activity
+GO:0000188	inactivation of MAPK activity
+GO:0018107      peptidyl-threonine phosphorylation
+GO:0018105      peptidyl-serine phosphorylation
+GO:0045841	negative regulation of metaphase/anaphase transiton (Uniprot error)
+GO:0060548	negative regulation of cell death
+GO:0010942	positive regulation of cell death
+GO:0006796	phosphate-containing compound metabolic process
+GO:0045892	negative regulation of transcription, DNA-templated
+GO:0045893	positive regulation of transcription, DNA-templated
+GO:0007049	cell cycle
+GO:0030428	cell septa
+GO:0000076	DNA replication checkpoint
+GO:0009408	response to heat 
+GO:0006970	response to osmotic stress
+GO:1903506	regulation of nucleic acid-templated transcription
+GO:0006270	DNA replication initiation
+GO:0005657	replication fork
+GO:0002098	tRNA wobble uridine modification
+GO:0034227	tRNA thio-modification
+GO:0006121
+GO:0008535	respiratory chain complex IV assembly
+GO:0006796	phosphate-containing compound metabolic process
+GO:0009432	SOS response
+GO:0017148	regulation of translation
+GO:0006260	DNA replication
+GO:1903507	negative regulation of nucleic acid-templated transcription
+GO:0045787	positive regulation of cell cycle
+GO:0051259	protein oligomerization
+GO:0009303	rRNA transcription
+GO:0008150	biological process
+GO:0005575	cellular_component
+GO:0004842	ubiquitin-protein transferase activity
+GO:0015848	spermidine transport
+GO:0005975	carbohydrate metabolic process
+GO:0006867	asparagine transport
+GO:0005816	spindle pole body
+GO:0006397	mRNA processing
+GO:0006412      translation 
+GO:0006414      translational elongation
+GO:0006415      translational termination
+GO:0004672	protein kinase activity
+GO:0043666	regulation of phosphoprotein phosphatase activity
+GO:0035304	regulation of protein dephosphorylation
+GO:0035335 peptidyl-tyrosine dephosphorylation
+GO:0008150 biological process
+GO:0003674 molecular function
+GO:0006413 translational initiation
+GO:0000747 conjugation
+GO:0006184 GTP catabolic process
+GO:0042803 protein homodimerization activity
+GO:0046983 protein dimerization activity
+GO:0046982 protein heterodimerization activity
+GO:0043021 ribonucleoprotein complex binding
+GO:0051260 protein homooligomerization	P
+GO:0051262 protein tetramerization	P
+GO:0051289 protein homotetramerization	P
+GO:0051290 protein heterotetramerization	P
+GO:0070206 protein trimerization	P
+GO:0070207 protein homotrimerization	P
+GO:0070208 protein heterotrimerization	
+GO:0031047 gene silencing by RNA
+GO:0007126 meiotic nuclear division
+GO:0006417 regulation of translation
+GO:0008138 protein tyrosine/serine/threonine phosphatase activity
+GO:2001141 regulation of RNA biosynthetic process
+GO:0006261 DNA-dependent DNA replication
+GO:0006184 GTP catabolic process
+GO:0030702 chromatin silencing at centromere
+GO:0030307 positive regulation of cell growth
+GO:0090053 positive regulation of chromatin silencing at centromere
+GO:0031940 positive regulation of chromatin silencing at telomere
+GO:0060148 positive regulation of posttranscriptional gene silencing
+GO:0043941 positive regulation of sexual sporulation resulting in formation of a cellular spore
+GO:0010834 telomere maintence via telomere shortening
+GO:0043085 positive regulation of catalytic activity
+GO:0008278 cohesin complex
+GO:0006099 tricarboxylic acid cycle
+GO:0030150 protein import into mitochondrial matrix
+GO:0051726 regulation of cell cycle
+GO:0006259 DNA metabolic process
+GO:0006950 response to stress
+GO:0043086 negative regulation of catalytic activity
+GO:0019901 protein kinase binding
+GO:0000166 nucleotide binding
+GO:0003676 nucleic acid binding
+GO:0003824 catalytic activity
+GO:0005488 binding
+GO:0005622 intracellular
+GO:0005623 cell
+GO:0006200 ATP catabolic process
+GO:0006464 cellular protein modification process
+GO:0006468 protein phosphorylation
+GO:0006470 protein dephosphorylation	
+GO:0006479 protein methylation
+GO:0006807 nitrogen compound metabolic process
+GO:0006855 drug transmembrane transport
+GO:0006979 response to oxidative stress
+GO:0008152 metabolic process
+GO:0009058 biosynthetic process
+GO:0009166 nucleotide catabolic process
+GO:0009410 response to xenobiotic stimulus
+GO:0009987 cellular process
+GO:0015238 drug transmembrane transporter activity
+GO:0015671 oxygen transport
+GO:0015904 tetracycline transport
+GO:0016310 phosphorylation
+GO:0016311 dephosphorylation
+GO:0019725 cellular homeostasis
+GO:0019901 protein kinase binding
+GO:0030435 sporulation resulting in formation of a cellular spore
+GO:0031418 L-ascorbic acid binding
+GO:0032259 methylation
+GO:0044237 cellular metabolic process
+GO:0046677 response to antibiotic
+GO:0050790 regulation of catalytic activity
+GO:0051301 cell division
+GO:0055114 oxidation-reduction process
+GO:0090305 nucleic acid phosphodoester bond hydrolysis
+GO:0004776 succinate-CoA ligase (GDP-forming) activity
+
+GO:0046854	phosphatidylinositol phosphorylation

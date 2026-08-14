@@ -1,0 +1,12 @@
+! allowed in qualifiers for manually curated gene expression annotations
+!  syntax for Artemis: /controlled_curation="term=gene expression, RNA level; annotation_extension=during(GO:xxxxxxx); qualifier=increased; evidence=ECO:xxxx; db_xref=; date=YYYYMMDD"
+!
+decreased
+absent
+increased
+present
+unchanged
+constant
+fluctuates
+exclusively
+constitutive
