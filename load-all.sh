@@ -21,7 +21,7 @@ GIT_DIR=$BASE/pombase-fly-query
 
 POMCUR=/var/pomcur
 SOURCES=$POMCUR/sources
-FLY_QUERY_SOURCES=$POMCUR/_sources
+FLY_QUERY_SOURCES=$POMCUR/fly_query_sources
 
 DB=fly-query-$BUILD_ID
 
@@ -38,12 +38,10 @@ LOG_DIR=$BASE/logs
 POMBASE_CHADO=$BASE/pombase-chado
 POMBASE_LEGACY=$BASE/pombase-legacy
 
-(cd chobo/; git pull) || die "Failed to update Chobo"
-
-(cd pombase-chado; git pull) || die "Failed to update pombase-chado"
-(cd pombase-legacy; git pull) || die "Failed to update pombase-legacy"
-
-(cd pombase-website; git pull) || die "Failed to update pombase-website"
+#(cd chobo/; git pull) || die "Failed to update Chobo"
+#(cd pombase-chado; git pull) || die "Failed to update pombase-chado"
+#(cd pombase-legacy; git pull) || die "Failed to update pombase-legacy"
+#(cd pombase-website; git pull) || die "Failed to update pombase-website"
 
 cd pombase-legacy
 
@@ -51,21 +49,25 @@ POMBASE_LEGACY=`pwd`
 
 export PATH=BASE/chobo/script/:/usr/local/owltools-v0.3.0-74-gee0f8bbd/OWLTools-Runner/bin/:$PATH
 export CHADO_CLOSURE_TOOL=$BASE/pombase-chado/script/relation-graph-chado-closure.pl
-export PERL5LIB=$POMBASE_CHADO/lib:$POMBASE_LEGACY/lib:$BASE/chobo/lib/:$PERL5LIB
-
+export PERL5LIB=$POMBASE_CHADO/lib:$POMBASE_LEGACY/lib:$BASE/chobo/lib/
 
 #time nice -19 $GIT_DIR/make-db $BASE $DATE "$HOST" $USER $PASSWORD) || die "make-db failed"
 
 echo "building database: $BUILD_ID on $HOST"
 
+if false
+then
+
 createdb --locale 'C' --template template0 --encoding 'UTF8' $DB
 
 echo Loading template
 
-perl -pne 's/kmr44/japonicus/g' $POMBASE_LEGACY/pombase-chado-base.dump | psql -q $DB |
+perl -pne 's/kmr44/flyquery/g' $POMBASE_LEGACY/pombase-chado-base.dump | psql -q $DB |
   perl -ne 'if (/^\s*setval\s*$/) {
               my $l2 = <>; if ($l2 =~ /-----/) { my $l3 = <>; if ($l3 =~ /^\s*\d+/) { my $l4 = <>; if ($l4 !~ /\(\d+ row/) { print } } }
             } else { print unless /^\s*$/ }'
+
+fi
 
 (cd $FLY_QUERY_SOURCES/; wget -N http://purl.obolibrary.org/obo/go/snapshot/go-basic.obo)
 
@@ -77,22 +79,16 @@ GO_OBO=go-basic.obo
 OBO_FILES="\
  obo-relations/src/ontology/subsets/ro-chado.obo \
  SO-Ontologies-git/Ontology_Files/so-simple.obo \
- psi-mod-CV/PSI-MOD.obo \
  pato-simple.obo \
  pombe-embl/mini-ontologies/iao.obo \
  pombe-embl/mini-ontologies/quiescence.obo \
- pombase_fypo_github/supplemental_files/fypo_extension_relations.obo \
  pombe-embl/mini-ontologies/fypo_extension.obo \
  pombe-embl/mini-ontologies/chebi.obo \
  pombe-embl/mini-ontologies/cl.obo \
  $PROCESSED_MINI_PRO_OBO \
- pombe-embl/mini-ontologies/gene_ex_extension_relations.obo \
- pombe-embl/mini-ontologies/PSI-MOD_extension_relations.obo \
  pombe-embl/mini-ontologies/SO_feature_relations.obo \
  pombe-embl/mini-ontologies/has_qualifier_range.obo \
  pombe-embl/mini-ontologies/pombase_gene_expression_ontology.obo \
- fypo-simple-pombase.obo \
- mondo-simple.obo \
  $GO_OBO"
 
 CONNECT_STRING="dbi:Pg:dbname=$DB"
@@ -108,7 +104,7 @@ OLD_DIR=`pwd`
 cd $FLY_QUERY_SOURCES
 if $BASE/chobo/script/chobo_load $CONNECT_STRING $USER $PASSWORD $POMBASE_LEGACY/etc/pombase-relations.obo $OBO_FILES \
    gmod-schema-latest/chado/load/etc/feature_property.obo \
-   pombase_fypo_github/fyeco.obo pombase_terms-latest.obo > $CHOBO_LOAD_LOG 2>&1
+   pombase_terms-latest.obo > $CHOBO_LOAD_LOG 2>&1
 then
   echo 'Finished OBO loading at:' `date`
 else 
@@ -1002,8 +998,6 @@ refresh_views () {
 echo annotation evidence counts before loading
 evidence_summary $DB
 
-
-CURRENT_GOA_GAF=$SOURCES/gene_association.goa_uniprot.gz
 GOA_POMBE_AND_JAPONICUS="$SOURCES/gene_association.goa_uniprot.pombe+japonicus.gz"
 GOA_VERSION=`cat $GOA_POMBE_AND_JAPONICUS.uniprot_version`
 
@@ -1017,7 +1011,7 @@ gzip -d < $GOA_POMBE_AND_JAPONICUS | perl -ne 'print if /\ttaxon:7227\t/' |
        --term-id-filter-filename=$SOURCES/pombe-embl/goa-load-fixes/filtered_GO_IDs \
        --with-filter-filename=$SOURCES/pombe-embl/goa-load-fixes/filtered_mappings \
        --assigned-by-filter=GOC,RNAcentral,InterPro,UniProtKB,UniProt "$HOST" $DB $USER $PASSWORD \
-       2>&1 | tee $LOG_DIR/$log_file.goa_gene_association_japonicus
+       2>&1 | tee $LOG_DIR/$log_file.goa_gene_association
 
 gzip -d < $GOA_POMBE_AND_JAPONICUS | perl -ne 'print if /\ttaxon:7227\t/' |
     $POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG gaf \
@@ -1026,7 +1020,7 @@ gzip -d < $GOA_POMBE_AND_JAPONICUS | perl -ne 'print if /\ttaxon:7227\t/' |
        --term-id-filter-filename=$SOURCES/pombe-embl/goa-load-fixes/filtered_GO_IDs \
        --with-filter-filename=$SOURCES/pombe-embl/goa-load-fixes/filtered_mappings \
        --assigned-by-filter=GO_Central "$HOST" $DB $USER $PASSWORD \
-       2>&1 | tee $LOG_DIR/$log_file.goa_gene_association_panther_japonicus
+       2>&1 | tee $LOG_DIR/$log_file.goa_gene_association_panther
 
 
 echo annotation count after GAF loading:
@@ -1133,11 +1127,11 @@ ln -s $CURRENT_BUILD_DIR $DUMPS_DIR/latest_build
 IMAGE_NAME=fly-query/web:$BUILD_ID-prod
 
 # temporarily add another replica so so have no downtime when we update
-#docker service update --replicas 2 japonicus-1
+#docker service update --replicas 2 flyquery-1
 #sleep 60
-#docker service update --update-delay 0s --image=$IMAGE_NAME japonicus-1
+#docker service update --update-delay 0s --image=$IMAGE_NAME flyquery-1
 #sleep 60
-#docker service update --replicas 1 japonicus-1
+#docker service update --replicas 1 flyquery-1
 
 echo finished building: $DB
 
