@@ -3,6 +3,7 @@
 my $current = undef;
 my $seen_qual = 0;
 my $seen_ac = 0;
+my $in_qual = 0;
 
 while (<>) {
   if (/^(ID|AC|FT|FH|SQ|\/\/|  )/) {
@@ -25,10 +26,9 @@ while (<>) {
       }
 
       if ($current eq 'CDS') {
-        if (!$seen_qual) {
-          print;
-        } else {
+        if ($seen_qual) {
           if (/^(FT\s+\/)(gene|gene_synonym|locus_tag|product|protein_id)=(.*)/) {
+            $in_qual = 1;
             my $q_name = $2;
             if ($q_name eq 'gene') {
               $q_name = 'primary_name';
@@ -42,10 +42,21 @@ while (<>) {
               }
             }
             my $q_value = $3;
-            if ($q_value !~ /\\/) {
-              print "$1$q_name=$q_value\n";
+            print "$1$q_name=$q_value\n";
+
+            if ($q_value =~ /"$/) {
+              $in_qual = 0;
+            }
+          } else {
+            if ($in_qual) {
+              print;
+              if (/"$/) {
+                $in_qual = 0;
+              }
             }
           }
+        } else {
+          print;
         }
       }
     } else{

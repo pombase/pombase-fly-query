@@ -2,79 +2,66 @@ ID   KJ947872; SV 2; circular; genomic DNA; STD; INV; 19524 BP.
 AC   KJ947872;
 FH   Key             Location/Qualifiers
 FH
-FT   CDS             240..1263
 FT                   /primary_name="ND2"
 FT                   /synonym="mt:ND2"
 FT                   /systematic_id="Dmel_CG34063"
 FT                   /product="NADH dehydrogenase subunit 2"
 FT                   /protein_id="AIC64004.1"
-FT   CDS             <1474..3009
 FT                   /primary_name="COX1"
 FT                   /synonym="mt:CoI"
 FT                   /systematic_id="Dmel_CG34067"
 FT                   /product="cytochrome c oxidase subunit I"
 FT                   /protein_id="AIC64005.1"
-FT   CDS             3083..3767
 FT                   /primary_name="COX2"
 FT                   /synonym="mt:CoII"
 FT                   /systematic_id="Dmel_CG34069"
 FT                   /product="cytochrome c oxidase subunit II"
 FT                   /protein_id="AIC64006.1"
-FT   CDS             3907..4068
 FT                   /primary_name="ATP8"
 FT                   /synonym="mt:ATPase8"
 FT                   /systematic_id="Dmel_CG34072"
 FT                   /product="ATP synthase F0 subunit 8"
 FT                   /protein_id="AIC64007.1"
-FT   CDS             4062..4736
 FT                   /primary_name="ATP6"
 FT                   /synonym="mt:ATPase6"
 FT                   /systematic_id="Dmel_CG34073"
 FT                   /product="ATP synthase F0 subunit 6"
 FT                   /protein_id="AIC64008.1"
-FT   CDS             4736..5524
 FT                   /primary_name="COX3"
 FT                   /synonym="mt:CoIII"
 FT                   /systematic_id="Dmel_CG34074"
 FT                   /product="cytochrome c oxidase subunit III"
 FT                   /protein_id="AIC64009.1"
-FT   CDS             5608..5961
 FT                   /primary_name="ND3"
 FT                   /synonym="mt:ND3"
 FT                   /systematic_id="Dmel_CG34076"
 FT                   /product="NADH dehydrogenase subunit 3"
 FT                   /protein_id="AIC64010.1"
-FT   CDS             complement(6409..8125)
 FT                   /primary_name="ND5"
 FT                   /synonym="mt:ND5"
 FT                   /systematic_id="Dmel_CG34083"
 FT                   /product="NADH dehydrogenase subunit 5"
 FT                   /protein_id="AIC64011.1"
-FT   CDS             complement(8207..9545)
 FT                   /primary_name="ND4"
 FT                   /synonym="mt:ND4"
 FT                   /systematic_id="Dmel_CG34085"
 FT                   /product="NADH dehydrogenase subunit 4"
 FT                   /protein_id="AIC64012.1"
-FT   CDS             complement(9545..9835)
 FT                   /primary_name="ND4L"
 FT                   /synonym="mt:ND4L"
 FT                   /systematic_id="Dmel_CG34086"
 FT                   /product="NADH dehydrogenase subunit 4L"
 FT                   /protein_id="AIC64013.1"
-FT   CDS             9971..10495
 FT                   /primary_name="ND6"
 FT                   /synonym="mt:ND6"
 FT                   /systematic_id="Dmel_CG34089"
 FT                   /product="NADH dehydrogenase subunit 6"
 FT                   /protein_id="AIC64014.1"
-FT   CDS             10499..11635
 FT                   /primary_name="CYTB"
 FT                   /synonym="mt:Cyt-b"
 FT                   /systematic_id="Dmel_CG34090"
 FT                   /product="cytochrome b"
 FT                   /protein_id="AIC64015.1"
-FT   CDS             complement(11721..12659)
 FT                   /primary_name="ND1"
 FT                   /synonym="mt:ND1"
 FT                   /systematic_id="Dmel_CG34092"
