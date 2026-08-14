@@ -699,66 +699,66 @@
   "api_seq_chunk_sizes": [10000, 200000],
   "chromosomes": [
     {
-      "name": "chromosome_1",
+      "name": "1",
       "export_id": "I",
       "export_file_id": "chromosome_I",
       "short_display_name": "I",
       "long_display_name": "Chromosome I"
     },
     {
-      "name": "chromosome_3R",
+      "name": "3R",
       "export_id": "3R",
       "export_file_id": "chromosome_3R",
       "short_display_name": "3R",
       "long_display_name": "Chromosome 3R"
     },
     {
-      "name": "chromosome_3L",
+      "name": "3L",
       "export_id": "3L",
       "export_file_id": "chromosome_3L",
       "short_display_name": "3L",
       "long_display_name": "Chromosome 3L"
     },
     {
-      "name": "chromosome_2R",
+      "name": "2R",
       "export_id": "2R",
       "export_file_id": "chromosome_2R",
       "short_display_name": "2R",
       "long_display_name": "Chromosome 2R"
     },
     {
-      "name": "chromosome_X",
+      "name": "X",
       "export_id": "X",
       "export_file_id": "chromosome_X",
       "short_display_name": "X",
       "long_display_name": "Chromosome X"
     },
     {
-      "name": "chromosome_2L",
+      "name": "2L",
       "export_id": "2L",
       "export_file_id": "chromosome_2L",
       "short_display_name": "2L",
       "long_display_name": "Chromosome 2L"
     },
     {
-      "name": "chromosome_Y",
+      "name": "Y",
       "export_id": "Y",
       "export_file_id": "chromosome_Y",
       "short_display_name": "Y",
       "long_display_name": "Chromosome Y"
     },
     {
-      "name": "chromosome_4",
+      "name": "4",
       "export_id": "4",
       "export_file_id": "chromosome_4",
       "short_display_name": "4",
       "long_display_name": "Chromosome 4"
     },
     {
-      "name": "mitochondrion_genome",
+      "name": "MT",
       "export_id": "mitochondrion_genome",
       "export_file_id": "mitochondrion_genome",
-      "short_display_name": "mitochondrion_genome",
+      "short_display_name": "MT",
       "long_display_name": "mitochondrion_genome"
     }
   ],
