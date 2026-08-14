@@ -55,9 +55,6 @@ export PERL5LIB=$POMBASE_CHADO/lib:$POMBASE_LEGACY/lib:$BASE/chobo/lib/
 
 echo "building database: $BUILD_ID on $HOST"
 
-if false
-then
-
 createdb --locale 'C' --template template0 --encoding 'UTF8' $DB
 
 echo Loading template
@@ -67,7 +64,6 @@ perl -pne 's/kmr44/flyquery/g' $POMBASE_LEGACY/pombase-chado-base.dump | psql -q
               my $l2 = <>; if ($l2 =~ /-----/) { my $l3 = <>; if ($l3 =~ /^\s*\d+/) { my $l4 = <>; if ($l4 !~ /\(\d+ row/) { print } } }
             } else { print unless /^\s*$/ }'
 
-fi
 
 (cd $FLY_QUERY_SOURCES/; wget -N http://purl.obolibrary.org/obo/go/snapshot/go-basic.obo)
 
