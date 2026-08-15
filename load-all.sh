@@ -1001,11 +1001,14 @@ evidence_summary $DB
 GOA_POMBE_AND_JAPONICUS="$SOURCES/gene_association.goa_uniprot.pombe+japonicus.gz"
 GOA_VERSION=`cat $GOA_POMBE_AND_JAPONICUS.uniprot_version`
 
+echo processing GOA GAF
+$GIT_DIR/etc/gaf_process.pl $GIT_DIR/fly-id-map.tsv > $FLY_QUERY_SOURCES/fly-goa.gaf.tsv
+
 $POMBASE_CHADO/script/pombase-admin.pl $LOAD_CONFIG add-chado-prop \
   "$HOST" $DB $USER $PASSWORD "UniProt-GOA_version" $GOA_VERSION
 
-echo reading $GOA_POMBE_AND_JAPONICUS
-gzip -d < $GOA_POMBE_AND_JAPONICUS | perl -ne 'print if /\ttaxon:7227\t/' |
+echo reading $FLY_QUERY_SOURCES/fly-goa.gaf.tsv
+cat $FLY_QUERY_SOURCES/fly-goa.gaf.tsv | perl -ne 'print if /\ttaxon:7227\t/' |
     $POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG gaf \
        --taxon-filter=7227 --use-only-first-with-id \
        --term-id-filter-filename=$SOURCES/pombe-embl/goa-load-fixes/filtered_GO_IDs \
@@ -1013,7 +1016,8 @@ gzip -d < $GOA_POMBE_AND_JAPONICUS | perl -ne 'print if /\ttaxon:7227\t/' |
        --assigned-by-filter=GOC,RNAcentral,InterPro,UniProtKB,UniProt "$HOST" $DB $USER $PASSWORD \
        2>&1 | tee $LOG_DIR/$log_file.goa_gene_association
 
-gzip -d < $GOA_POMBE_AND_JAPONICUS | perl -ne 'print if /\ttaxon:7227\t/' |
+echo reading PANTHER from $FLY_QUERY_SOURCES/fly-goa.gaf.tsv
+cat $FLY_QUERY_SOURCES/fly-goa.gaf.tsv | perl -ne 'print if /\ttaxon:7227\t/' |
     $POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG gaf \
        --taxon-filter=7227 \
        --with-prefix-filter="PANTHER:" \
