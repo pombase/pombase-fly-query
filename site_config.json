@@ -297,6 +297,23 @@
             "query_ids": [
               "all_genes", "all_protein_coding"
             ]
+          },
+          {
+            "id": "canned_queries_specific_features",
+            "displayName": "Genes with specific features available",
+            "nodeType": "canned-queries",
+            "query_ids": [
+              "gocam_activity_gene_count"
+            ]
+          },
+          {
+            "id": "canned_queries_go_status",
+            "displayName": "GO status queries",
+            "nodeType": "canned-queries",
+            "query_ids": [
+              "canned_query:coding_genes_with_mf_annotation",
+              "canned_query:coding_genes_with_bp_annotation"
+            ]
           }
         ]
       },
@@ -314,19 +331,6 @@
               {
                 "text": "Enter or upload a list of systematic gene IDs or gene names"
               }
-            ]
-          },
-          {
-            "id": "uniprot_id_list",
-            "displayName": "UniProt accessions",
-            "nodeType": "gene-list",
-            "topDescription": [
-              {
-                "text": "UniProt accession mapping has moved"
-              }
-            ],
-            "extraResultTableColumns": [
-              "uniprot_identifier"
             ]
           }
         ]
@@ -549,16 +553,177 @@
           "subset_name": "feature_type_mRNA_gene"
         }
       }
+    },
+    "canned_query:gocam_activity_gene_count": {
+      "name": "Genes that enable activities in GO-CAM pathway models",
+      "constraints": {
+        "node_name": "gocam_activity_gene_count(≥1)",
+        "int_range": {
+          "range_type": "gocam_activity_gene_count",
+          "start": 1,
+          "end": null
+        }
+      }
+    },
+    "canned_query:genes_in_gocam_models": {
+      "name": "Genes in GO-CAM pathway models (including target genes)",
+      "constraints": {
+        "node_name": "gocam_model_count(≥1)",
+        "int_range": {
+          "range_type": "gocam_model_count",
+          "start": 1,
+          "end": null
+        }
+      }
+    },
+    "canned_query:coding_genes_with_mf_annotation": {
+      "name": "Protein coding Genes with GO molecular function annotation",
+      "constraints": {
+        "and": [
+          {
+            "not": [
+              {
+                "not": [
+                  {
+                    "node_name": "subset: feature_type_mRNA_gene",
+                    "subset": {
+                      "subset_name": "feature_type_mRNA_gene"
+                    }
+                  },
+                  {
+                    "node_name": "subset: characterisation_status_transposon",
+                    "subset": {
+                      "subset_name": "characterisation_status_transposon"
+                    }
+                  }
+                ],
+                "node_name": "subset: feature_type_mRNA_gene NOT subset: characterisation_status_transposon"
+              },
+              {
+                "node_name": "subset: characterisation_status_dubious",
+                "subset": {
+                  "subset_name": "characterisation_status_dubious"
+                }
+              }
+            ],
+            "node_name": "All protein coding genes (excluding dubious and transposon)"
+          },
+          {
+            "node_name": "genes annotated with \"molecular_function\" (GO:0003674)",
+            "term": {
+              "termid": "GO:0003674",
+              "name": "molecular_function",
+              "ploidiness": null,
+              "expression": null
+            }
+          }
+        ],
+        "node_name": "genes annotated with \"molecular_function\" (GO:0003674) AND (All protein coding genes (excluding dubious and transposon))"
+      },
+      "output_options": {}
+    },
+    "canned_query:coding_genes_with_bp_annotation": {
+      "name": "Protein coding Genes with GO biological process annotation",
+      "constraints": {
+        "and": [
+          {
+            "not": [
+              {
+                "not": [
+                  {
+                    "node_name": "subset: feature_type_mRNA_gene",
+                    "subset": {
+                      "subset_name": "feature_type_mRNA_gene"
+                    }
+                  },
+                  {
+                    "node_name": "subset: characterisation_status_transposon",
+                    "subset": {
+                      "subset_name": "characterisation_status_transposon"
+                    }
+                  }
+                ],
+                "node_name": "subset: feature_type_mRNA_gene NOT subset: characterisation_status_transposon"
+              },
+              {
+                "node_name": "subset: characterisation_status_dubious",
+                "subset": {
+                  "subset_name": "characterisation_status_dubious"
+                }
+              }
+            ],
+            "node_name": "All protein coding genes (excluding dubious and transposon)"
+          },
+          {
+            "node_name": "genes annotated with \"biological_process\" (GO:0008150)",
+            "term": {
+              "termid": "GO:0008150",
+              "name": "biological_process",
+              "ploidiness": null,
+              "expression": null
+            }
+          }
+        ],
+        "node_name": "genes annotated with \"biological_process\" (GO:0008150) AND (All protein coding genes (excluding dubious and transposon))"
+      },
+      "output_options": {}
+    },
+    "canned_query:coding_genes_with_mf_and_bp_annotation": {
+      "name": "Protein coding Genes with GO biological process and molecular function annotation",
+      "constraints": {
+        "and": [
+          {
+            "not": [
+              {
+                "not": [
+                  {
+                    "node_name": "subset: feature_type_mRNA_gene",
+                    "subset": {
+                      "subset_name": "feature_type_mRNA_gene"
+                    }
+                  },
+                  {
+                    "node_name": "subset: characterisation_status_transposon",
+                    "subset": {
+                      "subset_name": "characterisation_status_transposon"
+                    }
+                  }
+                ],
+                "node_name": "subset: feature_type_mRNA_gene NOT subset: characterisation_status_transposon"
+              },
+              {
+                "node_name": "subset: characterisation_status_dubious",
+                "subset": {
+                  "subset_name": "characterisation_status_dubious"
+                }
+              }
+            ],
+            "node_name": "(subset: feature_type_mRNA_gene NOT subset: characterisation_status_transposon) NOT subset: characterisation_status_dubious"
+          },
+          {
+            "node_name": "genes annotated with \"biological_process\" (GO:0008150)",
+            "term": {
+              "termid": "GO:0008150",
+              "name": "biological_process",
+              "ploidiness": null,
+              "expression": null
+            }
+          },
+          {
+            "node_name": "genes annotated with \"molecular_function\" (GO:0003674)",
+            "term": {
+              "termid": "GO:0003674",
+              "name": "molecular_function",
+              "ploidiness": null,
+              "expression": null
+            }
+          }
+        ],
+        "node_name": "((subset: feature_type_mRNA_gene NOT subset: characterisation_status_transposon) NOT subset: characterisation_status_dubious) AND genes annotated with \"biological_process\" (GO:0008150) AND genes annotated with \"molecular_function\" (GO:0003674)"
+      },
+      "output_options": {}
     }
   },
-  "canned_query_ids": [
-    {
-      "heading": "Gene number",
-      "query_ids": [
-        "all_protein_coding"
-      ]
-    }
-  ],
   "api_seq_chunk_sizes": [10000, 200000],
   "chromosomes": [
     {
