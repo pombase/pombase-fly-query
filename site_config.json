@@ -2859,7 +2859,7 @@
         "regulates_translation_of": "RO:0002233",
         "occurs_at": "BFO:0000066",
         "coincident_with": "RO:0002008",
-        "has_input": "RO_0002233"
+        "has_input": "RO:0002233"
       },
       "transcript_gene_so_term_map": {
         "SO:0000234": "SO:0001217",
