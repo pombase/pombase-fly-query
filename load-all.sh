@@ -1131,8 +1131,8 @@ rm -f $DUMPS_DIR/latest_build
 ln -s $CURRENT_BUILD_DIR $DUMPS_DIR/latest_build
 
 (cd $BASE/container_build
- (cd pombase-fly-query && git pull)
- cp -f pombase-fly-query/site_config.json main_config.json
+ (cd $GIT_DIR && git pull)
+ cp -f $GIT_DIR/site_config.json main_config.json
  nice -10 $GIT_DIR/build_container.sh $BUILD_ID $DUMPS_DIR/latest_build)
 
 IMAGE_NAME=fly-query/web:$BUILD_ID-prod
