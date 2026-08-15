@@ -54,6 +54,32 @@ export PERL5LIB=$POMBASE_CHADO/lib:$POMBASE_LEGACY/lib:$BASE/chobo/lib/
 
 #time nice -19 $GIT_DIR/make-db $BASE $DATE "$HOST" $USER $PASSWORD) || die "make-db failed"
 
+evidence_summary () {
+  DB=$1
+  psql $DB -c "select count(feature_cvtermprop_id), value from feature_cvtermprop where type_id in (select cvterm_id from cvterm where name = 'evidence') group by value order by count(feature_cvtermprop_id)" | cat
+}
+
+assigned_by_summary () {
+  DB=$1
+  psql $DB -c "select count(feature_cvtermprop_id), value from feature_cvtermprop where type_id in (select cvterm_id from cvterm where name = 'assigned_by') group by value order by count(feature_cvtermprop_id);" | cat
+}
+
+refresh_views () {
+  for view in \
+    pombase_annotated_gene_features_per_publication \
+    pombase_feature_cvterm_with_ext_parents \
+    pombase_feature_cvterm_no_ext_terms \
+    pombase_feature_cvterm_ext_resolved_terms \
+    pombase_genotypes_alleles_genes_mrna \
+    pombase_extension_rels_and_values \
+    pombase_genes_annotations_dates \
+    pombase_annotation_summary \
+    pombase_publication_curation_summary
+  do
+    psql $DB -c "REFRESH MATERIALIZED VIEW $view;"
+  done
+}
+
 echo "building database: $BUILD_ID on $HOST"
 
 createdb --locale 'C' --template template0 --encoding 'UTF8' $DB
@@ -957,43 +983,17 @@ PGPASSWORD=$PASSWORD psql -U $USER -h "$HOST" $DB -c 'analyze'
 
 cd $BASE
 
-echo loading names_and_products.tsv
-$POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG names-and-products \
-    --dest-organism-taxonid=7227 \
-    "$HOST" $DB $USER $PASSWORD < $GIT_DIR/names_and_products.tsv
-
-
-echo loading systematic_id_uniprot_mapping.tsv
-$POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG generic-property \
-    --property-name="uniprot_identifier" --organism-taxonid=7227 \
-    --feature-uniquename-column=1 --property-column=2 \
-    "$HOST" $DB $USER $PASSWORD < $GIT_DIR/systematic_id_uniprot_mapping.tsv
-
-evidence_summary () {
-  DB=$1
-  psql $DB -c "select count(feature_cvtermprop_id), value from feature_cvtermprop where type_id in (select cvterm_id from cvterm where name = 'evidence') group by value order by count(feature_cvtermprop_id)" | cat
-}
-
-assigned_by_summary () {
-  DB=$1
-  psql $DB -c "select count(feature_cvtermprop_id), value from feature_cvtermprop where type_id in (select cvterm_id from cvterm where name = 'assigned_by') group by value order by count(feature_cvtermprop_id);" | cat
-}
-
-refresh_views () {
-  for view in \
-    pombase_annotated_gene_features_per_publication \
-    pombase_feature_cvterm_with_ext_parents \
-    pombase_feature_cvterm_no_ext_terms \
-    pombase_feature_cvterm_ext_resolved_terms \
-    pombase_genotypes_alleles_genes_mrna \
-    pombase_extension_rels_and_values \
-    pombase_genes_annotations_dates \
-    pombase_annotation_summary \
-    pombase_publication_curation_summary
-  do
-    psql $DB -c "REFRESH MATERIALIZED VIEW $view;"
-  done
-}
+#echo loading names_and_products.tsv
+#$POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG names-and-products \
+#    --dest-organism-taxonid=7227 \
+#    "$HOST" $DB $USER $PASSWORD < $GIT_DIR/names_and_products.tsv
+#
+#
+#echo loading systematic_id_uniprot_mapping.tsv
+#$POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG generic-property \
+#    --property-name="uniprot_identifier" --organism-taxonid=7227 \
+#    --feature-uniquename-column=1 --property-column=2 \
+#    "$HOST" $DB $USER $PASSWORD < $GIT_DIR/systematic_id_uniprot_mapping.tsv
 
 echo annotation evidence counts before loading
 evidence_summary $DB
