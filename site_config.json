@@ -49,13 +49,12 @@
     "interactions": []
   },
   "example_pages": {
-    "gene": "SJAG_01143",
-    "term": "GO:0005759",
-    "reference": "PMID:25866389"
+    "gene": "FBgn0004106",
+    "term": "GO:0006338",
+    "reference": "PMID:16618800"
   },
   "social_media": {
-    "twitter": "fly-querydb",
-    "github": "fly-querydb"
+    "github": "fly-query"
   },
   "alphafold_max_protein_length": 1280,
   "has_disease_annotation": true,
@@ -71,11 +70,6 @@
   "pdbe_image_url": "https://www.ebi.ac.uk/pdbe/static/entry/<<PDB_ID>>_deposited_chain_front_image-200x200.png",
   "rcsb_pdb_entry_url": "https://www.rcsb.org/structure",
   "canto_url": "https://curation.pombase.org/fly-query",
-  "community_mailing_list": {
-    "url": "https://mailman.kcl.ac.uk/mailman/listinfo/fly-query-list",
-    "icon": "fly-query_email_list_icon.png",
-    "title": "S. fly-query community mailing list"
-  },
   "canto_data_config": {
     "browser_track_triage_types": [
       "Browser datasets, to host",
@@ -262,7 +256,7 @@
   "go_cv_names": ["molecular_function", "biological_process", "cellular_component"],
   "search_box_config": {
     "suffixes_to_trim": ["\\\\.1", "\\\\.1:pep"],
-    "ortholog_organisms_to_always_show": [4932]
+    "ortholog_organisms_to_always_show": []
   },
   "feature_sub_groups": {
     "rRNA gene": [
@@ -302,16 +296,6 @@
             "nodeType": "canned-queries",
             "query_ids": [
               "all_genes", "all_protein_coding"
-            ]
-          },
-          {
-            "id": "canned_queries_homology_and_disease",
-            "displayName": "Homology and Disease queries",
-            "nodeType": "canned-queries",
-            "query_ids": [
-              "proteins_with_s_pombe_orthologs", "proteins_with_s_cerevisiae_orthologs",
-              "proteins_with_human_orthologs",
-              "proteins_with_pdb_structures", "all_diseases"
             ]
           }
         ]
@@ -363,32 +347,7 @@
                 "text": "Retrieve genes via annotated Gene Ontology terms that describe the activity, process, or location of their products (protein or ncRNA)"
               }
             ]
-          },
-          {
-            "id": "FYPO",
-            "displayName": "phenotype",
-            "nodeType": "ontology",
-            "ontologyName": "FYPO",
-            "annotationFeatureType": "genotype",
-            "topDescription": [
-              {
-                "text": "Retrieve genes based on mutant phenotypes annotated using Fission Yeast Phenotype Ontology (FYPO)"
-              }
-            ],
-            "phenotypeConditionNamespace": "fission_yeast_phenotype_condition"
-          },
-          {
-            "id": "disease_associated",
-            "displayName": "disease",
-            "nodeType": "ontology",
-            "ontologyName": "mondo",
-            "topDescription": [
-              {
-                "text": "Retrieve genes for which the curated human ortholog is associated with a disease. To find all disease gene orthologs, search for \"disease\""
-              }
-            ]
           }
-
         ]
       },
       {
@@ -434,96 +393,6 @@
             "topDescription": [
               {
                 "text": "Retrieve genes based on product type. Note that \"protein\" includes dubious and transposon protein-coding genes; there is a prepared query that excludes both in the list of commonly used queries"
-              }
-            ]
-          },
-          {
-            "id": "domains_and_features",
-            "displayName": "domain, features and motifs",
-            "nodeType": "sub-nodes",
-            "topDescription": [
-              {
-                "text": "Retrieve protein domains, features and motifs"
-              }
-            ],
-            "subNodes": [
-              {
-                "id": "all_domains",
-                "displayName": "Domain ID",
-                "nodeType": "subset-input",
-                "subsetPrefix": null,
-                "placeholder": "eg. PF02373 or IPR001138",
-                "topDescription": [
-                  {
-                    "text": "Retrieve protein-coding genes by specific domains present in the products. To retrieve all domain-containing proteins, search for \"IPR*\" or \"PF*\""
-                  }
-                ]
-              },
-              {
-                "id": "SO_protein",
-                "displayName": "protein motifs",
-                "nodeType": "ontology",
-                "ontologyName": "SO-protein",
-                "topDescription": [
-                  {
-                    "text": "Retrieve protein-coding genes based on features annotated using the protein sequence feature branch of the Sequence Ontology (SO)"
-                  }
-                ],
-                "extraDescription": "Examples: short motifs such as NLS or KEN box, signal sequence, cleaved region, helix"
-              },
-              {
-                "id": "tm_domain_count",
-                "displayName": "TM domains",
-                "nodeType": "int-range",
-                "range_minimum": 0,
-                "range_any_and_none": true,
-                "topDescription": [
-                  {
-                    "text": "Retrieve protein-coding genes by number of predicted transmembrane domains in the product"
-                  }
-                ]
-              },
-              {
-                "id": "coiled_coils_count",
-                "displayName": "coiled-coil regions",
-                "nodeType": "int-range",
-                "range_minimum": 0,
-                "range_any_and_none": true,
-                "percent_query_id": "coiled_coils_percent",
-                "percent_display_name": "percentage of residues in coiled coil regions",
-                "topDescription": [
-                  {
-                    "text": "Retrieve protein-coding genes by number of predicted coiled-coil domains in the product"
-                  }
-                ]
-              },
-              {
-                "id": "disordered_regions_count",
-                "displayName": "disordered regions",
-                "nodeType": "int-range",
-                "range_minimum": 0,
-                "range_any_and_none": true,
-                "percent_query_id": "disordered_percent",
-                "percent_display_name": "percentage of residues in disordered regions",
-                "topDescription": [
-                  {
-                    "text": "Retrieve protein-coding genes by number of disordered regions in the product"
-                  }
-                ]
-              },
-              {
-                "id": "low_complexity_regions_count",
-                "displayName": "low complexity regions",
-                "nodeType": "int-range",
-                "range_minimum": 0,
-                "range_any_and_none": true,
-                "percent_query_id": "low_complexity_percent",
-                "percent_display_name": "percentage of residues in low complexity regions",
-                "topDescription": [
-                  {
-                    "text": "Retrieve protein-coding genes by number of low complexity regions in the product"
-                  }
-                ]
               }
             ]
           },
@@ -639,16 +508,6 @@
                 "text": "Retrieve genes in a specified region of a chromosome"
               }
             ]
-          },
-          {
-            "id": "has_ortholog",
-            "displayName": "protein with orthologs",
-            "nodeType": "has-ortholog",
-            "topDescription": [
-              {
-                "text": "Retrieve proteins that have an ortholog in"
-              }
-            ]
           }
         ]
       }
@@ -679,6 +538,10 @@
   ],
   "ortholog_taxonids": [],
   "predefined_queries": {
+    "canned_query:all_genes": {
+      "name": "All genes",
+      "constraints": {"or":[{"subset":{"subset_name":"feature_type_ncRNA_gene"}},{"subset":{"subset_name":"feature_type_mRNA_gene"}},{"subset":{"subset_name":"feature_type_pseudogene"}},{"subset":{"subset_name":"feature_type_rRNA_gene"}},{"subset":{"subset_name":"feature_type_snoRNA_gene"}},{"subset":{"subset_name":"feature_type_snRNA_gene"}},{"subset":{"subset_name":"feature_type_tRNA_gene"}}]}
+    },
     "canned_query:all_protein_coding": {
       "name": "All protein coding genes",
       "constraints": {
@@ -1591,9 +1454,6 @@
     { "name": "target_of" },
     { "name": "sequence and transcripts",
       "sub_types": ["transcript_view", "sequence"]
-    },
-    { "name": "homologs and conservation",
-      "sub_types": ["orthologs", "paralogs", "species_dist"]
     },
     { "name": "Comments and warnings",
       "sub_types": ["misc", "warning"] },
