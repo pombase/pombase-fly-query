@@ -1096,7 +1096,7 @@ echo creating files for the website:
 $POMCUR/bin/pombase-chado-json -c $MAIN_CONFIG \
    --doc-config-file $BASE/pombase-website/src/app/config/doc-config.json \
    -p "postgres://$USER:$PASSWORD@localhost/$DB" \
-   -i $GIT_DIR/pombe_domain_results.json \
+   -i $GIT_DIR/domain_results.json \
    -d $CURRENT_BUILD_DIR/ --go-eco-mapping=$SOURCES/gaf-eco-mapping.txt \
    --orcid-name-map $SOURCES/pombe-embl/supporting_files/pombase_orcid_mapping.tsv \
    --gocam-model-directory $GIT_DIR/go-cams \
