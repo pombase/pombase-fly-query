@@ -1102,7 +1102,12 @@ $POMCUR/bin/pombase-chado-json -c $MAIN_CONFIG \
    --gocam-model-directory $GIT_DIR/go-cams \
    2>&1 | tee $LOG_DIR/$log_file.web-json-write
 
-find $CURRENT_BUILD_DIR/fasta -name '*.fa' | xargs gzip -9f
+mkdir $CURRENT_BUILD_DIR/fasta/bgzip_chromosomes
+cp -r $CURRENT_BUILD_DIR/fasta/chromosomes/Drosophila_melanogaster_all_chromosomes.fa $CURRENT_BUILD_DIR/fasta/bgzip_chromosomes
+bgzip -l 9 $CURRENT_BUILD_DIR/fasta/bgzip_chromosomes/Drosophila_melanogaster_all_chromosomes.fa
+samtools faidx $CURRENT_BUILD_DIR/fasta/bgzip_chromosomes/Drosophila_melanogaster_all_chromosomes.fa.gz
+
+find $CURRENT_BUILD_DIR/fasta -name '*.fa' | xargs gzip -1f
 
 cp $LOG_DIR/$log_file.web-json-write $CURRENT_BUILD_DIR/logs/
 
