@@ -5,6 +5,16 @@ my $seen_qual = 0;
 my $seen_ac = 0;
 my $in_qual = 0;
 
+my %id_map = ();
+
+open my $map_fh, '<', shift or die;
+while (defined (my $line = <$map_fh>)) {
+  chomp $line;
+  my ($id, $fb_id) = split /\t/, $line;
+  $id_map{$id} = $fb_id;
+}
+close $map_fh;
+
 while (<>) {
   if (/^(ID|AC|FT|FH|SQ|\/\/|  )/) {
     if ($1 eq 'AC') {
@@ -29,7 +39,9 @@ while (<>) {
         if ($seen_qual) {
           if (/^(FT\s+\/)(gene|gene_synonym|locus_tag|product|protein_id)=(.*)/) {
             $in_qual = 1;
+            my $start = $1;
             my $q_name = $2;
+            my $q_value = $3;
             if ($q_name eq 'gene') {
               $q_name = 'primary_name';
             } else {
@@ -38,11 +50,18 @@ while (<>) {
               } else {
                 if ($q_name eq 'locus_tag') {
                   $q_name = 'systematic_id';
+                  if ($q_value =~ /Dmel_(.*)"/) {
+                    my $new_val = $id_map{$1};
+                    if ($new_val) {
+                      $q_value = qq|"$new_val"|;
+                    } else {
+                      die "can't find: $1\n";
+                    }
+                  }
                 }
               }
             }
-            my $q_value = $3;
-            print "$1$q_name=$q_value\n";
+            print "$start$q_name=$q_value\n";
 
             if ($q_value =~ /"$/) {
               $in_qual = 0;
