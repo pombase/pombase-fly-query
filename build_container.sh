@@ -12,18 +12,19 @@ container_dir=.
 (cd pombase-chado; git pull)
 (cd pombase-chado-json; git pull)
 (cd pombase-python-web; git pull)
-(cd allele_qc; git pull)
-(cd pombase-fly-query; git pull)
 (cd curation; git pull)
+(cd pombase-fly-query; git pull)
 
-(cd pombase-website; cp src/japonicus/index.html src/)
+(cd pombase-website; rsync -avHSP src/fly-query/index.html src/)
+
 (cd pombase-website/src/assets
  ln -sf fly-query-logo.png logo.png
  ln -sf fly-query-logo-small.png logo-small.png
  ln -sf fly-query-logo-tiny.png logo-tiny.png)
 
-cp japonicus-build/setup_jbrowse2_in_container.sh $container_dir/container_scripts/
-cp pombase-website/etc/PomBasePlugin.js $container_dir/
+rsync -avHSP pombase-fly-query/setup_jbrowse2_in_container.sh $container_dir/container_scripts/
+rsync -avHSP pombase-website/etc/PomBasePlugin.js $container_dir/PomBasePlugin.js
+rsync -avHSP pombase-fly-query/site_config.json $container_dir/main_config.json
 
 rsync -aL --delete-after --exclude '*~' pombase-chado/etc/docker-conf/ $container_dir/conf/
 
@@ -31,9 +32,10 @@ rsync -acvPHS --delete-after $dump_dir/web-json $container_dir/
 rsync -acvPHS --delete-after $dump_dir/misc $container_dir/
 rsync -acvPHS --delete-after $dump_dir/gff $container_dir/
 rsync -acvPHS --delete-after $dump_dir/fasta/chromosomes/ $container_dir/chromosome_fasta/
+rsync -acvPHS --delete-after $dump_dir/fasta/bgzip_chromosomes/ $container_dir/bgzip_chromosomes/
 
-cp $dump_dir/api_maps.sqlite3.zst $container_dir/
-cp $dump_dir/pombe-embl/supporting_files/PB_references.txt $container_dir/
+rsync -acvHSP $dump_dir/api_maps.sqlite3.zst $container_dir/
+rsync -acvHSP $dump_dir/pombe-embl/supporting_files/PB_references.txt $container_dir/
 
 mkdir -p $container_dir/feature_sequences
 rsync -acvPHS --delete-after $dump_dir/fasta/feature_sequences/peptide.fa.gz $container_dir/feature_sequences/peptide.fa.gz
