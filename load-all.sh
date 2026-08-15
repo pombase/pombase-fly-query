@@ -34,6 +34,7 @@ LOAD_CONFIG=$GIT_DIR/load-chado.yaml
 MAIN_CONFIG=$GIT_DIR/site_config.json
 
 LOG_DIR=$BASE/logs
+log_file=log.`date +'%Y-%m-%d-%H-%M-%S'`
 
 POMBASE_CHADO=$BASE/pombase-chado
 POMBASE_LEGACY=$BASE/pombase-legacy
@@ -942,12 +943,13 @@ $BASE/pombase-chado/script/pombase-import.pl $POMBASE_LEGACY/load-pombase-chado.
 
 
 cd $LOG_DIR
-log_file=log.`date +'%Y-%m-%d-%H-%M-%S'`
+
 $POMBASE_LEGACY/script/load-chado.pl --taxonid=7227 \
   --gene-ex-qualifiers $GIT_DIR/gene_ex_qualifiers \
   $LOAD_CONFIG $BUILD_ID \
   "$HOST" $DB $USER $PASSWORD $GIT_DIR/contigs/*.contig 2>&1 | tee $log_file || exit 1
 
+createdb -T $DB $DB-stage3
 
 $POMBASE_LEGACY/etc/process-log.pl $log_file
 

@@ -1,6 +1,6 @@
 {
   "site_name": "FlyQuery",
-  "database_name": "FlyQuery",
+  "database_name": "FB",
   "database_long_name": "Fly gene query",
   "database_citation": "PMID:35380656",
   "logo_file_name": "fly-query-logo.png",
@@ -2403,7 +2403,7 @@
     "distant_synonym_boost": 0.05,
     "term_definition_boost": 0.05,
     "cv_name_for_terms_search": "(molecular_function OR biological_process OR cellular_component)",
-    "gene_uniquename_re": "^FBgn\d+$"
+    "gene_uniquename_re": "^FBgn\\d+$"
   },
   "gene_results": {
     "field_config": {
@@ -2770,7 +2770,7 @@
       "start_pos",
       "end_pos",
       "chromosome_name",
-      "strand"
+      "strand",
       "molecular_weight",
       "protein_length",
       "protein_length_bin"
@@ -2870,6 +2870,10 @@
         "SO:0000275": "SO:0001267",
         "SO:0000655": "SO:0001263"
       }
+    },
+    "phaf_cv_name": "single_locus_phenotype",
+    "phaf_parental_strain": {
+      "4896": "972 h-"
     }
   },
   "protein_feature_table": {
@@ -2962,5 +2966,109 @@
         ]
       }
     ]
+  },
+  "gene_expression": {
+    "max_gene_ex_plot_genes": 250,
+    "datasets": [
+    ]
+  },
+  "protein_feature_db_order": [],
+  "protein_feature_view": {
+    "modification_extension_rel_types": [
+    ],
+    "widget_tracks": [
+      "AA substitution positions",
+      "Modifications",
+      "Glycosylation sites",
+      "Pfam domains",
+      "DeepTMHMM",
+      "TM domains",
+      "Disordered regions",
+      "Low complexity",
+      "Coiled coils",
+      "Disulfide bonds",
+      "Binding sites",
+      "Active sites",
+      "Localization signals",
+      "Signal-Peptide-DeepTMHMM",
+      "Propeptides",
+      "Cleavage sites"
+    ],
+    "domains_and_features_tracks": [
+      "Binding sites",
+      "Active sites",
+      "Conserved motifs",
+      "MobiDB",
+      "MobiDB-Disorder",
+      "MobiDB-Glycine-rich",
+      "MobiDB-Negative-Polyelectrolyte",
+      "MobiDB-Polar",
+      "MobiDB-Polyampholyte",
+      "MobiDB-Positive-Polyelectrolyte",
+      "MobiDB-Proline-rich",
+      "CDD",
+      "CATH-FunFam",
+      "CATH-Gene3D",
+      "HAMAP",
+      "NCBIFAM",
+      "PANTHER",
+      "Pfam",
+      "PIRSF",
+      "PRINTS",
+      "PROSITE patterns",
+      "PROSITE profiles",
+      "SFLD",
+      "SMART",
+      "SUPERFAMILY",
+      "Localization signals",
+      "Signal-Peptide-DeepTMHMM",
+      "DeepTMHMM",
+      "TM domains",
+      "Disordered regions",
+      "Low complexity",
+      "Coiled coils"
+    ],
+    "modification_section_tracks": [
+      "Modifications",
+      "Disulfide bonds"
+    ],
+    "modification_groups": [
+      {
+        "termid": "MOD:01875",
+        "name": "N6-acylated L-lysine"
+      },
+      {
+        "termid": "MOD:01155",
+        "name": "lipoconjugated residue"
+      },
+      {
+        "termid": "MOD:00408",
+        "name": "N-acetylated residue"
+      },
+      {
+        "termid": "MOD:00696",
+        "name": "phosphorylated residue"
+      },
+      {
+        "termid": "MOD:00427",
+        "name": "methylated residue"
+      },
+      {
+        "termid": "MOD:00764",
+        "name": "glycoconjugated residue"
+      },
+      {
+        "termid": "MOD:00905",
+        "name": "modified L-cysteine residue"
+      }
+    ],
+    "full_display_excluded": [
+      "MobiDB-Low-complexity",
+      "Pfam domains"
+    ]
+  },
+  "apicuron": {
+    "resource_id": "fly-query"
   }
+
 }
