@@ -1,0 +1,5 @@
+data_type,display_in_jbrowse,show_feature_label,label,comment,assayed_gene_product,background,alleles,mutant(s),conditions,growth_phase_or_response,strand,assay_type,first_author,publication_year,pmed_id,DB,study_id,sample_id,short_description,data_file_type,source_url
+Genome sequence and features,yes,yes,refseqs,,,h-,WT,not applicable,,not applicable,,not specified,Rhind,2002,21511999,,not available,,,,
+Genome sequence and features,yes,yes,Forward strand features,,,,not applicable,not applicable,,not applicable,,not specified,Rhind,2002,21511999,,not available,,,,
+Genome sequence and features,yes,yes,Reverse strand features,,,,not applicable,not applicable,,not applicable,,not specified,Rhind,2002,21511999,,not available,,,,
+Base composition,yes,yes,GC content,,,,WT,not applicable,,not applicable,,not specified,Rhind,2002,21511999,,not available,,,,

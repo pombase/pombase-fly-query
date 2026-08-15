@@ -1,0 +1,120 @@
+{
+  "plugins": ["GCContent"],
+  "trackSelector" : {
+    "renameFacets" : {
+      "pmed_id": "PubMed ID",
+      "study_id": "Study ID",
+      "data_type": "Data type",
+      "assay_type": "Assay type",
+      "first_author": "First author",
+      "publication_year": "Publication year",
+      "sample_id": "Sample ID",
+      "data_file_type": "Data file type",
+      "assayed_gene_product": "Assayed gene product",
+      "growth_phase_or_response": "Growth phase or response",
+      "label": "Track label",
+      "source_url": "Source URL",
+      "conditions": "Conditions",
+      "comment": "Comment",
+      "alleles": "WT or mutant",
+      "background": "Strain background",
+      "mutant(s)": "Mutant alleles"
+    },
+    "displayColumns" : [
+      "data_type",
+      "key",
+      "alleles",
+      "mutant(s)",
+      "growth_phase_or_response",
+      "assayed_gene_product",
+      "background",
+      "conditions",
+      "assay_type",
+      "study_id",
+      "sample_id",
+      "first_author",
+      "pmed_id",
+      "publication_year",
+      "comment"
+    ],
+    "type" : "Faceted",
+    "escapeHTMLInData" : false
+  },
+  "trackMetadata" : {
+    "sortFacets": false,
+    "sources" : [
+      {
+        "url" : "data/jbrowse_track_metadata.csv",
+        "type" : "csv"
+      }
+    ],
+    "indexFacets" : [
+      "data_type",
+      "growth_phase_or_response",
+      "alleles",
+      "first_author",
+      "pmed_id",
+      "study_id"
+    ]
+  },
+  "defaultTracks": "Forward strand features,DNA sequence,Reverse strand features",
+  "trackLabels": "no-block",
+  "tracks" : [
+    {
+      "trackType" : "CanvasFeatures",
+      "key" : "Forward strand features",
+      "label" : "Forward strand features",
+      "type" : "CanvasFeatures",
+      "data_type": "base track",
+      "alleles": "WT",
+      "transcriptType": ["mRNA", "snRNA", "pseudogenic_transcript", "snoRNA", "tRNA", "ncRNA"],
+      "first_author": "Rhind",
+      "growth_phase_or_response": "multiple (combined data)",
+      "pmed_id": 21511999,
+      "study_ID": "not specified",
+      "urlTemplate" : "tracks/Forward strand features/{refseq}/trackData.json",
+      "style" : {
+        "className" : "feature",
+        "color" : "function(featureObject) { var parent = featureObject.parent(); if (parent) { var parType = parent.get('type'); if (parType == 'mRNA' || parType.indexOf('RNA') == -1) { return 'goldenrod'; } else { return '#ff4444' } } else { return '#ccc' } }"
+
+
+      },
+      "labelTranscripts": false,
+      "compress" : 0,
+      "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+      "fmtDetailValue_Name" : "function(name, feature) {if(feature.get('type')=='gene') {return '<a target=\"_parent\" href=\"http://japonicusdb.kmr.nz/gene/'+feature.get('Id')+'\">'+name+'</a>';} else { return name;}}"
+    },
+    {
+      "trackType" : "CanvasFeatures",
+      "key" : "Reverse strand features",
+      "label" : "Reverse strand features",
+      "type" : "CanvasFeatures",
+      "data_type": "base track",
+      "alleles": "WT",
+      "transcriptType": ["mRNA", "snRNA", "pseudogenic_transcript", "snoRNA", "tRNA", "ncRNA"],
+      "first_author": "Rhind",
+      "growth_phase_or_response": "multiple (combined data)",
+      "pmed_id": 21511999,
+      "study_ID": "not specified",
+      "urlTemplate" : "tracks/Reverse strand features/{refseq}/trackData.json",
+      "style" : {
+        "className" : "feature",
+        "color" : "function(featureObject) { var parent = featureObject.parent(); if (parent) { var parType = parent.get('type'); if (parType == 'mRNA' || parType.indexOf('RNA') == -1) { return 'goldenrod'; } else { return '#ff4444' } } else { return '#ccc' } }"
+      },
+      "labelTranscripts": false,
+      "compress" : 0,
+      "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+      "fmtDetailValue_Name" : "function(name, feature) {if(feature.get('type')=='gene') {return '<a target=\"_parent\" href=\"http://japonicusdb.kmr.nz/gene/'+feature.get('Id')+'\">'+name+'</a>';} else { return name;}}"
+    },
+    {
+      "key": "GC content",
+      "storeClass" : "JBrowse/Store/SeqFeature/SequenceChunks",
+      "type": "GCContent/View/Track/GCContentXY",
+      "label" : "GC content",
+      "gcMode": "content",
+      "urlTemplate" : "seq/{refseq_dirpath}/{refseq}-",
+      "bicolor_pivot": 0
+    }
+  ],
+  "formatVersion" : 1
+}
