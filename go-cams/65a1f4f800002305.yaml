@@ -1,0 +1,91 @@
+id: gomodel:65a1f4f800002305
+title: TrpA1 is a shear stress mechanosensing channel regulating intestinal stem cell
+  proliferation in Drosophila. PMID:37224252. (D.mel)
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2024-01-24'
+activities:
+- id: gomodel:65a1f4f800002305/65a1f4f800002313
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:37224252
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-01-24'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-01-24'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0035934
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0005262
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:37224252
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-01-24'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-01-24'
+      provided_by:
+      - http://flybase.org
+    term: FBbt:00007038
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:37224252
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-01-24'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-01-24'
+      provided_by:
+      - http://flybase.org
+    term: GO:0097703
+molecules: []
+objects:
+- id: GO:0005262
+  label: calcium channel activity
+  type: gocam:Object
+- id: FB:FBgn0035934
+  label: TrpA1 Dmel
+  type: gocam:Object
+- id: GO:0097703
+  label: cellular response to pulsatile fluid shear stress
+  type: gocam:Object
+- id: GO:0005886
+  label: plasma membrane
+  type: gocam:Object
+- id: FBbt:00007038
+  label: enteroendocrine cell
+  type: gocam:Object
+- id: ECO:0000314
+  label: direct assay evidence used in manual assertion
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0003-3212-6364
+  date: '2024-01-24'
+  provided_by:
+  - http://flybase.org

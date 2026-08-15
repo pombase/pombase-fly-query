@@ -1,0 +1,374 @@
+id: gomodel:66187e4700000045
+title: Amino Acid Sensing - TORC1 pathway (D.mel)
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2025-04-10'
+activities:
+- id: gomodel:66187e4700000045/66187e4700000046
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:35859173
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0034897
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0140785
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:35859173
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    term: GO:0071233
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:35859173
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:66187e4700000045/66187e4700000058
+  causal_associations:
+  - type: CausalAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:35859173
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002630
+    downstream_activity: gomodel:66187e4700000045/66187e4700000068
+- id: gomodel:66187e4700000045/66187e4700000068
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:35859173
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0034897
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0044877
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:35859173
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    term: GO:1904262
+    part_of:
+      type: BiologicalProcessAssociation
+      evidence:
+      - term: ECO:0000315
+        reference: PMID:35859173
+        provenances:
+        - contributor:
+          - https://orcid.org/0000-0003-3212-6364
+          date: '2024-04-15'
+          provided_by:
+          - http://flybase.org
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+      term: GO:1990253
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:35859173
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:66187e4700000045/66187e4700000081
+- id: gomodel:66187e4700000045/66187e4700000062
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:38514639
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0023522
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0044877
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:38514639
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    term: GO:1904262
+    part_of:
+      type: BiologicalProcessAssociation
+      evidence:
+      - term: ECO:0000315
+        reference: PMID:38514639
+        provenances:
+        - contributor:
+          - https://orcid.org/0000-0003-3212-6364
+          date: '2024-04-15'
+          provided_by:
+          - http://flybase.org
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+      term: GO:0034198
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:38514639
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:66187e4700000045/66187e4700000083
+- id: gomodel:66187e4700000045/66187e4700000051
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:38514639
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0023522
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0140785
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:38514639
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    term: GO:0061431
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:38514639
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:66187e4700000045/66187e4700000060
+  causal_associations:
+  - type: CausalAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:38514639
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-04-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-04-15'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002630
+    downstream_activity: gomodel:66187e4700000045/66187e4700000062
+molecules:
+- id: gomodel:66187e4700000045/66187e4700000060
+  term: CHEBI:59789
+- id: gomodel:66187e4700000045/66187e4700000058
+  term: CHEBI:15603
+- id: gomodel:66187e4700000045/66187e4700000081
+  term: GO:0061700
+- id: gomodel:66187e4700000045/66187e4700000083
+  term: GO:0061700
+objects:
+- id: GO:0140785
+  label: amino acid sensor activity
+  type: gocam:Object
+- id: FB:FBgn0034897
+  label: Sesn Dmel
+  type: gocam:Object
+- id: GO:0071233
+  label: cellular response to L-leucine
+  type: gocam:Object
+- id: ECO:0000315
+  label: mutant phenotype evidence used in manual assertion
+  type: gocam:Object
+- id: FB:FBgn0023522
+  label: unmet Dmel
+  type: gocam:Object
+- id: GO:0061431
+  label: cellular response to methionine
+  type: gocam:Object
+- id: ECO:0000314
+  label: direct assay evidence used in manual assertion
+  type: gocam:Object
+- id: CHEBI:15603
+  label: L-leucine
+  type: gocam:Object
+- id: CHEBI:59789
+  label: S-adenosyl-L-methionine zwitterion
+  type: gocam:Object
+- id: GO:0044877
+  label: protein-containing complex binding
+  type: gocam:Object
+- id: GO:1904262
+  label: negative regulation of TORC1 signaling
+  type: gocam:Object
+- id: GO:1990253
+  label: cellular response to leucine starvation
+  type: gocam:Object
+- id: GO:0034198
+  label: cellular response to amino acid starvation
+  type: gocam:Object
+- id: GO:0061700
+  label: GATOR2 complex
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0003-3212-6364
+  date: '2025-04-10'
+  provided_by:
+  - http://flybase.org

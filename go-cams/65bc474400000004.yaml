@@ -1,0 +1,136 @@
+id: gomodel:65bc474400000004
+title: Drosophila eIF3f1 mediates host immune defense by targeting dTak1 . PMID:38279019.
+  (D.mel)
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2024-02-02'
+activities:
+- id: gomodel:65bc474400000004/65bc474400000005
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:38279019
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-02-02'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-02-02'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0037270
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0140492
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:38279019
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-02-02'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-02-02'
+      provided_by:
+      - http://flybase.org
+    term: GO:0061059
+    part_of:
+      type: BiologicalProcessAssociation
+      evidence:
+      - term: ECO:0000315
+        reference: PMID:38279019
+        provenances:
+        - contributor:
+          - https://orcid.org/0000-0003-3212-6364
+          date: '2024-02-02'
+          provided_by:
+          - http://flybase.org
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-02-02'
+        provided_by:
+        - http://flybase.org
+      term: GO:0140367
+      part_of:
+        type: BiologicalProcessAssociation
+        evidence:
+        - term: ECO:0000315
+          reference: PMID:38279019
+          provenances:
+          - contributor:
+            - https://orcid.org/0000-0003-3212-6364
+            date: '2024-02-02'
+            provided_by:
+            - http://flybase.org
+        provenances:
+        - contributor:
+          - https://orcid.org/0000-0003-3212-6364
+          date: '2024-02-02'
+          provided_by:
+          - http://flybase.org
+        term: GO:0050829
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:38279019
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-02-02'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-02-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:65bc474400000004/65bc474400000010
+molecules:
+- id: gomodel:65bc474400000004/65bc474400000010
+  term: FB:FBgn0026323
+objects:
+- id: GO:0140492
+  label: metal-dependent deubiquitinase activity
+  type: gocam:Object
+- id: FB:FBgn0037270
+  label: eIF3f1 Dmel
+  type: gocam:Object
+- id: GO:0061059
+  label: positive regulation of peptidoglycan recognition protein signaling pathway
+  type: gocam:Object
+- id: GO:0140367
+  label: antibacterial innate immune response
+  type: gocam:Object
+- id: GO:0050829
+  label: defense response to Gram-negative bacterium
+  type: gocam:Object
+- id: FB:FBgn0026323
+  label: Tak1 Dmel
+  type: gocam:Object
+- id: ECO:0000314
+  label: direct assay evidence used in manual assertion
+  type: gocam:Object
+- id: ECO:0000315
+  label: mutant phenotype evidence used in manual assertion
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0003-3212-6364
+  date: '2024-02-02'
+  provided_by:
+  - http://flybase.org

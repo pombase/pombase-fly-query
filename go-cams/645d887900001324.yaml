@@ -1,0 +1,87 @@
+id: gomodel:645d887900001324
+title: Ufm1 Dmel (basic annaton)
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2023-05-23'
+activities:
+- id: gomodel:645d887900001324/645d887900001325
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:37086384
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-23'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-23'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0085220
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0031386
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:37086384
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-23'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-23'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005829
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:37086384
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-23'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-23'
+      provided_by:
+      - http://flybase.org
+    term: GO:0071569
+molecules: []
+objects:
+- id: GO:0031386
+  label: protein tag activity
+  type: gocam:Object
+- id: FB:FBgn0085220
+  label: Ufm1 Dmel
+  type: gocam:Object
+- id: GO:0005829
+  label: cytosol
+  type: gocam:Object
+- id: ECO:0000314
+  label: direct assay evidence used in manual assertion
+  type: gocam:Object
+- id: GO:0071569
+  label: protein ufmylation
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0003-3212-6364
+  date: '2023-05-23'
+  provided_by:
+  - http://flybase.org

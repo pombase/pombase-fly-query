@@ -1,0 +1,96 @@
+id: gomodel:657ba49f00000033
+title: Trp1 (D.mel) Annoton
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2024-01-23'
+activities:
+- id: gomodel:657ba49f00000033/657ba49f00000042
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000316
+      reference: PMID:7957091
+      with_objects:
+      - SGD:S000006015
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-12-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-12-15'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0011584
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0008320
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000305
+      reference: PMID:7957091
+      with_objects:
+      - GO:0008320
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-12-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-12-15'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005789
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000316
+      reference: PMID:7957091
+      with_objects:
+      - SGD:S000006015
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-12-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-12-15'
+      provided_by:
+      - http://flybase.org
+    term: GO:0031204
+molecules: []
+objects:
+- id: GO:0008320
+  label: transmembrane protein transporter activity
+  type: gocam:Object
+- id: FB:FBgn0011584
+  label: Trp1 Dmel
+  type: gocam:Object
+- id: GO:0031204
+  label: post-translational protein targeting to membrane, translocation
+  type: gocam:Object
+- id: ECO:0000316
+  label: genetic interaction evidence used in manual assertion
+  type: gocam:Object
+- id: GO:0005789
+  label: endoplasmic reticulum membrane
+  type: gocam:Object
+- id: ECO:0000305
+  label: curator inference used in manual assertion
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0003-3212-6364
+  date: '2024-01-23'
+  provided_by:
+  - http://flybase.org

@@ -1,0 +1,296 @@
+id: gomodel:654d809000001929
+title: 'The endoribonuclease Arlr is required to maintain lipid homeostasis by downregulating
+  lipolytic genes during aging. PMID:37803019 '
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2023-11-27'
+activities:
+- id: gomodel:654d809000001929/654d809000001930
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:37803019
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-11-27'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-11-27'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0030251
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0004521
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:37803019
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-11-27'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-11-27'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005783
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:37803019
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-11-27'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-11-27'
+      provided_by:
+      - http://flybase.org
+    term: GO:0061157
+    part_of:
+      type: BiologicalProcessAssociation
+      evidence:
+      - term: ECO:0000315
+        reference: PMID:37803019
+        provenances:
+        - contributor:
+          - https://orcid.org/0000-0003-3212-6364
+          date: '2023-11-27'
+          provided_by:
+          - http://flybase.org
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-11-27'
+        provided_by:
+        - http://flybase.org
+      term: GO:0016441
+      part_of:
+        type: BiologicalProcessAssociation
+        evidence:
+        - term: ECO:0000315
+          reference: PMID:37803019
+          provenances:
+          - contributor:
+            - https://orcid.org/0000-0003-3212-6364
+            date: '2023-11-27'
+            provided_by:
+            - http://flybase.org
+        provenances:
+        - contributor:
+          - https://orcid.org/0000-0003-3212-6364
+          date: '2023-11-27'
+          provided_by:
+          - http://flybase.org
+        term: GO:0050995
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:37803019
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-11-27'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-11-27'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:654d809000001929/654d809000001941
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:37803019
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-11-27'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-11-27'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:654d809000001929/654d809000001943
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:37803019
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-11-27'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-11-27'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:654d809000001929/654d809000001939
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:37803019
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-11-27'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-11-27'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:654d809000001929/654d809000001945
+- id: gomodel:654d809000001929/654d809000001949
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000316
+      reference: PMID:37803019
+      with_objects:
+      - FB:FBgn0030251
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-11-27'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-11-27'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0038381
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0004521
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000316
+      reference: PMID:37803019
+      with_objects:
+      - FB:FBgn0030251
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-11-27'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-11-27'
+      provided_by:
+      - http://flybase.org
+    term: GO:0016441
+    part_of:
+      type: BiologicalProcessAssociation
+      evidence:
+      - term: ECO:0000316
+        reference: PMID:37803019
+        with_objects:
+        - FB:FBgn0030251
+        provenances:
+        - contributor:
+          - https://orcid.org/0000-0003-3212-6364
+          date: '2023-11-27'
+          provided_by:
+          - http://flybase.org
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-11-27'
+        provided_by:
+        - http://flybase.org
+      term: GO:0050995
+molecules:
+- id: gomodel:654d809000001929/654d809000001941
+  term: FB:FBgn0040064
+- id: gomodel:654d809000001929/654d809000001943
+  term: FB:FBgn0039114
+- id: gomodel:654d809000001929/654d809000001939
+  term: FB:FBgn0030362
+- id: gomodel:654d809000001929/654d809000001945
+  term: FB:FBgn0030828
+objects:
+- id: GO:0004521
+  label: RNA endonuclease activity
+  type: gocam:Object
+- id: FB:FBgn0030251
+  label: Arlr Dmel
+  type: gocam:Object
+- id: GO:0061157
+  label: mRNA destabilization
+  type: gocam:Object
+- id: GO:0016441
+  label: post-transcriptional gene silencing
+  type: gocam:Object
+- id: GO:0005783
+  label: endoplasmic reticulum
+  type: gocam:Object
+- id: ECO:0000315
+  label: mutant phenotype evidence used in manual assertion
+  type: gocam:Object
+- id: ECO:0000314
+  label: direct assay evidence used in manual assertion
+  type: gocam:Object
+- id: FB:FBgn0030362
+  label: regucalcin Dmel
+  type: gocam:Object
+- id: FB:FBgn0040064
+  label: Acaa Dmel
+  type: gocam:Object
+- id: FB:FBgn0039114
+  label: Lsd1 Dmel
+  type: gocam:Object
+- id: FB:FBgn0030828
+  label: CG5162 Dmel
+  type: gocam:Object
+- id: GO:0050995
+  label: negative regulation of lipid catabolic process
+  type: gocam:Object
+- id: FB:FBgn0038381
+  label: EndoU Dmel
+  type: gocam:Object
+- id: ECO:0000316
+  label: genetic interaction evidence used in manual assertion
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0003-3212-6364
+  date: '2023-11-27'
+  provided_by:
+  - http://flybase.org

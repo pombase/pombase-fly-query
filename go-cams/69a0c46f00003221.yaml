@@ -1,0 +1,365 @@
+id: gomodel:69a0c46f00003221
+title: alpha helical protein insertion into mitochondrial outer membrane (Dmel)
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2026-07-09'
+activities:
+- id: gomodel:69a0c46f00003221/69a0c46f00003222
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:41576035
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2026-05-11'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-05-11'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0027786
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0032977
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000303
+      reference: PMID:37759714
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2026-03-11'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-03-11'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005741
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:41576035
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2026-05-11'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-05-11'
+      provided_by:
+      - http://flybase.org
+    term: GO:7770059
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000649
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000647
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000648
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000656
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000657
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000646
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000654
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000655
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000652
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000653
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000650
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-06-02'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000651
+- id: gomodel:69a0c46f00003221/69a0c46f00003226
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P07213
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2026-03-11'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-03-11'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0032397
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0140436
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000318
+      reference: GO_REF:0000033
+      with_objects:
+      - PANTHER:PTN002340064
+      - RGD:1303049
+      - SGD:S000005065
+      - SGD:S000001159
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2026-05-11'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-05-11'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005741
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:O94826
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2026-06-01'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-05-11'
+      provided_by:
+      - http://flybase.org
+    term: GO:7770059
+  causal_associations:
+  - type: CausalAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P07213
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2026-03-11'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2026-03-11'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002304
+    downstream_activity: gomodel:69a0c46f00003221/69a0c46f00003222
+molecules:
+- id: gomodel:69a0c46f00003221/6a18a9ba00000649
+  term: FB:FBgn0032200
+- id: gomodel:69a0c46f00003221/6a18a9ba00000647
+  term: FB:FBgn0029819
+- id: gomodel:69a0c46f00003221/6a18a9ba00000648
+  term: FB:FBgn0031729
+- id: gomodel:69a0c46f00003221/6a18a9ba00000656
+  term: FB:FBgn0062442
+- id: gomodel:69a0c46f00003221/6a18a9ba00000657
+  term: FB:FBgn0261266
+- id: gomodel:69a0c46f00003221/6a18a9ba00000646
+  term: FB:FBgn0027786
+- id: gomodel:69a0c46f00003221/6a18a9ba00000654
+  term: FB:FBgn0039140
+- id: gomodel:69a0c46f00003221/6a18a9ba00000655
+  term: FB:FBgn0039969
+- id: gomodel:69a0c46f00003221/6a18a9ba00000652
+  term: FB:FBgn0035483
+- id: gomodel:69a0c46f00003221/6a18a9ba00000653
+  term: FB:FBgn0037007
+- id: gomodel:69a0c46f00003221/6a18a9ba00000650
+  term: FB:FBgn0032397
+- id: gomodel:69a0c46f00003221/6a18a9ba00000651
+  term: FB:FBgn0033451
+objects:
+- id: FB:FBgn0027786
+  label: Mtch Dmel
+  type: gocam:Object
+- id: FB:FBgn0029819
+  label: Usp30 Dmel
+  type: gocam:Object
+- id: FB:FBgn0031729
+  label: CG12511 Dmel
+  type: gocam:Object
+- id: FB:FBgn0032200
+  label: Fundc1 Dmel
+  type: gocam:Object
+- id: FB:FBgn0032397
+  label: Tom70 Dmel
+  type: gocam:Object
+- id: FB:FBgn0033451
+  label: Marc Dmel
+  type: gocam:Object
+- id: FB:FBgn0035483
+  label: Mul1 Dmel
+  type: gocam:Object
+- id: FB:FBgn0037007
+  label: BNIP3 Dmel
+  type: gocam:Object
+- id: FB:FBgn0039140
+  label: Miro Dmel
+  type: gocam:Object
+- id: FB:FBgn0039969
+  label: Fis1 Dmel
+  type: gocam:Object
+- id: FB:FBgn0062442
+  label: Cisd Dmel
+  type: gocam:Object
+- id: FB:FBgn0261266
+  label: zuc Dmel
+  type: gocam:Object
+- id: GO:0032977
+  label: membrane insertase activity
+  type: gocam:Object
+- id: GO:0005741
+  label: mitochondrial outer membrane
+  type: gocam:Object
+- id: ECO:0000303
+  label: author statement without traceable support used in manual assertion
+  type: gocam:Object
+- id: GO:0140436
+  label: mitochondrial signal sequence receptor activity
+  type: gocam:Object
+- id: ECO:0000250
+  label: sequence similarity evidence used in manual assertion
+  type: gocam:Object
+- id: GO:7770059
+  label: alpha helical protein insertion into mitochondrial outer membrane
+  type: gocam:Object
+- id: ECO:0000318
+  label: biological aspect of ancestor evidence used in manual assertion
+  type: gocam:Object
+- id: ECO:0000315
+  label: mutant phenotype evidence used in manual assertion
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0003-3212-6364
+  date: '2026-07-09'
+  provided_by:
+  - http://flybase.org

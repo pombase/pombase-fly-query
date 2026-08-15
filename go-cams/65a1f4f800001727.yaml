@@ -1,0 +1,119 @@
+id: gomodel:65a1f4f800001727
+title: An insecticide target in mechanoreceptor neurons. PMID:36417522. (D.mel)
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2024-01-23'
+activities:
+- id: gomodel:65a1f4f800001727/65a1f4f800001728
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:36417522
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-01-23'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-01-23'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0051216
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0008936
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000304
+      reference: PMID:36417522
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-01-23'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-01-23'
+      provided_by:
+      - http://flybase.org
+    term: GO:0034355
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:36417522
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-01-23'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-01-23'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:65a1f4f800001727/65a1f4f800001738
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:36417522
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2024-01-23'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2024-01-23'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:65a1f4f800001727/65a1f4f800001735
+molecules:
+- id: gomodel:65a1f4f800001727/65a1f4f800001738
+  term: CHEBI:15940
+- id: gomodel:65a1f4f800001727/65a1f4f800001735
+  term: CHEBI:17154
+objects:
+- id: GO:0008936
+  label: nicotinamidase activity
+  type: gocam:Object
+- id: FB:FBgn0051216
+  label: Naam Dmel
+  type: gocam:Object
+- id: GO:0034355
+  label: NAD+ biosynthetic process via the salvage pathway
+  type: gocam:Object
+- id: FBbt:00005222
+  label: chordotonal neuron
+  type: gocam:Object
+- id: ECO:0000314
+  label: direct assay evidence used in manual assertion
+  type: gocam:Object
+- id: ECO:0000304
+  label: author statement supported by traceable reference used in manual assertion
+  type: gocam:Object
+- id: CHEBI:17154
+  label: nicotinamide
+  type: gocam:Object
+- id: CHEBI:15940
+  label: nicotinic acid
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0003-3212-6364
+  date: '2024-01-23'
+  provided_by:
+  - http://flybase.org

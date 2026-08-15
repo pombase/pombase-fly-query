@@ -1,0 +1,281 @@
+id: gomodel:68b0f0d000003127
+title: L-proline catabolic process to L-glutamate (Dmel)
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2026-01-22'
+comments:
+- 'Automated change 2026-01-22: GO:0010133 replaced by GO:0006562'
+- 'Spontenous reaction in Rhea: RHEA:28234'
+- pyrroline-5-carboxylate, the product of slgA is spontaneously converted to  L-glutamic
+  5-semialdehyde, the substrate of P5CDh1
+activities:
+- id: gomodel:68b0f0d000003127/68b0f0d000003128
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:8096642
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-04'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-04'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0003423
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0004657
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:8096642
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-04'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-04'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005739
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:8096642
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-04'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-04'
+      provided_by:
+      - http://flybase.org
+    term: GO:0006562
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:8096642
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-04'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-04'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:68b0f0d000003127/68b0f0d000003184
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:8096642
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-04'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-04'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:68b0f0d000003127/68b0f0d000003185
+  causal_associations:
+  - type: CausalAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:8096642
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-11-24'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-11-24'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0012009
+    downstream_activity: gomodel:68b0f0d000003127/68b0f0d000003177
+- id: gomodel:68b0f0d000003127/68b0f0d000003177
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P30038
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-04'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-04'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0037138
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0003842
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:21168532
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-04'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-04'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005739
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:21168532
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-04'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-04'
+      provided_by:
+      - http://flybase.org
+    term: GO:0006562
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P30038
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-04'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-04'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:68b0f0d000003127/68b0f0d000003187
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P30038
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-04'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-04'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:68b0f0d000003127/68b0f0d000003186
+molecules:
+- id: gomodel:68b0f0d000003127/68b0f0d000003184
+  term: CHEBI:60039
+- id: gomodel:68b0f0d000003127/68b0f0d000003185
+  term: CHEBI:17388
+- id: gomodel:68b0f0d000003127/68b0f0d000003187
+  term: CHEBI:29985
+- id: gomodel:68b0f0d000003127/68b0f0d000003186
+  term: CHEBI:58066
+objects:
+- id: GO:0004657
+  label: proline dehydrogenase activity
+  type: gocam:Object
+- id: FB:FBgn0003423
+  label: slgA Dmel
+  type: gocam:Object
+- id: GO:0006562
+  label: L-proline catabolic process
+  type: gocam:Object
+- id: GO:0005739
+  label: mitochondrion
+  type: gocam:Object
+- id: ECO:0000315
+  label: mutant phenotype evidence used in manual assertion
+  type: gocam:Object
+- id: ECO:0000314
+  label: direct assay evidence used in manual assertion
+  type: gocam:Object
+- id: GO:0003842
+  label: L-glutamate gamma-semialdehyde dehydrogenase activity
+  type: gocam:Object
+- id: FB:FBgn0037138
+  label: P5CDh1 Dmel
+  type: gocam:Object
+- id: ECO:0000250
+  label: sequence similarity evidence used in manual assertion
+  type: gocam:Object
+- id: CHEBI:60039
+  label: L-proline zwitterion
+  type: gocam:Object
+- id: CHEBI:17388
+  label: (S)-1-pyrroline-5-carboxylate
+  type: gocam:Object
+- id: CHEBI:58066
+  label: L-glutamic 5-semialdehyde zwitterion
+  type: gocam:Object
+- id: CHEBI:29985
+  label: L-glutamate(1-)
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0002-3358-4423
+  date: '2026-01-22'
+  provided_by:
+  - http://flybase.org

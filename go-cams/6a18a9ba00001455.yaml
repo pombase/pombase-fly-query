@@ -1,0 +1,558 @@
+id: gomodel:6a18a9ba00001455
+title: Carnitine shuttle (Dmel)
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2026-06-05'
+comments:
+- Use for a wide range of long chain fatty acyl-CoA. The model as an example uses
+  palmitoyl-CoA
+activities:
+- id: gomodel:6a18a9ba00001455/6a18a9ba00001469
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P97521
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0019830
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0015227
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q9Z2Z6
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005743
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P97521
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:1902603
+    part_of:
+      type: BiologicalProcessAssociation
+      evidence:
+      - term: ECO:0000250
+        reference: GO_REF:0000024
+        with_objects:
+        - UniProtKB:Q9Z2Z6
+        provenances:
+        - contributor:
+          - https://orcid.org/0000-0002-3358-4423
+          date: '2026-06-05'
+          provided_by:
+          - http://flybase.org
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+      term: GO:0006853
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P97521
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6a18a9ba00001455/6a18a9ba00001494
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P97521
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:6a18a9ba00001455/6a18a9ba00001500
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P97521
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:6a18a9ba00001455/6a18a9ba00001478
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P97521
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6a18a9ba00001455/6a18a9ba00001467
+- id: gomodel:6a18a9ba00001455/6a18a9ba00001456
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:20061394
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0261862
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0004095
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P50416
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005741
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000304
+      reference: PMID:31160709
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0006853
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:20061394
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:6a18a9ba00001455/6a18a9ba00001467
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:20061394
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6a18a9ba00001455/6a18a9ba00001463
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:20061394
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6a18a9ba00001455/6a18a9ba00001464
+- id: gomodel:6a18a9ba00001455/6a18a9ba00001485
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P23786
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0035383
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0004095
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P18886
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005743
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000304
+      reference: PMID:25588812
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0006853
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P23786
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:6a18a9ba00001455/6a18a9ba00001494
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P23786
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6a18a9ba00001455/6a18a9ba00001478
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P23786
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-06-05'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:6a18a9ba00001455/6a18a9ba00001492
+molecules:
+- id: gomodel:6a18a9ba00001455/6a18a9ba00001494
+  term: CHEBI:16347
+  located_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005759
+- id: gomodel:6a18a9ba00001455/6a18a9ba00001467
+  term: CHEBI:17490
+  located_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005758
+- id: gomodel:6a18a9ba00001455/6a18a9ba00001463
+  term: CHEBI:16347
+  located_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005829
+- id: gomodel:6a18a9ba00001455/6a18a9ba00001464
+  term: CHEBI:57379
+  located_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005829
+- id: gomodel:6a18a9ba00001455/6a18a9ba00001478
+  term: CHEBI:17490
+  located_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005759
+- id: gomodel:6a18a9ba00001455/6a18a9ba00001492
+  term: CHEBI:57379
+  located_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005759
+- id: gomodel:6a18a9ba00001455/6a18a9ba00001500
+  term: CHEBI:16347
+  located_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-06-05'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005829
+objects:
+- id: GO:0004095
+  label: carnitine O-palmitoyltransferase activity
+  type: gocam:Object
+- id: FB:FBgn0261862
+  label: whd Dmel
+  type: gocam:Object
+- id: GO:0006853
+  label: carnitine shuttle
+  type: gocam:Object
+- id: GO:0005741
+  label: mitochondrial outer membrane
+  type: gocam:Object
+- id: ECO:0000314
+  label: direct assay evidence used in manual assertion
+  type: gocam:Object
+- id: ECO:0000304
+  label: author statement supported by traceable reference used in manual assertion
+  type: gocam:Object
+- id: ECO:0000250
+  label: sequence similarity evidence used in manual assertion
+  type: gocam:Object
+- id: CHEBI:16347
+  label: (R)-carnitine
+  type: gocam:Object
+- id: CHEBI:57379
+  label: palmitoyl-CoA(4-)
+  type: gocam:Object
+- id: GO:0005829
+  label: cytosol
+  type: gocam:Object
+- id: CHEBI:17490
+  label: O-palmitoyl-L-carnitine
+  type: gocam:Object
+- id: GO:0005758
+  label: mitochondrial intermembrane space
+  type: gocam:Object
+- id: GO:0015227
+  label: O-acyl-L-carnitine transmembrane transporter activity
+  type: gocam:Object
+- id: FB:FBgn0019830
+  label: colt Dmel
+  type: gocam:Object
+- id: GO:1902603
+  label: carnitine transmembrane transport
+  type: gocam:Object
+- id: GO:0005743
+  label: mitochondrial inner membrane
+  type: gocam:Object
+- id: GO:0005759
+  label: mitochondrial matrix
+  type: gocam:Object
+- id: FB:FBgn0035383
+  label: CPT2 Dmel
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0002-3358-4423
+  date: '2026-06-05'
+  provided_by:
+  - http://flybase.org

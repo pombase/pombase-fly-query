@@ -1,0 +1,269 @@
+id: gomodel:645d887900001035
+title: "The Drosophila AWP1 ortholog Doctor No regulates JAK/STAT signaling in left\u2013\
+  right asymmetry in the gut (Dmel)"
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2023-05-22'
+activities:
+- id: gomodel:645d887900001035/645d887900001051
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:36861793
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-22'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-22'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0016917
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0003674
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:36861793
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-22'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-22'
+      provided_by:
+      - http://flybase.org
+    term: GO:0071907
+- id: gomodel:645d887900001035/645d887900001036
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:36861793
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-22'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-22'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0004864
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0003674
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:36861793
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-22'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-22'
+      provided_by:
+      - http://flybase.org
+    term: GO:0071907
+- id: gomodel:645d887900001035/645d887900001041
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:36861793
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-22'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-22'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0043903
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0003674
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:36861793
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-22'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-22'
+      provided_by:
+      - http://flybase.org
+    term: GO:0071907
+- id: gomodel:645d887900001035/645d887900001056
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:36861793
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-22'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-22'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0266410
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0003674
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:36861793
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-22'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-22'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005737
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:36861793
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-22'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-22'
+      provided_by:
+      - http://flybase.org
+    term: GO:0046427
+- id: gomodel:645d887900001035/645d887900001046
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:36861793
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-22'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-22'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0004956
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0003674
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:36861793
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2023-05-22'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2023-05-22'
+      provided_by:
+      - http://flybase.org
+    term: GO:0071907
+molecules: []
+objects:
+- id: GO:0003674
+  label: molecular_function
+  type: gocam:Object
+- id: FB:FBgn0004864
+  label: hop Dmel
+  type: gocam:Object
+- id: GO:0071907
+  label: determination of digestive tract left/right asymmetry
+  type: gocam:Object
+- id: ECO:0000315
+  label: mutant phenotype evidence used in manual assertion
+  type: gocam:Object
+- id: FB:FBgn0043903
+  label: dome Dmel
+  type: gocam:Object
+- id: FB:FBgn0004956
+  label: upd1 Dmel
+  type: gocam:Object
+- id: FB:FBgn0016917
+  label: Stat92E Dmel
+  type: gocam:Object
+- id: FB:FBgn0266410
+  label: drn Dmel
+  type: gocam:Object
+- id: GO:0007259
+  label: cell surface receptor signaling pathway via JAK-STAT
+  type: gocam:Object
+- id: GO:0046427
+  label: positive regulation of receptor signaling pathway via JAK-STAT
+  type: gocam:Object
+- id: GO:0005737
+  label: cytoplasm
+  type: gocam:Object
+- id: ECO:0000314
+  label: direct assay evidence used in manual assertion
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0003-3212-6364
+  date: '2023-05-22'
+  provided_by:
+  - http://flybase.org

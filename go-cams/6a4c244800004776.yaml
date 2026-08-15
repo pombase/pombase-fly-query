@@ -1,0 +1,294 @@
+id: gomodel:6a4c244800004776
+title: ETF-Etf-QO mediated regeneration of mitochondrial FAD (Dmel)
+taxon: NCBITaxon:7227
+status: production
+date_modified: '2026-08-07'
+comments:
+- 'General: To add new GO term for BP FAD regeneration via ETF:ETFQO system when available'
+activities:
+- id: gomodel:6a4c244800004776/6a4c244800005000
+  enabled_by:
+    type: EnabledByProteinComplexAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:22580358
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-07-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-07-20'
+      provided_by:
+      - http://flybase.org
+    term: GO:0017133
+    has_part:
+    - type: ProteinComplexHasPartAssociation
+      evidence:
+      - term: ECO:0000303
+        reference: PMID:15693940
+        provenances:
+        - contributor:
+          - https://orcid.org/0000-0002-3358-4423
+          date: '2026-07-20'
+          provided_by:
+          - http://flybase.org
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-07-20'
+        provided_by:
+        - http://flybase.org
+      term: FB:FBgn0010516
+    - type: ProteinComplexHasPartAssociation
+      evidence:
+      - term: ECO:0000303
+        reference: PMID:15693940
+        provenances:
+        - contributor:
+          - https://orcid.org/0000-0002-3358-4423
+          date: '2026-07-20'
+          provided_by:
+          - http://flybase.org
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-07-20'
+        provided_by:
+        - http://flybase.org
+      term: FB:FBgn0039697
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0009055
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0007005
+      reference: PMID:16212416
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-07-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-07-20'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005739
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:22580358
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-07-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-07-20'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6a4c244800004776/6a4c244800004785
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:22580358
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-07-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-07-20'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:6a4c244800004776/6a4c244800004783
+  causal_associations:
+  - type: CausalAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:22580358
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-07-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-07-20'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002413
+    downstream_activity: gomodel:6a4c244800004776/6a4c244800004777
+- id: gomodel:6a4c244800004776/6a4c244800004777
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:22580358
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-07-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-07-20'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0286783
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0004174
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0007005
+      reference: PMID:16212416
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-07-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-07-20'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005739
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:22580358
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-07-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-07-20'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6a4c244800004776/6a4c244800005061
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:22580358
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-07-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-07-20'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:6a4c244800004776/6a4c244800005060
+molecules:
+- id: gomodel:6a4c244800004776/6a4c244800004785
+  term: CHEBI:58307
+  located_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-07-20'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005739
+- id: gomodel:6a4c244800004776/6a4c244800005061
+  term: CHEBI:16389
+- id: gomodel:6a4c244800004776/6a4c244800005060
+  term: CHEBI:17976
+- id: gomodel:6a4c244800004776/6a4c244800004783
+  term: CHEBI:57692
+  located_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-07-20'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005739
+objects:
+- id: GO:0004174
+  label: electron-transferring-flavoprotein dehydrogenase activity
+  type: gocam:Object
+- id: FB:FBgn0286783
+  label: Etf-QO Dmel
+  type: gocam:Object
+- id: ECO:0000314
+  label: direct assay evidence used in manual assertion
+  type: gocam:Object
+- id: GO:0005739
+  label: mitochondrion
+  type: gocam:Object
+- id: ECO:0007005
+  label: high throughput direct assay evidence used in manual assertion
+  type: gocam:Object
+- id: CHEBI:57692
+  label: FAD(3-)
+  type: gocam:Object
+- id: CHEBI:58307
+  label: FADH2(2-)
+  type: gocam:Object
+- id: GO:0009055
+  label: electron transfer activity
+  type: gocam:Object
+- id: GO:0017133
+  label: mitochondrial electron transfer flavoprotein complex
+  type: gocam:Object
+- id: FB:FBgn0010516
+  label: wal Dmel
+  type: gocam:Object
+- id: ECO:0000303
+  label: author statement without traceable support used in manual assertion
+  type: gocam:Object
+- id: FB:FBgn0039697
+  label: Etfb Dmel
+  type: gocam:Object
+- id: CHEBI:17976
+  label: ubiquinol
+  type: gocam:Object
+- id: CHEBI:16389
+  label: ubiquinones
+  type: gocam:Object
+provenances:
+- contributor:
+  - https://orcid.org/0000-0002-3358-4423
+  date: '2026-08-07'
+  provided_by:
+  - http://flybase.org
