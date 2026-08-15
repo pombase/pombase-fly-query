@@ -1094,7 +1094,8 @@ $POMCUR/bin/pombase-chado-json -c $MAIN_CONFIG \
    -p "postgres://$USER:$PASSWORD@localhost/$DB" \
    -i $GIT_DIR/pombe_domain_results.json \
    -d $CURRENT_BUILD_DIR/ --go-eco-mapping=$SOURCES/gaf-eco-mapping.txt \
-   --filter-uniprot-references=PMID:18257517 \
+   --orcid-name-map $SOURCES/pombe-embl/supporting_files/pombase_orcid_mapping.tsv \
+   --gocam-model-directory $GIT_DIR/go-cams \
    2>&1 | tee $LOG_DIR/$log_file.web-json-write
 
 find $CURRENT_BUILD_DIR/fasta -name '*.fa' | xargs gzip -9f
