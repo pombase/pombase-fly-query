@@ -1111,6 +1111,8 @@ find $CURRENT_BUILD_DIR/fasta -name '*.fa' | xargs gzip -1f
 
 cp $LOG_DIR/$log_file.web-json-write $CURRENT_BUILD_DIR/logs/
 
+cp -r $GIT_DIR/pombase-fly-query/go-cams $CURRENT_BUILD_DIR/web-json/go-cam
+
 DB_BASE_NAME=`echo $DB | sed 's/-v[0-9]$//'`
 
 zstd -9q --rm $CURRENT_BUILD_DIR/api_maps.sqlite3
