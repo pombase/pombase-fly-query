@@ -22,13 +22,34 @@ while (defined (my $line = <$gaf>)) {
 
   my @synonyms = split /\|/, $bits[10];
 
-  map {
-    my $syn = $_;
+  my $db_obj_symbol = $bits[2];
 
-    if (exists $id_map{$syn}) {
-      $bits[10] .= '|' . $id_map{$syn};
+  my $found_fbgn = 0;
+
+  if (exists $id_map{$db_obj_symbol}) {
+    $bits[10] .= '|' . $id_map{$db_obj_symbol};
+    $found_fbgn = 1;
+  } else {
+    $db_obj_symbol =~ s/-R[A-Z]$//;
+    if (exists $id_map{$db_obj_symbol}) {
+      $bits[10] .= '|' . $id_map{$db_obj_symbol};
+      $found_fbgn = 1;
     }
-  } @synonyms;
+  }
+
+  if (!$found_fbgn) {
+    map {
+      my $syn = $_;
+
+      $syn =~ s/^Dmel(_|\\)//;
+      $syn =~ s/-R[A-Z]$//;
+
+      if (exists $id_map{$syn}) {
+        $bits[10] .= '|' . $id_map{$syn};
+        $found_fbgn = 1;
+      }
+    } @synonyms;
+  }
 
   my $line = join "\t", @bits;
 
