@@ -953,6 +953,8 @@ $POMBASE_LEGACY/etc/process-log.pl $log_file
 
 PGPASSWORD=$PASSWORD psql -U $USER -h "$HOST" $DB -c 'analyze'
 
+cd $BASE
+
 echo loading names_and_products.tsv
 $POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG names-and-products \
     --dest-organism-taxonid=7227 \
@@ -1088,6 +1090,7 @@ echo creating files for the website:
 $POMCUR/bin/pombase-chado-json -c $MAIN_CONFIG \
    --doc-config-file $BASE/pombase-website/src/app/config/doc-config.json \
    -p "postgres://$USER:$PASSWORD@localhost/$DB" \
+   -i $GIT_DIR/pombe_domain_results.json \
    -d $CURRENT_BUILD_DIR/ --go-eco-mapping=$SOURCES/gaf-eco-mapping.txt \
    --filter-uniprot-references=PMID:18257517 \
    2>&1 | tee $LOG_DIR/$log_file.web-json-write
