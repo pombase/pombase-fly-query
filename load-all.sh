@@ -975,7 +975,6 @@ $POMBASE_LEGACY/script/load-chado.pl --taxonid=7227 \
   $LOAD_CONFIG $BUILD_ID \
   "$HOST" $DB $USER $PASSWORD $GIT_DIR/contigs/*.contig 2>&1 | tee $log_file || exit 1
 
-createdb -T $DB $DB-stage3
 
 $POMBASE_LEGACY/etc/process-log.pl $log_file
 
