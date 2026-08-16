@@ -1919,7 +1919,7 @@
       "name": "AmiGO",
       "field_name": "uniquename",
       "description": "GO Consortium browser",
-      "url": "http://amigo.geneontology.org/amigo/gene_product/FlyQuery:<<IDENTIFIER>>"
+      "url": "http://amigo.geneontology.org/amigo/gene_product/FB:<<IDENTIFIER>>"
     },
     {
       "ref_type": "Sequence Resources",
