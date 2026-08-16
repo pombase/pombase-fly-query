@@ -109,6 +109,8 @@ OBO_FILES="\
  pombe-embl/mini-ontologies/chebi.obo \
  pombe-embl/mini-ontologies/cl.obo \
  $PROCESSED_MINI_PRO_OBO \
+ pombe-embl/mini-ontologies/gene_ex_extension_relations.obo \
+ pombe-embl/mini-ontologies/PSI-MOD_extension_relations.obo \
  pombe-embl/mini-ontologies/SO_feature_relations.obo \
  pombe-embl/mini-ontologies/has_qualifier_range.obo \
  pombe-embl/mini-ontologies/pombase_gene_expression_ontology.obo \
