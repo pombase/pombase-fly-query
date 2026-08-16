@@ -1898,6 +1898,14 @@
   ],
   "external_gene_references": [
     {
+      "ref_type": "MOD",
+      "feature_types": ["ALL"],
+      "name": "FlyBase",
+      "description": "Drosophila genome database",
+      "field_name": "uniquename",
+      "url": "https://flybase.org/reports/<<IDENTIFIER>>"
+    },
+    {
       "ref_type": "GO annotation",
       "feature_types": ["mRNA gene"],
       "name": "QuickGO",
