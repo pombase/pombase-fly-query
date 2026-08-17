@@ -1659,7 +1659,7 @@
       "menu_item_label": "Molecular function",
       "columns_to_show": ["term_id", "desc-rel", "gene", "evidence", "qualifiers", "reference", "count", "extension"],
       "external_db_link_keys": ["AmiGO", "QuickGO", "BioPortal"],
-      "slim_subset_name": "mf_goslim_fly-query",
+      "slim_subset_name": "mf_goslim_melanogaster-query",
       "slim_description": "Molecular function overview (GO slim)",
       "slim_link": "/browse-curation/fission-yeast-mf-go-slim-terms",
       "slim_no_category_text": "molecular function GO Slim category",
@@ -1732,7 +1732,7 @@
         "has_input",
         "has_regulation_target"
       ],
-      "slim_subset_name": "bp_goslim_fly-query",
+      "slim_subset_name": "bp_goslim_melanogaster-query",
       "slim_description": "Biological process overview (GO slim)",
       "slim_link": "/browse-curation/fission-yeast-go-slim-terms",
       "slim_no_category_text": "biological process GO Slim category",
@@ -1773,7 +1773,7 @@
       "menu_item_label": "Cellular component",
       "columns_to_show": ["term_id", "desc-rel", "gene", "evidence", "qualifiers", "reference", "count", "extension"],
       "external_db_link_keys": ["AmiGO", "QuickGO", "BioPortal"],
-      "slim_subset_name": "cc_goslim_fly-query",
+      "slim_subset_name": "cc_goslim_melanogaster-query",
       "slim_description": "Cellular component overview (GO slim)",
       "slim_link": "/browse-curation/fission-yeast-cc-go-slim-terms",
       "slim_no_category_text": "cellular component GO Slim category",
@@ -1970,7 +1970,7 @@
     "inviable": "FYPO:0002061"
   },
   "slims": {
-    "cc_goslim_fly": {
+    "cc_goslim_melanogaster": {
       "slim_display_name": "Cellular Component slim",
       "doc_path": "/documentation/pombase-go-slim-documentation",
       "full_slim_path": "/browse-curation/fission-yeast-cc-go-slim-terms",
@@ -2116,7 +2116,7 @@
         }
       ]
     },
-    "bp_goslim_fly": {
+    "bp_goslim_melanogaster": {
       "slim_display_name": "Biological Process slim",
       "doc_path": "/documentation/pombase-go-slim-documentation",
       "full_slim_path": "/browse-curation/fission-yeast-bp-go-slim-terms",
@@ -2358,7 +2358,7 @@
         }
       ]
     },
-    "mf_goslim_fly": {
+    "mf_goslim_melanogaster": {
       "slim_display_name": "Molecular Function slim",
       "doc_path": "/documentation/pombase-go-slim-documentation",
       "full_slim_path": "/browse-curation/fission-yeast-mf-go-slim-terms",
@@ -3067,7 +3067,7 @@
       "go_function",
       "protein_length_bin"
     ],
-    "slim_table_slim_names": ["mf_goslim_fly", "bp_goslim_fly", "cc_goslim_fly"]
+    "slim_table_slim_names": ["mf_goslim_melanogaster", "bp_goslim_melanogaster", "cc_goslim_melanogaster"]
   },
   "file_exports": {
     "site_map_term_prefixes": ["GO:"],
