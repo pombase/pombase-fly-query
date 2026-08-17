@@ -102,6 +102,8 @@ GO_OBO=go-basic.obo
 OBO_FILES="\
  obo-relations/src/ontology/subsets/ro-chado.obo \
  SO-Ontologies-git/Ontology_Files/so-simple.obo \
+ fbbt.obo \
+ uberon-basic.obo \
  pato-simple.obo \
  pombe-embl/mini-ontologies/iao.obo \
  pombe-embl/mini-ontologies/quiescence.obo \
