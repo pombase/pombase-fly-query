@@ -105,6 +105,7 @@ OBO_FILES="\
  pato-simple.obo \
  pombe-embl/mini-ontologies/iao.obo \
  pombe-embl/mini-ontologies/quiescence.obo \
+ pombase_fypo_github/supplemental_files/fypo_extension_relations.obo \
  pombe-embl/mini-ontologies/fypo_extension.obo \
  pombe-embl/mini-ontologies/chebi.obo \
  pombe-embl/mini-ontologies/cl.obo \
