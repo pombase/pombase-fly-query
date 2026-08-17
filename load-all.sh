@@ -1003,18 +1003,18 @@ evidence_summary $DB
 GOA_POMBE_AND_JAPONICUS="$SOURCES/gene_association.goa_uniprot.pombe+japonicus.gz"
 GOA_VERSION=`cat $GOA_POMBE_AND_JAPONICUS.uniprot_version`
 
-echo processing GOA GAF
-$GIT_DIR/etc/gaf_process.pl $GIT_DIR/fly-id-map.tsv > $FLY_QUERY_SOURCES/fly-goa.gaf.tsv
+#echo processing GOA GAF
+#$GIT_DIR/etc/gaf_process.pl $GIT_DIR/fly-id-map.tsv > $FLY_QUERY_SOURCES/fly-goa.gaf.tsv
 
 $POMBASE_CHADO/script/pombase-admin.pl $LOAD_CONFIG add-chado-prop \
   "$HOST" $DB $USER $PASSWORD "UniProt-GOA_version" $GOA_VERSION
 
-echo reading $FLY_QUERY_SOURCES/fly-goa.gaf.tsv
-cat $FLY_QUERY_SOURCES/fly-goa.gaf.tsv | perl -ne 'print if /\ttaxon:7227\t/' |
+echo reading $GIT_DIR/DROME-mod.gaf
+cat $FLY_QUERY_SOURCES/DROME-mod.gaf |
     $POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG gaf \
        --taxon-filter=7227 --use-only-first-with-id \
        "$HOST" $DB $USER $PASSWORD \
-       2>&1 | tee $LOG_DIR/$log_file.goa_gene_association
+       2>&1 | tee $LOG_DIR/$log_file.DROME-mod-gaf-load
 
 echo annotation count after GAF loading:
 evidence_summary $DB
