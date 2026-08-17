@@ -1010,7 +1010,7 @@ $POMBASE_CHADO/script/pombase-admin.pl $LOAD_CONFIG add-chado-prop \
   "$HOST" $DB $USER $PASSWORD "UniProt-GOA_version" $GOA_VERSION
 
 echo reading $GIT_DIR/DROME-mod.gaf
-cat $FLY_QUERY_SOURCES/DROME-mod.gaf |
+cat $GIT_DIR/DROME-mod.gaf |
     $POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG gaf \
        --taxon-filter=7227 --use-only-first-with-id \
        "$HOST" $DB $USER $PASSWORD \
