@@ -1012,21 +1012,8 @@ echo reading $FLY_QUERY_SOURCES/fly-goa.gaf.tsv
 cat $FLY_QUERY_SOURCES/fly-goa.gaf.tsv | perl -ne 'print if /\ttaxon:7227\t/' |
     $POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG gaf \
        --taxon-filter=7227 --use-only-first-with-id \
-       --term-id-filter-filename=$SOURCES/pombe-embl/goa-load-fixes/filtered_GO_IDs \
-       --with-filter-filename=$SOURCES/pombe-embl/goa-load-fixes/filtered_mappings \
-       --assigned-by-filter=GOC,RNAcentral,InterPro,UniProtKB,UniProt "$HOST" $DB $USER $PASSWORD \
+       "$HOST" $DB $USER $PASSWORD \
        2>&1 | tee $LOG_DIR/$log_file.goa_gene_association
-
-echo reading PANTHER from $FLY_QUERY_SOURCES/fly-goa.gaf.tsv
-cat $FLY_QUERY_SOURCES/fly-goa.gaf.tsv | perl -ne 'print if /\ttaxon:7227\t/' |
-    $POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG gaf \
-       --taxon-filter=7227 \
-       --with-prefix-filter="PANTHER:" \
-       --term-id-filter-filename=$SOURCES/pombe-embl/goa-load-fixes/filtered_GO_IDs \
-       --with-filter-filename=$SOURCES/pombe-embl/goa-load-fixes/filtered_mappings \
-       --assigned-by-filter=GO_Central "$HOST" $DB $USER $PASSWORD \
-       2>&1 | tee $LOG_DIR/$log_file.goa_gene_association_panther
-
 
 echo annotation count after GAF loading:
 evidence_summary $DB
