@@ -1015,6 +1015,7 @@ echo reading $GIT_DIR/DROME-mod.gaf
 cat $GIT_DIR/DROME-mod.gaf |
     $POMBASE_CHADO/script/pombase-import.pl $LOAD_CONFIG gaf \
        --taxon-filter=7227 --use-only-first-with-id \
+       --ignore-synonyms \
        "$HOST" $DB $USER $PASSWORD \
        2>&1 | tee $LOG_DIR/$log_file.DROME-mod-gaf-load
 
