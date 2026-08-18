@@ -1044,7 +1044,7 @@ objects:
   label: 2-methyl-3-oxopropanoate
   type: gocam:Object
 - id: GO:0004491
-  label: methylmalonate-semialdehyde dehydrogenase (acylating, NAD) activity
+  label: methylmalonate-semialdehyde dehydrogenase (acylating, NAD+) activity
   type: gocam:Object
 - id: FB:FBgn0023537
   label: CG17896 Dmel

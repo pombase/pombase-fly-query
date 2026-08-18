@@ -457,95 +457,6 @@ activities:
       - http://flybase.org
     predicate: RO:0002234
     molecule: gomodel:68b0f0d000006133/68b0f0d000006363
-- id: gomodel:68b0f0d000006133/68b0f0d000006134
-  enabled_by:
-    type: EnabledByGeneProductAssociation
-    evidence:
-    - term: ECO:0000315
-      reference: PMID:33889813
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-15'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-15'
-      provided_by:
-      - http://flybase.org
-    term: FB:FBgn0030482
-  molecular_function:
-    type: MolecularFunctionAssociation
-    term: GO:0052654
-  occurs_in:
-    type: CellularAnatomicalEntityAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProtKB:P38891
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-15'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-15'
-      provided_by:
-      - http://flybase.org
-    term: GO:0005759
-  part_of:
-    type: BiologicalProcessAssociation
-    evidence:
-    - term: ECO:0000315
-      reference: PMID:39838082
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-15'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-15'
-      provided_by:
-      - http://flybase.org
-    term: GO:0006552
-  molecular_associations:
-  - type: MoleculeAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-15'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:68b0f0d000006133/68b0f0d000006173
-  - type: MoleculeAssociation
-    evidence:
-    - term: ECO:0000315
-      reference: PMID:33889813
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-15'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-15'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:68b0f0d000006133/68b0f0d000006169
 - id: gomodel:68b0f0d000006133/68b0f0d000006800
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -649,8 +560,8 @@ activities:
       date: '2025-09-16'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:68b0f0d000006133/68b0f0d000006658
+    predicate: RO:0002234
+    molecule: gomodel:68b0f0d000006133/68b0f0d000006812
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000250
@@ -669,8 +580,97 @@ activities:
       date: '2025-09-16'
       provided_by:
       - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:68b0f0d000006133/68b0f0d000006658
+- id: gomodel:68b0f0d000006133/68b0f0d000006134
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:33889813
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-15'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0030482
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0052654
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P38891
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-15'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005759
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:39838082
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-15'
+      provided_by:
+      - http://flybase.org
+    term: GO:0006552
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-15'
+      provided_by:
+      - http://flybase.org
     predicate: RO:0002234
-    molecule: gomodel:68b0f0d000006133/68b0f0d000006812
+    molecule: gomodel:68b0f0d000006133/68b0f0d000006173
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:33889813
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-09-15'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-09-15'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:68b0f0d000006133/68b0f0d000006169
 - id: gomodel:68b0f0d000006133/68b0f0d000006650
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -917,16 +917,16 @@ activities:
 molecules:
 - id: gomodel:68b0f0d000006133/68b0f0d000006173
   term: CHEBI:17865
-- id: gomodel:68b0f0d000006133/68b0f0d000006370
-  term: CHEBI:57346
 - id: gomodel:68b0f0d000006133/68b0f0d000006175
   term: CHEBI:57345
+- id: gomodel:68b0f0d000006133/68b0f0d000006370
+  term: CHEBI:57346
 - id: gomodel:68b0f0d000006133/68b0f0d000006811
   term: CHEBI:13705
-- id: gomodel:68b0f0d000006133/68b0f0d000006658
-  term: CHEBI:43074
 - id: gomodel:68b0f0d000006133/68b0f0d000006812
   term: CHEBI:57288
+- id: gomodel:68b0f0d000006133/68b0f0d000006658
+  term: CHEBI:43074
 - id: gomodel:68b0f0d000006133/68b0f0d000006363
   term: CHEBI:57344
 - id: gomodel:68b0f0d000006133/68b0f0d000006169

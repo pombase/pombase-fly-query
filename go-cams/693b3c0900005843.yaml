@@ -74,7 +74,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:693b3c0900005843/693b3c0900005898
+    molecule: gomodel:693b3c0900005843/693b3c0900005897
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000314
@@ -92,7 +92,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:693b3c0900005843/693b3c0900005897
+    molecule: gomodel:693b3c0900005843/693b3c0900005898
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -179,10 +179,10 @@ activities:
     predicate: RO:0002234
     molecule: gomodel:693b3c0900005843/693b3c0900005899
 molecules:
-- id: gomodel:693b3c0900005843/693b3c0900005898
-  term: CHEBI:33384
 - id: gomodel:693b3c0900005843/693b3c0900005897
   term: CHEBI:58199
+- id: gomodel:693b3c0900005843/693b3c0900005898
+  term: CHEBI:33384
 - id: gomodel:693b3c0900005843/693b3c0900005896
   term: CHEBI:58161
 - id: gomodel:693b3c0900005843/693b3c0900005899

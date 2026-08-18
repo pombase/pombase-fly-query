@@ -840,7 +840,7 @@ objects:
   label: biological aspect of ancestor evidence used in manual assertion
   type: gocam:Object
 - id: GO:0047105
-  label: 4-trimethylammoniobutyraldehyde dehydrogenase activity
+  label: 4-trimethylammoniobutyraldehyde dehydrogenase (NAD+) activity
   type: gocam:Object
 - id: CHEBI:18020
   label: 4-trimethylammoniobutanal

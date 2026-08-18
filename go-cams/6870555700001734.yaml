@@ -4,64 +4,6 @@ taxon: NCBITaxon:7227
 status: production
 date_modified: '2025-08-26'
 activities:
-- id: gomodel:6870555700001734/6870555700002240
-  enabled_by:
-    type: EnabledByGeneProductAssociation
-    evidence:
-    - term: ECO:0000314
-      reference: PMID:17498683
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-07-18'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-07-18'
-      provided_by:
-      - http://flybase.org
-    term: FB:FBgn0031491
-  molecular_function:
-    type: MolecularFunctionAssociation
-    term: GO:0035248
-  occurs_in:
-    type: CellularAnatomicalEntityAssociation
-    evidence:
-    - term: ECO:0000305
-      reference: GO_REF:0000111
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-08-26'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-08-26'
-      provided_by:
-      - http://flybase.org
-    term: GO:0000139
-  part_of:
-    type: BiologicalProcessAssociation
-    evidence:
-    - term: ECO:0000314
-      reference: PMID:17498683
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-07-18'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-07-18'
-      provided_by:
-      - http://flybase.org
-    term: GO:0140269
 - id: gomodel:6870555700001734/6870555700002298
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -139,6 +81,64 @@ activities:
       - http://flybase.org
     predicate: RO:0002413
     downstream_activity: gomodel:6870555700001734/6870555700002240
+- id: gomodel:6870555700001734/6870555700002240
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:17498683
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-07-18'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-07-18'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0031491
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0035248
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000305
+      reference: GO_REF:0000111
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-08-26'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-08-26'
+      provided_by:
+      - http://flybase.org
+    term: GO:0000139
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:17498683
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2025-07-18'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-07-18'
+      provided_by:
+      - http://flybase.org
+    term: GO:0140269
 - id: gomodel:6870555700001734/6870555700001743
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -310,8 +310,8 @@ activities:
       date: '2025-07-17'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:6870555700001734/6870555700001741
+    predicate: RO:0002234
+    molecule: gomodel:6870555700001734/6870555700001742
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000314
@@ -328,8 +328,8 @@ activities:
       date: '2025-07-17'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:6870555700001734/6870555700001742
+    predicate: RO:0002233
+    molecule: gomodel:6870555700001734/6870555700001741
 - id: gomodel:6870555700001734/6870555700001753
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -487,10 +487,10 @@ activities:
     predicate: RO:0002629
     downstream_activity: gomodel:6870555700001734/6870555700002298
 molecules:
-- id: gomodel:6870555700001734/6870555700001741
-  term: CHEBI:52639
 - id: gomodel:6870555700001734/6870555700001742
   term: CHEBI:22801
+- id: gomodel:6870555700001734/6870555700001741
+  term: CHEBI:52639
 objects:
 - id: CHEBI:52639
   label: N-acylsphingosine

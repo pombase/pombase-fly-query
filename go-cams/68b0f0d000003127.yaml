@@ -84,8 +84,8 @@ activities:
       date: '2025-09-04'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:68b0f0d000003127/68b0f0d000003184
+    predicate: RO:0002234
+    molecule: gomodel:68b0f0d000003127/68b0f0d000003185
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000315
@@ -102,8 +102,8 @@ activities:
       date: '2025-09-04'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:68b0f0d000003127/68b0f0d000003185
+    predicate: RO:0002233
+    molecule: gomodel:68b0f0d000003127/68b0f0d000003184
   causal_associations:
   - type: CausalAssociation
     evidence:
@@ -225,10 +225,10 @@ activities:
     predicate: RO:0002233
     molecule: gomodel:68b0f0d000003127/68b0f0d000003186
 molecules:
-- id: gomodel:68b0f0d000003127/68b0f0d000003184
-  term: CHEBI:60039
 - id: gomodel:68b0f0d000003127/68b0f0d000003185
   term: CHEBI:17388
+- id: gomodel:68b0f0d000003127/68b0f0d000003184
+  term: CHEBI:60039
 - id: gomodel:68b0f0d000003127/68b0f0d000003187
   term: CHEBI:29985
 - id: gomodel:68b0f0d000003127/68b0f0d000003186
@@ -253,7 +253,7 @@ objects:
   label: direct assay evidence used in manual assertion
   type: gocam:Object
 - id: GO:0003842
-  label: L-glutamate gamma-semialdehyde dehydrogenase activity
+  label: L-glutamate gamma-semialdehyde dehydrogenase (NAD+) activity
   type: gocam:Object
 - id: FB:FBgn0037138
   label: P5CDh1 Dmel

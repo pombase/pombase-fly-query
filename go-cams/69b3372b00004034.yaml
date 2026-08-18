@@ -244,18 +244,18 @@ activities:
     predicate: RO:0002234
     molecule: gomodel:69b3372b00004034/69b3372b00004052
 molecules:
-- id: gomodel:69b3372b00004034/69b3372b00004051
-  term: CHEBI:57834
 - id: gomodel:69b3372b00004034/69b3372b00004049
   term: CHEBI:82657
+- id: gomodel:69b3372b00004034/69b3372b00004051
+  term: CHEBI:57834
 - id: gomodel:69b3372b00004034/69b3372b00004058
   term: FB:FBgn0285952
 - id: gomodel:69b3372b00004034/69b3372b00004050
   term: CHEBI:29969
-- id: gomodel:69b3372b00004034/69b3372b00004056
-  term: FB:FBgn0285952
 - id: gomodel:69b3372b00004034/69b3372b00004052
   term: CHEBI:91175
+- id: gomodel:69b3372b00004034/69b3372b00004056
+  term: FB:FBgn0285952
 objects:
 - id: GO:0034038
   label: deoxyhypusine synthase activity

@@ -286,24 +286,6 @@ activities:
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000250
-      reference: 'FB:FBrf0255270 | GO_REF:0000024 '
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2024-07-30'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2024-07-30'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:65d7e4ac00002167/65d7e4ac00002188
-  - type: MoleculeAssociation
-    evidence:
-    - term: ECO:0000250
       reference: FB:FBrf0255270 | GO_REF:0000024
       with_objects:
       - RGD:621785
@@ -311,6 +293,14 @@ activities:
       - contributor:
         - https://orcid.org/0000-0002-3358-4423
         date: '2024-03-11'
+        provided_by:
+        - http://flybase.org
+    - term: ECO:0000250
+      reference: 'FB:FBrf0255270 | GO_REF:0000024 '
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2024-07-30'
         provided_by:
         - http://flybase.org
     provenances:
@@ -557,14 +547,14 @@ activities:
     predicate: RO:0002234
     molecule: gomodel:65d7e4ac00002167/65d7e4ac00002177
 molecules:
-- id: gomodel:65d7e4ac00002167/65d7e4ac00002188
-  term: CHEBI:58885
 - id: gomodel:65d7e4ac00002167/65d7e4ac00002176
   term: CHEBI:58225
 - id: gomodel:65d7e4ac00002167/65d7e4ac00002212
   term: CHEBI:28087
 - id: gomodel:65d7e4ac00002167/65d7e4ac00002177
   term: CHEBI:58601
+- id: gomodel:65d7e4ac00002167/65d7e4ac00002188
+  term: CHEBI:58885
 objects:
 - id: GO:0004614
   label: phosphoglucomutase activity

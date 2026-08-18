@@ -2,13 +2,96 @@ id: gomodel:696022cd00003098
 title: L-methionine cycle (Dmel)
 taxon: NCBITaxon:7227
 status: production
-date_modified: '2026-04-20'
+date_modified: '2026-07-28'
 comments:
 - GO term S-adenosylnethionine cycle under review, likely to be replaced by L-methionine
   cycle
 - S-adenosyl-L-homocysteine can be produced by various methyltransferases, gnmt is
   one example.
 activities:
+- id: gomodel:696022cd00003098/696022cd00003115
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q9H2M3
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-01-21'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-01-21'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0032727
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0061627
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:O09171
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-04-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-04-20'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005829
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000304
+      reference: PMID:37298625
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-04-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-04-20'
+      provided_by:
+      - http://flybase.org
+    term: GO:0033353
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-01-21'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:696022cd00003098/696022cd00003305
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-01-21'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:696022cd00003098/696022cd00003304
 - id: gomodel:696022cd00003098/696022cd00003099
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -92,89 +175,6 @@ activities:
       - http://flybase.org
     predicate: RO:0002234
     molecule: gomodel:696022cd00003098/696022cd00003300
-- id: gomodel:696022cd00003098/696022cd00003115
-  enabled_by:
-    type: EnabledByGeneProductAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProtKB:Q9H2M3
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2026-01-21'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-01-21'
-      provided_by:
-      - http://flybase.org
-    term: FB:FBgn0032727
-  molecular_function:
-    type: MolecularFunctionAssociation
-    term: GO:0061627
-  occurs_in:
-    type: CellularAnatomicalEntityAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProtKB:O09171
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2026-04-20'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-04-20'
-      provided_by:
-      - http://flybase.org
-    term: GO:0005829
-  part_of:
-    type: BiologicalProcessAssociation
-    evidence:
-    - term: ECO:0000304
-      reference: PMID:37298625
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2026-04-20'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-04-20'
-      provided_by:
-      - http://flybase.org
-    term: GO:0033528
-  molecular_associations:
-  - type: MoleculeAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-01-21'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:696022cd00003098/696022cd00003305
-  - type: MoleculeAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-01-21'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:696022cd00003098/696022cd00003304
 - id: gomodel:696022cd00003098/696022cd00003104
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -327,8 +327,8 @@ activities:
       date: '2026-01-21'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:696022cd00003098/696022cd00003304
+    predicate: RO:0002233
+    molecule: gomodel:696022cd00003098/696022cd00003303
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -337,15 +337,15 @@ activities:
       date: '2026-01-21'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:696022cd00003098/696022cd00003303
+    predicate: RO:0002234
+    molecule: gomodel:696022cd00003098/696022cd00003304
 molecules:
-- id: gomodel:696022cd00003098/696022cd00003304
-  term: CHEBI:58199
 - id: gomodel:696022cd00003098/696022cd00003305
   term: CHEBI:57844
 - id: gomodel:696022cd00003098/696022cd00003303
   term: CHEBI:57856
+- id: gomodel:696022cd00003098/696022cd00003304
+  term: CHEBI:58199
 - id: gomodel:696022cd00003098/696022cd00003300
   term: CHEBI:59789
 objects:
@@ -391,9 +391,6 @@ objects:
 - id: FB:FBgn0032727
   label: Bhmt Dmel
   type: gocam:Object
-- id: GO:0033528
-  label: S-methylmethionine cycle
-  type: gocam:Object
 - id: CHEBI:59789
   label: S-adenosyl-L-methionine zwitterion
   type: gocam:Object
@@ -409,6 +406,6 @@ objects:
 provenances:
 - contributor:
   - https://orcid.org/0000-0002-3358-4423
-  date: '2026-04-20'
+  date: '2026-07-28'
   provided_by:
   - http://flybase.org

@@ -329,8 +329,8 @@ activities:
       date: '2024-11-07'
       provided_by:
       - http://flybase.org
-    predicate: RO:0012001
-    molecule: gomodel:66187e4700000159/66187e4700000166
+    predicate: RO:0012002
+    molecule: gomodel:66187e4700000159/671ae02600001911
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -339,8 +339,8 @@ activities:
       date: '2024-11-07'
       provided_by:
       - http://flybase.org
-    predicate: RO:0012002
-    molecule: gomodel:66187e4700000159/671ae02600001911
+    predicate: RO:0012001
+    molecule: gomodel:66187e4700000159/66187e4700000166
   causal_associations:
   - type: CausalAssociation
     evidence: []
@@ -353,10 +353,10 @@ activities:
     predicate: RO:0002630
     downstream_activity: gomodel:66187e4700000159/66187e4700000169
 molecules:
-- id: gomodel:66187e4700000159/66187e4700000166
-  term: CHEBI:57527
 - id: gomodel:66187e4700000159/671ae02600001911
   term: CHEBI:37565
+- id: gomodel:66187e4700000159/66187e4700000166
+  term: CHEBI:57527
 - id: gomodel:66187e4700000159/68d5ebd600002132
   term: CHEBI:58735
 - id: gomodel:66187e4700000159/66187e4700000393

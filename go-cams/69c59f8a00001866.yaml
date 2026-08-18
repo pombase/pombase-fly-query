@@ -166,8 +166,8 @@ activities:
       date: '2026-04-03'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:69c59f8a00001866/69c59f8a00001912
+    predicate: RO:0002234
+    molecule: gomodel:69c59f8a00001866/69c59f8a00001913
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -176,8 +176,8 @@ activities:
       date: '2026-04-03'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:69c59f8a00001866/69c59f8a00001913
+    predicate: RO:0002233
+    molecule: gomodel:69c59f8a00001866/69c59f8a00001912
 - id: gomodel:69c59f8a00001866/69c59f8a00001888
   enabled_by:
     type: EnabledByGeneProductAssociation

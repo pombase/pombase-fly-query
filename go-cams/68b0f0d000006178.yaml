@@ -866,10 +866,10 @@ activities:
       - http://flybase.org
     term: GO:0006550
 molecules:
-- id: gomodel:68b0f0d000006178/68b0f0d000007737
-  term: CHEBI:57337
 - id: gomodel:68b0f0d000006178/68b0f0d000007748
   term: CHEBI:57312
+- id: gomodel:68b0f0d000006178/68b0f0d000007737
+  term: CHEBI:57337
 - id: gomodel:68b0f0d000006178/68b0f0d000006218
   term: CHEBI:35146
 - id: gomodel:68b0f0d000006178/68b0f0d000007819

@@ -767,8 +767,8 @@ activities:
       reference: PMID:1651203
       provenances:
       - contributor:
-        - https://orcid.org/0000-0002-3358-4423
         - https://orcid.org/0000-0003-2759-266X
+        - https://orcid.org/0000-0002-3358-4423
         date: '2025-03-18'
         provided_by:
         - http://flybase.org
@@ -1512,18 +1512,18 @@ activities:
 molecules:
 - id: gomodel:671ae02600000131/67c10cc400005670
   term: CHEBI:57292
-- id: gomodel:671ae02600000131/67c10cc400005769
-  term: CHEBI:37565
 - id: gomodel:671ae02600000131/67c10cc400005771
   term: CHEBI:30031
-- id: gomodel:671ae02600000131/671ae02600000150
-  term: CHEBI:16947
+- id: gomodel:671ae02600000131/67c10cc400005769
+  term: CHEBI:37565
 - id: gomodel:671ae02600000131/67c10cc400005794
   term: CHEBI:16810
-- id: gomodel:671ae02600000131/67c10cc400005772
-  term: CHEBI:58189
+- id: gomodel:671ae02600000131/671ae02600000150
+  term: CHEBI:16947
 - id: gomodel:671ae02600000131/671ae02600000159
   term: CHEBI:57287
+- id: gomodel:671ae02600000131/67c10cc400005772
+  term: CHEBI:58189
 - id: gomodel:671ae02600000131/671ae02600000157
   term: CHEBI:16452
 - id: gomodel:671ae02600000131/671ae02600000158
@@ -1536,10 +1536,10 @@ molecules:
   term: CHEBI:57945
 - id: gomodel:671ae02600000131/67c10cc400005668
   term: CHEBI:57540
-- id: gomodel:671ae02600000131/67c10cc400005792
-  term: CHEBI:15562
 - id: gomodel:671ae02600000131/671ae02600000156
   term: CHEBI:15589
+- id: gomodel:671ae02600000131/67c10cc400005792
+  term: CHEBI:15562
 - id: gomodel:671ae02600000131/67c10cc400005774
   term: CHEBI:456216
 - id: gomodel:671ae02600000131/67c10cc400005734

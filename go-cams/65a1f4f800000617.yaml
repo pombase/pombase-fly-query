@@ -1013,8 +1013,8 @@ activities:
       reference: PMID:17159148
       provenances:
       - contributor:
-        - https://orcid.org/0000-0003-2759-266X
         - https://orcid.org/0000-0002-3358-4423
+        - https://orcid.org/0000-0003-2759-266X
         date: '2025-09-17'
         provided_by:
         - http://flybase.org
@@ -1164,10 +1164,10 @@ activities:
     predicate: RO:0002234
     molecule: gomodel:65a1f4f800000617/65a1f4f800000766
 molecules:
-- id: gomodel:65a1f4f800000617/65a1f4f800000766
-  term: CHEBI:57604
 - id: gomodel:65a1f4f800000617/65a1f4f800000781
   term: CHEBI:58272
+- id: gomodel:65a1f4f800000617/65a1f4f800000766
+  term: CHEBI:57604
 - id: gomodel:65a1f4f800000617/65c57c3400001221
   term: CHEBI:17925
 - id: gomodel:65a1f4f800000617/65a1f4f800000808

@@ -238,6 +238,14 @@ activities:
   causal_associations:
   - type: CausalAssociation
     evidence:
+    - term: ECO:0000304
+      reference: PMID:23732470
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2022-04-26'
+        provided_by:
+        - http://flybase.org
     - term: ECO:0000314
       reference: PMID:8423783
       provenances:
@@ -272,24 +280,6 @@ activities:
       - http://flybase.org
     predicate: RO:0002629
     downstream_activity: gomodel:60d5209a00000521/60d5209a00000731
-  - type: CausalAssociation
-    evidence:
-    - term: ECO:0000304
-      reference: PMID:23732470
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0003-3212-6364
-        date: '2022-04-26'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2023-03-16'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002629
-    downstream_activity: gomodel:60d5209a00000521/60d5209a00000719
 - id: gomodel:60d5209a00000521/60d5209a00000741
   enabled_by:
     type: EnabledByGeneProductAssociation

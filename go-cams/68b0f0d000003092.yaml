@@ -353,7 +353,7 @@ objects:
   label: sequence similarity evidence used in manual assertion
   type: gocam:Object
 - id: GO:0004350
-  label: glutamate-5-semialdehyde dehydrogenase activity
+  label: glutamate-5-semialdehyde dehydrogenase (NADP+) activity
   type: gocam:Object
 - id: GO:0004735
   label: pyrroline-5-carboxylate reductase activity

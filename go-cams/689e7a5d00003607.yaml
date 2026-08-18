@@ -393,10 +393,10 @@ molecules:
   term: CHEBI:18110
 - id: gomodel:689e7a5d00003607/689e7a5d00003679
   term: CHEBI:57524
-- id: gomodel:689e7a5d00003607/689e7a5d00003680
-  term: CHEBI:29985
 - id: gomodel:689e7a5d00003607/689e7a5d00003678
   term: CHEBI:58272
+- id: gomodel:689e7a5d00003607/689e7a5d00003680
+  term: CHEBI:29985
 - id: gomodel:689e7a5d00003607/689e7a5d00003681
   term: CHEBI:16810
 - id: gomodel:689e7a5d00003607/689e7a5d00003682

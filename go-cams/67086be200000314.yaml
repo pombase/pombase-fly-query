@@ -100,7 +100,7 @@ activities:
         date: '2025-02-19'
         provided_by:
         - http://flybase.org
-      term: FB:FBgn0030605
+      term: FB:FBgn0035046
     - type: ProteinComplexHasPartAssociation
       evidence:
       - term: ECO:0000303
@@ -117,7 +117,7 @@ activities:
         date: '2025-02-19'
         provided_by:
         - http://flybase.org
-      term: FB:FBgn0035046
+      term: FB:FBgn0030605
     - type: ProteinComplexHasPartAssociation
       evidence:
       - term: ECO:0000303
@@ -681,23 +681,6 @@ activities:
       term: FB:FBgn0025839
     - type: ProteinComplexHasPartAssociation
       evidence:
-      - term: ECO:0000303
-        reference: PMID:31485716
-        provenances:
-        - contributor:
-          - https://orcid.org/0000-0003-3212-6364
-          date: '2025-02-19'
-          provided_by:
-          - http://flybase.org
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0003-3212-6364
-        date: '2025-02-19'
-        provided_by:
-        - http://flybase.org
-      term: FB:FBgn0027785
-    - type: ProteinComplexHasPartAssociation
-      evidence:
       - term: ECO:0000314
         reference: PMID:36622099
         provenances:
@@ -713,6 +696,23 @@ activities:
         provided_by:
         - http://flybase.org
       term: FB:FBgn0040931
+    - type: ProteinComplexHasPartAssociation
+      evidence:
+      - term: ECO:0000303
+        reference: PMID:31485716
+        provenances:
+        - contributor:
+          - https://orcid.org/0000-0003-3212-6364
+          date: '2025-02-19'
+          provided_by:
+          - http://flybase.org
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2025-02-19'
+        provided_by:
+        - http://flybase.org
+      term: FB:FBgn0027785
     - type: ProteinComplexHasPartAssociation
       evidence:
       - term: ECO:0000303

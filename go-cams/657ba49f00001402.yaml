@@ -80,7 +80,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002234
-    molecule: gomodel:657ba49f00001402/657ba49f00001406
+    molecule: gomodel:657ba49f00001402/657ba49f00001404
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000314
@@ -98,7 +98,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002234
-    molecule: gomodel:657ba49f00001402/657ba49f00001404
+    molecule: gomodel:657ba49f00001402/657ba49f00001406
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000314
@@ -233,10 +233,10 @@ molecules:
   term: CHEBI:16551
 - id: gomodel:657ba49f00001402/657ba49f00001434
   term: CHEBI:16551
-- id: gomodel:657ba49f00001402/657ba49f00001406
-  term: CHEBI:17925
 - id: gomodel:657ba49f00001402/657ba49f00001404
   term: CHEBI:15903
+- id: gomodel:657ba49f00001402/657ba49f00001406
+  term: CHEBI:17925
 objects:
 - id: GO:0005993
   label: trehalose catabolic process

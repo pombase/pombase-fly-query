@@ -166,10 +166,10 @@ activities:
     predicate: RO:0002413
     downstream_activity: gomodel:665912ed00001119/665912ed00001126
 molecules:
-- id: gomodel:665912ed00001119/665912ed00001130
-  term: CHEBI:506227
 - id: gomodel:665912ed00001119/665912ed00001125
   term: CHEBI:17029
+- id: gomodel:665912ed00001119/665912ed00001130
+  term: CHEBI:506227
 objects:
 - id: GO:0004568
   label: chitinase activity

@@ -1114,6 +1114,16 @@ activities:
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:P19356
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2025-02-20'
+        provided_by:
+        - http://flybase.org
+    - term: ECO:0000250
       reference: FB:FBrf0255270 | GO_REF:0000024
       with_objects:
       - UniProtKB:P19356
@@ -1151,26 +1161,6 @@ activities:
       - http://flybase.org
     predicate: RO:0002233
     molecule: gomodel:6796b94c00005746/6796b94c00006627
-  - type: MoleculeAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProtKB:P19356
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0003-3212-6364
-        date: '2025-02-20'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-02-12'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:6796b94c00005746/6796b94c00006631
 - id: gomodel:6796b94c00005746/6796b94c00005787
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -1388,16 +1378,16 @@ molecules:
   term: CHEBI:175763
 - id: gomodel:6796b94c00005746/6796b94c00005781
   term: CHEBI:26355
-- id: gomodel:6796b94c00005746/6796b94c00006631
-  term: CHEBI:57845
 - id: gomodel:6796b94c00005746/6796b94c00006662
   term: CHEBI:57306
+- id: gomodel:6796b94c00005746/6796b94c00006631
+  term: CHEBI:57845
 - id: gomodel:6796b94c00005746/6796b94c00005791
   term: CHEBI:24479
-- id: gomodel:6796b94c00005746/6796b94c00006637
-  term: CHEBI:57309
 - id: gomodel:6796b94c00005746/6796b94c00006660
   term: CHEBI:57307
+- id: gomodel:6796b94c00005746/6796b94c00006637
+  term: CHEBI:57309
 - id: gomodel:6796b94c00005746/6796b94c00006627
   term: CHEBI:58126
 - id: gomodel:6796b94c00005746/6796b94c00005786

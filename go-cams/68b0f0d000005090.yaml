@@ -2383,10 +2383,10 @@ molecules:
   term: FB:FBgn0013674
 - id: gomodel:68b0f0d000005090/68b0f0d000005139
   term: FB:FBgn0013675
-- id: gomodel:68b0f0d000005090/68b0f0d000005188
-  term: FB:FBgn0013674
 - id: gomodel:68b0f0d000005090/68b0f0d000005530
   term: FB:FBgn0262467
+- id: gomodel:68b0f0d000005090/68b0f0d000005188
+  term: FB:FBgn0013674
 - id: gomodel:68b0f0d000005090/68b0f0d000005121
   term: FB:FBgn0013674
 - id: gomodel:68b0f0d000005090/68b0f0d000005510

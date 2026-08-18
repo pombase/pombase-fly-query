@@ -862,10 +862,10 @@ molecules:
   term: FB:FBgn0013695
 - id: gomodel:685de18700000198/685de18700000281
   term: FB:FBgn0013710
-- id: gomodel:685de18700000198/685de18700000319
-  term: CHEBI:29155
 - id: gomodel:685de18700000198/685de18700000326
   term: CHEBI:29265
+- id: gomodel:685de18700000198/685de18700000319
+  term: CHEBI:29155
 - id: gomodel:685de18700000198/685de18700000311
   term: CHEBI:58315
   located_in:

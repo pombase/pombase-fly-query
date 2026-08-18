@@ -98,7 +98,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:657ba49f00000239/657ba49f00000491
+    molecule: gomodel:657ba49f00000239/657ba49f00000254
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000315
@@ -116,7 +116,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:657ba49f00000239/657ba49f00000254
+    molecule: gomodel:657ba49f00000239/657ba49f00000491
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000315
