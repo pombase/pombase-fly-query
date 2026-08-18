@@ -2,24 +2,69 @@ ID   KJ947872; SV 2; circular; genomic DNA; STD; INV; 19524 BP.
 AC   KJ947872;
 FH   Key             Location/Qualifiers
 FH
+FT   tRNA            1..65
+FT                   /primary_name="trnI"
+FT                   /synonym="mt:tRNA:Ile-GAT"
+FT                   /systematic_id="FBgn0013696"
+FT                   /product="tRNA-Ile"
+FT   tRNA            complement(97..165)
+FT                   /primary_name="trnQ"
+FT                   /synonym="mt:tRNA:Gln-TTG"
+FT                   /systematic_id="FBgn0013703"
+FT                   /product="tRNA-Gln"
+FT   tRNA            171..239
+FT                   /primary_name="trnM"
+FT                   /synonym="mt:tRNA:Met-CAT"
+FT                   /systematic_id="FBgn0013700"
+FT                   /product="tRNA-Met"
 FT   CDS             240..1263
 FT                   /primary_name="ND2"
 FT                   /synonym="mt:ND2"
 FT                   /systematic_id="FBgn0013680"
 FT                   /product="NADH dehydrogenase subunit 2"
 FT                   /protein_id="AIC64004.1"
+FT   tRNA            1264..1329
+FT                   /primary_name="trnW"
+FT                   /synonym="mt:tRNA:Trp-TCA"
+FT                   /systematic_id="FBgn0013709"
+FT                   /product="tRNA-Trp"
+FT   tRNA            complement(1322..1383)
+FT                   /primary_name="trnC"
+FT                   /synonym="mt:tRNA:Cys-GCA"
+FT                   /systematic_id="FBgn0013690"
+FT                   /product="tRNA-Cys"
+FT   tRNA            complement(1403..1468)
+FT                   /primary_name="trnY"
+FT                   /synonym="mt:tRNA:Tyr-GTA"
+FT                   /systematic_id="FBgn0013710"
+FT                   /product="tRNA-Tyr"
 FT   CDS             <1474..3009
 FT                   /primary_name="COX1"
 FT                   /synonym="mt:CoI"
 FT                   /systematic_id="FBgn0013674"
 FT                   /product="cytochrome c oxidase subunit I"
 FT                   /protein_id="AIC64005.1"
+FT   tRNA            3012..3077
+FT                   /primary_name="trnL1"
+FT                   /synonym="mt:tRNA:Leu-TAA"
+FT                   /systematic_id="FBgn0013699"
+FT                   /product="tRNA-Leu"
 FT   CDS             3083..3767
 FT                   /primary_name="COX2"
 FT                   /synonym="mt:CoII"
 FT                   /systematic_id="FBgn0013675"
 FT                   /product="cytochrome c oxidase subunit II"
 FT                   /protein_id="AIC64006.1"
+FT   tRNA            3768..3838
+FT                   /primary_name="trnK"
+FT                   /synonym="mt:tRNA:Lys-CTT"
+FT                   /systematic_id="FBgn0013697"
+FT                   /product="tRNA-Lys"
+FT   tRNA            3840..3906
+FT                   /primary_name="trnD"
+FT                   /synonym="mt:tRNA:Asp-GTC"
+FT                   /systematic_id="FBgn0013691"
+FT                   /product="tRNA-Asp"
 FT   CDS             3907..4068
 FT                   /primary_name="ATP8"
 FT                   /synonym="mt:ATPase8"
@@ -38,18 +83,58 @@ FT                   /synonym="mt:CoIII"
 FT                   /systematic_id="FBgn0013676"
 FT                   /product="cytochrome c oxidase subunit III"
 FT                   /protein_id="AIC64009.1"
+FT   tRNA            5543..5607
+FT                   /primary_name="trnG"
+FT                   /synonym="mt:tRNA:Gly-TCC"
+FT                   /systematic_id="FBgn0013694"
+FT                   /product="tRNA-Gly"
 FT   CDS             5608..5961
 FT                   /primary_name="ND3"
 FT                   /synonym="mt:ND3"
 FT                   /systematic_id="FBgn0013681"
 FT                   /product="NADH dehydrogenase subunit 3"
 FT                   /protein_id="AIC64010.1"
+FT   tRNA            5983..6047
+FT                   /primary_name="trnA"
+FT                   /synonym="mt:tRNA:Ala-TGC"
+FT                   /systematic_id="FBgn0013689"
+FT                   /product="tRNA-Ala"
+FT   tRNA            6062..6125
+FT                   /primary_name="trnR"
+FT                   /synonym="mt:tRNA:Arg-TCG"
+FT                   /systematic_id="FBgn0013704"
+FT                   /product="tRNA-Arg"
+FT   tRNA            6126..6190
+FT                   /primary_name="trnN"
+FT                   /synonym="mt:tRNA:Asn-GTT"
+FT                   /systematic_id="FBgn0013701"
+FT                   /product="tRNA-Asn"
+FT   tRNA            6191..6258
+FT                   /primary_name="trnS2"
+FT                   /synonym="mt:tRNA:Ser-GCT"
+FT                   /systematic_id="FBgn0013705"
+FT                   /product="tRNA-Ser"
+FT   tRNA            6259..6325
+FT                   /primary_name="trnE"
+FT                   /synonym="mt:tRNA:Glu-TTC"
+FT                   /systematic_id="FBgn0013692"
+FT                   /product="tRNA-Glu"
+FT   tRNA            complement(6344..6408)
+FT                   /primary_name="trnF"
+FT                   /synonym="mt:tRNA:Phe-GAA"
+FT                   /systematic_id="FBgn0013693"
+FT                   /product="tRNA-Phe"
 FT   CDS             complement(6409..8125)
 FT                   /primary_name="ND5"
 FT                   /synonym="mt:ND5"
 FT                   /systematic_id="FBgn0013684"
 FT                   /product="NADH dehydrogenase subunit 5"
 FT                   /protein_id="AIC64011.1"
+FT   tRNA            complement(8141..8206)
+FT                   /primary_name="trnH"
+FT                   /synonym="mt:tRNA:His-GTG"
+FT                   /systematic_id="FBgn0013695"
+FT                   /product="tRNA-His"
 FT   CDS             complement(8207..9545)
 FT                   /primary_name="ND4"
 FT                   /synonym="mt:ND4"
@@ -62,6 +147,16 @@ FT                   /synonym="mt:ND4L"
 FT                   /systematic_id="FBgn0013683"
 FT                   /product="NADH dehydrogenase subunit 4L"
 FT                   /protein_id="AIC64013.1"
+FT   tRNA            9838..9903
+FT                   /primary_name="trnT"
+FT                   /synonym="mt:tRNA:Thr-TGT"
+FT                   /systematic_id="FBgn0013707"
+FT                   /product="tRNA-Thr"
+FT   tRNA            complement(9904..9964)
+FT                   /primary_name="trnP"
+FT                   /synonym="mt:tRNA:Pro-TGG"
+FT                   /systematic_id="FBgn0013702"
+FT                   /product="tRNA-Pro"
 FT   CDS             9971..10495
 FT                   /primary_name="ND6"
 FT                   /synonym="mt:ND6"
@@ -74,12 +169,37 @@ FT                   /synonym="mt:Cyt-b"
 FT                   /systematic_id="FBgn0013678"
 FT                   /product="cytochrome b"
 FT                   /protein_id="AIC64015.1"
+FT   tRNA            11638..11703
+FT                   /primary_name="trnS1"
+FT                   /synonym="mt:tRNA:Ser-TGA"
+FT                   /systematic_id="FBgn0013706"
+FT                   /product="tRNA-Ser"
 FT   CDS             complement(11721..12659)
 FT                   /primary_name="ND1"
 FT                   /synonym="mt:ND1"
 FT                   /systematic_id="FBgn0013679"
 FT                   /product="NADH dehydrogenase subunit 1"
 FT                   /protein_id="AIC64016.1"
+FT   tRNA            complement(12670..12734)
+FT                   /primary_name="trnL2"
+FT                   /synonym="mt:tRNA:Leu-TAG"
+FT                   /systematic_id="FBgn0013698"
+FT                   /product="tRNA-Leu"
+FT   rRNA            complement(12735..14058)
+FT                   /primary_name="lrRNA"
+FT                   /synonym="mt:lrRNA"
+FT                   /systematic_id="FBgn0013686"
+FT                   /product="16S ribosomal RNA"
+FT   tRNA            complement(14058..14130)
+FT                   /primary_name="trnV"
+FT                   /synonym="mt:tRNA:Val-TAC"
+FT                   /systematic_id="FBgn0013708"
+FT                   /product="tRNA-Val"
+FT   rRNA            complement(14131..14916)
+FT                   /primary_name="srRNA"
+FT                   /synonym="mt:srRNA"
+FT                   /systematic_id="FBgn0013688"
+FT                   /product="12S ribosomal RNA"
 SQ   Sequence 19524 BP; 8151 A; 1991 C; 1480 G; 7902 T; 0 other;
      aatgaattgc ctgataaaaa ggattacctt gatagggtaa atcatgcagt tttctgcatt        60
      cattgactga tttatatatt atttataaag atgattttat atttaataga attaaactat       120

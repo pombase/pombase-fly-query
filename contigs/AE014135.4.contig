@@ -41,6 +41,19 @@ FT                   /synonym="Plex B"
 FT                   /systematic_id="FBgn0025740"
 FT                   /product="plexin B, isoform B"
 FT                   /protein_id="AFH06760.1"
+FT   ncRNA           join(42774..43157,43231..43374)
+FT                   /primary_name="asRNA:CR45124"
+FT                   /synonym="Dmel\CR45124"
+FT                   /synonym="CR45124"
+FT                   /systematic_id="FBgn0266617"
+FT                   /product="antisense RNA:CR45124"
+FT   ncRNA           join(44774..45417,45487..46074)
+FT                   /primary_name="lncRNA:CR44440"
+FT                   /synonym="Dmel\CR44440"
+FT                   /synonym="lincRNA.918"
+FT                   /synonym="CR44440"
+FT                   /systematic_id="FBgn0265633"
+FT                   /product="long non-coding RNA:CR44440"
 FT   CDS             complement(join(47994..50462,50516..50680,50745..51257,
 FT                   51314..51954,52017..52384,55831..55868))
 FT                   /primary_name="ci"
@@ -128,6 +141,27 @@ FT                   /synonym="ciR"
 FT                   /systematic_id="FBgn0004859"
 FT                   /product="cubitus interruptus, isoform C"
 FT                   /protein_id="AFH06761.1"
+FT   ncRNA           join(56497..56549,57240..57411,59976..60415,62973..63124)
+FT                   /primary_name="asRNA:CR43957"
+FT                   /synonym="Dmel\CR43957"
+FT                   /synonym="Mgn00541"
+FT                   /synonym="CR43957"
+FT                   /systematic_id="FBgn0264617"
+FT                   /product="antisense RNA:CR43957"
+FT   ncRNA           join(56497..56549,57240..57411,59976..60415,60570..60974)
+FT                   /primary_name="asRNA:CR43957"
+FT                   /synonym="Dmel\CR43957"
+FT                   /synonym="Mgn00541"
+FT                   /synonym="CR43957"
+FT                   /systematic_id="FBgn0264617"
+FT                   /product="antisense RNA:CR43957"
+FT   ncRNA           complement(65577..65645)
+FT                   /primary_name="snoRNA:CD-24"
+FT                   /synonym="CR43712"
+FT                   /synonym="Dmel\CR43712"
+FT                   /synonym="snoCD_24"
+FT                   /systematic_id="FBgn0263851"
+FT                   /product="snoRNA:CD-24"
 FT   CDS             complement(join(66273..66738,66840..67180))
 FT                   /primary_name="RpS3A"
 FT                   /synonym="anon-EST:Liang-2.29"
@@ -635,6 +669,12 @@ FT                   /synonym="DAnk1"
 FT                   /systematic_id="FBgn0011747"
 FT                   /product="ankyrin, isoform E"
 FT                   /protein_id="ACZ95088.1"
+FT   ncRNA           complement(132674..132874)
+FT                   /primary_name="lncRNA:CR43956"
+FT                   /synonym="Dmel\CR43956"
+FT                   /synonym="CR43956"
+FT                   /systematic_id="FBgn0264616"
+FT                   /product="long non-coding RNA:CR43956"
 FT   CDS             join(134529..134964,136879..137167,137223..137332,
 FT                   137391..137752,137807..138310,138374..138574,
 FT                   140270..142127,142200..142795)
@@ -844,6 +884,12 @@ FT                   /synonym="FBgn0053978"
 FT                   /systematic_id="FBgn0053978"
 FT                   /product="uncharacterized protein, isoform E"
 FT                   /protein_id="ABC65827.3"
+FT   ncRNA           join(175455..175639,175699..175874)
+FT                   /primary_name="asRNA:CR45198"
+FT                   /synonym="Dmel\CR45198"
+FT                   /synonym="CR45198"
+FT                   /systematic_id="FBgn0266725"
+FT                   /product="antisense RNA:CR45198"
 FT   CDS             complement(join(177441..177992,178778..178880,
 FT                   178937..179034,179092..179211,179264..179329))
 FT                   /primary_name="Arl4"
@@ -883,6 +929,20 @@ FT                   /synonym="arl4"
 FT                   /systematic_id="FBgn0039889"
 FT                   /product="ADP ribosylation factor-like 4, isoform C"
 FT                   /protein_id="AGB96537.1"
+FT   ncRNA           complement(join(180529..181516,181569..182098))
+FT                   /primary_name="lncRNA:CR46488"
+FT                   /synonym="CR46488"
+FT                   /synonym="Dmel\CR46488"
+FT                   /synonym="XLOC_019412"
+FT                   /systematic_id="FBgn0287619"
+FT                   /product="long non-coding RNA:CR46488"
+FT   ncRNA           complement(join(181226..181509,181569..181839))
+FT                   /primary_name="lncRNA:CR46488"
+FT                   /synonym="CR46488"
+FT                   /synonym="Dmel\CR46488"
+FT                   /synonym="XLOC_019412"
+FT                   /systematic_id="FBgn0287619"
+FT                   /product="long non-coding RNA:CR46488"
 FT   CDS             complement(join(184515..184614,184670..184795,
 FT                   185827..185916,185978..186840,187997..188169,
 FT                   188230..188369,188425..188523,188578..189179))
@@ -967,6 +1027,13 @@ FT                   /systematic_id="FBgn0039890"
 FT                   /product="ATP binding cassette subfamily D member 1,
 FT                   isoform A"
 FT                   /protein_id="AAF59366.1"
+FT   ncRNA           194732..195900
+FT                   /primary_name="lncRNA:CR44441"
+FT                   /synonym="Dmel\CR44441"
+FT                   /synonym="lincRNA.S8353"
+FT                   /synonym="CR44441"
+FT                   /systematic_id="FBgn0265634"
+FT                   /product="long non-coding RNA:CR44441"
 FT   CDS             complement(join(197878..201383,201441..201658,
 FT                   203980..204574,204640..204700))
 FT                   /primary_name="CG31998"
@@ -1139,6 +1206,13 @@ FT                   /synonym="DPT"
 FT                   /systematic_id="FBgn0039896"
 FT                   /product="yellow-h"
 FT                   /protein_id="AAF59358.2"
+FT   ncRNA           complement(join(228576..228874,228931..229112))
+FT                   /primary_name="asRNA:CR46065"
+FT                   /synonym="Dmel\CR46065"
+FT                   /synonym="Mgn00290"
+FT                   /synonym="CR46065"
+FT                   /systematic_id="FBgn0267734"
+FT                   /product="antisense RNA:CR46065"
 FT   CDS             join(231954..231977,232279..232848,234265..234345,
 FT                   234864..234944,236395..236475,237269..237559,
 FT                   240314..240398,243266..243585,243634..243748,
@@ -1333,6 +1407,12 @@ FT                   /synonym="CG2380"
 FT                   /systematic_id="FBgn0042696"
 FT                   /product="nuclear factor I, isoform B"
 FT                   /protein_id="AAS64605.2"
+FT   ncRNA           276523..278174
+FT                   /primary_name="lncRNA:CR44023"
+FT                   /synonym="Dmel\CR44023"
+FT                   /synonym="CR44023"
+FT                   /systematic_id="FBgn0264793"
+FT                   /product="long non-coding RNA:CR44023"
 FT   CDS             complement(join(280139..280239,281724..281892,
 FT                   281948..282028,282436..282738,302242..302323,
 FT                   302386..302526,305016..305176))
@@ -1868,6 +1948,44 @@ FT                   /synonym="Lin29"
 FT                   /systematic_id="FBgn0262636"
 FT                   /product="datilografo, isoform D"
 FT                   /protein_id="AFH06782.1"
+FT   ncRNA           join(380724..380811,381045..381275)
+FT                   /primary_name="lncRNA:CR45125"
+FT                   /synonym="Dmel\CR45125"
+FT                   /synonym="CR45125"
+FT                   /systematic_id="FBgn0266618"
+FT                   /product="long non-coding RNA:CR45125"
+FT   ncRNA           395396..395954
+FT                   /primary_name="asRNA:CR44027"
+FT                   /synonym="Dmel\CR44027"
+FT                   /synonym="CR44027"
+FT                   /systematic_id="FBgn0264819"
+FT                   /product="antisense RNA:CR44027"
+FT   ncRNA           complement(400703..400724)
+FT                   /primary_name="mir-9385"
+FT                   /synonym="CR46291"
+FT                   /synonym="dme-mir-9385"
+FT                   /synonym="Dmel\CR46291"
+FT                   /systematic_id="FBgn0283557"
+FT                   /product="mir-9385-RB"
+FT   ncRNA           complement(400744..400765)
+FT                   /primary_name="mir-9385"
+FT                   /synonym="CR46291"
+FT                   /synonym="dme-mir-9385"
+FT                   /synonym="Dmel\CR46291"
+FT                   /systematic_id="FBgn0283557"
+FT                   /product="mir-9385-RA"
+FT   ncRNA           426067..426601
+FT                   /primary_name="lncRNA:CR43437"
+FT                   /synonym="Dmel\CR43437"
+FT                   /synonym="CR43437"
+FT                   /systematic_id="FBgn0263385"
+FT                   /product="long non-coding RNA:CR43437"
+FT   ncRNA           join(427331..427711,429497..431769)
+FT                   /primary_name="lncRNA:CR44024"
+FT                   /synonym="Dmel\CR44024"
+FT                   /synonym="CR44024"
+FT                   /systematic_id="FBgn0264794"
+FT                   /product="long non-coding RNA:CR44024"
 FT   CDS             complement(join(437386..438918,438975..439165,
 FT                   439448..441451,442180..442389,442864..443154,
 FT                   443213..443393))
@@ -1971,6 +2089,12 @@ FT                   /systematic_id="FBgn0016126"
 FT                   /product="Calcium/calmodulin-dependent protein kinase I,
 FT                   isoform H"
 FT                   /protein_id="AAN06535.1"
+FT   ncRNA           join(459768..459907,460056..461413)
+FT                   /primary_name="asRNA:CR45126"
+FT                   /synonym="Dmel\CR45126"
+FT                   /synonym="CR45126"
+FT                   /systematic_id="FBgn0266619"
+FT                   /product="antisense RNA:CR45126"
 FT   CDS             complement(join(460021..460141,460203..460656,
 FT                   460714..461047,461505..462328,462388..462501,
 FT                   463055..464740,464797..465315,466501..466669))
@@ -2217,6 +2341,12 @@ FT                   /synonym="THD1"
 FT                   /systematic_id="FBgn0026869"
 FT                   /product="thymine DNA glycosylase, isoform A"
 FT                   /protein_id="AAF59338.1"
+FT   ncRNA           complement(join(557025..557357,557443..557854))
+FT                   /primary_name="lncRNA:CR43958"
+FT                   /synonym="Dmel\CR43958"
+FT                   /synonym="CR43958"
+FT                   /systematic_id="FBgn0264618"
+FT                   /product="long non-coding RNA:CR43958"
 FT   CDS             join(560258..560300,560349..560411,560471..560583,
 FT                   560718..560820,564361..564479,564541..564662,
 FT                   565407..565515,565601..565756)
@@ -2407,6 +2537,12 @@ FT                   /synonym="Dmel\CG1909"
 FT                   /systematic_id="FBgn0039911"
 FT                   /product="uncharacterized protein, isoform B"
 FT                   /protein_id="AAF59332.2"
+FT   ncRNA           complement(597624..598274)
+FT                   /primary_name="lncRNA:CR45199"
+FT                   /synonym="Dmel\CR45199"
+FT                   /synonym="CR45199"
+FT                   /systematic_id="FBgn0266726"
+FT                   /product="long non-coding RNA:CR45199"
 FT   CDS             complement(join(601104..601529,601757..601935,
 FT                   603312..604252,605003..606702))
 FT                   /primary_name="onecut"
@@ -2567,6 +2703,28 @@ FT                   /synonym="DmMav"
 FT                   /systematic_id="FBgn0039914"
 FT                   /product="maverick"
 FT                   /protein_id="AAF59328.1"
+FT   ncRNA           626142..626162
+FT                   /primary_name="mir-954"
+FT                   /synonym="CR43009"
+FT                   /synonym="dme-mir-954"
+FT                   /synonym="dme-miR-954-5p"
+FT                   /synonym="Dmel\CR43009"
+FT                   /synonym="miR-954"
+FT                   /synonym="miR954"
+FT                   /synonym="dme-miR-954"
+FT                   /systematic_id="FBgn0262302"
+FT                   /product="mir-954-RA"
+FT   ncRNA           626180..626200
+FT                   /primary_name="mir-954"
+FT                   /synonym="CR43009"
+FT                   /synonym="dme-mir-954"
+FT                   /synonym="dme-miR-954-5p"
+FT                   /synonym="Dmel\CR43009"
+FT                   /synonym="miR-954"
+FT                   /synonym="miR954"
+FT                   /synonym="dme-miR-954"
+FT                   /systematic_id="FBgn0262302"
+FT                   /product="mir-954-RB"
 FT   CDS             join(629836..629979,631627..631894,632028..632129,
 FT                   632208..632388,632448..632715,633329..633432,
 FT                   633491..633860,633921..634124,634177..634344,
@@ -3135,6 +3293,12 @@ FT                   /synonym="projectin"
 FT                   /systematic_id="FBgn0005666"
 FT                   /product="bent, isoform H"
 FT                   /protein_id="AGB96561.1"
+FT   ncRNA           complement(776475..777146)
+FT                   /primary_name="lncRNA:CR45200"
+FT                   /synonym="Dmel\CR45200"
+FT                   /synonym="CR45200"
+FT                   /systematic_id="FBgn0266727"
+FT                   /product="long non-coding RNA:CR45200"
 FT   CDS             complement(join(778827..781669,783174..783245,
 FT                   783302..783937,786192..787026,787081..787146))
 FT                   /primary_name="MED26"
@@ -3226,6 +3390,12 @@ FT                   /synonym="FoxQ2"
 FT                   /systematic_id="FBgn0039937"
 FT                   /product="forkhead domain 102C"
 FT                   /protein_id="AAF59407.1"
+FT   ncRNA           851174..851624
+FT                   /primary_name="lncRNA:CR45123"
+FT                   /synonym="Dmel\CR45123"
+FT                   /synonym="CR45123"
+FT                   /systematic_id="FBgn0266616"
+FT                   /product="long non-coding RNA:CR45123"
 FT   CDS             complement(join(855510..855635,855686..855840,
 FT                   860307..860381,860440..861387,861793..864411,
 FT                   865348..865642,865702..865851,865931..866266))
@@ -3266,6 +3436,12 @@ FT                   /synonym="GIGYF2"
 FT                   /systematic_id="FBgn0039936"
 FT                   /product="gigyf, isoform H"
 FT                   /protein_id="ACZ95097.1"
+FT   ncRNA           join(867824..868026,868102..871426)
+FT                   /primary_name="asRNA:CR43425"
+FT                   /synonym="Dmel\CR43425"
+FT                   /synonym="CR43425"
+FT                   /systematic_id="FBgn0263344"
+FT                   /product="antisense RNA:CR43425"
 FT   CDS             complement(join(871493..871654,871720..871846,
 FT                   871912..872074,872127..872225,873214..873571,
 FT                   873635..873926,873994..874160,874246..874467,
@@ -3505,6 +3681,18 @@ FT                   /synonym="unc13A"
 FT                   /systematic_id="FBgn0025726"
 FT                   /product="unc-13, isoform E"
 FT                   /protein_id="AFH06787.1"
+FT   ncRNA           879374..884752
+FT                   /primary_name="asRNA:CR44029"
+FT                   /synonym="Dmel\CR44029"
+FT                   /synonym="CR44029"
+FT                   /systematic_id="FBgn0264821"
+FT                   /product="antisense RNA:CR44029"
+FT   ncRNA           881471..883402
+FT                   /primary_name="asRNA:CR44029"
+FT                   /synonym="Dmel\CR44029"
+FT                   /synonym="CR44029"
+FT                   /systematic_id="FBgn0264821"
+FT                   /product="antisense RNA:CR44029"
 FT   CDS             complement(join(915492..915553,915617..915718,
 FT                   915837..916059,916121..916267,916867..917090,
 FT                   917275..917743,918324..918481,918536..918776,
@@ -3714,6 +3902,30 @@ FT                   /synonym="Dm4E-T"
 FT                   /systematic_id="FBgn0052016"
 FT                   /product="eIF4E-Transporter, isoform G"
 FT                   /protein_id="AAF59398.4"
+FT   ncRNA           complement(959224..959434)
+FT                   /primary_name="lncRNA:CR45201"
+FT                   /synonym="Dmel\CR45201"
+FT                   /synonym="CR45201"
+FT                   /systematic_id="FBgn0266728"
+FT                   /product="long non-coding RNA:CR45201"
+FT   ncRNA           join(959675..960038,962251..962347,962401..962692)
+FT                   /primary_name="asRNA:CR44030"
+FT                   /synonym="Dmel\CR44030"
+FT                   /synonym="CR44030"
+FT                   /systematic_id="FBgn0264822"
+FT                   /product="antisense RNA:CR44030"
+FT   ncRNA           join(959675..960038,962251..962347,962404..962692)
+FT                   /primary_name="asRNA:CR44030"
+FT                   /synonym="Dmel\CR44030"
+FT                   /synonym="CR44030"
+FT                   /systematic_id="FBgn0264822"
+FT                   /product="antisense RNA:CR44030"
+FT   ncRNA           join(959675..959846,962404..962692)
+FT                   /primary_name="asRNA:CR44030"
+FT                   /synonym="Dmel\CR44030"
+FT                   /synonym="CR44030"
+FT                   /systematic_id="FBgn0264822"
+FT                   /product="antisense RNA:CR44030"
 FT   CDS             complement(join(962375..962728,963721..964118,
 FT                   964172..965639,972038..972130))
 FT                   /primary_name="fuss"
@@ -3744,6 +3956,46 @@ FT                   /synonym="dCORL"
 FT                   /systematic_id="FBgn0039932"
 FT                   /product="fussel, isoform C"
 FT                   /protein_id="ACZ95099.1"
+FT   ncRNA           join(975168..975906,976766..977261)
+FT                   /primary_name="lncRNA:sphinx"
+FT                   /synonym="CR34154"
+FT                   /synonym="Dmel\CR34154"
+FT                   /synonym="Sphinx"
+FT                   /synonym="spx"
+FT                   /synonym="sphinx"
+FT                   /synonym="lncRNA-Sphinx"
+FT                   /systematic_id="FBgn0083990"
+FT                   /product="long non-coding RNA:sphinx"
+FT   ncRNA           join(975168..975562,976766..977261)
+FT                   /primary_name="lncRNA:sphinx"
+FT                   /synonym="CR34154"
+FT                   /synonym="Dmel\CR34154"
+FT                   /synonym="Sphinx"
+FT                   /synonym="spx"
+FT                   /synonym="sphinx"
+FT                   /synonym="lncRNA-Sphinx"
+FT                   /systematic_id="FBgn0083990"
+FT                   /product="long non-coding RNA:sphinx"
+FT   ncRNA           975168..975810
+FT                   /primary_name="lncRNA:sphinx"
+FT                   /synonym="CR34154"
+FT                   /synonym="Dmel\CR34154"
+FT                   /synonym="Sphinx"
+FT                   /synonym="spx"
+FT                   /synonym="sphinx"
+FT                   /synonym="lncRNA-Sphinx"
+FT                   /systematic_id="FBgn0083990"
+FT                   /product="long non-coding RNA:sphinx"
+FT   ncRNA           976795..977261
+FT                   /primary_name="lncRNA:sphinx"
+FT                   /synonym="CR34154"
+FT                   /synonym="Dmel\CR34154"
+FT                   /synonym="Sphinx"
+FT                   /synonym="spx"
+FT                   /synonym="sphinx"
+FT                   /synonym="lncRNA-Sphinx"
+FT                   /systematic_id="FBgn0083990"
+FT                   /product="long non-coding RNA:sphinx"
 FT   CDS             join(990252..990502,992066..992246,996512..996749,
 FT                   997707..997883,998623..998705,1004158..1004412,
 FT                   1004470..1004618,1005807..1006009,1006066..1006496)
@@ -3866,6 +4118,18 @@ FT                   /synonym="Plexa"
 FT                   /systematic_id="FBgn0025741"
 FT                   /product="plexin A, isoform C"
 FT                   /protein_id="AAN06564.1"
+FT   ncRNA           join(1027863..1027882,1028710..1029359)
+FT                   /primary_name="asRNA:CR44031"
+FT                   /synonym="Dmel\CR44031"
+FT                   /synonym="CR44031"
+FT                   /systematic_id="FBgn0264823"
+FT                   /product="antisense RNA:CR44031"
+FT   ncRNA           join(1028281..1028328,1028710..1029359)
+FT                   /primary_name="asRNA:CR44031"
+FT                   /synonym="Dmel\CR44031"
+FT                   /synonym="CR44031"
+FT                   /systematic_id="FBgn0264823"
+FT                   /product="antisense RNA:CR44031"
 FT   CDS             complement(1028743..1029249)
 FT                   /primary_name="Mpv17"
 FT                   /synonym="Dmel\CG11077"

@@ -35,7 +35,7 @@ while (<>) {
         }
       }
 
-      if ($current eq 'CDS') {
+      if ($current eq 'CDS' || $current eq 'ncRNA' || $current eq 'rRNA' || $current eq 'tRNA') {
         if ($seen_qual) {
           if (/^(FT\s+\/)(gene|gene_synonym|locus_tag|product|protein_id)=(.*)/) {
             $in_qual = 1;
