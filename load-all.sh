@@ -39,10 +39,10 @@ log_file=log.`date +'%Y-%m-%d-%H-%M-%S'`
 POMBASE_CHADO=$BASE/pombase-chado
 POMBASE_LEGACY=$BASE/pombase-legacy
 
-#(cd chobo/; git pull) || die "Failed to update Chobo"
-#(cd pombase-chado; git pull) || die "Failed to update pombase-chado"
-#(cd pombase-legacy; git pull) || die "Failed to update pombase-legacy"
-#(cd pombase-website; git pull) || die "Failed to update pombase-website"
+(cd chobo/; git pull) || die "Failed to update Chobo"
+(cd pombase-chado; git pull) || die "Failed to update pombase-chado"
+(cd pombase-legacy; git pull) || die "Failed to update pombase-legacy"
+(cd pombase-website; git pull) || die "Failed to update pombase-website"
 
 cd pombase-legacy
 
@@ -82,6 +82,10 @@ refresh_views () {
 
 echo "building database: $BUILD_ID on $HOST"
 
+if true
+then
+
+
 createdb --locale 'C' --template template0 --encoding 'UTF8' $DB
 
 echo Loading template
@@ -91,6 +95,7 @@ perl -pne 's/kmr44/flyquery/g' $POMBASE_LEGACY/pombase-chado-base.dump | psql -q
               my $l2 = <>; if ($l2 =~ /-----/) { my $l3 = <>; if ($l3 =~ /^\s*\d+/) { my $l4 = <>; if ($l4 !~ /\(\d+ row/) { print } } }
             } else { print unless /^\s*$/ }'
 
+createdb -T $DB $DB-stage1
 
 (cd $FLY_QUERY_SOURCES/; wget -N http://purl.obolibrary.org/obo/go/snapshot/go-basic.obo)
 
@@ -954,6 +959,12 @@ FROM all_pubs_raw;
 EOF
 
 cd $BASE
+createdb -T $DB $DB-stage2
+
+else
+    dropdb $DB || echo $DB missing
+    createdb -T $DB-stage2 $DB
+fi
 
 echo initialising Chado with CVs and cvterms 
 $BASE/pombase-chado/script/pombase-admin.pl $LOAD_CONFIG chado-init \
@@ -980,6 +991,7 @@ $POMBASE_LEGACY/script/load-chado.pl --taxonid=7227 \
   $LOAD_CONFIG $BUILD_ID \
   "$HOST" $DB $USER $PASSWORD $GIT_DIR/contigs/*.contig 2>&1 | tee $log_file || exit 1
 
+createdb -T $DB $DB-stage3
 
 $POMBASE_LEGACY/etc/process-log.pl $log_file
 
@@ -1021,6 +1033,8 @@ cat $GIT_DIR/DROME-mod.gaf |
 
 echo annotation count after GAF loading:
 evidence_summary $DB
+
+createdb -T $DB $DB-stage4
 
 
 PGPASSWORD=$PASSWORD psql -U $USER -h "$HOST" $DB -c 'analyze'
@@ -1074,14 +1088,16 @@ echo loading finished
 PGPASSWORD=$PASSWORD psql -U $USER -h "$HOST" $DB -c 'analyze'
 refresh_views
 
+createdb -T $DB $DB-stage5
+
+
 mkdir -p $CURRENT_BUILD_DIR
 mkdir -p $CURRENT_BUILD_DIR/logs
 mkdir -p $CURRENT_BUILD_DIR/exports
 mkdir -p $CURRENT_BUILD_DIR/pombe-embl/supporting_files
 
 
-cp $LOG_DIR/$log_file.* $CURRENT_BUILD_DIR/logs/
-
+#### cp $LOG_DIR/$log_file.* $CURRENT_BUILD_DIR/logs/
 
 
 echo creating files for the website:
