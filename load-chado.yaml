@@ -193,19 +193,6 @@ cvs:
 
 # define the allowed extension relation for each annotation type
 extension_restrictions:
-  fission_yeast_phenotype:
-    allowed:
-      - is_bearer_of
-      - has_penetrance
-      - assayed_using
-      - has_severity
-      - occurs_in
-      - occurs_at
-      - assayed_enzyme
-      - assayed_substrate
-      - assayed_region
-      - assayed_protein
-      - assayed_gene
   biological_process:
     allowed:
       - happens_during
@@ -269,7 +256,6 @@ extension_relation_cv_names:
   - go/extensions/gorel
   - fypo_extension_relations
   - external
-  - fission_yeast_phenotype
 
 extension_relation_transform:
   cellular_component:
