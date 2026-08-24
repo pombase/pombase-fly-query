@@ -97,7 +97,7 @@ perl -pne 's/kmr44/flyquery/g' $POMBASE_LEGACY/pombase-chado-base.dump | psql -q
 
 createdb -T $DB $DB-stage1
 
-(cd $FLY_QUERY_SOURCES/; wget -N https://ontology-build.geneontology.org/go-basic.obo)
+(cd $FLY_QUERY_SOURCES/; wget -N https://purl.obolibrary.org/obo/go/go-basic.obo)
 
 PROCESSED_MINI_PRO_OBO=/tmp/processed_mini_pro_$(id -un)_$$.obo
 $BASE/pombase-legacy/etc/process_pombe_mini_pr.pl $FLY_QUERY_SOURCES/pombe-embl/mini-ontologies/pombe_mini_PR.obo > $PROCESSED_MINI_PRO_OBO
