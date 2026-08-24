@@ -105,7 +105,6 @@ $BASE/pombase-legacy/etc/process_pombe_mini_pr.pl $FLY_QUERY_SOURCES/pombe-embl/
 GO_OBO=go-basic.obo
 
 OBO_FILES="\
- obo-relations/src/ontology/subsets/ro-chado.obo \
  SO-Ontologies-git/Ontology_Files/so-simple.obo \
  fbbt.obo \
  fly_development.obo \
@@ -123,6 +122,7 @@ OBO_FILES="\
  pombe-embl/mini-ontologies/SO_feature_relations.obo \
  pombe-embl/mini-ontologies/has_qualifier_range.obo \
  pombe-embl/mini-ontologies/pombase_gene_expression_ontology.obo \
+ obo-relations/src/ontology/subsets/ro-chado.obo \
  $GO_OBO"
 
 CONNECT_STRING="dbi:Pg:dbname=$DB"
