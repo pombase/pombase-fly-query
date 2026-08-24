@@ -108,6 +108,7 @@ OBO_FILES="\
  obo-relations/src/ontology/subsets/ro-chado.obo \
  SO-Ontologies-git/Ontology_Files/so-simple.obo \
  fbbt.obo \
+ fly_development.obo \ 
  uberon-basic.obo \
  pato-simple.obo \
  pombe-embl/mini-ontologies/iao.obo \
