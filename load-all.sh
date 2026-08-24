@@ -108,7 +108,7 @@ OBO_FILES="\
  obo-relations/src/ontology/subsets/ro-chado.obo \
  SO-Ontologies-git/Ontology_Files/so-simple.obo \
  fbbt.obo \
- fly_development.obo \ 
+ fly_development.obo \
  uberon-basic.obo \
  pato-simple.obo \
  pombe-embl/mini-ontologies/iao.obo \
@@ -141,7 +141,7 @@ if $BASE/chobo/script/chobo_load $CONNECT_STRING $USER $PASSWORD $POMBASE_LEGACY
    pombase_terms-latest.obo > $CHOBO_LOAD_LOG 2>&1
 then
   echo 'Finished OBO loading at:' `date`
-else 
+else
   echo chobo_load failed:
   cat $CHOBO_LOAD_LOG
   exit 1
@@ -967,7 +967,7 @@ else
     createdb -T $DB-stage2 $DB
 fi
 
-echo initialising Chado with CVs and cvterms 
+echo initialising Chado with CVs and cvterms
 $BASE/pombase-chado/script/pombase-admin.pl $LOAD_CONFIG chado-init \
   "$HOST" $DB $USER $PASSWORD || exit 1
 
