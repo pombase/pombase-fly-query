@@ -346,7 +346,7 @@ organism_taxon_map:
 
 # a Perl regular expression that matches the systematic ID / uniquenames
 # in this database
-systematic_id_re: 'SJAG_\d+'
+systematic_id_re: 'FBgn\d+'
 
 # the default is to use the cv name as the db name
 db_names_for_cvs:
