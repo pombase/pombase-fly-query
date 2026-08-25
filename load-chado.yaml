@@ -5,6 +5,7 @@
 #  - it's added as an "assigned_by" feature_cvtermprop
 #  - source_database prop feature_relationship
 database_name: FlyQuery
+database_prefix: FB
 
 cvs:
   cvterm_property_type:
@@ -329,6 +330,7 @@ taxonid: 7227
 
 organism_prefixes:
   Schizosaccharomyces_pombe: PomBase
+  Drosophila_melanogaster: FB
 
 allowed_unknown_term_names_files:
   - /var/pomcur/sources/pombe-embl/chado_load_mappings/cumulative_unknown_term_name_ok.txt
