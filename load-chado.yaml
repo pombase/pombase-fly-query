@@ -191,7 +191,7 @@ cvs:
   disease_associated: []
   EC numbers: []
 
-pombase_to_uniprot_mapping: fbgn-to-uniprot-mapping.tsv
+pombase_to_uniprot_mapping: "../pombase-fly-query/fbgn-to-uniprot-mapping.tsv"
 
 # define the allowed extension relation for each annotation type
 extension_restrictions:
