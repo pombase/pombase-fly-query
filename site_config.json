@@ -1,6 +1,7 @@
 {
   "site_name": "FlyQuery",
-  "database_name": "FB",
+  "database_name": "FlyQuery",
+  "database_prefix": "FB",
   "database_long_name": "Fly gene query",
   "database_citation": "PMID:35380656",
   "logo_file_name": "fly-query-logo.png",
