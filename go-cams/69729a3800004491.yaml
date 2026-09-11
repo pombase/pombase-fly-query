@@ -102,7 +102,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:69729a3800004491/69729a3800007829
+    molecule: gomodel:69729a3800004491/69729a3800007827
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000314
@@ -120,7 +120,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:69729a3800004491/69729a3800007827
+    molecule: gomodel:69729a3800004491/69729a3800007829
 - id: gomodel:69729a3800004491/69729a3800004499
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -336,20 +336,20 @@ activities:
 molecules:
 - id: gomodel:69729a3800004491/69729a3800004509
   term: CHEBI:58048
-- id: gomodel:69729a3800004491/69729a3800007828
-  term: CHEBI:16810
 - id: gomodel:69729a3800004491/69729a3800004508
   term: CHEBI:58359
+- id: gomodel:69729a3800004491/69729a3800007828
+  term: CHEBI:16810
 - id: gomodel:69729a3800004491/69729a3800004515
   term: CHEBI:29985
-- id: gomodel:69729a3800004491/69729a3800007826
-  term: CHEBI:29991
 - id: gomodel:69729a3800004491/69729a3800004505
   term: CHEBI:29991
-- id: gomodel:69729a3800004491/69729a3800007829
-  term: CHEBI:16452
+- id: gomodel:69729a3800004491/69729a3800007826
+  term: CHEBI:29991
 - id: gomodel:69729a3800004491/69729a3800007827
   term: CHEBI:29985
+- id: gomodel:69729a3800004491/69729a3800007829
+  term: CHEBI:16452
 objects:
 - id: GO:0004066
   label: asparagine synthase (glutamine-hydrolyzing) activity

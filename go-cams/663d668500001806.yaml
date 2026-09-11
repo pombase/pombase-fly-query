@@ -520,7 +520,7 @@ objects:
   label: Pgi Dmel
   type: gocam:Object
 - id: GO:0061621
-  label: canonical glycolysis
+  label: obsolete canonical glycolysis
   type: gocam:Object
 - id: ECO:0000314
   label: direct assay evidence used in manual assertion

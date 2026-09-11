@@ -373,18 +373,6 @@ activities:
 molecules:
 - id: gomodel:6a18a9ba00000043/6a18a9ba00000094
   term: CHEBI:57706
-- id: gomodel:6a18a9ba00000043/6a18a9ba00000061
-  term: CHEBI:59888
-  located_in:
-    type: CellularAnatomicalEntityAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-05-29'
-      provided_by:
-      - http://flybase.org
-    term: GO:0005576
 - id: gomodel:6a18a9ba00000043/6a18a9ba00000078
   term: CHEBI:59888
   located_in:
@@ -397,6 +385,18 @@ molecules:
       provided_by:
       - http://flybase.org
     term: GO:0005759
+- id: gomodel:6a18a9ba00000043/6a18a9ba00000061
+  term: CHEBI:59888
+  located_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-05-29'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005576
 - id: gomodel:6a18a9ba00000043/6a18a9ba00000070
   term: CHEBI:59888
   located_in:

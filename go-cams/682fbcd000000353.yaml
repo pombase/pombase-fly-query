@@ -2,7 +2,7 @@ id: gomodel:682fbcd000000353
 title: mitochondrial tRNA modification (GO:0070900 ) methionine
 taxon: NCBITaxon:4896
 status: production
-date_modified: '2026-04-10'
+date_modified: '2026-08-26'
 activities:
 - id: gomodel:682fbcd000000353/682fbcd000000437
   enabled_by:
@@ -74,7 +74,7 @@ activities:
       date: '2025-05-23'
       provided_by:
       - http://www.pombase.org
-    term: GO:0043038
+    term: GO:0043039
   molecular_associations:
   - type: MoleculeAssociation
     evidence: []
@@ -365,8 +365,8 @@ objects:
 - id: PomBase:SPMITTRNAMET.01
   label: SPMITTRNAMET.01 Spom
   type: gocam:Object
-- id: GO:0043038
-  label: amino acid activation
+- id: GO:0043039
+  label: tRNA charging
   type: gocam:Object
 - id: CHEBI:57844
   label: L-methionine zwitterion
@@ -399,7 +399,7 @@ provenances:
 - contributor:
   - https://orcid.org/0000-0001-6330-7526
   - https://orcid.org/0000-0003-3212-6364
-  date: '2026-04-10'
+  date: '2026-08-26'
   provided_by:
   - http://flybase.org
   - http://www.pombase.org

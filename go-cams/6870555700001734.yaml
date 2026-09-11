@@ -310,8 +310,8 @@ activities:
       date: '2025-07-17'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:6870555700001734/6870555700001742
+    predicate: RO:0002233
+    molecule: gomodel:6870555700001734/6870555700001741
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000314
@@ -328,8 +328,8 @@ activities:
       date: '2025-07-17'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:6870555700001734/6870555700001741
+    predicate: RO:0002234
+    molecule: gomodel:6870555700001734/6870555700001742
 - id: gomodel:6870555700001734/6870555700001753
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -487,10 +487,10 @@ activities:
     predicate: RO:0002629
     downstream_activity: gomodel:6870555700001734/6870555700002298
 molecules:
-- id: gomodel:6870555700001734/6870555700001742
-  term: CHEBI:22801
 - id: gomodel:6870555700001734/6870555700001741
   term: CHEBI:52639
+- id: gomodel:6870555700001734/6870555700001742
+  term: CHEBI:22801
 objects:
 - id: CHEBI:52639
   label: N-acylsphingosine

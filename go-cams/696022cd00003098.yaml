@@ -327,8 +327,8 @@ activities:
       date: '2026-01-21'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:696022cd00003098/696022cd00003303
+    predicate: RO:0002234
+    molecule: gomodel:696022cd00003098/696022cd00003304
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -337,15 +337,15 @@ activities:
       date: '2026-01-21'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:696022cd00003098/696022cd00003304
+    predicate: RO:0002233
+    molecule: gomodel:696022cd00003098/696022cd00003303
 molecules:
 - id: gomodel:696022cd00003098/696022cd00003305
   term: CHEBI:57844
-- id: gomodel:696022cd00003098/696022cd00003303
-  term: CHEBI:57856
 - id: gomodel:696022cd00003098/696022cd00003304
   term: CHEBI:58199
+- id: gomodel:696022cd00003098/696022cd00003303
+  term: CHEBI:57856
 - id: gomodel:696022cd00003098/696022cd00003300
   term: CHEBI:59789
 objects:

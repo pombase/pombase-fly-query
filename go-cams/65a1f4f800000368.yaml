@@ -400,7 +400,7 @@ objects:
   label: Ar1 Dmel
   type: gocam:Object
 - id: GO:0004032
-  label: aldose reductase (NADPH) activity
+  label: aldose reductase [NAD(P)H] activity
   type: gocam:Object
 - id: GO:0046370
   label: fructose biosynthetic process

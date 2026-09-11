@@ -979,7 +979,7 @@ objects:
   label: Pyk Dmel
   type: gocam:Object
 - id: GO:0061621
-  label: canonical glycolysis
+  label: obsolete canonical glycolysis
   type: gocam:Object
 - id: ECO:0000315
   label: mutant phenotype evidence used in manual assertion

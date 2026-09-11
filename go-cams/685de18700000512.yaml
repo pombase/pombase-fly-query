@@ -1327,13 +1327,13 @@ objects:
   label: mttRNAGlu-TTC Dmel
   type: gocam:Object
 - id: GO:0006424
-  label: glutamyl-tRNA aminoacylation
+  label: obsolete glutamyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013709
   label: mttRNATrp-TCA Dmel
   type: gocam:Object
 - id: GO:0043038
-  label: amino acid activation
+  label: obsolete amino acid activation
   type: gocam:Object
 - id: GO:0004823
   label: leucine-tRNA ligase activity
@@ -1342,7 +1342,7 @@ objects:
   label: LeuRS-m Dmel
   type: gocam:Object
 - id: GO:0006429
-  label: leucyl-tRNA aminoacylation
+  label: obsolete leucyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013699
   label: mttRNALeu-TAA Dmel
@@ -1380,7 +1380,7 @@ objects:
   label: mttRNAGln-TTG Dmel
   type: gocam:Object
 - id: GO:0070681
-  label: glutaminyl-tRNAGln biosynthesis via transamidation
+  label: obsolete glutaminyl-tRNAGln biosynthesis via transamidation
   type: gocam:Object
 - id: GO:0004810
   label: CCA tRNA nucleotidyltransferase activity

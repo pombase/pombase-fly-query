@@ -1117,114 +1117,6 @@ activities:
       - http://flybase.org
     predicate: RO:0002413
     downstream_activity: gomodel:67f85f2b00003626/69ea894900004435
-- id: gomodel:67f85f2b00003626/67f85f2b00003647
-  enabled_by:
-    type: EnabledByGeneProductAssociation
-    evidence:
-    - term: ECO:0000318
-      reference: GO_REF:0000033
-      with_objects:
-      - PANTHER:PTN001097503
-      - SGD:S000000618
-      - UniProtKB:O96198
-      - SGD:S000001061
-      - UniProtKB:Q8I408
-      - UniProtKB:O43776
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0003-3212-6364
-        date: '2025-04-23'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-04-23'
-      provided_by:
-      - http://flybase.org
-    term: FB:FBgn0034177
-  molecular_function:
-    type: MolecularFunctionAssociation
-    term: GO:0004816
-  occurs_in:
-    type: CellularAnatomicalEntityAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-04-23'
-      provided_by:
-      - http://flybase.org
-    term: GO:0005759
-  part_of:
-    type: BiologicalProcessAssociation
-    evidence:
-    - term: ECO:0000318
-      reference: GO_REF:0000033
-      with_objects:
-      - PANTHER:PTN000502376
-      - SGD:S000000618
-      - UniProtKB:O96198
-      - UniProtKB:P0A8M0
-      - UniProtKB:O43776
-      - SGD:S000001061
-      - PomBase:SPBC1773.10c
-      - UniProtKB:Q8I408
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0003-3212-6364
-        date: '2025-04-23'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-04-23'
-      provided_by:
-      - http://flybase.org
-    term: GO:0043038
-  molecular_associations:
-  - type: MoleculeAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-04-23'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:67f85f2b00003626/67f85f2b00003710
-  - type: MoleculeAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-04-23'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:67f85f2b00003626/67f85f2b00003764
-  - type: MoleculeAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-04-23'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:67f85f2b00003626/67f85f2b00003743
-  causal_associations:
-  - type: CausalAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-04-23'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002413
-    downstream_activity: gomodel:67f85f2b00003626/67f85f2b00003627
 - id: gomodel:67f85f2b00003626/67f85f2b00003674
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -1325,6 +1217,114 @@ activities:
       - http://flybase.org
     predicate: RO:0002233
     molecule: gomodel:67f85f2b00003626/67f85f2b00003708
+  causal_associations:
+  - type: CausalAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-04-23'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002413
+    downstream_activity: gomodel:67f85f2b00003626/67f85f2b00003627
+- id: gomodel:67f85f2b00003626/67f85f2b00003647
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000318
+      reference: GO_REF:0000033
+      with_objects:
+      - PANTHER:PTN001097503
+      - SGD:S000000618
+      - UniProtKB:O96198
+      - SGD:S000001061
+      - UniProtKB:Q8I408
+      - UniProtKB:O43776
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2025-04-23'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-04-23'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0034177
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0004816
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-04-23'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005759
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000318
+      reference: GO_REF:0000033
+      with_objects:
+      - PANTHER:PTN000502376
+      - SGD:S000000618
+      - UniProtKB:O96198
+      - UniProtKB:P0A8M0
+      - UniProtKB:O43776
+      - SGD:S000001061
+      - PomBase:SPBC1773.10c
+      - UniProtKB:Q8I408
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2025-04-23'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-04-23'
+      provided_by:
+      - http://flybase.org
+    term: GO:0043038
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-04-23'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:67f85f2b00003626/67f85f2b00003710
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-04-23'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:67f85f2b00003626/67f85f2b00003764
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-04-23'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:67f85f2b00003626/67f85f2b00003743
   causal_associations:
   - type: CausalAssociation
     evidence: []
@@ -2586,6 +2586,8 @@ molecules:
   term: FB:FBgn0013701
 - id: gomodel:67f85f2b00003626/67f85f2b00003764
   term: CHEBI:29265
+- id: gomodel:67f85f2b00003626/67f85f2b00003780
+  term: CHEBI:78521
 - id: gomodel:67f85f2b00003626/67f85f2b00003879
   term: CHEBI:33384
   located_in:
@@ -2606,8 +2608,6 @@ molecules:
       provided_by:
       - http://flybase.org
     term: GO:0005759
-- id: gomodel:67f85f2b00003626/67f85f2b00003780
-  term: CHEBI:78521
 - id: gomodel:67f85f2b00003626/67f85f2b00003766
   term: CHEBI:29152
 - id: gomodel:67f85f2b00003626/67f85f2b00003778
@@ -2744,10 +2744,10 @@ molecules:
   term: CHEBI:29155
 - id: gomodel:67f85f2b00003626/67f85f2b00003768
   term: CHEBI:29154
-- id: gomodel:67f85f2b00003626/67f85f2b00003767
-  term: CHEBI:16624
 - id: gomodel:67f85f2b00003626/67f85f2b00003714
   term: FB:FBgn0013707
+- id: gomodel:67f85f2b00003626/67f85f2b00003767
+  term: CHEBI:16624
 - id: gomodel:67f85f2b00003626/67f85f2b00003725
   term: FB:FBgn0013699
 - id: gomodel:67f85f2b00003626/67f85f2b00003708
@@ -2780,10 +2780,10 @@ molecules:
     term: GO:0005759
 - id: gomodel:67f85f2b00003626/67f85f2b00003753
   term: CHEBI:17732
-- id: gomodel:67f85f2b00003626/67f85f2b00003696
-  term: FB:FBgn0013696
 - id: gomodel:67f85f2b00003626/67f85f2b00003697
   term: FB:FBgn0013692
+- id: gomodel:67f85f2b00003626/67f85f2b00003696
+  term: FB:FBgn0013696
 - id: gomodel:67f85f2b00003626/67f85f2b00003701
   term: FB:FBgn0013697
 - id: gomodel:67f85f2b00003626/67f85f2b00003692
@@ -2959,22 +2959,22 @@ objects:
   label: mttRNAAsp-GTC Dmel
   type: gocam:Object
 - id: GO:0006419
-  label: alanyl-tRNA aminoacylation
+  label: obsolete alanyl-tRNA aminoacylation
   type: gocam:Object
 - id: GO:0043038
-  label: amino acid activation
+  label: obsolete amino acid activation
   type: gocam:Object
 - id: FB:FBgn0013694
   label: mttRNAGly-TCC Dmel
   type: gocam:Object
 - id: GO:0070150
-  label: mitochondrial glycyl-tRNA aminoacylation
+  label: obsolete mitochondrial glycyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013695
   label: mttRNAHis-GTG Dmel
   type: gocam:Object
 - id: GO:0006427
-  label: histidyl-tRNA aminoacylation
+  label: obsolete histidyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013696
   label: mttRNAIle-GAT Dmel
@@ -2983,31 +2983,31 @@ objects:
   label: mttRNAGlu-TTC Dmel
   type: gocam:Object
 - id: GO:0006424
-  label: glutamyl-tRNA aminoacylation
+  label: obsolete glutamyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013693
   label: mttRNAPhe-GAA Dmel
   type: gocam:Object
 - id: GO:0006432
-  label: phenylalanyl-tRNA aminoacylation
+  label: obsolete phenylalanyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013697
   label: mttRNALys-CTT Dmel
   type: gocam:Object
 - id: GO:0006430
-  label: lysyl-tRNA aminoacylation
+  label: obsolete lysyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013700
   label: mttRNAMet-CAT Dmel
   type: gocam:Object
 - id: GO:0006431
-  label: methionyl-tRNA aminoacylation
+  label: obsolete methionyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013704
   label: mttRNAArg-TCG Dmel
   type: gocam:Object
 - id: GO:0006420
-  label: arginyl-tRNA aminoacylation
+  label: obsolete arginyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013709
   label: mttRNATrp-TCA Dmel
@@ -3019,16 +3019,16 @@ objects:
   label: mttRNAPro-TGG Dmel
   type: gocam:Object
 - id: GO:0006433
-  label: prolyl-tRNA aminoacylation
+  label: obsolete prolyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013707
   label: mttRNAThr-TGT Dmel
   type: gocam:Object
 - id: GO:0006435
-  label: threonyl-tRNA aminoacylation
+  label: obsolete threonyl-tRNA aminoacylation
   type: gocam:Object
 - id: GO:0006437
-  label: tyrosyl-tRNA aminoacylation
+  label: obsolete tyrosyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013710
   label: mttRNATyr-GTA Dmel
@@ -3037,7 +3037,7 @@ objects:
   label: mttRNAVal-TAC Dmel
   type: gocam:Object
 - id: GO:0006438
-  label: valyl-tRNA aminoacylation
+  label: obsolete valyl-tRNA aminoacylation
   type: gocam:Object
 - id: GO:0004823
   label: leucine-tRNA ligase activity
@@ -3046,7 +3046,7 @@ objects:
   label: LeuRS-m Dmel
   type: gocam:Object
 - id: GO:0006429
-  label: leucyl-tRNA aminoacylation
+  label: obsolete leucyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013698
   label: mttRNALeu-TAG Dmel
@@ -3061,7 +3061,7 @@ objects:
   label: CysRS-m Dmel
   type: gocam:Object
 - id: GO:0006423
-  label: cysteinyl-tRNA aminoacylation
+  label: obsolete cysteinyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013690
   label: mttRNACys-GCA Dmel
@@ -3204,7 +3204,7 @@ objects:
   label: mttRNAGln-TTG Dmel
   type: gocam:Object
 - id: GO:0070681
-  label: glutaminyl-tRNAGln biosynthesis via transamidation
+  label: obsolete glutaminyl-tRNAGln biosynthesis via transamidation
   type: gocam:Object
 - id: GO:0004828
   label: serine-tRNA ligase activity
@@ -3213,7 +3213,7 @@ objects:
   label: SerRS-m Dmel
   type: gocam:Object
 - id: GO:0070158
-  label: mitochondrial seryl-tRNA aminoacylation
+  label: obsolete mitochondrial seryl-tRNA aminoacylation
   type: gocam:Object
 - id: GO:0140715
   label: serine-tRNA ligase complex

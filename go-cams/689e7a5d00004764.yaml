@@ -224,10 +224,10 @@ activities:
     predicate: RO:0002233
     molecule: gomodel:689e7a5d00004764/689e7a5d00004796
 molecules:
-- id: gomodel:689e7a5d00004764/689e7a5d00004796
-  term: CHEBI:33384
 - id: gomodel:689e7a5d00004764/689e7a5d00004797
   term: CHEBI:35247
+- id: gomodel:689e7a5d00004764/689e7a5d00004796
+  term: CHEBI:33384
 - id: gomodel:689e7a5d00004764/689e7a5d00005098
   term: CHEBI:35247
 objects:

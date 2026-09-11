@@ -523,10 +523,10 @@ molecules:
       provided_by:
       - http://flybase.org
     term: GO:0005743
-- id: gomodel:6a2b236300001870/6a2b236300001906
-  term: CHEBI:57597
 - id: gomodel:6a2b236300001870/6a2b236300001988
   term: CHEBI:64716
+- id: gomodel:6a2b236300001870/6a2b236300001906
+  term: CHEBI:57597
 - id: gomodel:6a2b236300001870/6a2b236300001904
   term: CHEBI:58332
   located_in:

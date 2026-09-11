@@ -696,10 +696,10 @@ molecules:
   term: CHEBI:58720
 - id: gomodel:67369e7600002951/67369e7600002972
   term: CHEBI:28815
-- id: gomodel:67369e7600002951/67369e7600003007
-  term: CHEBI:193037
 - id: gomodel:67369e7600002951/67369e7600003009
   term: CHEBI:17411
+- id: gomodel:67369e7600002951/67369e7600003007
+  term: CHEBI:193037
 objects:
 - id: GO:0004423
   label: iduronate-2-sulfatase activity

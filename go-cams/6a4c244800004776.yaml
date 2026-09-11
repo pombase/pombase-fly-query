@@ -215,6 +215,8 @@ activities:
     predicate: RO:0002234
     molecule: gomodel:6a4c244800004776/6a4c244800005060
 molecules:
+- id: gomodel:6a4c244800004776/6a4c244800005061
+  term: CHEBI:16389
 - id: gomodel:6a4c244800004776/6a4c244800004785
   term: CHEBI:58307
   located_in:
@@ -227,8 +229,6 @@ molecules:
       provided_by:
       - http://flybase.org
     term: GO:0005739
-- id: gomodel:6a4c244800004776/6a4c244800005061
-  term: CHEBI:16389
 - id: gomodel:6a4c244800004776/6a4c244800005060
   term: CHEBI:17976
 - id: gomodel:6a4c244800004776/6a4c244800004783

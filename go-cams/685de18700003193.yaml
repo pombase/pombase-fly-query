@@ -288,7 +288,7 @@ objects:
   label: mttRNAThr-TGT Dmel
   type: gocam:Object
 - id: GO:0006435
-  label: threonyl-tRNA aminoacylation
+  label: obsolete threonyl-tRNA aminoacylation
   type: gocam:Object
 - id: CHEBI:57926
   label: L-threonine zwitterion

@@ -2253,6 +2253,8 @@ activities:
     predicate: RO:0012009
     downstream_activity: gomodel:685de18700000757/685de18700000799
 molecules:
+- id: gomodel:685de18700000757/685de18700000831
+  term: FB:FBgn0013709
 - id: gomodel:685de18700000757/685de18700000870
   term: CHEBI:58315
   located_in:
@@ -2265,8 +2267,6 @@ molecules:
       provided_by:
       - http://flybase.org
     term: GO:0005759
-- id: gomodel:685de18700000757/685de18700000831
-  term: FB:FBgn0013709
 - id: gomodel:685de18700000757/685de18700000881
   term: CHEBI:16047
 - id: gomodel:685de18700000757/685de18700000889
@@ -2407,10 +2407,10 @@ molecules:
       provided_by:
       - http://flybase.org
     term: GO:0005759
-- id: gomodel:685de18700000757/685de18700003782
-  term: FB:FBgn0013709
 - id: gomodel:685de18700000757/685de18700003784
   term: FB:FBgn0013706
+- id: gomodel:685de18700000757/685de18700003782
+  term: FB:FBgn0013709
 - id: gomodel:685de18700000757/685de18700000869
   term: CHEBI:60039
   located_in:
@@ -2470,7 +2470,7 @@ objects:
   label: TyrRS-m Dmel
   type: gocam:Object
 - id: GO:0043038
-  label: amino acid activation
+  label: obsolete amino acid activation
   type: gocam:Object
 - id: FB:FBgn0013696
   label: mttRNAIle-GAT Dmel
@@ -2479,7 +2479,7 @@ objects:
   label: mttRNALys-CTT Dmel
   type: gocam:Object
 - id: GO:0006430
-  label: lysyl-tRNA aminoacylation
+  label: obsolete lysyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013709
   label: mttRNATrp-TCA Dmel
@@ -2491,16 +2491,16 @@ objects:
   label: mttRNAPro-TGG Dmel
   type: gocam:Object
 - id: GO:0006433
-  label: prolyl-tRNA aminoacylation
+  label: obsolete prolyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013707
   label: mttRNAThr-TGT Dmel
   type: gocam:Object
 - id: GO:0006435
-  label: threonyl-tRNA aminoacylation
+  label: obsolete threonyl-tRNA aminoacylation
   type: gocam:Object
 - id: GO:0006437
-  label: tyrosyl-tRNA aminoacylation
+  label: obsolete tyrosyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013710
   label: mttRNATyr-GTA Dmel
@@ -2512,7 +2512,7 @@ objects:
   label: CysRS-m Dmel
   type: gocam:Object
 - id: GO:0006423
-  label: cysteinyl-tRNA aminoacylation
+  label: obsolete cysteinyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013690
   label: mttRNACys-GCA Dmel
@@ -2644,7 +2644,7 @@ objects:
   label: serine-tRNA ligase complex
   type: gocam:Object
 - id: GO:0070158
-  label: mitochondrial seryl-tRNA aminoacylation
+  label: obsolete mitochondrial seryl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0021750
   label: SerRS-m Dmel

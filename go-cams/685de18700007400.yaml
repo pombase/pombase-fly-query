@@ -2691,7 +2691,7 @@ objects:
   label: MetRS-m Dmel
   type: gocam:Object
 - id: GO:0006431
-  label: methionyl-tRNA aminoacylation
+  label: obsolete methionyl-tRNA aminoacylation
   type: gocam:Object
 - id: CHEBI:17119
   label: fMet-tRNA(fMet)

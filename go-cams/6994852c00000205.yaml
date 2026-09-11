@@ -603,7 +603,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:6994852c00000205/6994852c00001271
+    molecule: gomodel:6994852c00000205/6994852c00001150
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -613,7 +613,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:6994852c00000205/6994852c00001150
+    molecule: gomodel:6994852c00000205/6994852c00001271
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -813,7 +813,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:6994852c00000205/6994852c00001143
+    molecule: gomodel:6994852c00000205/6994852c00001264
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -823,7 +823,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:6994852c00000205/6994852c00001264
+    molecule: gomodel:6994852c00000205/6994852c00001143
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -993,7 +993,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:6994852c00000205/6994852c00001269
+    molecule: gomodel:6994852c00000205/6994852c00001148
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -1003,7 +1003,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:6994852c00000205/6994852c00001148
+    molecule: gomodel:6994852c00000205/6994852c00001269
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -1884,10 +1884,10 @@ activities:
     predicate: RO:0012009
     downstream_activity: gomodel:6994852c00000205/6994852c00000641
 molecules:
-- id: gomodel:6994852c00000205/6994852c00001271
-  term: FB:FBgn0067783
 - id: gomodel:6994852c00000205/6994852c00001150
   term: FB:FBgn0032090
+- id: gomodel:6994852c00000205/6994852c00001271
+  term: FB:FBgn0067783
 - id: gomodel:6994852c00000205/6994852c00001279
   term: FB:FBgn0263977
 - id: gomodel:6994852c00000205/6994852c00001215
@@ -1928,10 +1928,10 @@ molecules:
   term: FB:FBgn0037912
 - id: gomodel:6994852c00000205/6994852c00001248
   term: FB:FBgn0039357
-- id: gomodel:6994852c00000205/6994852c00001143
-  term: FB:FBgn0030872
 - id: gomodel:6994852c00000205/6994852c00001264
   term: FB:FBgn0040383
+- id: gomodel:6994852c00000205/6994852c00001143
+  term: FB:FBgn0030872
 - id: gomodel:6994852c00000205/6994852c00001142
   term: FB:FBgn0030717
 - id: gomodel:6994852c00000205/6994852c00001263
@@ -1966,10 +1966,10 @@ molecules:
   term: FB:FBgn0033903
 - id: gomodel:6994852c00000205/6994852c00001136
   term: FB:FBgn0025111
-- id: gomodel:6994852c00000205/6994852c00001269
-  term: FB:FBgn0052103
 - id: gomodel:6994852c00000205/6994852c00001148
   term: FB:FBgn0031758
+- id: gomodel:6994852c00000205/6994852c00001269
+  term: FB:FBgn0052103
 - id: gomodel:6994852c00000205/6994852c00001221
   term: FB:FBgn0035078
 - id: gomodel:6994852c00000205/6994852c00001272

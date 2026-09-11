@@ -2,8 +2,9 @@ id: gomodel:6a4c244800008076
 title: Lipoate biosynthetic process and protein lipoylation (Dmel)
 taxon: NCBITaxon:7227
 status: production
-date_modified: '2026-08-06'
+date_modified: '2026-08-27'
 comments:
+- 'Automated change 2026-08-27: GO:0009107 replaced by GO:0009249'
 - 'General: Waiting for new GO term to be available for MF : lipoyl-GcvH:protein N-lipoyltransferase
   activity GO:7770091
 
@@ -197,7 +198,7 @@ activities:
       date: '2026-07-27'
       provided_by:
       - http://flybase.org
-    term: GO:0009107
+    term: GO:0009249
   molecular_associations:
   - type: MoleculeAssociation
     evidence:
@@ -320,7 +321,7 @@ activities:
       date: '2026-07-27'
       provided_by:
       - http://flybase.org
-    term: GO:0009107
+    term: GO:0009249
   molecular_associations:
   - type: MoleculeAssociation
     evidence:
@@ -417,8 +418,8 @@ objects:
 - id: ECO:0000250
   label: sequence similarity evidence used in manual assertion
   type: gocam:Object
-- id: GO:0009107
-  label: lipoate biosynthetic process
+- id: GO:0009249
+  label: protein lipoylation
   type: gocam:Object
 - id: GO:0005739
   label: mitochondrion
@@ -453,9 +454,6 @@ objects:
 - id: FB:FBgn0265178
   label: Lipt1 Dmel
   type: gocam:Object
-- id: GO:0009249
-  label: protein lipoylation
-  type: gocam:Object
 - id: FB:FBgn0283658
   label: Dlat Dmel
   type: gocam:Object
@@ -468,6 +466,6 @@ objects:
 provenances:
 - contributor:
   - https://orcid.org/0000-0002-3358-4423
-  date: '2026-08-06'
+  date: '2026-08-27'
   provided_by:
   - http://flybase.org

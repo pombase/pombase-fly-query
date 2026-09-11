@@ -421,9 +421,9 @@ activities:
 molecules:
 - id: gomodel:60ad85f700000309/60ad85f700000342
   term: FB:FBgn0004647
-- id: gomodel:60ad85f700000309/60ad85f700000324
-  term: FB:FBgn0004647
 - id: gomodel:60ad85f700000309/60ad85f700000333
+  term: FB:FBgn0004647
+- id: gomodel:60ad85f700000309/60ad85f700000324
   term: FB:FBgn0004647
 objects:
 - id: GO:0004888
