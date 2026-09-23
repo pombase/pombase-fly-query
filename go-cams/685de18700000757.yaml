@@ -2,7 +2,14 @@ id: gomodel:685de18700000757
 title: mitochondrial tRNA modifications position 37 (Dmel)
 taxon: NCBITaxon:7227
 status: production
-date_modified: '2025-09-23'
+date_modified: '2026-09-10'
+comments:
+- 'Automated change 2026-09-10: GO:0006423 replaced by GO:0006418'
+- 'Automated change 2026-09-10: GO:0006430 replaced by GO:0006418'
+- 'Automated change 2026-09-10: GO:0006433 replaced by GO:0006418'
+- 'Automated change 2026-09-10: GO:0006435 replaced by GO:0006418'
+- 'Automated change 2026-09-10: GO:0006437 replaced by GO:0006418'
+- 'Automated change 2026-09-10: GO:0070158 replaced by GO:0070127'
 activities:
 - id: gomodel:685de18700000757/685de18700000802
   enabled_by:
@@ -697,7 +704,7 @@ activities:
       date: '2025-06-27'
       provided_by:
       - http://flybase.org
-    term: GO:0006430
+    term: GO:0006418
   molecular_associations:
   - type: MoleculeAssociation
     evidence: []
@@ -871,7 +878,7 @@ activities:
       date: '2025-07-18'
       provided_by:
       - http://flybase.org
-    term: GO:0070158
+    term: GO:0070127
   molecular_associations:
   - type: MoleculeAssociation
     evidence:
@@ -1063,7 +1070,7 @@ activities:
       date: '2025-06-27'
       provided_by:
       - http://flybase.org
-    term: GO:0006437
+    term: GO:0006418
   molecular_associations:
   - type: MoleculeAssociation
     evidence: []
@@ -1156,7 +1163,7 @@ activities:
       date: '2025-06-27'
       provided_by:
       - http://flybase.org
-    term: GO:0006423
+    term: GO:0006418
   molecular_associations:
   - type: MoleculeAssociation
     evidence: []
@@ -1243,7 +1250,7 @@ activities:
       date: '2025-06-27'
       provided_by:
       - http://flybase.org
-    term: GO:0006433
+    term: GO:0006418
   molecular_associations:
   - type: MoleculeAssociation
     evidence: []
@@ -1346,7 +1353,7 @@ activities:
       date: '2025-06-27'
       provided_by:
       - http://flybase.org
-    term: GO:0006435
+    term: GO:0006418
   molecular_associations:
   - type: MoleculeAssociation
     evidence: []
@@ -2146,7 +2153,7 @@ activities:
       date: '2025-07-18'
       provided_by:
       - http://flybase.org
-    term: GO:0070158
+    term: GO:0070127
   molecular_associations:
   - type: MoleculeAssociation
     evidence:
@@ -2253,8 +2260,6 @@ activities:
     predicate: RO:0012009
     downstream_activity: gomodel:685de18700000757/685de18700000799
 molecules:
-- id: gomodel:685de18700000757/685de18700000831
-  term: FB:FBgn0013709
 - id: gomodel:685de18700000757/685de18700000870
   term: CHEBI:58315
   located_in:
@@ -2267,6 +2272,8 @@ molecules:
       provided_by:
       - http://flybase.org
     term: GO:0005759
+- id: gomodel:685de18700000757/685de18700000831
+  term: FB:FBgn0013709
 - id: gomodel:685de18700000757/685de18700000881
   term: CHEBI:16047
 - id: gomodel:685de18700000757/685de18700000889
@@ -2309,10 +2316,10 @@ molecules:
   term: FB:FBgn0013705
 - id: gomodel:685de18700000757/685de18700003831
   term: FB:FBgn0013701
-- id: gomodel:685de18700000757/685de18700000820
-  term: FB:FBgn0013696
 - id: gomodel:685de18700000757/685de18700003833
   term: FB:FBgn0013697
+- id: gomodel:685de18700000757/685de18700000820
+  term: FB:FBgn0013696
 - id: gomodel:685de18700000757/685de18700000837
   term: FB:FBgn0013707
 - id: gomodel:685de18700000757/685de18700000885
@@ -2478,8 +2485,8 @@ objects:
 - id: FB:FBgn0013697
   label: mttRNALys-CTT Dmel
   type: gocam:Object
-- id: GO:0006430
-  label: obsolete lysyl-tRNA aminoacylation
+- id: GO:0006418
+  label: tRNA aminoacylation for protein translation
   type: gocam:Object
 - id: FB:FBgn0013709
   label: mttRNATrp-TCA Dmel
@@ -2490,17 +2497,8 @@ objects:
 - id: FB:FBgn0013702
   label: mttRNAPro-TGG Dmel
   type: gocam:Object
-- id: GO:0006433
-  label: obsolete prolyl-tRNA aminoacylation
-  type: gocam:Object
 - id: FB:FBgn0013707
   label: mttRNAThr-TGT Dmel
-  type: gocam:Object
-- id: GO:0006435
-  label: obsolete threonyl-tRNA aminoacylation
-  type: gocam:Object
-- id: GO:0006437
-  label: obsolete tyrosyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013710
   label: mttRNATyr-GTA Dmel
@@ -2510,9 +2508,6 @@ objects:
   type: gocam:Object
 - id: FB:FBgn0033900
   label: CysRS-m Dmel
-  type: gocam:Object
-- id: GO:0006423
-  label: obsolete cysteinyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013690
   label: mttRNACys-GCA Dmel
@@ -2643,8 +2638,8 @@ objects:
 - id: GO:0140715
   label: serine-tRNA ligase complex
   type: gocam:Object
-- id: GO:0070158
-  label: obsolete mitochondrial seryl-tRNA aminoacylation
+- id: GO:0070127
+  label: tRNA aminoacylation for mitochondrial protein translation
   type: gocam:Object
 - id: FB:FBgn0021750
   label: SerRS-m Dmel
@@ -2661,6 +2656,6 @@ objects:
 provenances:
 - contributor:
   - https://orcid.org/0000-0003-3212-6364
-  date: '2025-09-23'
+  date: '2026-09-10'
   provided_by:
   - http://flybase.org

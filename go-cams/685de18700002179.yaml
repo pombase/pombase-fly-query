@@ -2,8 +2,9 @@ id: gomodel:685de18700002179
 title: mitochondrial tRNA modification C34 to 5-formylcytidine  (Dmel)
 taxon: NCBITaxon:7227
 status: production
-date_modified: '2025-09-23'
+date_modified: '2026-09-10'
 comments:
+- 'Automated change 2026-09-10: GO:0006431 replaced by GO:0006418'
 - In vertebrates, NSUN3 is the tRNA (cytidine-5-)-methyltransferase activity. It is
   not clear what the functional ortholog of this in Dmel
 activities:
@@ -252,7 +253,7 @@ activities:
       date: '2025-07-02'
       provided_by:
       - http://flybase.org
-    term: GO:0006431
+    term: GO:0006418
   molecular_associations:
   - type: MoleculeAssociation
     evidence: []
@@ -398,8 +399,8 @@ objects:
 - id: FB:FBgn0013700
   label: mttRNAMet-CAT Dmel
   type: gocam:Object
-- id: GO:0006431
-  label: obsolete methionyl-tRNA aminoacylation
+- id: GO:0006418
+  label: tRNA aminoacylation for protein translation
   type: gocam:Object
 - id: CHEBI:57844
   label: L-methionine zwitterion
@@ -452,6 +453,6 @@ objects:
 provenances:
 - contributor:
   - https://orcid.org/0000-0003-3212-6364
-  date: '2025-09-23'
+  date: '2026-09-10'
   provided_by:
   - http://flybase.org

@@ -266,10 +266,10 @@ activities:
 molecules:
 - id: gomodel:68fac5ed00002580/68fac5ed00002596
   term: CHEBI:57912
-- id: gomodel:68fac5ed00002580/68fac5ed00002595
-  term: CHEBI:58629
 - id: gomodel:68fac5ed00002580/68fac5ed00002606
   term: CHEBI:57959
+- id: gomodel:68fac5ed00002580/68fac5ed00002595
+  term: CHEBI:58629
 - id: gomodel:68fac5ed00002580/69729a3800008341
   term: CHEBI:58125
 objects:

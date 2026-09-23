@@ -91,91 +91,6 @@ activities:
       - http://flybase.org
     predicate: RO:0002233
     molecule: gomodel:696022cd00003306/696022cd00003342
-- id: gomodel:696022cd00003306/696022cd00003313
-  enabled_by:
-    type: EnabledByGeneProductAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProtKB:Q9BV20
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2026-01-21'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-01-21'
-      provided_by:
-      - http://flybase.org
-    term: FB:FBgn0039849
-  molecular_function:
-    type: MolecularFunctionAssociation
-    term: GO:0046523
-  occurs_in:
-    type: CellularAnatomicalEntityAssociation
-    evidence:
-    - term: ECO:0000305
-      reference: GO_REF:0000111
-      with_objects:
-      - GO:0033353
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2026-04-20'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-04-20'
-      provided_by:
-      - http://flybase.org
-    term: GO:0005829
-  part_of:
-    type: BiologicalProcessAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProtKB:Q9BV20
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2026-01-21'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-01-21'
-      provided_by:
-      - http://flybase.org
-    term: GO:0033353
-  molecular_associations:
-  - type: MoleculeAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-01-21'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:696022cd00003306/696022cd00003339
-  - type: MoleculeAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-01-21'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:696022cd00003306/696022cd00003342
 - id: gomodel:696022cd00003306/696022cd00003325
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -261,6 +176,91 @@ activities:
       - http://flybase.org
     predicate: RO:0002233
     molecule: gomodel:696022cd00003306/696022cd00003343
+- id: gomodel:696022cd00003306/696022cd00003313
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q9BV20
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-01-21'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-01-21'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0039849
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0046523
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000305
+      reference: GO_REF:0000111
+      with_objects:
+      - GO:0033353
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-04-20'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-04-20'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005829
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q9BV20
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-01-21'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-01-21'
+      provided_by:
+      - http://flybase.org
+    term: GO:0033353
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-01-21'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:696022cd00003306/696022cd00003339
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-01-21'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:696022cd00003306/696022cd00003342
 - id: gomodel:696022cd00003306/696022cd00003329
   enabled_by:
     type: EnabledByGeneProductAssociation

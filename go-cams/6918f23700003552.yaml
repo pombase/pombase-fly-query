@@ -83,16 +83,6 @@ activities:
     predicate: RO:0002233
     molecule: gomodel:6918f23700003552/6918f23700003578
   - type: MoleculeAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-12-04'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:6918f23700003552/6918f23700003582
-  - type: MoleculeAssociation
     evidence:
     - term: ECO:0000250
       reference: GO_REF:0000024
@@ -112,6 +102,16 @@ activities:
       - http://flybase.org
     predicate: RO:0002234
     molecule: gomodel:6918f23700003552/6918f23700003581
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2025-12-04'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6918f23700003552/6918f23700003582
 - id: gomodel:6918f23700003552/6918f23700003562
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -297,10 +297,10 @@ activities:
 molecules:
 - id: gomodel:6918f23700003552/6918f23700003578
   term: CHEBI:58173
-- id: gomodel:6918f23700003552/6918f23700003582
-  term: CHEBI:57305
 - id: gomodel:6918f23700003552/6918f23700003581
   term: CHEBI:57925
+- id: gomodel:6918f23700003552/6918f23700003582
+  term: CHEBI:57305
 - id: gomodel:6918f23700003552/6918f23700003580
   term: CHEBI:29985
 - id: gomodel:6918f23700003552/6918f23700003579

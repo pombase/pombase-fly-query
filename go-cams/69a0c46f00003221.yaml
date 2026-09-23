@@ -112,7 +112,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:69a0c46f00003221/6a18a9ba00000657
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000646
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -122,7 +122,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:69a0c46f00003221/6a18a9ba00000646
+    molecule: gomodel:69a0c46f00003221/6a18a9ba00000657
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -280,10 +280,10 @@ molecules:
   term: FB:FBgn0031729
 - id: gomodel:69a0c46f00003221/6a18a9ba00000656
   term: FB:FBgn0062442
-- id: gomodel:69a0c46f00003221/6a18a9ba00000657
-  term: FB:FBgn0261266
 - id: gomodel:69a0c46f00003221/6a18a9ba00000646
   term: FB:FBgn0027786
+- id: gomodel:69a0c46f00003221/6a18a9ba00000657
+  term: FB:FBgn0261266
 - id: gomodel:69a0c46f00003221/6a18a9ba00000654
   term: FB:FBgn0039140
 - id: gomodel:69a0c46f00003221/6a18a9ba00000655

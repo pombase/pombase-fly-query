@@ -1124,7 +1124,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:67c10cc400000479/67c10cc400000757
+    molecule: gomodel:67c10cc400000479/67c10cc400000527
   - type: MoleculeAssociation
     evidence: []
     provenances:
@@ -1134,7 +1134,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:67c10cc400000479/67c10cc400000527
+    molecule: gomodel:67c10cc400000479/67c10cc400000757
 - id: gomodel:67c10cc400000479/67c10cc400001494
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -1972,10 +1972,10 @@ molecules:
   term: CHEBI:57705
 - id: gomodel:67c10cc400000479/67c10cc400000487
   term: CHEBI:58427
-- id: gomodel:67c10cc400000479/67c10cc400000757
-  term: CHEBI:57527
 - id: gomodel:67c10cc400000479/67c10cc400000527
   term: CHEBI:58472
+- id: gomodel:67c10cc400000479/67c10cc400000757
+  term: CHEBI:57527
 - id: gomodel:67c10cc400000479/67c10cc400001303
   term: CHEBI:58211
 - id: gomodel:67c10cc400000479/67c10cc400001359

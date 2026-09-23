@@ -63,7 +63,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:66187e4700001274/66187e4700001305
+    molecule: gomodel:66187e4700001274/66187e4700001310
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000304
@@ -81,7 +81,7 @@ activities:
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:66187e4700001274/66187e4700001310
+    molecule: gomodel:66187e4700001274/66187e4700001305
   causal_associations:
   - type: CausalAssociation
     evidence:
@@ -464,10 +464,10 @@ activities:
     predicate: RO:0002629
     downstream_activity: gomodel:66187e4700001274/66187e4700001288
 molecules:
-- id: gomodel:66187e4700001274/66187e4700001305
-  term: UniProtKB:P08670
 - id: gomodel:66187e4700001274/66187e4700001310
   term: UniProtKB:P63000
+- id: gomodel:66187e4700001274/66187e4700001305
+  term: UniProtKB:P08670
 - id: gomodel:66187e4700001274/66187e4700001278
   term: RNAcentral:URS000075C624_9606
 - id: gomodel:66187e4700001274/66187e4700001285

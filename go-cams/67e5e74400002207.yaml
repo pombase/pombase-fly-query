@@ -2,7 +2,9 @@ id: gomodel:67e5e74400002207
 title: pyruvate decarboxylation to acetyl-CoA (Dmel)
 taxon: NCBITaxon:7227
 status: production
-date_modified: '2025-10-03'
+date_modified: '2026-09-10'
+comments:
+- 'Automated change 2026-09-10: GO:0061621 replaced by GO:0006096'
 activities:
 - id: gomodel:67e5e74400002207/67e5e74400002240
   enabled_by:
@@ -251,7 +253,7 @@ activities:
       date: '2025-07-29'
       provided_by:
       - http://flybase.org
-    term: GO:0061621
+    term: GO:0006096
   molecular_associations:
   - type: MoleculeAssociation
     evidence:
@@ -978,8 +980,8 @@ objects:
 - id: FB:FBgn0267385
   label: Pyk Dmel
   type: gocam:Object
-- id: GO:0061621
-  label: obsolete canonical glycolysis
+- id: GO:0006096
+  label: glycolysis
   type: gocam:Object
 - id: ECO:0000315
   label: mutant phenotype evidence used in manual assertion
@@ -987,6 +989,6 @@ objects:
 provenances:
 - contributor:
   - https://orcid.org/0000-0002-3358-4423
-  date: '2025-10-03'
+  date: '2026-09-10'
   provided_by:
   - http://flybase.org

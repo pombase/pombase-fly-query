@@ -2,83 +2,11 @@ id: gomodel:685de18700000512
 title: mitochondrial tRNA U34 taurinomethyluridine modifications (Dmel)
 taxon: NCBITaxon:7227
 status: production
-date_modified: '2026-05-12'
+date_modified: '2026-09-10'
+comments:
+- 'Automated change 2026-09-10: GO:0006424 replaced by GO:0006418'
+- 'Automated change 2026-09-10: GO:0006429 replaced by GO:0006418'
 activities:
-- id: gomodel:685de18700000512/685de18700006904
-  enabled_by:
-    type: EnabledByProteinComplexAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-07-08'
-      provided_by:
-      - http://flybase.org
-    term: GO:7770010
-    has_part:
-    - type: ProteinComplexHasPartAssociation
-      evidence: []
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0003-3212-6364
-        date: '2025-07-10'
-        provided_by:
-        - http://flybase.org
-      term: FB:FBgn0039189
-    - type: ProteinComplexHasPartAssociation
-      evidence: []
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0003-3212-6364
-        date: '2025-07-10'
-        provided_by:
-        - http://flybase.org
-      term: FB:FBgn0034735
-  molecular_function:
-    type: MolecularFunctionAssociation
-    term: GO:0160236
-  occurs_in:
-    type: CellularAnatomicalEntityAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-07-08'
-      provided_by:
-      - http://flybase.org
-    term: GO:0005759
-  part_of:
-    type: BiologicalProcessAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-07-08'
-      provided_by:
-      - http://flybase.org
-    term: GO:0070899
-  molecular_associations:
-  - type: MoleculeAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-07-08'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:685de18700000512/685de18700006908
-  causal_associations:
-  - type: CausalAssociation
-    evidence: []
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0003-3212-6364
-      date: '2025-07-09'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0012009
-    downstream_activity: gomodel:685de18700000512/685de18700000598
 - id: gomodel:685de18700000512/6870555700002664
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -180,6 +108,81 @@ activities:
       - http://flybase.org
     predicate: RO:0012009
     downstream_activity: gomodel:685de18700000512/69ea894900004560
+- id: gomodel:685de18700000512/685de18700006904
+  enabled_by:
+    type: EnabledByProteinComplexAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-07-08'
+      provided_by:
+      - http://flybase.org
+    term: GO:7770010
+    has_part:
+    - type: ProteinComplexHasPartAssociation
+      evidence: []
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2025-07-10'
+        provided_by:
+        - http://flybase.org
+      term: FB:FBgn0039189
+    - type: ProteinComplexHasPartAssociation
+      evidence: []
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0003-3212-6364
+        date: '2025-07-10'
+        provided_by:
+        - http://flybase.org
+      term: FB:FBgn0034735
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0160236
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-07-08'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005759
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-07-08'
+      provided_by:
+      - http://flybase.org
+    term: GO:0070899
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-07-08'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:685de18700000512/685de18700006908
+  causal_associations:
+  - type: CausalAssociation
+    evidence: []
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0003-3212-6364
+      date: '2025-07-09'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0012009
+    downstream_activity: gomodel:685de18700000512/685de18700000598
 - id: gomodel:685de18700000512/685de18700000748
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -482,7 +485,7 @@ activities:
       date: '2025-06-27'
       provided_by:
       - http://flybase.org
-    term: GO:0006424
+    term: GO:0006418
   molecular_associations:
   - type: MoleculeAssociation
     evidence: []
@@ -1025,7 +1028,7 @@ activities:
       date: '2025-06-27'
       provided_by:
       - http://flybase.org
-    term: GO:0006429
+    term: GO:0006418
   molecular_associations:
   - type: MoleculeAssociation
     evidence: []
@@ -1271,8 +1274,6 @@ molecules:
   term: FB:FBgn0013692
 - id: gomodel:685de18700000512/685de18700000752
   term: SO:0000253
-- id: gomodel:685de18700000512/685de18700000629
-  term: CHEBI:29157
 - id: gomodel:685de18700000512/685de18700000653
   term: CHEBI:58359
   located_in:
@@ -1285,6 +1286,8 @@ molecules:
       provided_by:
       - http://flybase.org
     term: GO:0005759
+- id: gomodel:685de18700000512/685de18700000629
+  term: CHEBI:29157
 - id: gomodel:685de18700000512/685de18700001024
   term: FB:FBgn0013692
 - id: gomodel:685de18700000512/685de18700000603
@@ -1326,8 +1329,8 @@ objects:
 - id: FB:FBgn0013692
   label: mttRNAGlu-TTC Dmel
   type: gocam:Object
-- id: GO:0006424
-  label: obsolete glutamyl-tRNA aminoacylation
+- id: GO:0006418
+  label: tRNA aminoacylation for protein translation
   type: gocam:Object
 - id: FB:FBgn0013709
   label: mttRNATrp-TCA Dmel
@@ -1340,9 +1343,6 @@ objects:
   type: gocam:Object
 - id: FB:FBgn0027085
   label: LeuRS-m Dmel
-  type: gocam:Object
-- id: GO:0006429
-  label: obsolete leucyl-tRNA aminoacylation
   type: gocam:Object
 - id: FB:FBgn0013699
   label: mttRNALeu-TAA Dmel
@@ -1451,6 +1451,6 @@ objects:
 provenances:
 - contributor:
   - https://orcid.org/0000-0003-3212-6364
-  date: '2026-05-12'
+  date: '2026-09-10'
   provided_by:
   - http://flybase.org

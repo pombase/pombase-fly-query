@@ -365,8 +365,8 @@ activities:
       date: '2025-09-18'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:68b0f0d000006178/68b0f0d000007737
+    predicate: RO:0002234
+    molecule: gomodel:68b0f0d000006178/68b0f0d000007748
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000305
@@ -383,8 +383,8 @@ activities:
       date: '2025-09-18'
       provided_by:
       - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:68b0f0d000006178/68b0f0d000007748
+    predicate: RO:0002233
+    molecule: gomodel:68b0f0d000006178/68b0f0d000007737
 - id: gomodel:68b0f0d000006178/68b0f0d000006200
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -866,10 +866,10 @@ activities:
       - http://flybase.org
     term: GO:0006550
 molecules:
-- id: gomodel:68b0f0d000006178/68b0f0d000007748
-  term: CHEBI:57312
 - id: gomodel:68b0f0d000006178/68b0f0d000007737
   term: CHEBI:57337
+- id: gomodel:68b0f0d000006178/68b0f0d000007748
+  term: CHEBI:57312
 - id: gomodel:68b0f0d000006178/68b0f0d000006218
   term: CHEBI:35146
 - id: gomodel:68b0f0d000006178/68b0f0d000007819

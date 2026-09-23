@@ -1,208 +1,159 @@
-id: gomodel:682fbcd000002579
-title: dolichol phosphate mannose biosynthesis (Dmel)
+id: gomodel:6aa323c700000887
+title: Coenzyme A biosynthesis (Dmel)
 taxon: NCBITaxon:7227
 status: production
-date_modified: '2026-09-17'
-comments:
-- Copy of dolichol phosphate mannose biosynthetic process (GO:0180047) from Val (PomBase)
-  model
+date_modified: '2026-09-18'
 activities:
-- id: gomodel:682fbcd000002579/682fbcd000002589
+- id: gomodel:6aa323c700000887/6aa323c700000895
   enabled_by:
     type: EnabledByGeneProductAssociation
     evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - SGD:S000006387
+    - term: ECO:0000314
+      reference: PMID:34582681
       provenances:
       - contributor:
         - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
+        date: '2026-09-16'
         provided_by:
         - http://flybase.org
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
+      date: '2026-09-16'
       provided_by:
       - http://flybase.org
-    term: FB:FBgn0032799
+    term: FB:FBgn0261285
   molecular_function:
     type: MolecularFunctionAssociation
-    term: GO:0004582
+    term: GO:0004632
   occurs_in:
     type: CellularAnatomicalEntityAssociation
     evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
+    - term: ECO:0000318
+      reference: GO_REF:0000033
       with_objects:
-      - UniProt:Q9VIU7
+      - PANTHER:PTN000265180
+      - PomBase:SPCC4B3.18
+      - UniProtKB:Q57ZB4
       provenances:
       - contributor:
         - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
+        date: '2026-09-16'
         provided_by:
         - http://flybase.org
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-29'
+      date: '2026-09-16'
       provided_by:
       - http://flybase.org
-    term: GO:0005789
+    term: GO:0005737
   part_of:
     type: BiologicalProcessAssociation
     evidence:
     - term: ECO:0000250
       reference: GO_REF:0000024
       with_objects:
-      - UniProtKB:Q8U4M3
+      - UniProtKB:Q9HAB8
       provenances:
       - contributor:
         - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
+        date: '2026-09-16'
         provided_by:
         - http://flybase.org
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
+      date: '2026-09-16'
       provided_by:
       - http://flybase.org
-    term: GO:0180047
+    term: GO:0015937
   molecular_associations:
   - type: MoleculeAssociation
     evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - SGD:S000006387
+    - term: ECO:0000314
+      reference: PMID:34582681
       provenances:
       - contributor:
         - https://orcid.org/0000-0002-3358-4423
-        date: '2026-09-17'
+        date: '2026-09-16'
         provided_by:
         - http://flybase.org
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2026-09-17'
+      date: '2026-09-16'
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:682fbcd000002579/682fbcd000002602
+    molecule: gomodel:6aa323c700000887/6aa323c700000902
   - type: MoleculeAssociation
     evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - SGD:S000006387
+    - term: ECO:0000314
+      reference: PMID:34582681
       provenances:
       - contributor:
         - https://orcid.org/0000-0002-3358-4423
-        date: '2026-09-17'
+        date: '2026-09-16'
         provided_by:
         - http://flybase.org
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2026-09-17'
+      date: '2026-09-16'
       provided_by:
       - http://flybase.org
     predicate: RO:0002234
-    molecule: gomodel:682fbcd000002579/682fbcd000002601
+    molecule: gomodel:6aa323c700000887/6aa323c700000934
   - type: MoleculeAssociation
     evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - SGD:S000006387
+    - term: ECO:0000314
+      reference: PMID:34582681
       provenances:
       - contributor:
         - https://orcid.org/0000-0002-3358-4423
-        date: '2026-09-17'
+        date: '2026-09-16'
         provided_by:
         - http://flybase.org
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2026-09-17'
+      date: '2026-09-16'
       provided_by:
       - http://flybase.org
     predicate: RO:0002233
-    molecule: gomodel:682fbcd000002579/682fbcd000002607
-- id: gomodel:682fbcd000002579/682fbcd000002603
+    molecule: gomodel:6aa323c700000887/6aa323c700000946
+- id: gomodel:6aa323c700000887/6aa323c700000927
   enabled_by:
     type: EnabledByGeneProductAssociation
     evidence:
     - term: ECO:0000250
       reference: GO_REF:0000024
       with_objects:
-      - UniProt:Q9UPQ8
+      - UniProtKB:Q96CD2
       provenances:
       - contributor:
         - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
+        date: '2026-09-16'
         provided_by:
         - http://flybase.org
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
+      date: '2026-09-16'
       provided_by:
       - http://flybase.org
-    term: FB:FBgn0034141
+    term: FB:FBgn0050290
   molecular_function:
     type: MolecularFunctionAssociation
-    term: GO:0004168
+    term: GO:0004633
   occurs_in:
     type: CellularAnatomicalEntityAssociation
     evidence:
     - term: ECO:0000250
       reference: GO_REF:0000024
       with_objects:
-      - UniProt:Q9UPQ8
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
-      provided_by:
-      - http://flybase.org
-    term: GO:0005789
-  part_of:
-    type: BiologicalProcessAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProt:Q9UPQ8
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
-      provided_by:
-      - http://flybase.org
-    term: GO:0043048
-  molecular_associations:
-  - type: MoleculeAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProt:Q9UPQ8
+      - UniProtKB:Q8BZB2
       provenances:
       - contributor:
         - https://orcid.org/0000-0002-3358-4423
@@ -212,466 +163,577 @@ activities:
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2026-09-17'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:682fbcd000002579/682fbcd000002602
-- id: gomodel:682fbcd000002579/682fbcd000002613
-  enabled_by:
-    type: EnabledByGeneProductAssociation
-    evidence:
-    - term: ECO:0000305
-      reference: GO_REF:0000111
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-29'
-      provided_by:
-      - http://flybase.org
-    term: CHEBI:36080
-  molecular_function:
-    type: MolecularFunctionAssociation
-    term: GO:0140328
-  occurs_in:
-    type: CellularAnatomicalEntityAssociation
-    evidence:
-    - term: ECO:0000305
-      reference: GO_REF:0000111
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-29'
-      provided_by:
-      - http://flybase.org
-    term: GO:0005789
-  part_of:
-    type: BiologicalProcessAssociation
-    evidence:
-    - term: ECO:0000305
-      reference: GO_REF:0000111
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-29'
-      provided_by:
-      - http://flybase.org
-    term: GO:0180047
-  molecular_associations:
-  - type: MoleculeAssociation
-    evidence:
-    - term: ECO:0000305
-      reference: GO_REF:0000111
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2026-09-17'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-09-17'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002234
-    molecule: gomodel:682fbcd000002579/682fbcd000002617
-  - type: MoleculeAssociation
-    evidence:
-    - term: ECO:0000305
-      reference: GO_REF:0000111
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2026-09-17'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-09-17'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:682fbcd000002579/682fbcd000002601
-- id: gomodel:682fbcd000002579/682fbcd000002597
-  enabled_by:
-    type: EnabledByGeneProductAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProt:QQ4LDX8
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-29'
-      provided_by:
-      - http://flybase.org
-    term: FB:FBgn0053977
-  molecular_function:
-    type: MolecularFunctionAssociation
-    term: GO:0043495
-  occurs_in:
-    type: CellularAnatomicalEntityAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProt:Q9P2X0
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
-      provided_by:
-      - http://flybase.org
-    term: GO:0005789
-  part_of:
-    type: BiologicalProcessAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProt:Q9P2X0
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
-      provided_by:
-      - http://flybase.org
-    term: GO:0180047
-  causal_associations:
-  - type: CausalAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProt:QQ4LDX8
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2026-09-17'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-09-17'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0012009
-    downstream_activity: gomodel:682fbcd000002579/682fbcd000002589
-- id: gomodel:682fbcd000002579/682fbcd000002593
-  enabled_by:
-    type: EnabledByGeneProductAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProt:O94777
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
-      provided_by:
-      - http://flybase.org
-    term: FB:FBgn0259933
-  molecular_function:
-    type: MolecularFunctionAssociation
-    term: GO:0008047
-  occurs_in:
-    type: CellularAnatomicalEntityAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProt:O94777
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
-      provided_by:
-      - http://flybase.org
-    term: GO:0005789
-  part_of:
-    type: BiologicalProcessAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProt:O94777
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
-      provided_by:
-      - http://flybase.org
-    term: GO:0180047
-  causal_associations:
-  - type: CausalAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProt:O94777
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2026-09-17'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2026-09-17'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002629
-    downstream_activity: gomodel:682fbcd000002579/682fbcd000002589
-- id: gomodel:682fbcd000002579/68d5ebd600000388
-  enabled_by:
-    type: EnabledByGeneProductAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProtKB:P0C5I2
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-29'
-      provided_by:
-      - http://flybase.org
-    term: FB:FBgn0037279
-  molecular_function:
-    type: MolecularFunctionAssociation
-    term: GO:0004475
-  occurs_in:
-    type: CellularAnatomicalEntityAssociation
-    evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProtKB:Q8BTZ7
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-29'
+      date: '2026-09-16'
       provided_by:
       - http://flybase.org
     term: GO:0005829
   part_of:
     type: BiologicalProcessAssociation
     evidence:
-    - term: ECO:0000250
-      reference: GO_REF:0000024
-      with_objects:
-      - UniProtKB:Q8BTZ7
+    - term: ECO:0000315
+      reference: PMID:26322826
       provenances:
       - contributor:
         - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
+        date: '2026-09-16'
         provided_by:
         - http://flybase.org
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-29'
+      date: '2026-09-16'
       provided_by:
       - http://flybase.org
-    term: GO:0009298
+    term: GO:0015937
   molecular_associations:
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000250
       reference: GO_REF:0000024
       with_objects:
-      - UniProtKB:P0C5I2
+      - UniProtKB:Q96CD2
       provenances:
       - contributor:
         - https://orcid.org/0000-0002-3358-4423
-        date: '2025-09-29'
+        date: '2026-09-16'
         provided_by:
         - http://flybase.org
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2025-09-29'
+      date: '2026-09-16'
       provided_by:
       - http://flybase.org
     predicate: RO:0002234
-    molecule: gomodel:682fbcd000002579/682fbcd000002607
+    molecule: gomodel:6aa323c700000887/6aa323c700000971
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q96CD2
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6aa323c700000887/6aa323c700000934
+- id: gomodel:6aa323c700000887/6aa323c700000964
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q13057
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0050290
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0004140
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q13057
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005829
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:26322826
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    term: GO:0015937
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q13057
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6aa323c700000887/6aa323c700000974
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q13057
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:6aa323c700000887/6aa323c700000984
+- id: gomodel:6aa323c700000887/6aa323c700000888
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:34582681
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0011205
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0004594
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:11238410
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005737
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:20351285
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    term: GO:0015937
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:34582681
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6aa323c700000887/6aa323c700000903
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: PMID:34582681
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:6aa323c700000887/6aa323c700000902
+- id: gomodel:6aa323c700000887/6aa323c700001258
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q9Y289
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-18'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-18'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0034494
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0015233
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q9Y289
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-18'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-18'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005886
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q9Y289
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-18'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-18'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:6aa323c700000887/6aa323c700000903
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q9Y289
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-18'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-18'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6aa323c700000887/6aa323c700001255
+- id: gomodel:6aa323c700000887/6aa323c700000955
+  enabled_by:
+    type: EnabledByGeneProductAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q13057
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    term: FB:FBgn0035632
+  molecular_function:
+    type: MolecularFunctionAssociation
+    term: GO:0004595
+  occurs_in:
+    type: CellularAnatomicalEntityAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q13057
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    term: GO:0005829
+  part_of:
+    type: BiologicalProcessAssociation
+    evidence:
+    - term: ECO:0000315
+      reference: PMID:26322826
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    term: GO:0015937
+  molecular_associations:
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q13057
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:6aa323c700000887/6aa323c700000971
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000250
+      reference: GO_REF:0000024
+      with_objects:
+      - UniProtKB:Q13057
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2026-09-16'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2026-09-16'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002234
+    molecule: gomodel:6aa323c700000887/6aa323c700000974
 molecules:
-- id: gomodel:682fbcd000002579/682fbcd000002602
-  term: CHEBI:57683
+- id: gomodel:6aa323c700000887/6aa323c700000971
+  term: CHEBI:61723
+- id: gomodel:6aa323c700000887/6aa323c700000934
+  term: CHEBI:59458
+- id: gomodel:6aa323c700000887/6aa323c700000974
+  term: CHEBI:57328
+- id: gomodel:6aa323c700000887/6aa323c700000903
+  term: CHEBI:29032
   located_in:
     type: CellularAnatomicalEntityAssociation
     evidence: []
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
+      date: '2026-09-18'
       provided_by:
       - http://flybase.org
-    term: GO:0098554
-- id: gomodel:682fbcd000002579/682fbcd000002601
-  term: CHEBI:58211
-- id: gomodel:682fbcd000002579/682fbcd000002607
-  term: CHEBI:57527
-- id: gomodel:682fbcd000002579/682fbcd000002617
-  term: CHEBI:58211
+    term: GO:0005829
+- id: gomodel:6aa323c700000887/6aa323c700000902
+  term: CHEBI:10986
+- id: gomodel:6aa323c700000887/6aa323c700000984
+  term: CHEBI:57287
+- id: gomodel:6aa323c700000887/6aa323c700001255
+  term: CHEBI:29032
   located_in:
     type: CellularAnatomicalEntityAssociation
     evidence: []
     provenances:
     - contributor:
       - https://orcid.org/0000-0002-3358-4423
-      date: '2025-05-29'
+      date: '2026-09-18'
       provided_by:
       - http://flybase.org
-    term: GO:0098553
+    term: GO:0005576
+- id: gomodel:6aa323c700000887/6aa323c700000946
+  term: CHEBI:35235
 objects:
-- id: ECO:0000305
-  label: curator inference used in manual assertion
+- id: GO:0004594
+  label: pantothenate kinase activity
+  type: gocam:Object
+- id: FB:FBgn0011205
+  label: fbl Dmel
+  type: gocam:Object
+- id: ECO:0000314
+  label: direct assay evidence used in manual assertion
+  type: gocam:Object
+- id: GO:0015937
+  label: coenzyme A biosynthetic process
+  type: gocam:Object
+- id: ECO:0000315
+  label: mutant phenotype evidence used in manual assertion
+  type: gocam:Object
+- id: GO:0005737
+  label: cytoplasm
+  type: gocam:Object
+- id: GO:0004632
+  label: phosphopantothenate--cysteine ligase activity
+  type: gocam:Object
+- id: FB:FBgn0261285
+  label: Ppcs Dmel
   type: gocam:Object
 - id: ECO:0000250
   label: sequence similarity evidence used in manual assertion
   type: gocam:Object
-- id: GO:0004475
-  label: mannose-1-phosphate guanylyltransferase (GTP) activity
+- id: ECO:0000318
+  label: biological aspect of ancestor evidence used in manual assertion
   type: gocam:Object
-- id: FB:FBgn0037279
-  label: Gmppb Dmel
+- id: CHEBI:10986
+  label: (R)-4'-phosphonatopantothenate(3-)
   type: gocam:Object
-- id: GO:0009298
-  label: GDP-mannose biosynthetic process
+- id: CHEBI:29032
+  label: (R)-pantothenate
+  type: gocam:Object
+- id: GO:0004633
+  label: phosphopantothenoylcysteine decarboxylase activity
+  type: gocam:Object
+- id: FB:FBgn0050290
+  label: Ppcdc Dmel
   type: gocam:Object
 - id: GO:0005829
   label: cytosol
   type: gocam:Object
-- id: GO:0098554
-  label: cytoplasmic side of endoplasmic reticulum membrane
+- id: CHEBI:59458
+  label: N-[(R)-4-phosphonatopantothenoyl]-L-cysteinate(3-)
   type: gocam:Object
-- id: GO:0004582
-  label: dolichyl-phosphate beta-D-mannosyltransferase activity
+- id: CHEBI:35235
+  label: L-cysteine zwitterion
   type: gocam:Object
-- id: FB:FBgn0032799
-  label: Dpm1 Dmel
+- id: GO:0004595
+  label: pantetheine-phosphate adenylyltransferase activity
   type: gocam:Object
-- id: GO:0180047
-  label: dolichol phosphate mannose biosynthetic process
+- id: FB:FBgn0035632
+  label: Ppat-Dpck Dmel
   type: gocam:Object
-- id: GO:0005789
-  label: endoplasmic reticulum membrane
+- id: GO:0004140
+  label: dephospho-CoA kinase activity
   type: gocam:Object
-- id: GO:0008047
-  label: enzyme activator activity
+- id: CHEBI:61723
+  label: D-pantetheine 4'-phosphate(2-)
   type: gocam:Object
-- id: FB:FBgn0259933
-  label: Dpm2 Dmel
+- id: CHEBI:57328
+  label: 3'-dephospho-CoA(2-)
   type: gocam:Object
-- id: GO:0043495
-  label: protein-membrane adaptor activity
+- id: CHEBI:57287
+  label: coenzyme A(4-)
   type: gocam:Object
-- id: FB:FBgn0053977
-  label: Dpm3 Dmel
+- id: GO:0005576
+  label: extracellular region
   type: gocam:Object
-- id: CHEBI:58211
-  label: dolichyl beta-D-mannosyl phosphate(1-)
+- id: GO:0015233
+  label: pantothenate transmembrane transporter activity
   type: gocam:Object
-- id: CHEBI:57683
-  label: dolichyl phosphate(2-)
+- id: FB:FBgn0034494
+  label: CG10444 Dmel
   type: gocam:Object
-- id: GO:0004168
-  label: dolichol kinase activity
-  type: gocam:Object
-- id: FB:FBgn0034141
-  label: Dolk Dmel
-  type: gocam:Object
-- id: GO:0043048
-  label: dolichyl monophosphate biosynthetic process
-  type: gocam:Object
-- id: CHEBI:57527
-  label: GDP-alpha-D-mannose(2-)
-  type: gocam:Object
-- id: GO:0140328
-  label: floppase activity
-  type: gocam:Object
-- id: CHEBI:36080
-  label: protein
-  type: gocam:Object
-- id: GO:0098553
-  label: lumenal side of endoplasmic reticulum membrane
+- id: GO:0005886
+  label: plasma membrane
   type: gocam:Object
 provenances:
 - contributor:
   - https://orcid.org/0000-0002-3358-4423
-  date: '2026-09-17'
+  date: '2026-09-18'
   provided_by:
   - http://flybase.org

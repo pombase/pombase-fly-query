@@ -2,10 +2,11 @@ id: gomodel:662af8fa00000838
 title: GDP-mannose biosynthetic process from glucose (Dmel)
 taxon: NCBITaxon:7227
 status: production
-date_modified: '2026-05-28'
+date_modified: '2026-09-10'
 comments:
 - 'Automated change 2024-12-12: GO:0141199 replaced by GO:0061729'
 - 'Automated change 2026-05-28: GO:0061729 replaced by GO:0009298'
+- 'Automated change 2026-09-10: GO:0061621 replaced by GO:0006096'
 - 'Replaced enzyme inhibitor activity with small molecule sensor activity '
 activities:
 - id: gomodel:662af8fa00000838/662af8fa00000843
@@ -160,7 +161,7 @@ activities:
       date: '2025-10-01'
       provided_by:
       - http://flybase.org
-    term: GO:0061621
+    term: GO:0006096
   molecular_associations:
   - type: MoleculeAssociation
     evidence:
@@ -436,26 +437,8 @@ activities:
       date: '2025-10-01'
       provided_by:
       - http://flybase.org
-    term: GO:0061621
+    term: GO:0006096
   molecular_associations:
-  - type: MoleculeAssociation
-    evidence:
-    - term: ECO:0000314
-      reference: FB:FBrf0035134 | PMID:6768723
-      provenances:
-      - contributor:
-        - https://orcid.org/0000-0002-3358-4423
-        date: '2024-11-11'
-        provided_by:
-        - http://flybase.org
-    provenances:
-    - contributor:
-      - https://orcid.org/0000-0002-3358-4423
-      date: '2024-11-11'
-      provided_by:
-      - http://flybase.org
-    predicate: RO:0002233
-    molecule: gomodel:662af8fa00000838/671ae02600002181
   - type: MoleculeAssociation
     evidence:
     - term: ECO:0000314
@@ -474,6 +457,24 @@ activities:
       - http://flybase.org
     predicate: RO:0002234
     molecule: gomodel:662af8fa00000838/671ae02600002182
+  - type: MoleculeAssociation
+    evidence:
+    - term: ECO:0000314
+      reference: FB:FBrf0035134 | PMID:6768723
+      provenances:
+      - contributor:
+        - https://orcid.org/0000-0002-3358-4423
+        date: '2024-11-11'
+        provided_by:
+        - http://flybase.org
+    provenances:
+    - contributor:
+      - https://orcid.org/0000-0002-3358-4423
+      date: '2024-11-11'
+      provided_by:
+      - http://flybase.org
+    predicate: RO:0002233
+    molecule: gomodel:662af8fa00000838/671ae02600002181
 - id: gomodel:662af8fa00000838/662af8fa00000842
   enabled_by:
     type: EnabledByGeneProductAssociation
@@ -560,10 +561,10 @@ activities:
     predicate: RO:0002233
     molecule: gomodel:662af8fa00000838/662af8fa00000839
 molecules:
-- id: gomodel:662af8fa00000838/671ae02600002181
-  term: CHEBI:4167
 - id: gomodel:662af8fa00000838/671ae02600002182
   term: CHEBI:61548
+- id: gomodel:662af8fa00000838/671ae02600002181
+  term: CHEBI:4167
 - id: gomodel:662af8fa00000838/662af8fa00000839
   term: CHEBI:58735
 - id: gomodel:662af8fa00000838/662af8fa00000840
@@ -614,8 +615,8 @@ objects:
 - id: FB:FBgn0003074
   label: Pgi Dmel
   type: gocam:Object
-- id: GO:0061621
-  label: obsolete canonical glycolysis
+- id: GO:0006096
+  label: glycolysis
   type: gocam:Object
 - id: ECO:0000314
   label: direct assay evidence used in manual assertion
@@ -656,6 +657,6 @@ objects:
 provenances:
 - contributor:
   - https://orcid.org/0000-0002-3358-4423
-  date: '2026-05-28'
+  date: '2026-09-10'
   provided_by:
   - http://flybase.org

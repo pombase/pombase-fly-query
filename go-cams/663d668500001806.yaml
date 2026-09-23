@@ -2,7 +2,9 @@ id: gomodel:663d668500001806
 title: UDP-N-acetylglucosamine biosynthetic process (de novo)  (Dmel)
 taxon: NCBITaxon:7227
 status: production
-date_modified: '2025-10-06'
+date_modified: '2026-09-10'
+comments:
+- 'Automated change 2026-09-10: GO:0061621 replaced by GO:0006096'
 activities:
 - id: gomodel:663d668500001806/663d668500001826
   enabled_by:
@@ -225,7 +227,7 @@ activities:
       date: '2025-06-09'
       provided_by:
       - http://flybase.org
-    term: GO:0061621
+    term: GO:0006096
   molecular_associations:
   - type: MoleculeAssociation
     evidence:
@@ -519,8 +521,8 @@ objects:
 - id: FB:FBgn0003074
   label: Pgi Dmel
   type: gocam:Object
-- id: GO:0061621
-  label: obsolete canonical glycolysis
+- id: GO:0006096
+  label: glycolysis
   type: gocam:Object
 - id: ECO:0000314
   label: direct assay evidence used in manual assertion
@@ -534,6 +536,6 @@ objects:
 provenances:
 - contributor:
   - https://orcid.org/0000-0002-3358-4423
-  date: '2025-10-06'
+  date: '2026-09-10'
   provided_by:
   - http://flybase.org

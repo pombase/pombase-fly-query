@@ -2,7 +2,7 @@ id: gomodel:6870555700000357
 title: GPI anchor biosynthetic process (Dmel)
 taxon: NCBITaxon:7227
 status: production
-date_modified: '2026-04-20'
+date_modified: '2026-09-17'
 comments:
 - 'Automated change 2026-03-12: GO:0051267 replaced by GO:0051377'
 - The order in which PIG-N and PIG-V act can be interchangeable.
@@ -1631,6 +1631,6 @@ objects:
 provenances:
 - contributor:
   - https://orcid.org/0000-0002-3358-4423
-  date: '2026-04-20'
+  date: '2026-09-17'
   provided_by:
   - http://flybase.org

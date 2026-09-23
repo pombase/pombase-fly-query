@@ -2,8 +2,9 @@ id: gomodel:662af8fa00000691
 title: Pentose-phosphate shunt (Dmel)
 taxon: NCBITaxon:7227
 status: production
-date_modified: '2025-10-03'
+date_modified: '2026-09-10'
 comments:
+- 'Automated change 2026-09-10: GO:0061621 replaced by GO:0006096'
 - Contains both he oxidative and non-oxidative branches
 activities:
 - id: gomodel:662af8fa00000691/662af8fa00000725
@@ -747,7 +748,7 @@ activities:
       date: '2025-09-17'
       provided_by:
       - http://flybase.org
-    term: GO:0061621
+    term: GO:0006096
   molecular_associations:
   - type: MoleculeAssociation
     evidence:
@@ -1089,12 +1090,12 @@ objects:
 - id: FB:FBgn0001186
   label: Hex-A Dmel
   type: gocam:Object
-- id: GO:0061621
-  label: obsolete canonical glycolysis
+- id: GO:0006096
+  label: glycolysis
   type: gocam:Object
 provenances:
 - contributor:
   - https://orcid.org/0000-0002-3358-4423
-  date: '2025-10-03'
+  date: '2026-09-10'
   provided_by:
   - http://flybase.org
